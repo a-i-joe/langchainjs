@@ -1,5 +1,9 @@
 # 🦜🍎️ @aijoelangchain/core
 
+## Unofficial! Use not recommended! Please see the official package at [https://www.npmjs.com/package/@langchain/core](https://www.npmjs.com/package/@langchain/core)
+
+I published this in order to take advantage of [cached token and reasoning tokens]https://github.com/langchain-ai/langchainjs/discussions/8405) before they're in the official package.
+
 [![CI](https://github.com/langchain-ai/langchainjs/actions/workflows/ci.yml/badge.svg)](https://github.com/langchain-ai/langchainjs/actions/workflows/ci.yml) ![npm](https://img.shields.io/npm/dm/@aijoelangchain/core) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/langchainai.svg?style=social&label=Follow%20%40LangChainAI)](https://twitter.com/langchainai)
 
 `@aijoelangchain/core` contains the core abstractions and schemas of LangChain.js, including base classes for language models,

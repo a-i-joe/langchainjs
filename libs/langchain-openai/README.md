@@ -1,5 +1,9 @@
 # @aijoelangchain/openai
 
+## Unofficial! Use not recommended! Please see the official package at [https://www.npmjs.com/package/@langchain/openai](https://www.npmjs.com/package/@langchain/openai)
+
+I published this in order to take advantage of [cached token and reasoning tokens]https://github.com/langchain-ai/langchainjs/discussions/8405) before they're in the official package.
+
 This package contains the LangChain.js integrations for OpenAI through their SDK.
 
 ## Installation
