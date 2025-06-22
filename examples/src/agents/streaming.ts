@@ -1,6 +1,6 @@
 import { LLMChain } from "langchain/chains";
 import { AgentExecutor, ZeroShotAgent } from "langchain/agents";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { Calculator } from "@langchain/community/tools/calculator";
 import { Serialized } from "@aijoelangchain/core/load/serializable";
 import { BaseCallbackHandler } from "@aijoelangchain/core/callbacks/base";

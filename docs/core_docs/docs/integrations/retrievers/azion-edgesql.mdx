@@ -84,7 +84,7 @@ import Npm2Yarn from "@theme/Npm2Yarn";
 <IntegrationInstallTooltip></IntegrationInstallTooltip>
 
 <Npm2Yarn>
-  azion @langchain/openai @langchain/community
+  azion @aijoelangchain/openai @langchain/community
 </Npm2Yarn>
 ```
 
@@ -94,8 +94,8 @@ Now we can instantiate our retriever:
 
 ```typescript
 import { AzionRetriever } from "@langchain/community/retrievers/azion_edgesql";
-import { OpenAIEmbeddings } from "@langchain/openai";
-import { ChatOpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 
 const embeddingModel = new OpenAIEmbeddings({
   model: "text-embedding-3-small",

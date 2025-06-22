@@ -1,5 +1,5 @@
 import { AzureCosmosDBNoSQLVectorStore } from "@langchain/azure-cosmosdb";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 
 // Create Azure Cosmos DB vector store
 const store = new AzureCosmosDBNoSQLVectorStore(new OpenAIEmbeddings(), {

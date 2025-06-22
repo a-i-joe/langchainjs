@@ -1,5 +1,5 @@
 import assert from "assert";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { LLMChain } from "langchain/chains";
 import { ChatOllama } from "@langchain/ollama";
 import { ChatGoogle } from "@langchain/google-gauth";

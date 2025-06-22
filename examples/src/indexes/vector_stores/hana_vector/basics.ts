@@ -1,4 +1,4 @@
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import hanaClient from "hdb";
 // or import another node.js driver
 // import hanaClient from "@sap/haha-client";

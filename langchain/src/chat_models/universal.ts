@@ -86,7 +86,7 @@ async function _initChatModelHelper(
   try {
     switch (modelProviderCopy) {
       case "openai": {
-        const { ChatOpenAI } = await import("@langchain/openai");
+        const { ChatOpenAI } = await import("@aijoelangchain/openai");
         return new ChatOpenAI({ model, ...passedParams });
       }
       case "anthropic": {
@@ -94,7 +94,7 @@ async function _initChatModelHelper(
         return new ChatAnthropic({ model, ...passedParams });
       }
       case "azure_openai": {
-        const { AzureChatOpenAI } = await import("@langchain/openai");
+        const { AzureChatOpenAI } = await import("@aijoelangchain/openai");
         return new AzureChatOpenAI({ model, ...passedParams });
       }
       case "cohere": {
@@ -622,9 +622,9 @@ export async function initChatModel<
  *   Can be prefixed with the model provider, e.g. "openai:gpt-4", "anthropic:claude-3-opus-20240229".
  * @param {Object} [fields] - Additional configuration options.
  * @param {string} [fields.modelProvider] - The model provider. Supported values include:
- *   - openai (@langchain/openai)
+ *   - openai (@aijoelangchain/openai)
  *   - anthropic (@langchain/anthropic)
- *   - azure_openai (@langchain/openai)
+ *   - azure_openai (@aijoelangchain/openai)
  *   - google-vertexai (@langchain/google-vertexai)
  *   - google-vertexai-web (@langchain/google-vertexai-web)
  *   - google-genai (@langchain/google-genai)

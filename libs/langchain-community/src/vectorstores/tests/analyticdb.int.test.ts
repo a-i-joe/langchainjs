@@ -2,7 +2,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import { test } from "@jest/globals";
 
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 import { AnalyticDBVectorStore } from "../analyticdb.js";
 

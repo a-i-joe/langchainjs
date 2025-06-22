@@ -1,6 +1,6 @@
 /* eslint-disable no-process-env */
 import { test, expect, describe } from "@jest/globals";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 import { CassandraClientFactory } from "../../utils/cassandra.js";
 import { CassandraLibArgs, CassandraStore } from "../cassandra.js";

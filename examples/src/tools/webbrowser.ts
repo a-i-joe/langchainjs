@@ -1,5 +1,5 @@
 import { WebBrowser } from "langchain/tools/webbrowser";
-import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { ChatOpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 
 export async function run() {
   const model = new ChatOpenAI({ temperature: 0 });

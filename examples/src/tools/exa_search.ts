@@ -1,5 +1,5 @@
 import { ExaSearchResults } from "@langchain/exa";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import type { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import Exa from "exa-js";
 import { pull } from "langchain/hub";

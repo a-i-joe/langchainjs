@@ -1,6 +1,6 @@
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 import { SemanticSimilarityExampleSelector } from "@aijoelangchain/core/example_selectors";
-import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { ChatOpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import {
   FewShotPromptTemplate,
   PromptTemplate,

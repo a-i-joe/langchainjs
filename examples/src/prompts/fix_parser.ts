@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { OutputFixingParser } from "langchain/output_parsers";
 import { StructuredOutputParser } from "@aijoelangchain/core/output_parsers";
 

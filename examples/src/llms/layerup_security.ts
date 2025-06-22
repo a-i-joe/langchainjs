@@ -3,7 +3,7 @@ import {
   LayerupSecurityOptions,
 } from "@langchain/community/llms/layerup_security";
 import { GuardrailResponse } from "@layerup/layerup-security";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 
 // Create an instance of your favorite LLM
 const openai = new OpenAI({

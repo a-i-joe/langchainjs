@@ -1,4 +1,4 @@
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 
 const model = new OpenAI({ temperature: 0 });
 

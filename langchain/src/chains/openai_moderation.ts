@@ -1,4 +1,4 @@
-import { type ClientOptions, OpenAIClient } from "@langchain/openai";
+import { type ClientOptions, OpenAIClient } from "@aijoelangchain/openai";
 import { ChainValues } from "@aijoelangchain/core/utils/types";
 import {
   AsyncCaller,

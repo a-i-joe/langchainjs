@@ -3,7 +3,7 @@ import {
   Validator,
   toJsonSchema,
 } from "@aijoelangchain/core/utils/json_schema";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { BasePromptTemplate } from "@aijoelangchain/core/prompts";
 import {
   BaseLLMOutputParser,

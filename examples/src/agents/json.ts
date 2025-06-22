@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as yaml from "js-yaml";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { JsonSpec, JsonObject } from "langchain/tools";
 import { JsonToolkit, createJsonAgent } from "langchain/agents";
 

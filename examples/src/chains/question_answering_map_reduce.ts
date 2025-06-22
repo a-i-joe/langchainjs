@@ -1,4 +1,4 @@
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { loadQAMapReduceChain } from "langchain/chains";
 import { Document } from "@aijoelangchain/core/documents";
 

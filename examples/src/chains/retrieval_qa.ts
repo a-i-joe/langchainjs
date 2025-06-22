@@ -1,6 +1,6 @@
 import * as fs from "node:fs";
 
-import { OpenAIEmbeddings, ChatOpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, ChatOpenAI } from "@aijoelangchain/openai";
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 import {

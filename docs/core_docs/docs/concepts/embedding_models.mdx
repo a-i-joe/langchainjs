@@ -62,7 +62,7 @@ This distinction is important, as some providers employ different embedding stra
 To illustrate, here's a practical example using LangChain's `.embedDocuments` method to embed a list of strings:
 
 ```typescript
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 const embeddingsModel = new OpenAIEmbeddings();
 const embeddings = await embeddingsModel.embedDocuments([
   "Hi there!",

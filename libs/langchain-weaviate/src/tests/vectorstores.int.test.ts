@@ -1,7 +1,7 @@
 /* eslint-disable no-process-env */
 import { test, expect } from "@jest/globals";
 import weaviate, { Filters, WeaviateClient } from "weaviate-client";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 import * as dotenv from "dotenv";
 import { WeaviateStore } from "../vectorstores.js";

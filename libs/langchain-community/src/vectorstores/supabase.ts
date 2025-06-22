@@ -65,7 +65,7 @@ export interface SupabaseLibArgs {
  *
  * ```typescript
  * import { SupabaseVectorStore } from "@langchain/community/vectorstores/supabase";
- * import { OpenAIEmbeddings } from "@langchain/openai";
+ * import { OpenAIEmbeddings } from "@aijoelangchain/openai";
  *
  * import { createClient } from "@supabase/supabase-js";
  *

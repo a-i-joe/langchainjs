@@ -1,5 +1,5 @@
 import { createTaggingChain } from "langchain/chains";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { FunctionParameters } from "@aijoelangchain/core/output_parsers/openai_functions";
 
 const schema: FunctionParameters = {

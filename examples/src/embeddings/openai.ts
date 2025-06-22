@@ -1,4 +1,4 @@
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 
 const model = new OpenAIEmbeddings();
 const res = await model.embedQuery(

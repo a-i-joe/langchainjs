@@ -1,6 +1,6 @@
 /* eslint-disable no-process-env */
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 import { jest, test, expect, describe, beforeAll } from "@jest/globals";
 

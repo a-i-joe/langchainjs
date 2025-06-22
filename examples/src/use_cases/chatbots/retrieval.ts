@@ -2,7 +2,7 @@
 /* eslint-disable arrow-body-style */
 /* eslint-disable import/no-duplicates */
 
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 
 const chat = new ChatOpenAI({
   model: "gpt-3.5-turbo-1106",
@@ -26,7 +26,7 @@ const textSplitter = new RecursiveCharacterTextSplitter({
 
 const allSplits = await textSplitter.splitDocuments(rawDocs);
 
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 
 const vectorstore = await MemoryVectorStore.fromDocuments(

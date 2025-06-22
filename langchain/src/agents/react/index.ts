@@ -44,7 +44,7 @@ export type CreateReactAgentParams = {
  * import { pull } from "langchain/hub";
  * import type { PromptTemplate } from "@aijoelangchain/core/prompts";
  *
- * import { OpenAI } from "@langchain/openai";
+ * import { OpenAI } from "@aijoelangchain/openai";
  *
  * // Define the tools the agent will have access to.
  * const tools = [...];

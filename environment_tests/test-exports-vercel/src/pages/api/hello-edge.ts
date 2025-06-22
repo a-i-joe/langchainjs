@@ -5,13 +5,13 @@ import "../../entrypoints.js";
 
 // Import a few things we'll use to test the exports
 import { LLMChain } from "langchain/chains";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import {
   ChatPromptTemplate,
   HumanMessagePromptTemplate,
 } from "@aijoelangchain/core/prompts";
-import { OpenAI } from "@langchain/openai";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { CallbackManager } from "@aijoelangchain/core/callbacks/manager";
 import { ChatAgent } from "langchain/agents";
 

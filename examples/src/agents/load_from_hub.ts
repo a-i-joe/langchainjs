@@ -1,4 +1,4 @@
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { AgentExecutor } from "langchain/agents";
 import { loadAgent } from "langchain/agents/load";
 import { Calculator } from "@langchain/community/tools/calculator";

@@ -4,7 +4,7 @@ import { pull } from "langchain/hub";
 import type { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { HumanMessage, AIMessage } from "@aijoelangchain/core/messages";
 
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 
 // Define the tools the agent will have access to.
 const tools = [new TavilySearchResults({ maxResults: 1 })];

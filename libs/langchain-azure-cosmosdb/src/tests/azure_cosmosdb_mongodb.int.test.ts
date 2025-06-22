@@ -3,7 +3,7 @@
 import { test, expect } from "@jest/globals";
 import { MongoClient } from "mongodb";
 import { Document } from "@aijoelangchain/core/documents";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 
 import { AzureCosmosDBMongoDBVectorStore } from "../azure_cosmosdb_mongodb.js";
 

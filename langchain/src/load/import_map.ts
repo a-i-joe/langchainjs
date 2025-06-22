@@ -73,7 +73,7 @@ import {
   AzureOpenAI,
   OpenAIEmbeddings,
   AzureOpenAIEmbeddings,
-} from "@langchain/openai";
+} from "@aijoelangchain/openai";
 import {
   PromptTemplate,
   AIMessagePromptTemplate,

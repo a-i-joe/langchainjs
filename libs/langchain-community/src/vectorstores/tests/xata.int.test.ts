@@ -1,7 +1,7 @@
 /* eslint-disable no-process-env */
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { BaseClient } from "@xata.io/client";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 
 import { XataVectorSearch } from "../xata.js";

@@ -2,7 +2,7 @@
 /* eslint-disable no-process-env */
 import { describe, test } from "@jest/globals";
 import { Cluster } from "couchbase";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 import {
   CouchbaseVectorStore,

@@ -1,6 +1,6 @@
 import { ApifyDatasetLoader } from "@langchain/community/document_loaders/web/apify_dataset";
 import { HNSWLib } from "@langchain/community/vectorstores/hnswlib";
-import { OpenAIEmbeddings, ChatOpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, ChatOpenAI } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { createRetrievalChain } from "langchain/chains/retrieval";

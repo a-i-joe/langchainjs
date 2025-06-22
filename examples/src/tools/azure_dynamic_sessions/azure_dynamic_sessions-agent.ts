@@ -2,7 +2,7 @@ import type { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { pull } from "langchain/hub";
 import { AgentExecutor, createToolCallingAgent } from "langchain/agents";
 import { SessionsPythonREPLTool } from "@langchain/azure-dynamic-sessions";
-import { AzureChatOpenAI } from "@langchain/openai";
+import { AzureChatOpenAI } from "@aijoelangchain/openai";
 
 const tools = [
   new SessionsPythonREPLTool({

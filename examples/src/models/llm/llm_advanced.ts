@@ -1,4 +1,4 @@
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 
 const model = new OpenAI({
   // customize openai model that's used, `gpt-3.5-turbo-instruct` is the default

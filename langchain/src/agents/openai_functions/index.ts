@@ -6,7 +6,7 @@ import type {
 import type { StructuredToolInterface } from "@aijoelangchain/core/tools";
 import type { BaseChatModel } from "@aijoelangchain/core/language_models/chat_models";
 import { Runnable, RunnablePassthrough } from "@aijoelangchain/core/runnables";
-import { ChatOpenAI, ChatOpenAICallOptions } from "@langchain/openai";
+import { ChatOpenAI, ChatOpenAICallOptions } from "@aijoelangchain/openai";
 import type {
   AgentAction,
   AgentFinish,
@@ -289,7 +289,7 @@ export type CreateOpenAIFunctionsAgentParams = {
  * import type { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
  * import { AIMessage, HumanMessage } from "@aijoelangchain/core/messages";
  *
- * import { ChatOpenAI } from "@langchain/openai";
+ * import { ChatOpenAI } from "@aijoelangchain/openai";
  *
  * // Define the tools the agent will have access to.
  * const tools = [...];

@@ -1,4 +1,4 @@
-import { getEndpoint, OpenAIEndpointConfig } from "@langchain/openai";
+import { getEndpoint, OpenAIEndpointConfig } from "@aijoelangchain/openai";
 
 describe("getEndpoint", () => {
   it("should return the correct endpoint with azureOpenAIBasePath and azureOpenAIApiDeploymentName", () => {

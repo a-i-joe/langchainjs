@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 import { test, expect } from "@jest/globals";
 import { createClient } from "@supabase/supabase-js";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { SupabaseHybridSearch } from "../supabase.js";
 
 test.skip("Supabase hybrid keyword search", async () => {

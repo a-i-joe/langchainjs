@@ -3,7 +3,7 @@ import {
   StagehandActTool,
   StagehandNavigateTool,
 } from "@langchain/community/agents/toolkits/stagehand";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { createReactAgent } from "@langchain/langgraph/prebuilt";
 
 async function main() {

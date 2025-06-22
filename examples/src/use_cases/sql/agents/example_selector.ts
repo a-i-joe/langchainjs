@@ -7,7 +7,7 @@ import {
   SystemMessagePromptTemplate,
   MessagesPlaceholder,
 } from "@aijoelangchain/core/prompts";
-import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { ChatOpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { SqlToolkit } from "langchain/agents/toolkits/sql";
 import { SqlDatabase } from "langchain/sql_db";
 import { DataSource } from "typeorm";

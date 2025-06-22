@@ -1,5 +1,5 @@
 import { expect, test } from "@jest/globals";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { VercelPostgres } from "../vercel_postgres.js";
 
 let vercelPostgresStore: VercelPostgres;

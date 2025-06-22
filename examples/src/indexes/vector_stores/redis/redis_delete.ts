@@ -1,5 +1,5 @@
 import { createClient } from "redis";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { RedisVectorStore } from "@langchain/redis";
 import { Document } from "@aijoelangchain/core/documents";
 

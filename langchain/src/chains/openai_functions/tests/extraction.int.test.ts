@@ -1,7 +1,7 @@
 import { test, expect } from "@jest/globals";
 import { z } from "zod";
 
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { createExtractionChainFromZod } from "../extraction.js";
 
 test("extraction chain", async () => {

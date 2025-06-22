@@ -1,4 +1,4 @@
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { HNSWLib } from "@langchain/community/vectorstores/hnswlib";
 import {
   PromptTemplate,

@@ -1,4 +1,4 @@
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { PromptTemplate } from "@aijoelangchain/core/prompts";
 import { CommaSeparatedListOutputParser } from "@aijoelangchain/core/output_parsers";
 import { RunnableSequence } from "@aijoelangchain/core/runnables";

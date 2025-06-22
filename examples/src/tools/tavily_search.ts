@@ -1,5 +1,5 @@
 import { TavilySearchResults } from "@langchain/community/tools/tavily_search";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import type { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 
 import { pull } from "langchain/hub";

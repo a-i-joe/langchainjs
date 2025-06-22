@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { createMetadataTaggerFromZod } from "langchain/document_transformers/openai_functions";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 
 const zodSchema = z.object({

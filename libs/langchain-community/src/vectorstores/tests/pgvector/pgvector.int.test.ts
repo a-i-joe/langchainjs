@@ -1,6 +1,6 @@
 import { expect, test } from "@jest/globals";
 import pg, { PoolConfig } from "pg";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { PGVectorStore, PGVectorStoreArgs } from "../../pgvector.js";
 // import { BedrockEmbeddings } from "../../../embeddings/bedrock.js";
 

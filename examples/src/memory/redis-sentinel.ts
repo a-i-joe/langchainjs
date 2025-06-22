@@ -1,7 +1,7 @@
 import { Redis } from "ioredis";
 import { BufferMemory } from "langchain/memory";
 import { RedisChatMessageHistory } from "@langchain/community/stores/message/ioredis";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { ConversationChain } from "langchain/chains";
 
 // Uses ioredis to facilitate Sentinel Connections see their docs for details on setting up more complex Sentinels: https://github.com/redis/ioredis#sentinel

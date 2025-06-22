@@ -1,5 +1,5 @@
 const assert = require("assert");
-const { OpenAI } = require("@langchain/openai");
+const { OpenAI } = require("@aijoelangchain/openai");
 const { ChatOllama } = require("@langchain/ollama");
 const { ChatGoogle } = require("@langchain/google-gauth");
 const { LLMChain } = require("langchain/chains");

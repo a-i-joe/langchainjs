@@ -4,7 +4,7 @@ import {
   MessagesPlaceholder,
 } from "@aijoelangchain/core/prompts";
 import { ConsoleCallbackHandler } from "@aijoelangchain/core/tracers/console";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 import {
   RunnableLambda,

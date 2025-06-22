@@ -1,5 +1,5 @@
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { createOpenAIFnRunnable } from "langchain/chains/openai_functions";
 import { JsonOutputFunctionsParser } from "@aijoelangchain/core/output_parsers/openai_functions";
 

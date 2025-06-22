@@ -161,7 +161,7 @@ async function webpackLoader(content, map, meta) {
      * If no match is found, return null.
      *
      * @param {string} imported The name of the imported symbol. E.g. `ChatOpenAI`
-     * @param {string} source The name of the package/module it was imported from. E.g. `@langchain/openai`
+     * @param {string} source The name of the package/module it was imported from. E.g. `@aijoelangchain/openai`
      * @returns {string | null} The path to the API docs file or null if not found.
      */
     const findApiRefPath = (imported, source) => {

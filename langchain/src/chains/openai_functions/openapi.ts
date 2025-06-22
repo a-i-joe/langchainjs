@@ -1,4 +1,4 @@
-import type { OpenAIClient } from "@langchain/openai";
+import type { OpenAIClient } from "@aijoelangchain/openai";
 import {
   type JsonSchema7ObjectType,
   type JsonSchema7ArrayType,
@@ -7,7 +7,7 @@ import {
 import type { OpenAPIV3_1 } from "openapi-types";
 
 import { ChainValues } from "@aijoelangchain/core/utils/types";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { BaseChatModel } from "@aijoelangchain/core/language_models/chat_models";
 import { BaseFunctionCallOptions } from "@aijoelangchain/core/language_models/base";
 import {

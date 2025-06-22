@@ -1,5 +1,5 @@
 import { Chroma } from "@langchain/community/vectorstores/chroma";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 
 // text sample from Godel, Escher, Bach
 const vectorStore = await Chroma.fromTexts(

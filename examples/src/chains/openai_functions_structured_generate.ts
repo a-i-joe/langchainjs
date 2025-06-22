@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { createStructuredOutputChainFromZod } from "langchain/chains/openai_functions";
 import {
   ChatPromptTemplate,

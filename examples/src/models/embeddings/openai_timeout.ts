@@ -1,4 +1,4 @@
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 
 const embeddings = new OpenAIEmbeddings({
   timeout: 1000, // 1s timeout

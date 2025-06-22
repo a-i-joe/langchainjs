@@ -1,6 +1,6 @@
 import * as uuid from "uuid";
 
-import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { ChatOpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { MultiVectorRetriever } from "langchain/retrievers/multi_vector";
 import { FaissStore } from "@langchain/community/vectorstores/faiss";
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";

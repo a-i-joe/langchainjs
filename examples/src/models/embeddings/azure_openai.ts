@@ -1,4 +1,4 @@
-import { AzureOpenAIEmbeddings } from "@langchain/openai";
+import { AzureOpenAIEmbeddings } from "@aijoelangchain/openai";
 
 const model = new AzureOpenAIEmbeddings({
   azureOpenAIApiKey: "<your_key>", // In Node.js defaults to process.env.AZURE_OPENAI_API_KEY

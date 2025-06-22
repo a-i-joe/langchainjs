@@ -19,7 +19,7 @@ This tutorial explains how to use Vector Search in Couchbase. You can work with 
 You will need couchbase and langchain community to use couchbase vector store. For this tutorial, we will use OpenAI embeddings
 
 ```bash npm2yarn
-npm install couchbase @langchain/openai @langchain/community @aijoelangchain/core
+npm install couchbase @aijoelangchain/openai @langchain/community @aijoelangchain/core
 ```
 
 ## Create Couchbase Connection Object
@@ -181,7 +181,7 @@ query "What did president say about Ketanji Brown Jackson".
 At the end, it also shows how to get similarity score
 
 ```ts
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import {
   CouchbaseVectorStoreArgs,
   CouchbaseVectorStore,

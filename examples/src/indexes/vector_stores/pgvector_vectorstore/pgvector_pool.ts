@@ -1,4 +1,4 @@
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { PGVectorStore } from "@langchain/community/vectorstores/pgvector";
 import pg from "pg";
 

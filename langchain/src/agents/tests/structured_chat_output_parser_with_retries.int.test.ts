@@ -1,5 +1,5 @@
 import { test, expect } from "@jest/globals";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { AgentAction, AgentFinish } from "@aijoelangchain/core/agents";
 import { StructuredChatOutputParserWithRetries } from "../structured_chat/outputParser.js";
 

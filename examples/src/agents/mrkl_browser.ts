@@ -1,4 +1,4 @@
-import { OpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { initializeAgentExecutorWithOptions } from "langchain/agents";
 import { Calculator } from "@langchain/community/tools/calculator";
 import { WebBrowser } from "langchain/tools/webbrowser";

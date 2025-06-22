@@ -3,7 +3,7 @@
 import { expect, test } from "@jest/globals";
 import { z } from "zod";
 
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
 import { isInteropZodSchema } from "@aijoelangchain/core/utils/types";

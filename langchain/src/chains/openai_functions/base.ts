@@ -168,7 +168,7 @@ export type CreateStructuredOutputRunnableConfig<
  * @example
  * ```typescript
  * import { createStructuredOutputRunnable } from "langchain/chains/openai_functions";
- * import { ChatOpenAI } from "@langchain/openai";
+ * import { ChatOpenAI } from "@aijoelangchain/openai";
  * import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
  * import { JsonOutputFunctionsParser } from "langchain/output_parsers";
  *

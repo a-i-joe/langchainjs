@@ -1,4 +1,4 @@
-import { OpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { RetrievalQAChain } from "langchain/chains";
 import { HNSWLib } from "@langchain/community/vectorstores/hnswlib";
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";

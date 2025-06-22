@@ -1,5 +1,5 @@
 import { QdrantVectorStore } from "@langchain/qdrant";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { TextLoader } from "langchain/document_loaders/fs/text";
 
 // Create docs with a loader

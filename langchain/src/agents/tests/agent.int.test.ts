@@ -1,6 +1,6 @@
 /* eslint-disable no-process-env */
 import { expect, test } from "@jest/globals";
-import { OpenAI, OpenAIEmbeddings, ChatOpenAI } from "@langchain/openai";
+import { OpenAI, OpenAIEmbeddings, ChatOpenAI } from "@aijoelangchain/openai";
 import { Tool } from "@aijoelangchain/core/tools";
 import { RunnableSequence } from "@aijoelangchain/core/runnables";
 import { OutputParserException } from "@aijoelangchain/core/output_parsers";

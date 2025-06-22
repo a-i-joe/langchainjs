@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { initializeAgentExecutorWithOptions } from "langchain/agents";
 import { Calculator } from "@langchain/community/tools/calculator";
 import { BufferMemory } from "langchain/memory";

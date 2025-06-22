@@ -1,5 +1,5 @@
 const assert = require("assert");
-const { OpenAI } = require("@langchain/openai");
+const { OpenAI } = require("@aijoelangchain/openai");
 const { LLMChain } = require("langchain/chains");
 const { ChatPromptTemplate } = require("@aijoelangchain/core/prompts");
 const { MemoryVectorStore } = require("langchain/vectorstores/memory");

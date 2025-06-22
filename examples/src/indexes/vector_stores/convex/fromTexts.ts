@@ -1,7 +1,7 @@
 "use node";
 
 import { ConvexVectorStore } from "@langchain/community/vectorstores/convex";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { action } from "./_generated/server.js";
 
 export const ingest = action({

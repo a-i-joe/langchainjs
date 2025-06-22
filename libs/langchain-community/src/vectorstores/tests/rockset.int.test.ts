@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 import rockset from "@rockset/client";
 import { test, expect } from "@jest/globals";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 import { RocksetStore, SimilarityMetric } from "../rockset.js";
 

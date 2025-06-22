@@ -1,6 +1,6 @@
 import { test } from "@jest/globals";
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
-import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { ChatOpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
 import {

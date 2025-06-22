@@ -1,4 +1,4 @@
-import { OpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 import { TimeWeightedVectorStoreRetriever } from "langchain/retrievers/time_weighted";
 import {

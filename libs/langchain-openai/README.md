@@ -1,11 +1,11 @@
-# @langchain/openai
+# @aijoelangchain/openai
 
 This package contains the LangChain.js integrations for OpenAI through their SDK.
 
 ## Installation
 
 ```bash npm2yarn
-npm install @langchain/openai @aijoelangchain/core
+npm install @aijoelangchain/openai @aijoelangchain/core
 ```
 
 This package, along with the main LangChain package, depends on [`@aijoelangchain/core`](https://npmjs.com/package/@aijoelangchain/core/).
@@ -18,7 +18,7 @@ You can do so by adding appropriate fields to your project's `package.json` like
   "version": "0.0.0",
   "dependencies": {
     "@aijoelangchain/core": "^0.3.0",
-    "@langchain/openai": "^0.0.0"
+    "@aijoelangchain/openai": "^0.0.0"
   },
   "resolutions": {
     "@aijoelangchain/core": "^0.3.0"
@@ -49,7 +49,7 @@ export OPENAI_API_KEY=your-api-key
 Then initialize
 
 ```typescript
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 
 const model = new ChatOpenAI({
   apiKey: process.env.OPENAI_API_KEY,
@@ -61,7 +61,7 @@ const response = await model.invoke(new HumanMessage("Hello world!"));
 ### Streaming
 
 ```typescript
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 
 const model = new ChatOpenAI({
   apiKey: process.env.OPENAI_API_KEY,
@@ -75,7 +75,7 @@ const response = await model.stream(new HumanMessage("Hello world!"));
 This package also adds support for OpenAI's embeddings model.
 
 ```typescript
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 
 const embeddings = new OpenAIEmbeddings({
   apiKey: process.env.OPENAI_API_KEY,
@@ -102,7 +102,7 @@ yarn build
 Or from the repo root:
 
 ```bash
-yarn build --filter=@langchain/openai
+yarn build --filter=@aijoelangchain/openai
 ```
 
 ### Run tests

@@ -1,6 +1,6 @@
 import weaviate from "weaviate-client";
 
-import { OpenAIEmbeddings, OpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, OpenAI } from "@aijoelangchain/openai";
 import { SelfQueryRetriever } from "langchain/retrievers/self_query";
 import { WeaviateStore, WeaviateTranslator } from "@langchain/weaviate";
 import { Document } from "@aijoelangchain/core/documents";

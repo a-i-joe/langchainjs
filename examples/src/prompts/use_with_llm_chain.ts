@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { LLMChain } from "langchain/chains";
 import { OutputFixingParser } from "langchain/output_parsers";
 import { PromptTemplate } from "@aijoelangchain/core/prompts";

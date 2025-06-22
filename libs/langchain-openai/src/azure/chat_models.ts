@@ -26,10 +26,10 @@ export type { AzureOpenAIInput };
  * Azure OpenAI chat model integration.
  *
  * Setup:
- * Install `@langchain/openai` and set the following environment variables:
+ * Install `@aijoelangchain/openai` and set the following environment variables:
  *
  * ```bash
- * npm install @langchain/openai
+ * npm install @aijoelangchain/openai
  * export AZURE_OPENAI_API_KEY="your-api-key"
  * export AZURE_OPENAI_API_DEPLOYMENT_NAME="your-deployment-name"
  * export AZURE_OPENAI_API_VERSION="your-version"
@@ -65,7 +65,7 @@ export type { AzureOpenAIInput };
  * <summary><strong>Instantiate</strong></summary>
  *
  * ```typescript
- * import { AzureChatOpenAI } from '@langchain/openai';
+ * import { AzureChatOpenAI } from '@aijoelangchain/openai';
  *
  * const llm = new AzureChatOpenAI({
  *   azureOpenAIApiKey: process.env.AZURE_OPENAI_API_KEY, // In Node.js defaults to process.env.AZURE_OPENAI_API_KEY

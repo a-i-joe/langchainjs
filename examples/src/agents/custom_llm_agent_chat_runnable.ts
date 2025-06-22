@@ -1,6 +1,6 @@
 import { AgentExecutor } from "langchain/agents";
 import { formatLogToString } from "langchain/agents/format_scratchpad/log";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { Calculator } from "@langchain/community/tools/calculator";
 import { PromptTemplate } from "@aijoelangchain/core/prompts";
 import {

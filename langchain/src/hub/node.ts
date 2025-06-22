@@ -36,11 +36,11 @@ export async function pull<T extends Runnable>(
       const modelName =
         promptObject.manifest.kwargs?.last?.kwargs?.bound?.id.at(-1);
       if (modelName === "ChatOpenAI") {
-        modelClass = (await import("@langchain/openai")).ChatOpenAI;
+        modelClass = (await import("@aijoelangchain/openai")).ChatOpenAI;
       } else if (modelName === "ChatAnthropic") {
         modelClass = (await import("@langchain/anthropic")).ChatAnthropic;
       } else if (modelName === "ChatAzureOpenAI") {
-        modelClass = (await import("@langchain/openai")).AzureChatOpenAI;
+        modelClass = (await import("@aijoelangchain/openai")).AzureChatOpenAI;
       } else if (modelName === "ChatVertexAI") {
         modelClass = (await import("@langchain/google-vertexai")).ChatVertexAI;
       } else if (modelName === "ChatGoogleGenerativeAI") {

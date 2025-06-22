@@ -1,4 +1,4 @@
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { TavilySearchResults } from "@langchain/community/tools/tavily_search";
 import type { PromptTemplate } from "@aijoelangchain/core/prompts";
 

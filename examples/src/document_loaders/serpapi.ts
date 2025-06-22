@@ -1,4 +1,4 @@
-import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { ChatOpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 import { SerpAPILoader } from "@langchain/community/document_loaders/web/serpapi";
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";

@@ -1,9 +1,9 @@
 const assert = require("assert");
-const { OpenAI } = require("@langchain/openai");
+const { OpenAI } = require("@aijoelangchain/openai");
 const { LLMChain } = require("langchain/chains");
 const { ChatPromptTemplate } = require("@aijoelangchain/core/prompts");
 const { MemoryVectorStore } = require("langchain/vectorstores/memory");
-const { OpenAIEmbeddings } = require("@langchain/openai");
+const { OpenAIEmbeddings } = require("@aijoelangchain/openai");
 const { Document } = require("@aijoelangchain/core/documents");
 
 async function test() {

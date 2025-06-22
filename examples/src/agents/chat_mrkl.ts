@@ -1,5 +1,5 @@
 import { initializeAgentExecutorWithOptions } from "langchain/agents";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { Calculator } from "@langchain/community/tools/calculator";
 import { SerpAPI } from "@langchain/community/tools/serpapi";
 

@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { ToolMessage } from "@aijoelangchain/core/messages";
 
 // Mocked out function, could be a database/API call in production

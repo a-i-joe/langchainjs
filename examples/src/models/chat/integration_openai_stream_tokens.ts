@@ -1,5 +1,5 @@
 import type { AIMessageChunk } from "@aijoelangchain/core/messages";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { concat } from "@aijoelangchain/core/utils/stream";
 
 // Instantiate the model

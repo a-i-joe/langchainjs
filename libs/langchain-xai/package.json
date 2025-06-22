@@ -35,15 +35,15 @@
   "author": "LangChain",
   "license": "MIT",
   "dependencies": {
-    "@langchain/openai": "^0.5.5"
+    "@aijoelangchain/openai": "^0.5.5"
   },
   "peerDependencies": {
     "@aijoelangchain/core": ">=0.3.58 <0.4.0"
   },
   "devDependencies": {
     "@aijoelangchain/core": "workspace:*",
+    "@aijoelangchain/openai": "workspace:^",
     "@jest/globals": "^29.5.0",
-    "@langchain/openai": "workspace:^",
     "@langchain/scripts": ">=0.1.0 <0.2.0",
     "@langchain/standard-tests": "0.0.0",
     "@swc/core": "^1.3.90",

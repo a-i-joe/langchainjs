@@ -221,32 +221,32 @@ export const config = {
     {
       modules: ["ChatOpenAI"],
       alias: ["chat_models", "openai"],
-      path: "@langchain/openai",
+      path: "@aijoelangchain/openai",
     },
     {
       modules: ["AzureChatOpenAI"],
       alias: ["chat_models", "azure_openai"],
-      path: "@langchain/openai",
+      path: "@aijoelangchain/openai",
     },
     {
       modules: ["OpenAI"],
       alias: ["llms", "openai"],
-      path: "@langchain/openai",
+      path: "@aijoelangchain/openai",
     },
     {
       modules: ["AzureOpenAI"],
       alias: ["llms", "azure_openai"],
-      path: "@langchain/openai",
+      path: "@aijoelangchain/openai",
     },
     {
       modules: ["OpenAIEmbeddings"],
       alias: ["embeddings", "openai"],
-      path: "@langchain/openai",
+      path: "@aijoelangchain/openai",
     },
     {
       modules: ["AzureOpenAIEmbeddings"],
       alias: ["embeddings", "azure_openai"],
-      path: "@langchain/openai",
+      path: "@aijoelangchain/openai",
     },
     {
       modules: ["PromptTemplate"],

@@ -1,5 +1,5 @@
 /* eslint-disable no-process-env */
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { UpstashRedisCache } from "../upstash_redis.js";
 
 /**

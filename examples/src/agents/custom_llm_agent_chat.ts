@@ -4,7 +4,7 @@ import {
   LLMSingleActionAgent,
 } from "langchain/agents";
 import { LLMChain } from "langchain/chains";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { Calculator } from "@langchain/community/tools/calculator";
 import {
   BaseChatPromptTemplate,

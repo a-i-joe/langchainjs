@@ -1,5 +1,5 @@
 import { FaissStore } from "@langchain/community/vectorstores/faiss";
-import { OpenAIEmbeddings, ChatOpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, ChatOpenAI } from "@aijoelangchain/openai";
 import { TextLoader } from "langchain/document_loaders/fs/text";
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
 import {

@@ -54,6 +54,40 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@aijoelangchain/openai@>=0.1.0 <0.6.0, @aijoelangchain/openai@>=0.2.0 <0.6.0, @aijoelangchain/openai@^0.5.5, @aijoelangchain/openai@workspace:*, @aijoelangchain/openai@workspace:^, @aijoelangchain/openai@workspace:libs/langchain-openai":
+  version: 0.0.0-use.local
+  resolution: "@aijoelangchain/openai@workspace:libs/langchain-openai"
+  dependencies:
+    "@aijoelangchain/core": "workspace:*"
+    "@azure/identity": ^4.2.1
+    "@jest/globals": ^29.5.0
+    "@langchain/scripts": ">=0.1.0 <0.2.0"
+    "@langchain/standard-tests": 0.0.0
+    "@swc/core": ^1.3.90
+    "@swc/jest": ^0.2.29
+    dpdm: ^3.14.0
+    eslint: ^8.33.0
+    eslint-config-airbnb-base: ^15.0.0
+    eslint-config-prettier: ^8.6.0
+    eslint-plugin-import: ^2.31.0
+    eslint-plugin-jest: ^27.6.0
+    eslint-plugin-no-instanceof: ^1.0.1
+    eslint-plugin-prettier: ^4.2.1
+    jest: ^29.5.0
+    jest-environment-node: ^29.6.4
+    js-tiktoken: ^1.0.12
+    openai: ^5.3.0
+    prettier: ^2.8.3
+    release-it: ^18.1.2
+    rimraf: ^5.0.1
+    ts-jest: ^29.1.0
+    typescript: ~5.8.3
+    zod: ^3.25.32
+  peerDependencies:
+    "@aijoelangchain/core": ">=0.3.58 <0.4.0"
+  languageName: unknown
+  linkType: soft
+
 "@algolia/autocomplete-core@npm:1.9.3":
   version: 1.9.3
   resolution: "@algolia/autocomplete-core@npm:1.9.3"
@@ -7235,10 +7269,10 @@ __metadata:
   resolution: "@langchain/azure-cosmosdb@workspace:libs/langchain-azure-cosmosdb"
   dependencies:
     "@aijoelangchain/core": "workspace:*"
+    "@aijoelangchain/openai": "workspace:^"
     "@azure/cosmos": ^4.2.0
     "@azure/identity": ^4.5.0
     "@jest/globals": ^29.5.0
-    "@langchain/openai": "workspace:^"
     "@langchain/scripts": ">=0.1.0 <0.2.0"
     "@swc/core": ^1.3.90
     "@swc/jest": ^0.2.29
@@ -7341,9 +7375,9 @@ __metadata:
   resolution: "@langchain/baidu-qianfan@workspace:libs/langchain-baidu-qianfan"
   dependencies:
     "@aijoelangchain/core": "workspace:*"
+    "@aijoelangchain/openai": ^0.5.5
     "@baiducloud/qianfan": ^0.1.6
     "@jest/globals": ^29.5.0
-    "@langchain/openai": ^0.5.5
     "@langchain/scripts": ">=0.1.0 <0.2.0"
     "@swc/core": ^1.3.90
     "@swc/jest": ^0.2.29
@@ -7488,6 +7522,7 @@ __metadata:
   resolution: "@langchain/community@workspace:libs/langchain-community"
   dependencies:
     "@aijoelangchain/core": "workspace:*"
+    "@aijoelangchain/openai": ">=0.2.0 <0.6.0"
     "@arcjet/redact": ^v1.0.0-alpha.23
     "@aws-crypto/sha256-js": ^5.0.0
     "@aws-sdk/client-bedrock-agent-runtime": ^3.749.0
@@ -7524,7 +7559,6 @@ __metadata:
     "@ibm-cloud/watsonx-ai": ^1.6.4
     "@jest/globals": ^29.5.0
     "@lancedb/lancedb": ^0.13.0
-    "@langchain/openai": ">=0.2.0 <0.6.0"
     "@langchain/scripts": ">=0.1.0 <0.2.0"
     "@langchain/standard-tests": 0.0.0
     "@langchain/weaviate": ^0.2.0
@@ -8060,8 +8094,8 @@ __metadata:
   resolution: "@langchain/deepseek@workspace:libs/langchain-deepseek"
   dependencies:
     "@aijoelangchain/core": "workspace:*"
+    "@aijoelangchain/openai": ^0.5.5
     "@jest/globals": ^29.5.0
-    "@langchain/openai": ^0.5.5
     "@langchain/scripts": ">=0.1.0 <0.2.0"
     "@langchain/standard-tests": "workspace:*"
     "@swc/core": ^1.3.90
@@ -8379,8 +8413,8 @@ __metadata:
   resolution: "@langchain/groq@workspace:libs/langchain-groq"
   dependencies:
     "@aijoelangchain/core": "workspace:*"
+    "@aijoelangchain/openai": "workspace:^"
     "@jest/globals": ^29.5.0
-    "@langchain/openai": "workspace:^"
     "@langchain/scripts": ">=0.1.0 <0.2.0"
     "@langchain/standard-tests": 0.0.0
     "@swc/core": ^1.3.90
@@ -8465,9 +8499,9 @@ __metadata:
   resolution: "@langchain/mcp-adapters@workspace:libs/langchain-mcp-adapters"
   dependencies:
     "@aijoelangchain/core": "workspace:*"
+    "@aijoelangchain/openai": "workspace:*"
     "@eslint/js": ^9.21.0
     "@langchain/langgraph": ^0.2.62
-    "@langchain/openai": "workspace:*"
     "@langchain/scripts": "workspace:*"
     "@modelcontextprotocol/sdk": ^1.12.1
     "@tsconfig/recommended": ^1.0.8
@@ -8583,8 +8617,8 @@ __metadata:
   resolution: "@langchain/mongodb@workspace:libs/langchain-mongodb"
   dependencies:
     "@aijoelangchain/core": "workspace:*"
+    "@aijoelangchain/openai": "workspace:*"
     "@jest/globals": ^29.5.0
-    "@langchain/openai": "workspace:*"
     "@langchain/scripts": ">=0.1.0 <0.2.0"
     "@swc/core": ^1.3.90
     "@swc/jest": ^0.2.29
@@ -8620,8 +8654,8 @@ __metadata:
   resolution: "@langchain/nomic@workspace:libs/langchain-nomic"
   dependencies:
     "@aijoelangchain/core": "workspace:*"
+    "@aijoelangchain/openai": "workspace:^"
     "@jest/globals": ^29.5.0
-    "@langchain/openai": "workspace:^"
     "@langchain/scripts": ">=0.1.0 <0.2.0"
     "@nomic-ai/atlas": ^0.8.0
     "@swc/core": ^1.3.90
@@ -8686,48 +8720,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@langchain/openai@>=0.1.0 <0.6.0, @langchain/openai@>=0.2.0 <0.6.0, @langchain/openai@^0.5.5, @langchain/openai@workspace:*, @langchain/openai@workspace:^, @langchain/openai@workspace:libs/langchain-openai":
-  version: 0.0.0-use.local
-  resolution: "@langchain/openai@workspace:libs/langchain-openai"
-  dependencies:
-    "@aijoelangchain/core": "workspace:*"
-    "@azure/identity": ^4.2.1
-    "@jest/globals": ^29.5.0
-    "@langchain/scripts": ">=0.1.0 <0.2.0"
-    "@langchain/standard-tests": 0.0.0
-    "@swc/core": ^1.3.90
-    "@swc/jest": ^0.2.29
-    dpdm: ^3.14.0
-    eslint: ^8.33.0
-    eslint-config-airbnb-base: ^15.0.0
-    eslint-config-prettier: ^8.6.0
-    eslint-plugin-import: ^2.31.0
-    eslint-plugin-jest: ^27.6.0
-    eslint-plugin-no-instanceof: ^1.0.1
-    eslint-plugin-prettier: ^4.2.1
-    jest: ^29.5.0
-    jest-environment-node: ^29.6.4
-    js-tiktoken: ^1.0.12
-    openai: ^5.3.0
-    prettier: ^2.8.3
-    release-it: ^18.1.2
-    rimraf: ^5.0.1
-    ts-jest: ^29.1.0
-    typescript: ~5.8.3
-    zod: ^3.25.32
-  peerDependencies:
-    "@aijoelangchain/core": ">=0.3.58 <0.4.0"
-  languageName: unknown
-  linkType: soft
-
 "@langchain/pinecone@workspace:*, @langchain/pinecone@workspace:libs/langchain-pinecone":
   version: 0.0.0-use.local
   resolution: "@langchain/pinecone@workspace:libs/langchain-pinecone"
   dependencies:
     "@aijoelangchain/core": "workspace:*"
+    "@aijoelangchain/openai": "workspace:*"
     "@faker-js/faker": ^8.3.1
     "@jest/globals": ^29.5.0
-    "@langchain/openai": "workspace:*"
     "@langchain/scripts": ">=0.1.0 <0.2.0"
     "@pinecone-database/pinecone": ^5.0.2
     "@swc/core": ^1.3.90
@@ -8977,8 +8977,8 @@ __metadata:
   resolution: "@langchain/weaviate@workspace:libs/langchain-weaviate"
   dependencies:
     "@aijoelangchain/core": "workspace:*"
+    "@aijoelangchain/openai": "workspace:^"
     "@jest/globals": ^29.5.0
-    "@langchain/openai": "workspace:^"
     "@langchain/scripts": ">=0.1.0 <0.2.0"
     "@swc/core": ^1.3.90
     "@swc/jest": ^0.2.29
@@ -9014,8 +9014,8 @@ __metadata:
   resolution: "@langchain/xai@workspace:libs/langchain-xai"
   dependencies:
     "@aijoelangchain/core": "workspace:*"
+    "@aijoelangchain/openai": "workspace:^"
     "@jest/globals": ^29.5.0
-    "@langchain/openai": "workspace:^"
     "@langchain/scripts": ">=0.1.0 <0.2.0"
     "@langchain/standard-tests": 0.0.0
     "@swc/core": ^1.3.90
@@ -21468,6 +21468,7 @@ __metadata:
   resolution: "examples@workspace:examples"
   dependencies:
     "@aijoelangchain/core": "workspace:*"
+    "@aijoelangchain/openai": "workspace:*"
     "@aws-sdk/dsql-signer": ^3.738.0
     "@azure/identity": ^4.2.1
     "@browserbasehq/stagehand": ^1.3.0
@@ -21500,7 +21501,6 @@ __metadata:
     "@langchain/mongodb": "workspace:*"
     "@langchain/nomic": "workspace:*"
     "@langchain/ollama": "workspace:*"
-    "@langchain/openai": "workspace:*"
     "@langchain/pinecone": "workspace:*"
     "@langchain/qdrant": "workspace:*"
     "@langchain/redis": "workspace:*"
@@ -26634,6 +26634,7 @@ __metadata:
   resolution: "langchain@workspace:langchain"
   dependencies:
     "@aijoelangchain/core": "workspace:*"
+    "@aijoelangchain/openai": ">=0.1.0 <0.6.0"
     "@faker-js/faker": ^7.6.0
     "@jest/globals": ^29.5.0
     "@langchain/anthropic": "*"
@@ -26647,7 +26648,6 @@ __metadata:
     "@langchain/groq": "*"
     "@langchain/mistralai": "*"
     "@langchain/ollama": "*"
-    "@langchain/openai": ">=0.1.0 <0.6.0"
     "@langchain/scripts": ">=0.1.0 <0.2.0"
     "@langchain/textsplitters": ">=0.0.0 <0.2.0"
     "@langchain/xai": "*"

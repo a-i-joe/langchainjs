@@ -5,7 +5,7 @@ import { z } from "zod";
 import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
 import { Operation, applyPatch } from "@aijoelangchain/core/utils/json_patch";
 
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { JsonOutputFunctionsParser } from "../openai_functions.js";
 import { HttpResponseOutputParser } from "../http_response.js";

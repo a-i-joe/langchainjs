@@ -1,6 +1,6 @@
 // Ephemeral, in-memory vector store for demo purposes
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
-import { OpenAIEmbeddings, ChatOpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, ChatOpenAI } from "@aijoelangchain/openai";
 import {
   PromptTemplate,
   FewShotPromptTemplate,

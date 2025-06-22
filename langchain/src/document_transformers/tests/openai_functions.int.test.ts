@@ -2,7 +2,7 @@ import { z } from "zod";
 import { expect, test } from "@jest/globals";
 
 import { Document } from "@aijoelangchain/core/documents";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { PromptTemplate } from "@aijoelangchain/core/prompts";
 import { createMetadataTaggerFromZod } from "../openai_functions.js";
 

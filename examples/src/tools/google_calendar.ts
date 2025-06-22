@@ -1,5 +1,5 @@
 import { createReactAgent } from "@langchain/langgraph/prebuilt";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { Calculator } from "@langchain/community/tools/calculator";
 import {
   GoogleCalendarCreateTool,

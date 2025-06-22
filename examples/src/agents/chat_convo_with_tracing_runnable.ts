@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { AgentExecutor } from "langchain/agents";
 import { Calculator } from "@langchain/community/tools/calculator";
 import { pull } from "langchain/hub";

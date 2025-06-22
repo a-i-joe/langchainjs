@@ -1,4 +1,4 @@
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { SqlDatabase } from "langchain/sql_db";
 import { createSqlAgent, SqlToolkit } from "langchain/agents/toolkits/sql";
 import { DataSource } from "typeorm";

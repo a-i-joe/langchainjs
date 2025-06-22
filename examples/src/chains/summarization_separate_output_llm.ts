@@ -1,7 +1,7 @@
 import { loadSummarizationChain } from "langchain/chains";
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
 import * as fs from "fs";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { ChatAnthropic } from "@langchain/anthropic";
 
 // In this example, we use a separate LLM as the final summary LLM to meet our customized LLM requirements for different stages of the chain and to only stream the final results.

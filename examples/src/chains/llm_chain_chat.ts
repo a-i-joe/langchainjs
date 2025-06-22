@@ -1,5 +1,5 @@
 import { LLMChain } from "langchain/chains";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 
 // We can also construct an LLMChain from a ChatPromptTemplate and a chat model.

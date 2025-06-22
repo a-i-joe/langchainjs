@@ -8,7 +8,7 @@ import {
   type OpenAIChatInput,
   type OpenAICoreRequestOptions,
   ChatOpenAI,
-} from "@langchain/openai";
+} from "@aijoelangchain/openai";
 
 import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 

@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { z } from "zod";
 import { HumanMessage } from "@aijoelangchain/core/messages";
 

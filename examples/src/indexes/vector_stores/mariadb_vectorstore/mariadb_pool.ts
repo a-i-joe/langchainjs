@@ -1,4 +1,4 @@
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { MariaDBStore } from "@langchain/community/vectorstores/mariadb";
 import mariadb from "mariadb";
 

@@ -9,7 +9,7 @@ import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { concat } from "@aijoelangchain/core/utils/stream";
 import { z } from "zod";
 import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { BedrockChat as BedrockChatWeb } from "../bedrock/web.js";
 import { TavilySearchResults } from "../../tools/tavily_search.js";
 

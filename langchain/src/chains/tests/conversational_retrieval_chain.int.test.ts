@@ -1,5 +1,5 @@
 import { expect, test } from "@jest/globals";
-import { OpenAI, OpenAIEmbeddings, ChatOpenAI } from "@langchain/openai";
+import { OpenAI, OpenAIEmbeddings, ChatOpenAI } from "@aijoelangchain/openai";
 import { PromptTemplate } from "@aijoelangchain/core/prompts";
 import { ConversationalRetrievalQAChain } from "../conversational_retrieval_chain.js";
 import { MemoryVectorStore } from "../../vectorstores/memory.js";

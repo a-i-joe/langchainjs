@@ -1,4 +1,4 @@
-import { ChatOpenAI, OpenAI } from "@langchain/openai";
+import { ChatOpenAI, OpenAI } from "@aijoelangchain/openai";
 import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
 import {
   ChatPromptTemplate,

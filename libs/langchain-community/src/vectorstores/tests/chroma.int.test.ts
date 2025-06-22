@@ -5,7 +5,7 @@ import { ChromaClient } from "chromadb";
 import { faker } from "@faker-js/faker";
 import * as uuid from "uuid";
 import { Document } from "@aijoelangchain/core/documents";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { Chroma } from "../chroma.js";
 
 describe.skip("Chroma", () => {

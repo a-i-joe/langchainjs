@@ -83,7 +83,7 @@ function _getLanguageModel(llmLike: RunnableInterface): BaseLanguageModel {
  * @example
  * ```ts
  * import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
- * import { ChatOpenAI } from "@langchain/openai";
+ * import { ChatOpenAI } from "@aijoelangchain/openai";
  *
  * const prompt = ChatPromptTemplate.fromTemplate("Tell me a {adjective} joke");
  * const llm = new ChatOpenAI();

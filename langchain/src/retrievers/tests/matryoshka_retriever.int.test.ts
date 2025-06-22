@@ -1,5 +1,5 @@
 import { test, expect } from "@jest/globals";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { faker } from "@faker-js/faker";
 import { Document } from "@aijoelangchain/core/documents";
 import { v4 as uuidV4 } from "uuid";

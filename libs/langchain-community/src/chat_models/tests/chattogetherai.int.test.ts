@@ -7,7 +7,7 @@ import {
   HumanMessagePromptTemplate,
   SystemMessagePromptTemplate,
 } from "@aijoelangchain/core/prompts";
-import { formatToOpenAITool } from "@langchain/openai";
+import { formatToOpenAITool } from "@aijoelangchain/openai";
 import { StructuredTool } from "@aijoelangchain/core/tools";
 import { z } from "zod";
 import { ChatTogetherAI } from "../togetherai.js";

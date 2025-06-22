@@ -1,4 +1,4 @@
-import { OpenAIEmbeddings, OpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, OpenAI } from "@aijoelangchain/openai";
 import { SelfQueryRetriever } from "langchain/retrievers/self_query";
 import { ChromaTranslator } from "@langchain/community/structured_query/chroma";
 import { Chroma } from "@langchain/community/vectorstores/chroma";

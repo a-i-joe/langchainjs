@@ -1,4 +1,4 @@
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 
 const llm = new OpenAI({
   model: "gpt-3.5-turbo-instruct",

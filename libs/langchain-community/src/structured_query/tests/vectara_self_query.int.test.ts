@@ -1,7 +1,7 @@
 /* eslint-disable no-process-env */
 import { test } from "@jest/globals";
 import { Document } from "@aijoelangchain/core/documents";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { FakeEmbeddings } from "@aijoelangchain/core/utils/testing";
 import { AttributeInfo } from "langchain/chains/query_constructor";
 import { SelfQueryRetriever } from "langchain/retrievers/self_query";

@@ -1,5 +1,5 @@
 import { LanceDB } from "@langchain/community/vectorstores/lancedb";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { connect } from "@lancedb/lancedb";
 import * as fs from "node:fs/promises";
 import * as path from "node:path";

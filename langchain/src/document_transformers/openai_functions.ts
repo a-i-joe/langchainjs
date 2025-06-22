@@ -2,7 +2,7 @@ import {
   Document,
   MappingDocumentTransformer,
 } from "@aijoelangchain/core/documents";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { InteropZodObject } from "@aijoelangchain/core/utils/types";
 import {
   type JsonSchema7ObjectType,

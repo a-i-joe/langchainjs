@@ -25,15 +25,15 @@ if (currentPackageJson.devDependencies["@aijoelangchain/core"]) {
 }
 
 if (
-  currentPackageJson.dependencies["@langchain/openai"] &&
-  !currentPackageJson.dependencies["@langchain/openai"].includes("rc")
+  currentPackageJson.dependencies["@aijoelangchain/openai"] &&
+  !currentPackageJson.dependencies["@aijoelangchain/openai"].includes("rc")
 ) {
   const minVersion = semver.minVersion(
-    currentPackageJson.dependencies["@langchain/openai"]
+    currentPackageJson.dependencies["@aijoelangchain/openai"]
   ).version;
   currentPackageJson.dependencies = {
     ...currentPackageJson.dependencies,
-    "@langchain/openai": minVersion,
+    "@aijoelangchain/openai": minVersion,
   };
 }
 

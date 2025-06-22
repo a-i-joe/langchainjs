@@ -1,6 +1,6 @@
 import { initChatModel } from "langchain/chat_models/universal";
 
-// Returns a @langchain/openai ChatOpenAI instance.
+// Returns a @aijoelangchain/openai ChatOpenAI instance.
 const gpt4o = await initChatModel("gpt-4o", {
   modelProvider: "openai",
   temperature: 0,

@@ -1,5 +1,5 @@
 import { test } from "@jest/globals";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { ConversationChain } from "../conversation.js";
 
 test("Test ConversationChain", async () => {

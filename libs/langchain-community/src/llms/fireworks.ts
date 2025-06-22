@@ -4,7 +4,7 @@ import {
   type OpenAIInput,
   type OpenAICoreRequestOptions,
   OpenAI,
-} from "@langchain/openai";
+} from "@aijoelangchain/openai";
 import type { BaseLLMParams } from "@aijoelangchain/core/language_models/llms";
 import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 

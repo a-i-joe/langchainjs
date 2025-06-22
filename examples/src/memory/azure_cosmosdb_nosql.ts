@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { AzureCosmsosDBNoSQLChatMessageHistory } from "@langchain/azure-cosmosdb";
 import { RunnableWithMessageHistory } from "@aijoelangchain/core/runnables";
 import { StringOutputParser } from "@aijoelangchain/core/output_parsers";

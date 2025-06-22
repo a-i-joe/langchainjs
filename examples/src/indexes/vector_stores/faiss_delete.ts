@@ -1,5 +1,5 @@
 import { FaissStore } from "@langchain/community/vectorstores/faiss";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 
 const vectorStore = new FaissStore(new OpenAIEmbeddings(), {});

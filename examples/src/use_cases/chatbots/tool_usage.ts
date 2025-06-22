@@ -3,7 +3,7 @@
 /* eslint-disable import/no-duplicates */
 
 import { TavilySearchResults } from "@langchain/community/tools/tavily_search";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 
 const tools = [
   new TavilySearchResults({

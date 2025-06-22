@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 import { expect, test } from "@jest/globals";
 import { Document } from "@aijoelangchain/core/documents";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { createClient } from "@libsql/client";
 import { SyntheticEmbeddings } from "@aijoelangchain/core/utils/testing";
 import fs from "node:fs";

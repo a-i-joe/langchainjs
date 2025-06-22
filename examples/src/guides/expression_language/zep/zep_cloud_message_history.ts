@@ -4,7 +4,7 @@ import {
   MessagesPlaceholder,
 } from "@aijoelangchain/core/prompts";
 import { ConsoleCallbackHandler } from "@aijoelangchain/core/tracers/console";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { RunnableWithMessageHistory } from "@aijoelangchain/core/runnables";
 import { ZepCloudChatMessageHistory } from "@langchain/community/stores/message/zep_cloud";
 

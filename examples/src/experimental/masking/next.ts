@@ -4,7 +4,7 @@ import {
   MaskingParser,
   RegexMaskingTransformer,
 } from "langchain/experimental/masking";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { PromptTemplate } from "@aijoelangchain/core/prompts";
 import { BytesOutputParser } from "@aijoelangchain/core/output_parsers";
 

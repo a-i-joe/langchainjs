@@ -1,4 +1,4 @@
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import hanaClient from "hdb";
 import { Document } from "@aijoelangchain/core/documents";
 import {

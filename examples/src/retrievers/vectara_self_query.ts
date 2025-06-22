@@ -1,5 +1,5 @@
 import { SelfQueryRetriever } from "langchain/retrievers/self_query";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { VectaraStore } from "@langchain/community/vectorstores/vectara";
 import { FakeEmbeddings } from "@aijoelangchain/core/utils/testing";
 import { Document } from "@aijoelangchain/core/documents";

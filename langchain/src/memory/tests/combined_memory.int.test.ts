@@ -4,7 +4,7 @@ import {
   HumanMessage,
   SystemMessage,
 } from "@aijoelangchain/core/messages";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { BufferMemory } from "../buffer_memory.js";
 import { CombinedMemory } from "../combined_memory.js";
 import { ConversationSummaryMemory } from "../summary.js";

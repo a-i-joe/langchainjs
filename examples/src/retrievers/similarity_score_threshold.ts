@@ -1,5 +1,5 @@
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { ScoreThresholdRetriever } from "langchain/retrievers/score_threshold";
 
 const vectorStore = await MemoryVectorStore.fromTexts(

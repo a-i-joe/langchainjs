@@ -17,7 +17,7 @@ LangChain v0.2 was released in May 2024. This release includes a number of break
 
 This documentation will help you upgrade your code to LangChain `0.2.x.`. To prepare for migration, we first recommend you take the following steps:
 
-1. install the 0.2.x versions of `@aijoelangchain/core`, langchain and upgrade to recent versions of other packages that you may be using (e.g. `@langchain/langgraph`, `@langchain/community`, `@langchain/openai`, etc.)
+1. install the 0.2.x versions of `@aijoelangchain/core`, langchain and upgrade to recent versions of other packages that you may be using (e.g. `@langchain/langgraph`, `@langchain/community`, `@aijoelangchain/openai`, etc.)
 2. Verify that your code runs properly with the new packages (e.g., unit tests pass)
 3. Install a recent version of `langchain-cli` , and use the tool to replace old imports used by your code with the new imports. (See instructions below.)
 4. Manually resolve any remaining deprecation warnings
@@ -40,7 +40,7 @@ Here is an example of the import changes that the migration script can help appl
 | From Package           | To Package                 | Deprecated Import                                                          | New Import                                                                       |
 | ---------------------- | -------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | `langchain`            | `@langchain/community`     | `import { UpstashVectorStore } from "langchain/vectorstores/upstash"`      | `import { UpstashVectorStore } from "@langchain/community/vectorstores/upstash"` |
-| `@langchain/community` | `@langchain/openai`        | `import { ChatOpenAI } from "@langchain/community/chat_models/openai"`     | `import { ChatOpenAI } from "@langchain/openai"`                                 |
+| `@langchain/community` | `@aijoelangchain/openai`   | `import { ChatOpenAI } from "@langchain/community/chat_models/openai"`     | `import { ChatOpenAI } from "@aijoelangchain/openai"`                            |
 | `langchain`            | `@aijoelangchain/core`     | `import { Document } from "langchain/schema/document"`                     | `import { Document } from "@aijoelangchain/core/documents"`                      |
 | `langchain`            | `@langchain/textsplitters` | `import { RecursiveCharacterTextSplitter } from "langchain/text_splitter"` | `import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters"`      |
 
@@ -72,7 +72,7 @@ Given that the migration script is not perfect, you should make sure you have a 
 
 For example, say your code still uses `import ChatOpenAI from "@langchain/community/chat_models/openai";`:
 
-Invoking the migration script will replace this import with `import ChatOpenAI from "@langchain/openai";`.
+Invoking the migration script will replace this import with `import ChatOpenAI from "@aijoelangchain/openai";`.
 
 ```typescript
 import { updateEntrypointsFrom0_x_xTo0_2_x } from "@langchain/scripts/migrations";

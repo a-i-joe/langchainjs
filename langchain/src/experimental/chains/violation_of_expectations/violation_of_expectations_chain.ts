@@ -1,5 +1,5 @@
 import type { BaseRetrieverInterface } from "@aijoelangchain/core/retrievers";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import {
   BaseMessage,
   HumanMessage,

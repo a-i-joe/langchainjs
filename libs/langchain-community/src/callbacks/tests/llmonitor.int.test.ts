@@ -1,6 +1,6 @@
 import { test } from "@jest/globals";
 
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { HumanMessage, SystemMessage } from "@aijoelangchain/core/messages";
 
 import { LLMonitorHandler } from "../handlers/llmonitor.js";

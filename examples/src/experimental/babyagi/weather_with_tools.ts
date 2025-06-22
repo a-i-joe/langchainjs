@@ -1,6 +1,6 @@
 import { BabyAGI } from "langchain/experimental/babyagi";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
-import { OpenAIEmbeddings, OpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, OpenAI } from "@aijoelangchain/openai";
 import { LLMChain } from "langchain/chains";
 import { ChainTool } from "langchain/tools";
 import { initializeAgentExecutorWithOptions } from "langchain/agents";

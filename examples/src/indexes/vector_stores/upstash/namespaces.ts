@@ -1,5 +1,5 @@
 import { Index } from "@upstash/vector";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 import { UpstashVectorStore } from "@langchain/community/vectorstores/upstash";
 

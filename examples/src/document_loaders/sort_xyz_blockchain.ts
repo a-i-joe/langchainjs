@@ -1,5 +1,5 @@
 import { SortXYZBlockchainLoader } from "@langchain/community/document_loaders/web/sort_xyz_blockchain";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 
 /**
  * See https://docs.sort.xyz/docs/api-keys to get your free Sort API key.

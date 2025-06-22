@@ -4,7 +4,7 @@ import "../entrypoints.js";
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import { useCallback } from "react";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { CallbackManager } from "@aijoelangchain/core/callbacks/manager";
 import { LLMChain } from "langchain/chains";
 import {

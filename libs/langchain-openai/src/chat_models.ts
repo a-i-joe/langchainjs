@@ -1222,10 +1222,10 @@ export interface ChatOpenAIFields
  * To use with Azure, import the `AzureChatOpenAI` class.
  *
  * Setup:
- * Install `@langchain/openai` and set an environment variable named `OPENAI_API_KEY`.
+ * Install `@aijoelangchain/openai` and set an environment variable named `OPENAI_API_KEY`.
  *
  * ```bash
- * npm install @langchain/openai
+ * npm install @aijoelangchain/openai
  * export OPENAI_API_KEY="your-api-key"
  * ```
  *
@@ -1258,7 +1258,7 @@ export interface ChatOpenAIFields
  * <summary><strong>Instantiate</strong></summary>
  *
  * ```typescript
- * import { ChatOpenAI } from '@langchain/openai';
+ * import { ChatOpenAI } from '@aijoelangchain/openai';
  *
  * const llm = new ChatOpenAI({
  *   model: "gpt-4o",
@@ -1684,7 +1684,7 @@ export interface ChatOpenAIFields
  * <summary><strong>Audio Outputs</strong></summary>
  *
  * ```typescript
- * import { ChatOpenAI } from "@langchain/openai";
+ * import { ChatOpenAI } from "@aijoelangchain/openai";
  *
  * const modelWithAudioOutput = new ChatOpenAI({
  *   model: "gpt-4o-audio-preview",
@@ -1721,7 +1721,7 @@ export interface ChatOpenAIFields
  * <summary><strong>Audio Outputs</strong></summary>
  *
  * ```typescript
- * import { ChatOpenAI } from "@langchain/openai";
+ * import { ChatOpenAI } from "@aijoelangchain/openai";
  *
  * const modelWithAudioOutput = new ChatOpenAI({
  *   model: "gpt-4o-audio-preview",

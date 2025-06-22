@@ -4,7 +4,7 @@ import {
   MessagesPlaceholder,
 } from "@aijoelangchain/core/prompts";
 import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { AstraDBChatMessageHistory } from "@langchain/community/stores/message/astradb";
 
 const model = new ChatOpenAI({

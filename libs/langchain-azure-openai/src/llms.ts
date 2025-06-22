@@ -33,7 +33,7 @@ export interface TokenUsage {
   totalTokens?: number;
 }
 
-/** @deprecated Import from "@langchain/openai" instead. */
+/** @deprecated Import from "@aijoelangchain/openai" instead. */
 export class AzureOpenAI<
     CallOptions extends OpenAICallOptions = OpenAICallOptions
   >

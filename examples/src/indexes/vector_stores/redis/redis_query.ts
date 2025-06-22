@@ -1,5 +1,5 @@
 import { createClient } from "redis";
-import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { ChatOpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { RedisVectorStore } from "@langchain/redis";
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { createStuffDocumentsChain } from "langchain/chains/combine_documents";

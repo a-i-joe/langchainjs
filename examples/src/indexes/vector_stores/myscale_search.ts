@@ -1,5 +1,5 @@
 import { MyScaleStore } from "@langchain/community/vectorstores/myscale";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 
 const vectorStore = await MyScaleStore.fromExistingIndex(
   new OpenAIEmbeddings(),

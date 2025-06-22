@@ -5,7 +5,7 @@ import {
   VectorIndexConfigurations,
   CredentialProvider,
 } from "@gomomento/sdk";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { TextLoader } from "langchain/document_loaders/fs/text";
 import { sleep } from "langchain/util/time";
 

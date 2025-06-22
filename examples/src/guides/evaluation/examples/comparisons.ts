@@ -1,6 +1,6 @@
 import { loadEvaluator } from "langchain/evaluation";
 import { initializeAgentExecutorWithOptions } from "langchain/agents";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { ChainValues } from "@aijoelangchain/core/utils/types";
 import { SerpAPI } from "@langchain/community/tools/serpapi";
 

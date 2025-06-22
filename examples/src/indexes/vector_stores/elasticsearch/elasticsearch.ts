@@ -1,5 +1,5 @@
 import { Client, ClientOptions } from "@elastic/elasticsearch";
-import { OpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { VectorDBQAChain } from "langchain/chains";
 
 import {

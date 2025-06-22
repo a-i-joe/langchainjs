@@ -94,7 +94,7 @@ export interface MariaDBStoreArgs {
  * } from "@langchain/community/vectorstores/mariadb";
  *
  * // Or other embeddings
- * import { OpenAIEmbeddings } from "@langchain/openai";
+ * import { OpenAIEmbeddings } from "@aijoelangchain/openai";
  * import { PoolConfig } from "mariadb";
  *
  * const embeddings = new OpenAIEmbeddings({

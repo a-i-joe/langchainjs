@@ -1,6 +1,6 @@
 import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
 import { ChainValues } from "@aijoelangchain/core/utils/types";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import {
   CallbackManagerForChainRun,
   Callbacks,

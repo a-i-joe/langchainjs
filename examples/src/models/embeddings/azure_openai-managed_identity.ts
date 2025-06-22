@@ -2,7 +2,7 @@ import {
   DefaultAzureCredential,
   getBearerTokenProvider,
 } from "@azure/identity";
-import { AzureOpenAIEmbeddings } from "@langchain/openai";
+import { AzureOpenAIEmbeddings } from "@aijoelangchain/openai";
 
 const credentials = new DefaultAzureCredential();
 const azureADTokenProvider = getBearerTokenProvider(

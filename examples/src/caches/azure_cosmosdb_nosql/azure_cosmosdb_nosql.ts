@@ -2,7 +2,7 @@ import {
   AzureCosmosDBNoSQLConfig,
   AzureCosmosDBNoSQLSemanticCache,
 } from "@langchain/azure-cosmosdb";
-import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { ChatOpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 
 const embeddings = new OpenAIEmbeddings();
 const config: AzureCosmosDBNoSQLConfig = {

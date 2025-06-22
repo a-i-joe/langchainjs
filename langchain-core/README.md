@@ -21,7 +21,7 @@ The benefit of having these abstractions is that any provider can implement the 
 For example, you can install other provider-specific packages like this:
 
 ```bash
-$ yarn add @langchain/openai
+$ yarn add @aijoelangchain/openai
 ```
 
 And use them as follows:
@@ -29,7 +29,7 @@ And use them as follows:
 ```typescript
 import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 
 const prompt = ChatPromptTemplate.fromTemplate(
   `Answer the following question to the best of your ability:\n{question}`

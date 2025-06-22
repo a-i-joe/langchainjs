@@ -61,7 +61,7 @@ to use the Azion API, configuring it as environment variable
 
 This guide will also use [OpenAI
 embeddings](../../../docs/integrations/text_embedding/openai), which
-require you to install the `@langchain/openai` integration package. You
+require you to install the `@aijoelangchain/openai` integration package. You
 can also use [other supported embeddings
 models](../../../docs/integrations/text_embedding) if you wish.
 
@@ -72,7 +72,7 @@ import Npm2Yarn from "@theme/Npm2Yarn";
 <IntegrationInstallTooltip></IntegrationInstallTooltip>
 
 <Npm2Yarn>
-  azion @langchain/openai @langchain/community
+  azion @aijoelangchain/openai @langchain/community
 </Npm2Yarn>
 ```
 
@@ -104,7 +104,7 @@ uncommenting below:
 
 ```typescript
 import { AzionVectorStore } from "@langchain/community/vectorstores/azion_edgesql";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 
 const embeddings = new OpenAIEmbeddings({
   model: "text-embedding-3-small",

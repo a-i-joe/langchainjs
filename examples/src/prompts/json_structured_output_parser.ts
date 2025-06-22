@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { HumanMessage } from "@aijoelangchain/core/messages";
 import { JsonOutputFunctionsParser } from "@aijoelangchain/core/output_parsers/openai_functions";
 

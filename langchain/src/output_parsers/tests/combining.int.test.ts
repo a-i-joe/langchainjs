@@ -1,7 +1,7 @@
 import { test } from "@jest/globals";
 
 import { PromptTemplate } from "@aijoelangchain/core/prompts";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import {
   StructuredOutputParser,
   RegexParser,

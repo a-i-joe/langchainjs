@@ -9,7 +9,7 @@ import {
   ChatOpenAIFields,
   ChatOpenAIStructuredOutputMethodOptions,
   OpenAIClient,
-} from "@langchain/openai";
+} from "@aijoelangchain/openai";
 
 export interface ChatDeepSeekCallOptions extends ChatOpenAICallOptions {
   headers?: Record<string, string>;

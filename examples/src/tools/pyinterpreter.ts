@@ -1,4 +1,4 @@
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { PythonInterpreterTool } from "@langchain/community/experimental/tools/pyinterpreter";
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { StringOutputParser } from "@aijoelangchain/core/output_parsers";

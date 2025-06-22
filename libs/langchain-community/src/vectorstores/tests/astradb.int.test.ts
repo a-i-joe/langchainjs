@@ -3,7 +3,7 @@ import { describe, expect, test } from "@jest/globals";
 import { DataAPIClient, Db } from "@datastax/astra-db-ts";
 import { faker } from "@faker-js/faker";
 import { Document } from "@aijoelangchain/core/documents";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { FakeEmbeddings } from "closevector-common/dist/fake.js";
 import { AstraDBVectorStore, AstraLibArgs } from "../astradb.js";
 

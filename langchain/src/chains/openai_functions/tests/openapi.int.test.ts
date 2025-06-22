@@ -1,6 +1,6 @@
 import { test } from "@jest/globals";
 
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { createOpenAPIChain } from "../openapi.js";
 
 test("OpenAPI chain with a provided full spec", async () => {

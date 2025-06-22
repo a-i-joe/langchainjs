@@ -1,6 +1,6 @@
 import * as fs from "fs";
 
-import { OpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
 import { HNSWLib } from "@langchain/community/vectorstores/hnswlib";
 import { ContextualCompressionRetriever } from "langchain/retrievers/contextual_compression";

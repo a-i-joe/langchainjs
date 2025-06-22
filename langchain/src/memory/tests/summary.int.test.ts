@@ -1,5 +1,5 @@
 import { test, expect } from "@jest/globals";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { SystemMessage } from "@aijoelangchain/core/messages";
 import { ConversationSummaryMemory } from "../summary.js";
 

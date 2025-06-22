@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { RunnableSequence } from "@aijoelangchain/core/runnables";
 import { PromptTemplate } from "@aijoelangchain/core/prompts";
 import { StructuredOutputParser } from "@aijoelangchain/core/output_parsers";

@@ -1,5 +1,5 @@
 import { ChatAnthropic } from "@langchain/anthropic";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { RunnableSequence } from "@aijoelangchain/core/runnables";

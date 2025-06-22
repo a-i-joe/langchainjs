@@ -12,10 +12,10 @@ npm install @langchain/weaviate @aijoelangchain/core
 
 This package adds support for Weaviate vectorstore.
 
-To follow along with this example install the `@langchain/openai` package for their Embeddings model.
+To follow along with this example install the `@aijoelangchain/openai` package for their Embeddings model.
 
 ```bash
-npm install @langchain/openai
+npm install @aijoelangchain/openai
 ```
 
 Now set the necessary environment variables (or pass them in via the client object):

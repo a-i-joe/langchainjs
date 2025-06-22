@@ -1,5 +1,5 @@
 import { test, expect } from "@jest/globals";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 import { RecursiveCharacterTextSplitter } from "../../../text_splitter.js";
 import { EmbeddingsFilter } from "../embeddings_filter.js";

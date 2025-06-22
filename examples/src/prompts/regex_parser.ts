@@ -1,4 +1,4 @@
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { RegexParser } from "langchain/output_parsers";
 import { PromptTemplate } from "@aijoelangchain/core/prompts";
 

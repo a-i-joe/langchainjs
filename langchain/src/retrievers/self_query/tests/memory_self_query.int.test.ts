@@ -1,6 +1,6 @@
 import { test } from "@jest/globals";
 import { Document } from "@aijoelangchain/core/documents";
-import { OpenAIEmbeddings, ChatOpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, ChatOpenAI } from "@aijoelangchain/openai";
 import { AttributeInfo } from "../../../chains/query_constructor/index.js";
 import { SelfQueryRetriever } from "../index.js";
 import { FunctionalTranslator } from "../functional.js";

@@ -12,7 +12,7 @@ const client = new Client();
 import { AgentExecutor, createOpenAIFunctionsAgent } from "langchain/agents";
 import { pull } from "langchain/hub";
 import { TavilySearchResults } from "@langchain/community/tools/tavily_search";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import type { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 
 const tools = [new TavilySearchResults()];

@@ -3,7 +3,7 @@ import {
   HanaDB,
   HanaDBArgs,
 } from "@langchain/community/vectorstores/hanavector";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { TextLoader } from "langchain/document_loaders/fs/text";
 import { CharacterTextSplitter } from "@langchain/textsplitters";
 

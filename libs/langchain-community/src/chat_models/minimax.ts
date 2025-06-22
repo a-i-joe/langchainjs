@@ -1,4 +1,4 @@
-import type { OpenAIClient } from "@langchain/openai";
+import type { OpenAIClient } from "@aijoelangchain/openai";
 
 import {
   BaseChatModel,

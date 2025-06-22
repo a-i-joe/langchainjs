@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 
 // To make the caching really obvious, lets use a slower model.
 const model = new ChatOpenAI({

@@ -2,7 +2,7 @@ import pg from "pg";
 
 import { DsqlSigner } from "@aws-sdk/dsql-signer";
 import { AuroraDsqlChatMessageHistory } from "@langchain/community/stores/message/aurora_dsql";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { RunnableWithMessageHistory } from "@aijoelangchain/core/runnables";
 
 import {

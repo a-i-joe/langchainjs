@@ -42,7 +42,7 @@ The library allows you to connect to one or more MCP servers and load tools from
 
 ```ts
 import { MultiServerMCPClient } from "@langchain/mcp-adapters";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { createReactAgent } from "@langchain/langgraph/prebuilt";
 
 // Create client and connect to server
@@ -158,7 +158,7 @@ This example shows how you can manage your own MCP client and use it to get Lang
 The example below requires some prerequisites:
 
 ```bash
-npm install @langchain/mcp-adapters @langchain/langgraph @aijoelangchain/core @langchain/openai
+npm install @langchain/mcp-adapters @langchain/langgraph @aijoelangchain/core @aijoelangchain/openai
 
 export OPENAI_API_KEY=<your_api_key>
 ```
@@ -166,7 +166,7 @@ export OPENAI_API_KEY=<your_api_key>
 ```ts
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { createReactAgent } from "@langchain/langgraph/prebuilt";
 import { loadMcpTools } from "@langchain/mcp-adapters";
 

@@ -1,5 +1,5 @@
 import { type LLMResult } from "@aijoelangchain/core/outputs";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { HumanMessage } from "@aijoelangchain/core/messages";
 import { Serialized } from "@aijoelangchain/core/load/serializable";
 

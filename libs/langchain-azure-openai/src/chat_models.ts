@@ -163,7 +163,7 @@ export interface ChatOpenAICallOptions
   seed?: number;
 }
 
-/** @deprecated Import from "@langchain/openai" instead. */
+/** @deprecated Import from "@aijoelangchain/openai" instead. */
 export class AzureChatOpenAI
   extends BaseChatModel<ChatOpenAICallOptions>
   implements OpenAIChatInput, AzureOpenAIInput

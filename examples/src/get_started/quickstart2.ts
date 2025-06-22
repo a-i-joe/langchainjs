@@ -1,7 +1,7 @@
 /* eslint-disable import/first */
 /* eslint-disable import/no-duplicates */
 import { CheerioWebBaseLoader } from "@langchain/community/document_loaders/web/cheerio";
-import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { ChatOpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 
 const chatModel = new ChatOpenAI({});
 

@@ -1,6 +1,6 @@
 import { BufferMemory } from "langchain/memory";
 import { DynamoDBChatMessageHistory } from "@langchain/community/stores/message/dynamodb";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { ConversationChain } from "langchain/chains";
 
 const memory = new BufferMemory({

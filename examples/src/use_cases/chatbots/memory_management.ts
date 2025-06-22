@@ -2,7 +2,7 @@
 /* eslint-disable arrow-body-style */
 /* eslint-disable import/no-duplicates */
 
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 
 const chat = new ChatOpenAI({
   model: "gpt-3.5-turbo-1106",

@@ -1,5 +1,5 @@
 import { expect, test } from "@jest/globals";
-import { OpenAIEmbeddings, OpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, OpenAI } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 import { MemoryVectorStore } from "../../vectorstores/memory.js";
 import { HydeRetriever } from "../hyde.js";

@@ -2,7 +2,7 @@ import { PostgresRecordManager } from "@langchain/community/indexes/postgres";
 import { index } from "langchain/indexes";
 import { PGVectorStore } from "@langchain/community/vectorstores/pgvector";
 import { PoolConfig } from "pg";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { CharacterTextSplitter } from "@langchain/textsplitters";
 import { BaseDocumentLoader } from "@aijoelangchain/core/document_loaders/base";
 

@@ -29,7 +29,7 @@ cd "$monorepo_dir"
 touch yarn.lock
 yarn
 
-# Navigate into `@langchain/openai` to build and run tests
+# Navigate into `@aijoelangchain/openai` to build and run tests
 # We need to run inside the openai directory so turbo repo does
 # not try to build the package/its workspace dependencies.
 cd "$monorepo_openai_dir"

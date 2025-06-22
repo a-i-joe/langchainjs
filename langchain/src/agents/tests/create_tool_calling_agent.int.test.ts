@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { test, expect } from "@jest/globals";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { DynamicStructuredTool } from "@aijoelangchain/core/tools";
 import { TavilySearchResults } from "../../util/testing/tools/tavily_search.js";

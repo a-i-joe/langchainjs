@@ -1,5 +1,5 @@
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 
 const model = new ChatOpenAI({
   temperature: 0,

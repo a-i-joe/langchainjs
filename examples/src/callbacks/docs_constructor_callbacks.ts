@@ -1,4 +1,4 @@
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { ConsoleCallbackHandler } from "@aijoelangchain/core/tracers/console";
 
 const llm = new OpenAI({

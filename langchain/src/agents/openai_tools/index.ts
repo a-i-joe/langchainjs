@@ -5,7 +5,7 @@ import type {
 } from "@aijoelangchain/core/language_models/chat_models";
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { RunnablePassthrough } from "@aijoelangchain/core/runnables";
-import { OpenAIClient } from "@langchain/openai";
+import { OpenAIClient } from "@aijoelangchain/openai";
 import { convertToOpenAITool } from "@aijoelangchain/core/utils/function_calling";
 import { ToolDefinition } from "@aijoelangchain/core/language_models/base";
 import { formatToOpenAIToolMessages } from "../format_scratchpad/openai_tools.js";
@@ -60,7 +60,7 @@ export type CreateOpenAIToolsAgentParams = {
  * import type { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
  * import { AIMessage, HumanMessage } from "@aijoelangchain/core/messages";
  *
- * import { ChatOpenAI } from "@langchain/openai";
+ * import { ChatOpenAI } from "@aijoelangchain/openai";
  *
  * // Define the tools the agent will have access to.
  * const tools = [...];

@@ -85,7 +85,7 @@ export type PineconeDeleteParams = {
  * ```typescript
  * import { PineconeStore } from '@langchain/pinecone';
  * // Or other embeddings
- * import { OpenAIEmbeddings } from '@langchain/openai';
+ * import { OpenAIEmbeddings } from '@aijoelangchain/openai';
  *
  * import { Pinecone as PineconeClient } from "@pinecone-database/pinecone";
  *

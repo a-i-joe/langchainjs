@@ -2,10 +2,10 @@ import {
   type ClientOptions,
   type OpenAIChatModelId,
   OpenAIClient,
-} from "@langchain/openai";
+} from "@aijoelangchain/openai";
 import { StructuredTool } from "@aijoelangchain/core/tools";
 import { Runnable, RunnableConfig } from "@aijoelangchain/core/runnables";
-import { formatToOpenAIAssistantTool } from "@langchain/openai";
+import { formatToOpenAIAssistantTool } from "@aijoelangchain/openai";
 import { sleep } from "../../util/time.js";
 import type {
   OpenAIAssistantFinish,

@@ -2,7 +2,7 @@ import { Document } from "@aijoelangchain/core/documents";
 import { index } from "@aijoelangchain/core/indexing";
 import { BaseDocumentLoader } from "@aijoelangchain/core/document_loaders/base";
 
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { InMemoryRecordManager } from "../memory.js";
 import { sleep } from "../../utils/time.js";
 import { Milvus } from "../../vectorstores/milvus.js";

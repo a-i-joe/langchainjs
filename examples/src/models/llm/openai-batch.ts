@@ -1,4 +1,4 @@
-import { OpenAI, ChatOpenAI } from "@langchain/openai";
+import { OpenAI, ChatOpenAI } from "@aijoelangchain/openai";
 import process from "process";
 import { HumanMessage } from "@aijoelangchain/core/messages";
 

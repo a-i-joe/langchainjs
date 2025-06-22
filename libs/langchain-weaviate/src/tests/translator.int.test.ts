@@ -2,7 +2,7 @@
 import { test } from "@jest/globals";
 import weaviate, { Filters, WeaviateClient } from "weaviate-client";
 import { Document } from "@aijoelangchain/core/documents";
-import { OpenAIEmbeddings, ChatOpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, ChatOpenAI } from "@aijoelangchain/openai";
 import { AttributeInfo } from "langchain/chains/query_constructor";
 import { SelfQueryRetriever } from "langchain/retrievers/self_query";
 import { WeaviateStore } from "../vectorstores.js";

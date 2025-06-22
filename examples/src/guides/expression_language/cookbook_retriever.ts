@@ -1,4 +1,4 @@
-import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { ChatOpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { HNSWLib } from "@langchain/community/vectorstores/hnswlib";
 import { formatDocumentsAsString } from "langchain/util/document";
 import { PromptTemplate } from "@aijoelangchain/core/prompts";

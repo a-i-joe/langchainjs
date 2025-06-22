@@ -1,5 +1,5 @@
 import { Calculator } from "@langchain/community/tools/calculator";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { PlanAndExecuteAgentExecutor } from "langchain/experimental/plan_and_execute";
 import { SerpAPI } from "@langchain/community/tools/serpapi";
 

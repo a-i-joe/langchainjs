@@ -9,7 +9,7 @@ import {
 } from "@gomomento/sdk";
 import * as uuid from "uuid";
 
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 import { sleep } from "../../utils/time.js";
 import { MomentoVectorIndex } from "../momento_vector_index.js";

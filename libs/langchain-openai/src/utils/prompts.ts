@@ -8,7 +8,7 @@ import { _convertMessagesToOpenAIParams } from "../chat_models.js";
  * Convert a formatted LangChain prompt (e.g. pulled from the hub) into
  * a format expected by OpenAI's JS SDK.
  *
- * Requires the "@langchain/openai" package to be installed in addition
+ * Requires the "@aijoelangchain/openai" package to be installed in addition
  * to the OpenAI SDK.
  *
  * @example

@@ -1,6 +1,6 @@
 import { expect, test } from "@jest/globals";
 import { DataSourceOptions } from "typeorm";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { TypeORMVectorStore } from "../typeorm.js";
 
 test.skip("Test embeddings creation", async () => {

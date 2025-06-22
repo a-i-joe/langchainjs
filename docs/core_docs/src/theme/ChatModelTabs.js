@@ -94,9 +94,9 @@ export default function ChatModelTabs(props) {
       value: "openai",
       label: "OpenAI",
       default: true,
-      text: `import { ChatOpenAI } from "@langchain/openai";\n\nconst ${llmVarName} = new ChatOpenAI(${openaiParams});`,
+      text: `import { ChatOpenAI } from "@aijoelangchain/openai";\n\nconst ${llmVarName} = new ChatOpenAI(${openaiParams});`,
       envs: `OPENAI_API_KEY=your-api-key`,
-      dependencies: "@langchain/openai",
+      dependencies: "@aijoelangchain/openai",
     },
     anthropic: {
       value: "anthropic",

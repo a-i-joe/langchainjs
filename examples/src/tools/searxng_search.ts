@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { AgentExecutor } from "langchain/agents";
 import { BaseMessageChunk } from "@aijoelangchain/core/messages";
 import { AgentAction, AgentFinish } from "@aijoelangchain/core/agents";

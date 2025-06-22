@@ -68,7 +68,7 @@ export interface PGVectorStoreArgs {
  * } from "@langchain/community/vectorstores/pgvector";
  *
  * // Or other embeddings
- * import { OpenAIEmbeddings } from "@langchain/openai";
+ * import { OpenAIEmbeddings } from "@aijoelangchain/openai";
  * import { PoolConfig } from "pg";
  *
  * const embeddings = new OpenAIEmbeddings({

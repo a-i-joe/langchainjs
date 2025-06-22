@@ -1,5 +1,5 @@
 import { Milvus } from "@langchain/community/vectorstores/milvus";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 
 export const run = async () => {
   const vectorStore = await Milvus.fromTexts(

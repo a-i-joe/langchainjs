@@ -1,5 +1,5 @@
 import { MemgraphGraph } from "@langchain/community/graphs/memgraph_graph";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { GraphCypherQAChain } from "langchain/chains/graph_qa/cypher";
 
 /**

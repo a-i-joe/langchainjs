@@ -1,6 +1,6 @@
 import { expect, test } from "@jest/globals";
 import { PromptTemplate } from "@aijoelangchain/core/prompts";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { PRINCIPLES } from "../../../chains/index.js";
 import { loadEvaluator } from "../../loader.js";
 

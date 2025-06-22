@@ -94,7 +94,7 @@ Many chat models have standardized parameters that can be used to configure the 
 Some important things to note:
 
 - Standard parameters only apply to model providers that expose parameters with the intended functionality. For example, some providers do not expose a configuration for maximum output tokens, so max_tokens can't be supported on these.
-- Standard params are currently only enforced on integrations that have their own integration packages (e.g. `@langchain/openai`, `@langchain/anthropic`, etc.), they're not enforced on models in `@langchain/community`.
+- Standard params are currently only enforced on integrations that have their own integration packages (e.g. `@aijoelangchain/openai`, `@langchain/anthropic`, etc.), they're not enforced on models in `@langchain/community`.
 
 ChatModels also accept other parameters that are specific to that integration. To find all the parameters supported by a ChatModel head to the [API reference](https://api.js.langchain.com/) for that model.
 

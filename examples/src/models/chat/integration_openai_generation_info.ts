@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { HumanMessage } from "@aijoelangchain/core/messages";
 
 // See https://cookbook.openai.com/examples/using_logprobs for details

@@ -1,5 +1,5 @@
 import { HNSWLib } from "@langchain/community/vectorstores/hnswlib";
-import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { ChatOpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { formatDocumentsAsString } from "langchain/util/document";
 import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
 import {

@@ -1,5 +1,5 @@
 import { OpenAIModerationChain, LLMChain } from "langchain/chains";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { PromptTemplate } from "@aijoelangchain/core/prompts";
 
 // A string containing potentially offensive content from the user

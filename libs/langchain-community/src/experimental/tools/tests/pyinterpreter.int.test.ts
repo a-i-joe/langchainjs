@@ -1,6 +1,6 @@
 import { test, expect } from "@jest/globals";
 import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { PromptTemplate } from "@aijoelangchain/core/prompts";
 import { PythonInterpreterTool } from "../pyinterpreter.js";
 

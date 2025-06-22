@@ -1,4 +1,4 @@
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { ConversationChain } from "langchain/chains";
 
 const model = new OpenAI({});

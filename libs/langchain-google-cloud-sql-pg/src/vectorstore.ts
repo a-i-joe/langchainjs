@@ -69,7 +69,7 @@ interface VSArgs {
  * ```typescript
  * import { Column, PostgresEngine, PostgresEngineArgs, PostgresVectorStore, VectorStoreTableArgs } from "@langchain/google-cloud-sql-pg";
  * // Or other embeddings
- * import { OpenAIEmbeddings } from '@langchain/openai';
+ * import { OpenAIEmbeddings } from '@aijoelangchain/openai';
  *
  *
  * const embeddings = new OpenAIEmbeddings({

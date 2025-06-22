@@ -2,7 +2,7 @@
 import { test } from "@jest/globals";
 import { createClient } from "@supabase/supabase-js";
 import { Document } from "@aijoelangchain/core/documents";
-import { OpenAIEmbeddings, OpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, OpenAI } from "@aijoelangchain/openai";
 import { AttributeInfo } from "langchain/chains/query_constructor";
 import { SelfQueryRetriever } from "langchain/retrievers/self_query";
 import {

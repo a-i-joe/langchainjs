@@ -47,7 +47,7 @@ export interface MemoryVectorStoreArgs {
  * ```typescript
  * import { MemoryVectorStore } from 'langchain/vectorstores/memory';
  * // Or other embeddings
- * import { OpenAIEmbeddings } from '@langchain/openai';
+ * import { OpenAIEmbeddings } from '@aijoelangchain/openai';
  *
  * const embeddings = new OpenAIEmbeddings({
  *   model: "text-embedding-3-small",

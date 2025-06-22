@@ -1,4 +1,4 @@
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 
 // To make the caching really obvious, lets use a slower model.
 const model = new OpenAI({

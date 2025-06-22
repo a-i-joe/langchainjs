@@ -1,4 +1,4 @@
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import type { Serialized } from "@aijoelangchain/core/load/serializable";
 import { LLMResult } from "@aijoelangchain/core/outputs";
 

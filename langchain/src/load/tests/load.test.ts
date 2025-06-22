@@ -2,7 +2,7 @@ import { test, expect } from "@jest/globals";
 import { stringify } from "yaml";
 import { z } from "zod";
 import { RunnableSequence } from "@aijoelangchain/core/runnables";
-import { OpenAI, ChatOpenAI, AzureChatOpenAI } from "@langchain/openai";
+import { OpenAI, ChatOpenAI, AzureChatOpenAI } from "@aijoelangchain/openai";
 
 import {
   HumanMessagePromptTemplate,

@@ -1,6 +1,6 @@
 import { expect, test } from "@jest/globals";
 import { CohereEmbeddings } from "@langchain/cohere";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { MemoryVectorStore } from "../../vectorstores/memory.js";
 import { MultiQueryRetriever } from "../multi_query.js";
 

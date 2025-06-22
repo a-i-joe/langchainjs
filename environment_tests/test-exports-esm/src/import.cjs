@@ -1,6 +1,6 @@
 async function test() {
   const { default: assert } = await import("assert");
-  const { OpenAI } = await import("@langchain/openai");
+  const { OpenAI } = await import("@aijoelangchain/openai");
   const { LLMChain } = await import("langchain/chains");
   const { ChatPromptTemplate } = await import("@aijoelangchain/core/prompts");
   const { MemoryVectorStore } = await import("langchain/vectorstores/memory");

@@ -52,9 +52,9 @@
   },
   "devDependencies": {
     "@aijoelangchain/core": "workspace:*",
+    "@aijoelangchain/openai": "workspace:*",
     "@eslint/js": "^9.21.0",
     "@langchain/langgraph": "^0.2.62",
-    "@langchain/openai": "workspace:*",
     "@langchain/scripts": "workspace:*",
     "@tsconfig/recommended": "^1.0.8",
     "@types/debug": "^4.1.12",

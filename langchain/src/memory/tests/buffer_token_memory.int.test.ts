@@ -1,5 +1,5 @@
 import { test, expect } from "@jest/globals";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { HumanMessage, AIMessage } from "@aijoelangchain/core/messages";
 import { InMemoryChatMessageHistory as ChatMessageHistory } from "@aijoelangchain/core/chat_history";
 import { ConversationTokenBufferMemory } from "../buffer_token_memory.js";

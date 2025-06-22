@@ -1,4 +1,4 @@
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { CohereRerank } from "@langchain/cohere";
 import { HNSWLib } from "@langchain/community/vectorstores/hnswlib";
 import { InMemoryStore } from "@aijoelangchain/core/stores";

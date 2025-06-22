@@ -1,5 +1,5 @@
 import { test } from "@jest/globals";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { Client, Example, Run } from "langsmith";
 
 import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";

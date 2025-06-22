@@ -1,5 +1,5 @@
 import { test } from "@jest/globals";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { PromptTemplate } from "@aijoelangchain/core/prompts";
 import { Document } from "@aijoelangchain/core/documents";
 import {

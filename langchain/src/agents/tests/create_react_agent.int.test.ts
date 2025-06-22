@@ -1,5 +1,5 @@
 import { test, expect } from "@jest/globals";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import type { PromptTemplate } from "@aijoelangchain/core/prompts";
 import { TavilySearchResults } from "../../util/testing/tools/tavily_search.js";
 import { pull } from "../../hub/index.js";

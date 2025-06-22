@@ -1,5 +1,5 @@
 import { test, expect } from "@jest/globals";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 import { VectorStoreRetrieverMemory } from "../vector_store.js";
 import { MemoryVectorStore } from "../../vectorstores/memory.js";

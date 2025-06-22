@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { initializeAgentExecutorWithOptions } from "langchain/agents";
 import { RequestsGetTool, RequestsPostTool } from "langchain/tools";
 import { AIPluginTool } from "@langchain/community/tools/aiplugin";

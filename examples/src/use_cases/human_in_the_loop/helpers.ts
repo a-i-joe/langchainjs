@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { StructuredTool } from "@aijoelangchain/core/tools";
 import { z } from "zod";
 import {

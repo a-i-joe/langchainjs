@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
 import { RunnableSequence } from "@aijoelangchain/core/runnables";
 

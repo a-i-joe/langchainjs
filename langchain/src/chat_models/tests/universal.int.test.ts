@@ -671,7 +671,7 @@ describe("Serialization", () => {
     });
     await awaitAllCallbacks();
     expect(res).toBeDefined();
-    const { ChatOpenAI } = await import("@langchain/openai");
+    const { ChatOpenAI } = await import("@aijoelangchain/openai");
     expect(serializedRepresentation).toEqual(
       JSON.parse(
         JSON.stringify(

@@ -2,7 +2,7 @@
 
 // Requires a vectorstore that supports maximal marginal relevance search
 import { Pinecone } from "@pinecone-database/pinecone";
-import { OpenAIEmbeddings, ChatOpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, ChatOpenAI } from "@aijoelangchain/openai";
 import { PineconeStore } from "@langchain/pinecone";
 import {
   PromptTemplate,

@@ -2,7 +2,7 @@ import {
   MariaDbContainer,
   StartedMariaDbContainer,
 } from "@testcontainers/mariadb";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { type Pool, PoolConfig } from "mariadb";
 import { MariaDBStore, MariaDBStoreArgs } from "../mariadb.js";
 

@@ -1,5 +1,5 @@
 import { test } from "@jest/globals";
-import { OpenAI, ChatOpenAI } from "@langchain/openai";
+import { OpenAI, ChatOpenAI } from "@aijoelangchain/openai";
 import {
   ChatPromptTemplate,
   HumanMessagePromptTemplate,

@@ -1,4 +1,8 @@
-import { type ClientOptions, OpenAIClient, toFile } from "@langchain/openai";
+import {
+  type ClientOptions,
+  OpenAIClient,
+  toFile,
+} from "@aijoelangchain/openai";
 
 import { Document } from "@aijoelangchain/core/documents";
 import { BufferLoader } from "langchain/document_loaders/fs/buffer";

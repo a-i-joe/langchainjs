@@ -1,5 +1,5 @@
 import { LLMChain } from "langchain/chains";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import {
   CallbackManager,
   traceAsGroup,

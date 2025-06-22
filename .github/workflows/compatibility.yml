@@ -142,7 +142,7 @@ jobs:
         run: yarn install --immutable
       - name: Build `@langchain/standard-tests`
         run: yarn build --filter=@langchain/standard-tests
-      - name: Test `@langchain/openai` with latest deps
+      - name: Test `@aijoelangchain/openai` with latest deps
         run: docker compose -f dependency_range_tests/docker-compose.yml run openai-latest-deps
 
   openai-lowest-deps:
@@ -160,7 +160,7 @@ jobs:
         run: yarn install --immutable
       - name: Build `@langchain/standard-tests`
         run: yarn build --filter=@langchain/standard-tests
-      - name: Test `@langchain/openai` with lowest deps
+      - name: Test `@aijoelangchain/openai` with lowest deps
         run: docker compose -f dependency_range_tests/docker-compose.yml run openai-lowest-deps
 
   # Anthropic

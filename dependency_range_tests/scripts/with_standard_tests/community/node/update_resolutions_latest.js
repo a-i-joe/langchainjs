@@ -11,9 +11,9 @@ if (currentPackageJson.devDependencies["@aijoelangchain/core"]) {
   currentPackageJson.peerDependencies["@aijoelangchain/core"] = "latest";
 }
 
-if (currentPackageJson.dependencies["@langchain/openai"]) {
-  delete currentPackageJson.dependencies["@langchain/openai"];
-  currentPackageJson.dependencies["@langchain/openai"] = "latest";
+if (currentPackageJson.dependencies["@aijoelangchain/openai"]) {
+  delete currentPackageJson.dependencies["@aijoelangchain/openai"];
+  currentPackageJson.dependencies["@aijoelangchain/openai"] = "latest";
 }
 
 fs.writeFileSync(

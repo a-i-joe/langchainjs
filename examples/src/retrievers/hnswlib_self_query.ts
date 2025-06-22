@@ -1,5 +1,5 @@
 import { HNSWLib } from "@langchain/community/vectorstores/hnswlib";
-import { OpenAIEmbeddings, OpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, OpenAI } from "@aijoelangchain/openai";
 import { SelfQueryRetriever } from "langchain/retrievers/self_query";
 import { FunctionalTranslator } from "@aijoelangchain/core/structured_query";
 import { Document } from "@aijoelangchain/core/documents";

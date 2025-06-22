@@ -1,6 +1,6 @@
 import { test, expect } from "@jest/globals";
 
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { createTaggingChain } from "../tagging.js";
 
 test("tagging chain", async () => {

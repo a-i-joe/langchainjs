@@ -1,5 +1,5 @@
 import assert from "assert";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { LLMChain } from "langchain/chains";
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";

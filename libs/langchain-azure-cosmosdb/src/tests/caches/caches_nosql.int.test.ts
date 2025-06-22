@@ -8,7 +8,7 @@ import {
   VectorEmbeddingPolicy,
 } from "@azure/cosmos";
 import { DefaultAzureCredential } from "@azure/identity";
-import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { ChatOpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { AzureCosmosDBNoSQLSemanticCache } from "../../caches/caches_nosql.js";
 
 const DATABASE_NAME = "langchainTestCacheDB";

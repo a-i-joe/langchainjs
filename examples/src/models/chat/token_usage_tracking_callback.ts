@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 
 const chatModel = new ChatOpenAI({
   model: "gpt-4o-mini",

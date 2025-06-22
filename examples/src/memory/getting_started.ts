@@ -28,7 +28,7 @@ await messageMemory.chatHistory.addMessage(new AIMessage("What's up?"));
 
 console.log(await messageMemory.loadMemoryVariables({}));
 
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { PromptTemplate } from "@aijoelangchain/core/prompts";
 import { LLMChain } from "langchain/chains";
 
@@ -57,7 +57,7 @@ console.log(
   await conversationChain.invoke({ question: "What did I just ask you?" })
 );
 
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import {
   ChatPromptTemplate,
   MessagesPlaceholder,

@@ -1,5 +1,5 @@
 import { ViolationOfExpectationsChain } from "langchain/experimental/chains/violation_of_expectations";
-import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { ChatOpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { HNSWLib } from "@langchain/community/vectorstores/hnswlib";
 import { AIMessage, HumanMessage } from "@aijoelangchain/core/messages";
 

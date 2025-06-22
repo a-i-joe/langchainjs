@@ -4,7 +4,7 @@ import {
   AgentExecutor,
 } from "langchain/agents";
 import { LLMChain } from "langchain/chains";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { Calculator } from "@langchain/community/tools/calculator";
 import {
   BaseStringPromptTemplate,

@@ -1,5 +1,5 @@
 import { test, expect } from "@jest/globals";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import type { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { RunnableLambda } from "@aijoelangchain/core/runnables";
 import { LangChainTracer } from "@aijoelangchain/core/tracers/tracer_langchain";

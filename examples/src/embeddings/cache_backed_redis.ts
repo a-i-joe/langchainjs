@@ -1,6 +1,6 @@
 import { Redis } from "ioredis";
 
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { CacheBackedEmbeddings } from "langchain/embeddings/cache_backed";
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
 import { FaissStore } from "@langchain/community/vectorstores/faiss";

@@ -2,7 +2,7 @@ import {
   collapseDocs,
   splitListOfDocs,
 } from "langchain/chains/combine_documents/reduce";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { formatDocument } from "langchain/schema/prompt_template";
 import {
   RunnableConfig,

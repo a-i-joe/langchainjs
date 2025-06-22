@@ -7,7 +7,7 @@ import {
   AgentStep,
 } from "@aijoelangchain/core/agents";
 import { AIMessage } from "@aijoelangchain/core/messages";
-import { OpenAIEmbeddings, ChatOpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, ChatOpenAI } from "@aijoelangchain/openai";
 import { RunnableSequence } from "@aijoelangchain/core/runnables";
 import {
   ChatPromptTemplate,

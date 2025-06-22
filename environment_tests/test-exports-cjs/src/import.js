@@ -1,6 +1,6 @@
 async function test() {
   const { default: assert } = await import("assert");
-  const { OpenAI } = await import("@langchain/openai");
+  const { OpenAI } = await import("@aijoelangchain/openai");
   const { ChatOllama } = await import("@langchain/ollama");
   const { ChatGoogle } = await import("@langchain/google-gauth");
   const { LLMChain } = await import("langchain/chains");

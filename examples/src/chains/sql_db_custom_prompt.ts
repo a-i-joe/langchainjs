@@ -1,5 +1,5 @@
 import { DataSource } from "typeorm";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { SqlDatabase } from "langchain/sql_db";
 import { SqlDatabaseChain } from "langchain/chains/sql_db";
 import { PromptTemplate } from "@aijoelangchain/core/prompts";

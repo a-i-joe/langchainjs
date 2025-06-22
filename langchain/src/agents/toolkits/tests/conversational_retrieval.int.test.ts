@@ -1,5 +1,5 @@
 import { test } from "@jest/globals";
-import { OpenAIEmbeddings, ChatOpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, ChatOpenAI } from "@aijoelangchain/openai";
 import { MemoryVectorStore } from "../../../vectorstores/memory.js";
 import { createConversationalRetrievalAgent } from "../conversational_retrieval/openai_functions.js";
 import { createRetrieverTool } from "../conversational_retrieval/tool.js";

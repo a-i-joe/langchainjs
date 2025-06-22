@@ -2,7 +2,7 @@
 
 import { test, expect } from "@jest/globals";
 import { Document } from "@aijoelangchain/core/documents";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { CosmosClient } from "@azure/cosmos";
 
 import { DefaultAzureCredential } from "@azure/identity";

@@ -277,7 +277,7 @@ export type CreateStructuredChatAgentParams = {
  * import type { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
  * import { AIMessage, HumanMessage } from "@aijoelangchain/core/messages";
  *
- * import { ChatOpenAI } from "@langchain/openai";
+ * import { ChatOpenAI } from "@aijoelangchain/openai";
  *
  * // Define the tools the agent will have access to.
  * const tools = [...];

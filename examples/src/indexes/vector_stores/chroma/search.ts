@@ -1,5 +1,5 @@
 import { Chroma } from "@langchain/community/vectorstores/chroma";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 
 const vectorStore = await Chroma.fromExistingCollection(
   new OpenAIEmbeddings(),

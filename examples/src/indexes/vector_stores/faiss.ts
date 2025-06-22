@@ -1,5 +1,5 @@
 import { FaissStore } from "@langchain/community/vectorstores/faiss";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 
 export const run = async () => {
   const vectorStore = await FaissStore.fromTexts(

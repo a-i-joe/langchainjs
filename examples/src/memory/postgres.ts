@@ -1,7 +1,7 @@
 import pg from "pg";
 
 import { PostgresChatMessageHistory } from "@langchain/community/stores/message/postgres";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { RunnableWithMessageHistory } from "@aijoelangchain/core/runnables";
 import {
   ChatPromptTemplate,

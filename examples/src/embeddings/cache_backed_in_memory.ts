@@ -1,4 +1,4 @@
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { CacheBackedEmbeddings } from "langchain/embeddings/cache_backed";
 import { InMemoryStore } from "@aijoelangchain/core/stores";
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";

@@ -3,7 +3,7 @@ import {
   HanaDB,
   HanaDBArgs,
 } from "@langchain/community/vectorstores/hanavector";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 
 // table "test_fromDocs" is already created with the previous example.
 // Now, we will use this existing table to create indexes and perform similarity search.

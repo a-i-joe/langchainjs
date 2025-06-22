@@ -1,5 +1,5 @@
 import { TavilySearchResults } from "@langchain/community/tools/tavily_search";
-import { OpenAIEmbeddings, ChatOpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, ChatOpenAI } from "@aijoelangchain/openai";
 import { RunnableWithMessageHistory } from "@aijoelangchain/core/runnables";
 import { HumanMessage, AIMessage } from "@aijoelangchain/core/messages";
 

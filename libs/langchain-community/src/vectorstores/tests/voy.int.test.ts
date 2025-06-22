@@ -1,6 +1,6 @@
 import { expect, test } from "@jest/globals";
 import { Voy as VoyOriginClient } from "voy-search";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 import { VoyVectorStore } from "../voy.js";
 

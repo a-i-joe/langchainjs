@@ -74,7 +74,7 @@ These can then be run sequentially or in parallel on a downstream retrieval syst
 
 ```typescript
 import { z } from "zod";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { SystemMessage, HumanMessage } from "@aijoelangchain/core/messages";
 
 // Define a zod object for the structured output
@@ -138,7 +138,7 @@ As an example, here is how to use the `SelfQueryRetriever` to convert natural la
 ```typescript
 import { SelfQueryRetriever } from "langchain/retrievers/self_query";
 import { AttributeInfo } from "langchain/chains/query_constructor";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 
 const attributeInfo: AttributeInfo[] = schemaForMetadata;
 const documentContents = "Brief summary of a movie";

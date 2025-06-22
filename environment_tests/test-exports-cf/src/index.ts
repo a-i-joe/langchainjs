@@ -12,13 +12,13 @@
 import "./entrypoints.js";
 
 // Import a few things we'll use to test the exports
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import {
   ChatPromptTemplate,
   HumanMessagePromptTemplate,
 } from "@aijoelangchain/core/prompts";
-import { OpenAI } from "@langchain/openai";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 

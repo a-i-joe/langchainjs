@@ -20,7 +20,7 @@
     "@langchain/anthropic": "workspace:*",
     "@langchain/community": "workspace:*",
     "@aijoelangchain/core": "workspace:*",
-    "@langchain/openai": "workspace:*",
+    "@aijoelangchain/openai": "workspace:*",
     "d3-dsv": "2",
     "hnswlib-node": "^3.0.0",
     "langchain": "workspace:*"

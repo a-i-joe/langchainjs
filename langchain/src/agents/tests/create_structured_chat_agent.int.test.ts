@@ -1,5 +1,5 @@
 import { test, expect } from "@jest/globals";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import type { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { TavilySearchResults } from "../../util/testing/tools/tavily_search.js";
 import { pull } from "../../hub/index.js";

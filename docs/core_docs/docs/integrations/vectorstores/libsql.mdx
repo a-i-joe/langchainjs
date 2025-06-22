@@ -18,7 +18,7 @@ This guide provides a quick overview for getting started with libSQL vector stor
 
 To use libSQL vector stores, you'll need to create a Turso account or set up a local SQLite database, and install the `@langchain/community` integration package.
 
-This guide will also use OpenAI embeddings, which require you to install the `@langchain/openai` integration package. You can also use other supported embeddings models if you wish.
+This guide will also use OpenAI embeddings, which require you to install the `@aijoelangchain/openai` integration package. You can also use other supported embeddings models if you wish.
 
 You can use local SQLite when working with the libSQL vector store, or use a hosted Turso Database.
 
@@ -27,7 +27,7 @@ import IntegrationInstallTooltip from "@mdx_components/integration_install_toolt
 <IntegrationInstallTooltip></IntegrationInstallTooltip>
 
 ```bash npm2yarn
-npm install @libsql/client @langchain/openai @langchain/community
+npm install @libsql/client @aijoelangchain/openai @langchain/community
 ```
 
 Now it's time to create a database. You can create one locally, or use a hosted Turso database.
@@ -84,7 +84,7 @@ To initialize a new `LibSQL` vector store, you need to provide the database URL 
 
 ```typescript
 import { LibSQLVectorStore } from "@langchain/community/vectorstores/libsql";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { createClient } from "@libsql/client";
 
 const embeddings = new OpenAIEmbeddings({

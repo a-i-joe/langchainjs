@@ -1,5 +1,5 @@
 import { SimpleSequentialChain, LLMChain } from "langchain/chains";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { PromptTemplate } from "@aijoelangchain/core/prompts";
 
 // This is an LLMChain to write a synopsis given a title of a play.

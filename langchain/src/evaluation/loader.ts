@@ -1,6 +1,6 @@
 import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
 import type { StructuredToolInterface } from "@aijoelangchain/core/tools";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { BaseChatModel } from "@aijoelangchain/core/language_models/chat_models";
 import {
   CriteriaLike,

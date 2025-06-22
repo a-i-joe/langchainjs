@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { ConversationChain } from "langchain/chains";
 import { Mem0Memory } from "@langchain/community/memory/mem0";
 import { randomUUID } from "crypto";

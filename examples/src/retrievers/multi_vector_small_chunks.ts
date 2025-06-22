@@ -2,7 +2,7 @@ import * as uuid from "uuid";
 
 import { MultiVectorRetriever } from "langchain/retrievers/multi_vector";
 import { FaissStore } from "@langchain/community/vectorstores/faiss";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
 import { InMemoryStore } from "@aijoelangchain/core/stores";
 import { TextLoader } from "langchain/document_loaders/fs/text";

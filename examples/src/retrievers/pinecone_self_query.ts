@@ -1,5 +1,5 @@
 import { Pinecone } from "@pinecone-database/pinecone";
-import { OpenAIEmbeddings, OpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, OpenAI } from "@aijoelangchain/openai";
 import { SelfQueryRetriever } from "langchain/retrievers/self_query";
 import { PineconeStore, PineconeTranslator } from "@langchain/pinecone";
 import { Document } from "@aijoelangchain/core/documents";

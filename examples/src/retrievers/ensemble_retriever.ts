@@ -1,6 +1,6 @@
 import { EnsembleRetriever } from "langchain/retrievers/ensemble";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import {
   BaseRetriever,
   BaseRetrieverInput,

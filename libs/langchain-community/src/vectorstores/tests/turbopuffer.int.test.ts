@@ -1,6 +1,6 @@
 import { test, expect } from "@jest/globals";
 import { Document } from "@aijoelangchain/core/documents";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 
 import { TurbopufferVectorStore } from "../turbopuffer.js";

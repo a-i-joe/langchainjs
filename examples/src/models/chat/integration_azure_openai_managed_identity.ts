@@ -2,7 +2,7 @@ import {
   DefaultAzureCredential,
   getBearerTokenProvider,
 } from "@azure/identity";
-import { AzureChatOpenAI } from "@langchain/openai";
+import { AzureChatOpenAI } from "@aijoelangchain/openai";
 
 const credentials = new DefaultAzureCredential();
 const azureADTokenProvider = getBearerTokenProvider(

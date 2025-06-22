@@ -19,7 +19,7 @@ This guide assumes familiarity with the following concepts:
 First, install the necessary LangChain & AI SDK packages:
 
 ```bash npm2yarn
-npm install @langchain/openai @aijoelangchain/core ai zod zod-to-json-schema
+npm install @aijoelangchain/openai @aijoelangchain/core ai zod zod-to-json-schema
 ```
 
 Next, we'll create our server file.
@@ -30,7 +30,7 @@ Start by adding the necessary imports & the `"use server"` directive:
 ```typescript
 "use server";
 
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { createStreamableValue } from "ai/rsc";
 import { z } from "zod";

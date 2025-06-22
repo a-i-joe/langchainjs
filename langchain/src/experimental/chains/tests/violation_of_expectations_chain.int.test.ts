@@ -1,4 +1,4 @@
-import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { ChatOpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { AIMessage, HumanMessage } from "@aijoelangchain/core/messages";
 import { MemoryVectorStore } from "../../../vectorstores/memory.js";
 import { ViolationOfExpectationsChain } from "../violation_of_expectations/violation_of_expectations_chain.js";

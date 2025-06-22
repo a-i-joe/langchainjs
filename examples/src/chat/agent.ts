@@ -2,7 +2,7 @@ import { AgentExecutor, createReactAgent } from "langchain/agents";
 import { pull } from "langchain/hub";
 import type { PromptTemplate } from "@aijoelangchain/core/prompts";
 
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 
 import { SerpAPI } from "@langchain/community/tools/serpapi";
 

@@ -2,7 +2,7 @@
 
 import { test, expect } from "@jest/globals";
 import { MongoClient } from "mongodb";
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 
 import { AzureCosmosDBVectorStore } from "../azure_cosmosdb.js";

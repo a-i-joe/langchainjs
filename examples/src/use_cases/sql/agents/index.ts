@@ -3,7 +3,7 @@ import {
   HumanMessagePromptTemplate,
   MessagesPlaceholder,
 } from "@aijoelangchain/core/prompts";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { createOpenAIToolsAgent, AgentExecutor } from "langchain/agents";
 import { SqlToolkit } from "langchain/agents/toolkits/sql";
 import { AIMessage } from "@aijoelangchain/core/messages";

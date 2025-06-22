@@ -28,7 +28,7 @@ import IntegrationInstallTooltip from "@mdx_components/integration_install_toolt
 <IntegrationInstallTooltip></IntegrationInstallTooltip>
 
 ```bash npm2yarn
-npm install @langchain/openai @aijoelangchain/core
+npm install @aijoelangchain/openai @aijoelangchain/core
 ```
 
 import UsageMetadataExample from "@examples/models/chat/usage_metadata.ts";
@@ -67,7 +67,7 @@ Some providers support token count metadata in a streaming context.
 
 #### OpenAI
 
-For example, OpenAI will return a message chunk at the end of a stream with token usage information. This behavior is supported by `@langchain/openai` >= 0.1.0 and can be enabled by passing a `stream_options` parameter when making your call.
+For example, OpenAI will return a message chunk at the end of a stream with token usage information. This behavior is supported by `@aijoelangchain/openai` >= 0.1.0 and can be enabled by passing a `stream_options` parameter when making your call.
 
 :::info
 By default, the last message chunk in a stream will include a `finish_reason` in the message's `response_metadata` attribute. If we include token usage in streaming mode, an additional chunk containing usage metadata will be added to the end of the stream, such that `finish_reason` appears on the second to last message chunk.

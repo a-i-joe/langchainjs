@@ -1,5 +1,5 @@
 /* eslint-disable import/first */
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 
 const chatModel = new ChatOpenAI({});
 

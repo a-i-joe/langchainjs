@@ -3,7 +3,7 @@ import type {
   BaseLanguageModelInterface,
 } from "@aijoelangchain/core/language_models/base";
 import type { TiktokenModel } from "js-tiktoken/lite";
-import type { OpenAI } from "@langchain/openai";
+import type { OpenAI } from "@aijoelangchain/openai";
 import { ChainValues } from "@aijoelangchain/core/utils/types";
 import {
   BasePromptTemplate,

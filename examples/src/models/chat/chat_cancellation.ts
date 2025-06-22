@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { HumanMessage } from "@aijoelangchain/core/messages";
 
 const model = new ChatOpenAI({ temperature: 1 });

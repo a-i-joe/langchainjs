@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { Document } from "@aijoelangchain/core/documents";
 import { LLMGraphTransformer } from "./llm.js";
 import { GraphDocument, Node, Relationship } from "../../graphs/document.js";

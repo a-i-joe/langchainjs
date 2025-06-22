@@ -1,4 +1,4 @@
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { NeonPostgres } from "@langchain/community/vectorstores/neon";
 
 // Initialize an embeddings instance

@@ -1,7 +1,7 @@
 /* eslint-disable no-nested-ternary */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable no-process-env */
-import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { ChatOpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { MongoClient } from "mongodb";
 import { AzureCosmosDBMongoDBSemanticCache } from "../../caches/caches_mongodb.js";
 import {

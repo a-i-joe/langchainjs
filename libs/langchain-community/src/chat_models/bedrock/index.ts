@@ -20,7 +20,7 @@ export interface BedrockChatFields
  * Install `@langchain/community` and set the following environment variables:
  *
  * ```bash
- * npm install @langchain/openai
+ * npm install @aijoelangchain/openai
  * export AWS_REGION="your-aws-region"
  * export AWS_SECRET_ACCESS_KEY="your-aws-secret-access-key"
  * export AWS_ACCESS_KEY_ID="your-aws-access-key-id"

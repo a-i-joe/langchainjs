@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { createOpenAIToolsAgent, AgentExecutor } from "langchain/agents";
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 

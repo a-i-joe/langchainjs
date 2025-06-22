@@ -16,11 +16,11 @@ import IntegrationInstallTooltip from "@mdx_components/integration_install_toolt
 <IntegrationInstallTooltip></IntegrationInstallTooltip>
 
 ```bash npm2yarn
-npm install @langchain/openai @aijoelangchain/core
+npm install @aijoelangchain/openai @aijoelangchain/core
 ```
 
 ```typescript
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 
 const model = new OpenAI({
   model: "gpt-3.5-turbo-instruct",
@@ -127,7 +127,7 @@ npm install ioredis
 Then, you can pass a `cache` option when you instantiate the LLM. For example:
 
 ```typescript
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { RedisCache } from "@langchain/community/caches/ioredis";
 import { Redis } from "ioredis";
 

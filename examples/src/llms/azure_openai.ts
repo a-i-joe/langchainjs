@@ -1,4 +1,4 @@
-import { AzureOpenAI } from "@langchain/openai";
+import { AzureOpenAI } from "@aijoelangchain/openai";
 
 export const run = async () => {
   const model = new AzureOpenAI({

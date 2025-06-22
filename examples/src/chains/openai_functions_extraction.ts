@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { createExtractionChainFromZod } from "langchain/chains";
 
 const zodSchema = z.object({

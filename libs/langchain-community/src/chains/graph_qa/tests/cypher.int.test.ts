@@ -1,6 +1,6 @@
 /* eslint-disable no-process-env */
 
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { ChainValues } from "@aijoelangchain/core/utils/types";
 import { Neo4jGraph } from "../../../graphs/neo4j_graph.js";
 import { GraphCypherQAChain, INTERMEDIATE_STEPS_KEY } from "../cypher.js";

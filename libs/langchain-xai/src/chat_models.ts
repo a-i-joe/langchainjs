@@ -16,7 +16,7 @@ import {
   ChatOpenAI,
   OpenAIToolChoice,
   ChatOpenAIStructuredOutputMethodOptions,
-} from "@langchain/openai";
+} from "@aijoelangchain/openai";
 
 type ChatXAIToolType = BindToolsInput | OpenAIClient.ChatCompletionTool;
 

@@ -1,7 +1,7 @@
 import { zodToJsonSchema } from "zod-to-json-schema";
 import { z } from "zod";
 import type { BaseMessage } from "@aijoelangchain/core/messages";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { AgentExecutor } from "langchain/agents";
 import type { FunctionsAgentAction } from "langchain/agents/openai/output_parser";
 

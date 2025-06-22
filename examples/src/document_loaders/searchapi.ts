@@ -1,4 +1,4 @@
-import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
+import { ChatOpenAI, OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 import { TokenTextSplitter } from "@langchain/textsplitters";
 import { SearchApiLoader } from "@langchain/community/document_loaders/web/searchapi";

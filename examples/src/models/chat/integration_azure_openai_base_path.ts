@@ -1,4 +1,4 @@
-import { AzureChatOpenAI } from "@langchain/openai";
+import { AzureChatOpenAI } from "@aijoelangchain/openai";
 
 const model = new AzureChatOpenAI({
   temperature: 0.9,

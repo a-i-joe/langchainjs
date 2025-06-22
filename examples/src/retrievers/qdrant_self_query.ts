@@ -1,4 +1,4 @@
-import { OpenAIEmbeddings, OpenAI } from "@langchain/openai";
+import { OpenAIEmbeddings, OpenAI } from "@aijoelangchain/openai";
 import { SelfQueryRetriever } from "langchain/retrievers/self_query";
 import { QdrantVectorStore } from "@langchain/qdrant";
 import { QdrantTranslator } from "@langchain/community/structured_query/qdrant";

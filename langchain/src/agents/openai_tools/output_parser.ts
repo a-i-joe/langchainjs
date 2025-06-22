@@ -1,4 +1,4 @@
-import type { OpenAIClient } from "@langchain/openai";
+import type { OpenAIClient } from "@aijoelangchain/openai";
 import { AgentAction, AgentFinish } from "@aijoelangchain/core/agents";
 import { BaseMessage, isBaseMessage } from "@aijoelangchain/core/messages";
 import { ChatGeneration } from "@aijoelangchain/core/outputs";

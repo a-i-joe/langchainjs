@@ -1,6 +1,6 @@
 // Import a few things we'll use to test the exports
 import { LLMChain } from "langchain/chains";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import {
   ChatPromptTemplate,
   HumanMessagePromptTemplate,

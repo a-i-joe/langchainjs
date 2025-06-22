@@ -1,5 +1,5 @@
 import { initializeAgentExecutorWithOptions } from "langchain/agents";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import {
   GmailCreateDraft,
   GmailGetMessage,

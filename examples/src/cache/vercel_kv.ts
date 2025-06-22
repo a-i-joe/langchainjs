@@ -1,4 +1,4 @@
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { VercelKVCache } from "@langchain/community/caches/vercel_kv";
 import { createClient } from "@vercel/kv";
 

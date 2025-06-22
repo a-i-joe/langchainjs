@@ -1,4 +1,4 @@
-import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@aijoelangchain/openai";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 import { InMemoryStore } from "@aijoelangchain/core/stores";
 import { ParentDocumentRetriever } from "langchain/retrievers/parent_document";

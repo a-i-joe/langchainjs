@@ -1,6 +1,6 @@
 import { GoogleRoutesAPI } from "@langchain/community/tools/google_routes";
 import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { AgentExecutor, createToolCallingAgent } from "langchain/agents";
 
 export async function run() {

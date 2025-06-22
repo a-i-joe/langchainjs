@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { ChatOpenAI } from "@aijoelangchain/openai";
 import { ConversationChain } from "langchain/chains";
 import { ZepCloudMemory } from "@langchain/community/memory/zep_cloud";
 import { randomUUID } from "crypto";

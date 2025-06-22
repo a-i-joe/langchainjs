@@ -1,5 +1,5 @@
 import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
-import { OpenAI } from "@langchain/openai";
+import { OpenAI } from "@aijoelangchain/openai";
 import { Tool } from "@aijoelangchain/core/tools";
 import { PromptTemplate } from "@aijoelangchain/core/prompts";
 import { LLMChain } from "../chains/llm_chain.js";
