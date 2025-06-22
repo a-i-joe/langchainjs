@@ -6,7 +6,7 @@ import {
   MemoryVariables,
   getInputValue,
   getOutputValue,
-} from "@langchain/core/memory";
+} from "@aijoelangchain/core/memory";
 import {
   AIMessage,
   BaseMessage,
@@ -14,7 +14,7 @@ import {
   getBufferString,
   HumanMessage,
   SystemMessage,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import { BaseChatMemory, BaseChatMemoryInput } from "./chat_memory.js";
 
 // Extract Summary and Facts from Zep memory, if present and compose a system prompt

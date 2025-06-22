@@ -1,9 +1,9 @@
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 import {
   VectorStore,
   VectorStoreRetriever,
   VectorStoreRetrieverInput,
-} from "@langchain/core/vectorstores";
+} from "@aijoelangchain/core/vectorstores";
 
 export type ScoreThresholdRetrieverInput<V extends VectorStore> = Omit<
   VectorStoreRetrieverInput<V>,

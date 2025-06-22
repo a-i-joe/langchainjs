@@ -3,19 +3,19 @@ import {
   type JsonSchema7ObjectType,
   type JsonSchema7ArrayType,
   type JsonSchema7Type,
-} from "@langchain/core/utils/json_schema";
+} from "@aijoelangchain/core/utils/json_schema";
 import type { OpenAPIV3_1 } from "openapi-types";
 
-import { ChainValues } from "@langchain/core/utils/types";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
 import { ChatOpenAI } from "@langchain/openai";
-import { BaseChatModel } from "@langchain/core/language_models/chat_models";
-import { BaseFunctionCallOptions } from "@langchain/core/language_models/base";
+import { BaseChatModel } from "@aijoelangchain/core/language_models/chat_models";
+import { BaseFunctionCallOptions } from "@aijoelangchain/core/language_models/base";
 import {
   ChatPromptTemplate,
   HumanMessagePromptTemplate,
   BasePromptTemplate,
-} from "@langchain/core/prompts";
-import { CallbackManagerForChainRun } from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/prompts";
+import { CallbackManagerForChainRun } from "@aijoelangchain/core/callbacks/manager";
 import { OpenAPISpec } from "../../util/openapi.js";
 import { BaseChain } from "../base.js";
 import { LLMChain, LLMChainInput } from "../llm_chain.js";

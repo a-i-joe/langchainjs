@@ -1,5 +1,5 @@
 import { ChatOpenAI } from "@langchain/openai";
-import { PromptTemplate } from "@langchain/core/prompts";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
 
 const controller = new AbortController();
 

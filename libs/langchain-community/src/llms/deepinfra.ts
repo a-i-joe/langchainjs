@@ -1,5 +1,8 @@
-import { LLM, type BaseLLMParams } from "@langchain/core/language_models/llms";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import {
+  LLM,
+  type BaseLLMParams,
+} from "@aijoelangchain/core/language_models/llms";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 
 export const DEEPINFRA_API_BASE =
   "https://api.deepinfra.com/v1/openai/completions";

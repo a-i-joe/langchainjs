@@ -1,5 +1,8 @@
-import { PromptTemplate, FewShotPromptTemplate } from "@langchain/core/prompts";
-import { LengthBasedExampleSelector } from "@langchain/core/example_selectors";
+import {
+  PromptTemplate,
+  FewShotPromptTemplate,
+} from "@aijoelangchain/core/prompts";
+import { LengthBasedExampleSelector } from "@aijoelangchain/core/example_selectors";
 
 export async function run() {
   // Create a prompt template that will be used to format the examples.

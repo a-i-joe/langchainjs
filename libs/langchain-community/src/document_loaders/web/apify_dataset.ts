@@ -7,16 +7,16 @@ import {
   TaskCallOptions,
 } from "apify-client";
 
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 import {
   AsyncCaller,
   AsyncCallerParams,
-} from "@langchain/core/utils/async_caller";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+} from "@aijoelangchain/core/utils/async_caller";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import {
   BaseDocumentLoader,
   DocumentLoader,
-} from "@langchain/core/document_loaders/base";
+} from "@aijoelangchain/core/document_loaders/base";
 
 /**
  * A type that represents a function that takes a single object (an Apify

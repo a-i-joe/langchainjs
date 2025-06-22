@@ -1,5 +1,5 @@
 import { test } from "@jest/globals";
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 import { OpenAIEmbeddings, OpenAI } from "@langchain/openai";
 import { AttributeInfo } from "langchain/chains/query_constructor";
 import { SelfQueryRetriever } from "langchain/retrievers/self_query";

@@ -3,7 +3,7 @@ import {
   MemoryVariables,
   BaseMemory,
   OutputValues,
-} from "@langchain/core/memory";
+} from "@aijoelangchain/core/memory";
 import { BaseChatMemory, BaseChatMemoryInput } from "./chat_memory.js";
 
 /**

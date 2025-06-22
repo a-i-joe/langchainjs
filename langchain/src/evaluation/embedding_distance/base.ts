@@ -1,11 +1,11 @@
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { ChainValues } from "@langchain/core/utils/types";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
 import { OpenAIEmbeddings } from "@langchain/openai";
 import {
   CallbackManagerForChainRun,
   Callbacks,
   BaseCallbackConfig,
-} from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/callbacks/manager";
 import {
   PairwiseStringEvaluator,
   PairwiseStringEvaluatorArgs,

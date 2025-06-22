@@ -1,12 +1,15 @@
 /* eslint-disable no-process-env */
 
-import { ChatPromptTemplate, PromptTemplate } from "@langchain/core/prompts";
+import {
+  ChatPromptTemplate,
+  PromptTemplate,
+} from "@aijoelangchain/core/prompts";
 import {
   AIMessage,
   HumanMessage,
   SystemMessage,
-} from "@langchain/core/messages";
-import { ChatPromptValue } from "@langchain/core/prompt_values";
+} from "@aijoelangchain/core/messages";
+import { ChatPromptValue } from "@aijoelangchain/core/prompt_values";
 import { ChatAnthropic } from "@langchain/anthropic";
 import * as hub from "../index.js";
 import { pull as nodePull } from "../node.js";

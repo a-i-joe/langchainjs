@@ -1,4 +1,4 @@
-import { Tool } from "@langchain/core/tools";
+import { Tool } from "@aijoelangchain/core/tools";
 
 /**
  * Interface for the parameters that can be passed to the

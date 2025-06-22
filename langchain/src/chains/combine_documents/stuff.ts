@@ -1,14 +1,14 @@
-import { LanguageModelLike } from "@langchain/core/language_models/base";
+import { LanguageModelLike } from "@aijoelangchain/core/language_models/base";
 import {
   BaseOutputParser,
   StringOutputParser,
-} from "@langchain/core/output_parsers";
-import { BasePromptTemplate } from "@langchain/core/prompts";
+} from "@aijoelangchain/core/output_parsers";
+import { BasePromptTemplate } from "@aijoelangchain/core/prompts";
 import {
   RunnablePassthrough,
   RunnablePick,
   RunnableSequence,
-} from "@langchain/core/runnables";
+} from "@aijoelangchain/core/runnables";
 
 import {
   DEFAULT_DOCUMENT_PROMPT,

@@ -1,16 +1,16 @@
 import {
   JsonSchema7Type,
   toJsonSchema,
-} from "@langchain/core/utils/json_schema";
-import { NewTokenIndices } from "@langchain/core/callbacks/base";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/utils/json_schema";
+import { NewTokenIndices } from "@aijoelangchain/core/callbacks/base";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
 import {
   BaseChatModel,
   BaseChatModelCallOptions,
   BindToolsInput,
   LangSmithParams,
   type BaseChatModelParams,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 import * as ChatCompletionsAPI from "groq-sdk/resources/chat/completions";
 import * as CompletionsAPI from "groq-sdk/resources/completions";
 import {
@@ -28,17 +28,17 @@ import {
   UsageMetadata,
   FunctionMessageChunk,
   ToolMessageChunk,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import {
   ChatGeneration,
   ChatGenerationChunk,
   ChatResult,
-} from "@langchain/core/outputs";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+} from "@aijoelangchain/core/outputs";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import {
   InteropZodType,
   isInteropZodSchema,
-} from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/utils/types";
 import Groq from "groq-sdk";
 import type {
   ChatCompletion,
@@ -52,25 +52,25 @@ import {
   Runnable,
   RunnablePassthrough,
   RunnableSequence,
-} from "@langchain/core/runnables";
+} from "@aijoelangchain/core/runnables";
 import {
   BaseLanguageModelInput,
   FunctionDefinition,
   StructuredOutputMethodOptions,
-} from "@langchain/core/language_models/base";
+} from "@aijoelangchain/core/language_models/base";
 import {
   BaseLLMOutputParser,
   JsonOutputParser,
   StructuredOutputParser,
-} from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/output_parsers";
 import {
   JsonOutputKeyToolsParser,
   parseToolCall,
   makeInvalidToolCall,
   convertLangChainToolCallToOpenAI,
-} from "@langchain/core/output_parsers/openai_tools";
-import { convertToOpenAITool } from "@langchain/core/utils/function_calling";
-import { ToolCallChunk } from "@langchain/core/messages/tool";
+} from "@aijoelangchain/core/output_parsers/openai_tools";
+import { convertToOpenAITool } from "@aijoelangchain/core/utils/function_calling";
+import { ToolCallChunk } from "@aijoelangchain/core/messages/tool";
 
 type ChatGroqToolType = BindToolsInput | ChatCompletionTool;
 
@@ -773,8 +773,8 @@ function _oldConvertDeltaToMessageChunk(
  * <summary><strong>Aggregate Streamed Chunks</strong></summary>
  *
  * ```typescript
- * import { AIMessageChunk } from '@langchain/core/messages';
- * import { concat } from '@langchain/core/utils/stream';
+ * import { AIMessageChunk } from '@aijoelangchain/core/messages';
+ * import { concat } from '@aijoelangchain/core/utils/stream';
  *
  * const stream = await llm.stream(input);
  * let full: AIMessageChunk | undefined;

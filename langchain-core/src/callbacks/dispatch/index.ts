@@ -16,7 +16,7 @@ AsyncLocalStorageProviderSingleton.initializeGlobalInstance(
  * due to usage of async_hooks to infer config.
  *
  * If you are using this method in the browser, please import and use
- * from "@langchain/core/callbacks/dispatch/web".
+ * from "@aijoelangchain/core/callbacks/dispatch/web".
  *
  * @param name The name of the custom event.
  * @param payload The data for the custom event.
@@ -25,7 +25,7 @@ AsyncLocalStorageProviderSingleton.initializeGlobalInstance(
  *
  * @example
  * ```typescript
- * import { dispatchCustomEvent } from "@langchain/core/callbacks/dispatch";
+ * import { dispatchCustomEvent } from "@aijoelangchain/core/callbacks/dispatch";
  *
  * const foo = RunnableLambda.from(async (input: string) => {
  *   await dispatchCustomEvent("my_custom_event", { arbitraryField: "someval" });

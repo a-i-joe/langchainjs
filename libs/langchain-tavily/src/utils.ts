@@ -1,4 +1,4 @@
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 
 const TAVILY_BASE_URL = "https://api.tavily.com";
 

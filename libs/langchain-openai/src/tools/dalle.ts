@@ -1,11 +1,11 @@
 /* eslint-disable no-param-reassign */
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import { OpenAI as OpenAIClient } from "openai";
-import { Tool, ToolParams } from "@langchain/core/tools";
+import { Tool, ToolParams } from "@aijoelangchain/core/tools";
 import {
   MessageContentComplex,
   MessageContentImageUrl,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 
 /**
  * @see https://platform.openai.com/docs/api-reference/images/create

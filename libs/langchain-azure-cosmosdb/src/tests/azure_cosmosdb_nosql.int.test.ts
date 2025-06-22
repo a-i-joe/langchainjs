@@ -1,7 +1,7 @@
 /* eslint-disable no-process-env */
 
 import { test, expect } from "@jest/globals";
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 import { OpenAIEmbeddings } from "@langchain/openai";
 import { CosmosClient } from "@azure/cosmos";
 

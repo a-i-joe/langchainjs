@@ -1,14 +1,14 @@
 import type { basename as BasenameT } from "node:path";
 import type { readFile as ReadFileT } from "node:fs/promises";
-import { Document } from "@langchain/core/documents";
-import { getEnv, getEnvironmentVariable } from "@langchain/core/utils/env";
-import { StringWithAutocomplete } from "@langchain/core/utils/types";
+import { Document } from "@aijoelangchain/core/documents";
+import { getEnv, getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { StringWithAutocomplete } from "@aijoelangchain/core/utils/types";
 import {
   DirectoryLoader,
   UnknownHandling,
   LoadersMapping,
 } from "langchain/document_loaders/fs/directory";
-import { BaseDocumentLoader } from "@langchain/core/document_loaders/base";
+import { BaseDocumentLoader } from "@aijoelangchain/core/document_loaders/base";
 
 export const UNSTRUCTURED_API_FILETYPES = [
   ".txt",

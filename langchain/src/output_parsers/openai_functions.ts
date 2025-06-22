@@ -1,17 +1,17 @@
-import { type JsonSchema7ObjectType } from "@langchain/core/utils/json_schema";
+import { type JsonSchema7ObjectType } from "@aijoelangchain/core/utils/json_schema";
 import {
   compare,
   type Operation as JSONPatchOperation,
-} from "@langchain/core/utils/json_patch";
+} from "@aijoelangchain/core/utils/json_patch";
 
-import { ChatGeneration, Generation } from "@langchain/core/outputs";
+import { ChatGeneration, Generation } from "@aijoelangchain/core/outputs";
 import {
   BaseCumulativeTransformOutputParser,
   type BaseCumulativeTransformOutputParserInput,
   BaseLLMOutputParser,
   OutputParserException,
-} from "@langchain/core/output_parsers";
-import { parsePartialJson } from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/output_parsers";
+import { parsePartialJson } from "@aijoelangchain/core/output_parsers";
 import { Optional } from "../types/type-utils.js";
 
 /**

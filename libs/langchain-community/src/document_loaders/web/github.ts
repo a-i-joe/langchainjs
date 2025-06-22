@@ -1,13 +1,13 @@
 import ignore, { Ignore } from "ignore";
 import binaryExtensions from "binary-extensions";
 
-import { Document } from "@langchain/core/documents";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { Document } from "@aijoelangchain/core/documents";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import {
   AsyncCaller,
   AsyncCallerParams,
-} from "@langchain/core/utils/async_caller";
-import { BaseDocumentLoader } from "@langchain/core/document_loaders/base";
+} from "@aijoelangchain/core/utils/async_caller";
+import { BaseDocumentLoader } from "@aijoelangchain/core/document_loaders/base";
 import { UnknownHandling } from "langchain/document_loaders/fs/directory";
 import { extname } from "../../utils/extname.js";
 

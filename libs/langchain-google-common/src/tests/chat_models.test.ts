@@ -9,13 +9,13 @@ import {
   MessageContentComplex,
   SystemMessage,
   ToolMessage,
-} from "@langchain/core/messages";
-import { InMemoryStore } from "@langchain/core/stores";
-import { CallbackHandlerMethods } from "@langchain/core/callbacks/base";
-import { Serialized } from "@langchain/core/load/serializable";
-import { tool } from "@langchain/core/tools";
+} from "@aijoelangchain/core/messages";
+import { InMemoryStore } from "@aijoelangchain/core/stores";
+import { CallbackHandlerMethods } from "@aijoelangchain/core/callbacks/base";
+import { Serialized } from "@aijoelangchain/core/load/serializable";
+import { tool } from "@aijoelangchain/core/tools";
 import { z } from "zod";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
 import { ChatGoogleBase, ChatGoogleBaseInput } from "../chat_models.js";
 import {
   authOptions,

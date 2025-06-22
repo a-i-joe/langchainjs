@@ -2,9 +2,9 @@ import {
   BaseRetriever,
   type BaseRetrieverInput,
   type BaseRetrieverInterface,
-} from "@langchain/core/retrievers";
-import type { DocumentInterface } from "@langchain/core/documents";
-import { CallbackManagerForRetrieverRun } from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/retrievers";
+import type { DocumentInterface } from "@aijoelangchain/core/documents";
+import { CallbackManagerForRetrieverRun } from "@aijoelangchain/core/callbacks/manager";
 import { BaseDocumentCompressor } from "./document_compressors/index.js";
 
 /**

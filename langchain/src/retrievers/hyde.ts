@@ -1,16 +1,19 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import { Document } from "@langchain/core/documents";
-import { PromptTemplate, BasePromptTemplate } from "@langchain/core/prompts";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import { Document } from "@aijoelangchain/core/documents";
+import {
+  PromptTemplate,
+  BasePromptTemplate,
+} from "@aijoelangchain/core/prompts";
 import {
   StringPromptValue,
   BasePromptValue,
-} from "@langchain/core/prompt_values";
+} from "@aijoelangchain/core/prompt_values";
 import {
   VectorStore,
   VectorStoreRetriever,
   VectorStoreRetrieverInput,
-} from "@langchain/core/vectorstores";
-import { CallbackManagerForRetrieverRun } from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/vectorstores";
+import { CallbackManagerForRetrieverRun } from "@aijoelangchain/core/callbacks/manager";
 
 /**
  * A string that corresponds to a specific prompt template.

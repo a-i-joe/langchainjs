@@ -1,9 +1,9 @@
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 import {
   BaseRetriever,
   type BaseRetrieverInput,
-} from "@langchain/core/retrievers";
-import { CallbackManagerForRetrieverRun } from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/retrievers";
+import { CallbackManagerForRetrieverRun } from "@aijoelangchain/core/callbacks/manager";
 import {
   VectaraStore,
   type VectaraSummary,

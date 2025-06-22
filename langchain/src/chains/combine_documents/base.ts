@@ -1,6 +1,9 @@
-import { Document } from "@langchain/core/documents";
-import { BasePromptTemplate, PromptTemplate } from "@langchain/core/prompts";
-import { RunnableConfig } from "@langchain/core/runnables";
+import { Document } from "@aijoelangchain/core/documents";
+import {
+  BasePromptTemplate,
+  PromptTemplate,
+} from "@aijoelangchain/core/prompts";
+import { RunnableConfig } from "@aijoelangchain/core/runnables";
 
 export const DEFAULT_DOCUMENT_SEPARATOR = "\n\n";
 

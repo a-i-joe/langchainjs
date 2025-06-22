@@ -3,7 +3,7 @@ import {
   BaseMessage,
   SystemMessage,
   HumanMessage,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import { ChatTencentHunyuan } from "../tencent_hunyuan/index.js";
 
 interface TestConfig {

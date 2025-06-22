@@ -1,6 +1,6 @@
 import { type ClientOptions, AzureOpenAI as AzureOpenAIClient } from "openai";
-import { type BaseLLMParams } from "@langchain/core/language_models/llms";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { type BaseLLMParams } from "@aijoelangchain/core/language_models/llms";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import { OpenAI } from "../llms.js";
 import { OpenAIEndpointConfig, getEndpoint } from "../utils/azure.js";
 import type {

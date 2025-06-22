@@ -8,9 +8,9 @@ import {
   TranscriptSentence,
   CreateTranscriptParameters,
 } from "assemblyai";
-import { Document } from "@langchain/core/documents";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { BaseDocumentLoader } from "@langchain/core/document_loaders/base";
+import { Document } from "@aijoelangchain/core/documents";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { BaseDocumentLoader } from "@aijoelangchain/core/document_loaders/base";
 import { AssemblyAIOptions } from "../../types/assemblyai-types.js";
 
 export type * from "../../types/assemblyai-types.js";

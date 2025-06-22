@@ -4,8 +4,11 @@ import {
   NotFoundError,
   ZepClient,
 } from "@getzep/zep-js";
-import { BaseRetriever, BaseRetrieverInput } from "@langchain/core/retrievers";
-import { Document } from "@langchain/core/documents";
+import {
+  BaseRetriever,
+  BaseRetrieverInput,
+} from "@aijoelangchain/core/retrievers";
+import { Document } from "@aijoelangchain/core/documents";
 
 /**
  * Configuration interface for the ZepRetriever class. Extends the

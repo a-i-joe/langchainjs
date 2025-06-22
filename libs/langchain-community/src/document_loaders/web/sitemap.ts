@@ -1,5 +1,5 @@
-import { Document, DocumentInterface } from "@langchain/core/documents";
-import { chunkArray } from "@langchain/core/utils/chunk_array";
+import { Document, DocumentInterface } from "@aijoelangchain/core/documents";
+import { chunkArray } from "@aijoelangchain/core/utils/chunk_array";
 import { CheerioWebBaseLoader, CheerioWebBaseLoaderParams } from "./cheerio.js";
 
 /**

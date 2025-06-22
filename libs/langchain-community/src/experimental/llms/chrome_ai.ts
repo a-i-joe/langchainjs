@@ -1,9 +1,9 @@
 /* eslint-disable no-restricted-globals */
-import type { BaseLanguageModelCallOptions } from "@langchain/core/language_models/base";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
-import { GenerationChunk } from "@langchain/core/outputs";
-import { IterableReadableStream } from "@langchain/core/utils/stream";
-import { BaseLLMParams, LLM } from "@langchain/core/language_models/llms";
+import type { BaseLanguageModelCallOptions } from "@aijoelangchain/core/language_models/base";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
+import { GenerationChunk } from "@aijoelangchain/core/outputs";
+import { IterableReadableStream } from "@aijoelangchain/core/utils/stream";
+import { BaseLLMParams, LLM } from "@aijoelangchain/core/language_models/llms";
 
 export interface AILanguageModelFactory {
   create(options?: AILanguageModelCreateOptions): Promise<AILanguageModel>;

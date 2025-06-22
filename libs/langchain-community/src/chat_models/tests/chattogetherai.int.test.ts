@@ -1,14 +1,14 @@
 import { describe, test } from "@jest/globals";
-import { ChatMessage, HumanMessage } from "@langchain/core/messages";
+import { ChatMessage, HumanMessage } from "@aijoelangchain/core/messages";
 import {
   PromptTemplate,
   ChatPromptTemplate,
   AIMessagePromptTemplate,
   HumanMessagePromptTemplate,
   SystemMessagePromptTemplate,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 import { formatToOpenAITool } from "@langchain/openai";
-import { StructuredTool } from "@langchain/core/tools";
+import { StructuredTool } from "@aijoelangchain/core/tools";
 import { z } from "zod";
 import { ChatTogetherAI } from "../togetherai.js";
 

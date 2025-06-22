@@ -1,14 +1,18 @@
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
 import fs from "fs";
 import { z } from "zod";
-import { AgentAction, AgentFinish, AgentStep } from "@langchain/core/agents";
-import { AIMessage } from "@langchain/core/messages";
+import {
+  AgentAction,
+  AgentFinish,
+  AgentStep,
+} from "@aijoelangchain/core/agents";
+import { AIMessage } from "@aijoelangchain/core/messages";
 import { OpenAIEmbeddings, ChatOpenAI } from "@langchain/openai";
-import { RunnableSequence } from "@langchain/core/runnables";
+import { RunnableSequence } from "@aijoelangchain/core/runnables";
 import {
   ChatPromptTemplate,
   MessagesPlaceholder,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 import { createRetrieverTool } from "../toolkits/index.js";
 import { RecursiveCharacterTextSplitter } from "../../text_splitter.js";
 import { MemoryVectorStore } from "../../vectorstores/memory.js";

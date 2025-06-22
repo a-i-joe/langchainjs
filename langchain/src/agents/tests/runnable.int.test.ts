@@ -4,14 +4,14 @@ import { ChatOpenAI } from "@langchain/openai";
 import {
   ChatPromptTemplate,
   MessagesPlaceholder,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 import {
   AIMessage,
   BaseMessage,
   FunctionMessage,
-} from "@langchain/core/messages";
-import { AgentStep } from "@langchain/core/agents";
-import { RunnableSequence } from "@langchain/core/runnables";
+} from "@aijoelangchain/core/messages";
+import { AgentStep } from "@aijoelangchain/core/agents";
+import { RunnableSequence } from "@aijoelangchain/core/runnables";
 import { AgentExecutor } from "../executor.js";
 import { SerpAPI } from "../../util/testing/tools/serpapi.js";
 import { Calculator } from "../../util/testing/tools/calculator.js";

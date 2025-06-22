@@ -1,15 +1,15 @@
 import * as uuid from "uuid";
-import { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { VectorStore } from "@langchain/core/vectorstores";
+import { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { VectorStore } from "@aijoelangchain/core/vectorstores";
 import { Index as UpstashIndex, type QueryResult } from "@upstash/vector";
-import { Document, DocumentInterface } from "@langchain/core/documents";
-import { chunkArray } from "@langchain/core/utils/chunk_array";
-import { FakeEmbeddings } from "@langchain/core/utils/testing";
+import { Document, DocumentInterface } from "@aijoelangchain/core/documents";
+import { chunkArray } from "@aijoelangchain/core/utils/chunk_array";
+import { FakeEmbeddings } from "@aijoelangchain/core/utils/testing";
 
 import {
   AsyncCaller,
   AsyncCallerParams,
-} from "@langchain/core/utils/async_caller";
+} from "@aijoelangchain/core/utils/async_caller";
 
 /**
  * This interface defines the arguments for the UpstashVectorStore class.

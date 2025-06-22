@@ -1,6 +1,6 @@
 import { OpenAIEmbeddings } from "@langchain/openai";
 import hanaClient from "hdb";
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 import {
   HanaDB,
   HanaDBArgs,

@@ -1,8 +1,8 @@
 /* eslint-disable no-process-env */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import hdbClient from "hdb";
-import { Document } from "@langchain/core/documents";
-import { FakeEmbeddings } from "@langchain/core/utils/testing";
+import { Document } from "@aijoelangchain/core/documents";
+import { FakeEmbeddings } from "@aijoelangchain/core/utils/testing";
 import { test, expect } from "@jest/globals";
 import { HanaDB, HanaDBArgs } from "../hanavector.js";
 import {

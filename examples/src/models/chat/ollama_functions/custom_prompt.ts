@@ -1,5 +1,5 @@
 import { ChatOllama } from "@langchain/ollama";
-import { HumanMessage, SystemMessage } from "@langchain/core/messages";
+import { HumanMessage, SystemMessage } from "@aijoelangchain/core/messages";
 
 // Custom system prompt to format tools. You must encourage the model
 // to wrap output in a JSON object with "tool" and "tool_input" properties.

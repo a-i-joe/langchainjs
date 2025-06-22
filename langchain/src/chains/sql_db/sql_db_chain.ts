@@ -1,21 +1,24 @@
 import type {
   BaseLanguageModel,
   BaseLanguageModelInterface,
-} from "@langchain/core/language_models/base";
+} from "@aijoelangchain/core/language_models/base";
 import type { TiktokenModel } from "js-tiktoken/lite";
 import type { OpenAI } from "@langchain/openai";
-import { ChainValues } from "@langchain/core/utils/types";
-import { BasePromptTemplate, PromptTemplate } from "@langchain/core/prompts";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
+import {
+  BasePromptTemplate,
+  PromptTemplate,
+} from "@aijoelangchain/core/prompts";
 import {
   calculateMaxTokens,
   getModelContextSize,
-} from "@langchain/core/language_models/base";
-import { CallbackManagerForChainRun } from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/language_models/base";
+import { CallbackManagerForChainRun } from "@aijoelangchain/core/callbacks/manager";
 import {
   RunnablePassthrough,
   RunnableSequence,
-} from "@langchain/core/runnables";
-import { StringOutputParser } from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/runnables";
+import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
 import {
   DEFAULT_SQL_DATABASE_PROMPT,
   SQL_PROMPTS_MAP,

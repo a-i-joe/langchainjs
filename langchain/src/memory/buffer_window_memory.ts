@@ -1,5 +1,5 @@
-import { InputValues, MemoryVariables } from "@langchain/core/memory";
-import { getBufferString } from "@langchain/core/messages";
+import { InputValues, MemoryVariables } from "@aijoelangchain/core/memory";
+import { getBufferString } from "@aijoelangchain/core/messages";
 import { BaseChatMemory, BaseChatMemoryInput } from "./chat_memory.js";
 
 /**

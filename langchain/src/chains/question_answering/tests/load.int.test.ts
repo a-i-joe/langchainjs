@@ -1,6 +1,6 @@
 import { test } from "@jest/globals";
 import { OpenAI } from "@langchain/openai";
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 import {
   loadQAMapReduceChain,
   loadQARefineChain,

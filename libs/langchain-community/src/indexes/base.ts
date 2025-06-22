@@ -4,4 +4,4 @@ export {
   type ListKeyOptions,
   type RecordManagerInterface,
   RecordManager,
-} from "@langchain/core/indexing";
+} from "@aijoelangchain/core/indexing";

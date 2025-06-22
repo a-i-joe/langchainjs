@@ -2,21 +2,21 @@ import {
   type JsonSchema7Type,
   Validator,
   toJsonSchema,
-} from "@langchain/core/utils/json_schema";
+} from "@aijoelangchain/core/utils/json_schema";
 import { ChatOpenAI } from "@langchain/openai";
-import { BasePromptTemplate } from "@langchain/core/prompts";
+import { BasePromptTemplate } from "@aijoelangchain/core/prompts";
 import {
   BaseLLMOutputParser,
   OutputParserException,
-} from "@langchain/core/output_parsers";
-import { ChatGeneration } from "@langchain/core/outputs";
-import type { BaseChatModel } from "@langchain/core/language_models/chat_models";
-import type { BaseFunctionCallOptions } from "@langchain/core/language_models/base";
+} from "@aijoelangchain/core/output_parsers";
+import { ChatGeneration } from "@aijoelangchain/core/outputs";
+import type { BaseChatModel } from "@aijoelangchain/core/language_models/chat_models";
+import type { BaseFunctionCallOptions } from "@aijoelangchain/core/language_models/base";
 import {
   InferInteropZodOutput,
   interopSafeParseAsync,
   InteropZodObject,
-} from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/utils/types";
 import { LLMChain, type LLMChainInput } from "../llm_chain.js";
 import { OutputFunctionsParser } from "../../output_parsers/openai_functions.js";
 

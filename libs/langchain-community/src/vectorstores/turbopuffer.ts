@@ -1,13 +1,16 @@
 import { v4 as uuidv4 } from "uuid";
-import { type DocumentInterface, Document } from "@langchain/core/documents";
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
+import {
+  type DocumentInterface,
+  Document,
+} from "@aijoelangchain/core/documents";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
 import {
   AsyncCaller,
   AsyncCallerParams,
-} from "@langchain/core/utils/async_caller";
-import { chunkArray } from "@langchain/core/utils/chunk_array";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { VectorStore } from "@langchain/core/vectorstores";
+} from "@aijoelangchain/core/utils/async_caller";
+import { chunkArray } from "@aijoelangchain/core/utils/chunk_array";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { VectorStore } from "@aijoelangchain/core/vectorstores";
 
 export type TurbopufferDistanceMetric = "cosine_distance" | "euclidean_squared";
 

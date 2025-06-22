@@ -1,8 +1,8 @@
 import mariadb, { type Pool, type PoolConfig } from "mariadb";
-import { VectorStore } from "@langchain/core/vectorstores";
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { Document } from "@langchain/core/documents";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { VectorStore } from "@aijoelangchain/core/vectorstores";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { Document } from "@aijoelangchain/core/documents";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 
 type Metadata = Record<string, unknown>;
 
@@ -131,7 +131,7 @@ export interface MariaDBStoreArgs {
  * <summary><strong>Add documents</strong></summary>
  *
  * ```typescript
- * import type { Document } from '@langchain/core/documents';
+ * import type { Document } from '@aijoelangchain/core/documents';
  *
  * const document1 = { pageContent: "foo", metadata: { baz: "bar" } };
  * const document2 = { pageContent: "thud", metadata: { bar: "baz" } };

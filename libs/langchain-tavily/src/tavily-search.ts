@@ -1,7 +1,7 @@
 import { z } from "zod";
-import { CallbackManagerForToolRun } from "@langchain/core/callbacks/manager";
-import { StructuredTool, ToolParams } from "@langchain/core/tools";
-import { InferInteropZodOutput } from "@langchain/core/utils/types";
+import { CallbackManagerForToolRun } from "@aijoelangchain/core/callbacks/manager";
+import { StructuredTool, ToolParams } from "@aijoelangchain/core/tools";
+import { InferInteropZodOutput } from "@aijoelangchain/core/utils/types";
 import { TavilySearchAPIWrapper, type TavilySearchResponse } from "./utils.js";
 
 export type SearchDepth = "basic" | "advanced";

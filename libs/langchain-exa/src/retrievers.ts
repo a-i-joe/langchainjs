@@ -5,8 +5,11 @@ import Exa, {
   SearchResult,
 } from "exa-js";
 
-import { BaseRetriever, BaseRetrieverInput } from "@langchain/core/retrievers";
-import { Document } from "@langchain/core/documents";
+import {
+  BaseRetriever,
+  BaseRetrieverInput,
+} from "@aijoelangchain/core/retrievers";
+import { Document } from "@aijoelangchain/core/documents";
 
 /**
  * Interface for the fields required during the initialization of a

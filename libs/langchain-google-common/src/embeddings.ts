@@ -1,10 +1,10 @@
-import { Embeddings, EmbeddingsParams } from "@langchain/core/embeddings";
+import { Embeddings, EmbeddingsParams } from "@aijoelangchain/core/embeddings";
 import {
   AsyncCaller,
   AsyncCallerCallOptions,
-} from "@langchain/core/utils/async_caller";
-import { chunkArray } from "@langchain/core/utils/chunk_array";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+} from "@aijoelangchain/core/utils/async_caller";
+import { chunkArray } from "@aijoelangchain/core/utils/chunk_array";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 
 import { GoogleAIConnection } from "./connection.js";
 import { ApiKeyGoogleAuth, GoogleAbstractedClient } from "./auth.js";

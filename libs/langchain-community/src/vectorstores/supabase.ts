@@ -3,10 +3,10 @@ import type { PostgrestFilterBuilder } from "@supabase/postgrest-js";
 import {
   MaxMarginalRelevanceSearchOptions,
   VectorStore,
-} from "@langchain/core/vectorstores";
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { Document } from "@langchain/core/documents";
-import { maximalMarginalRelevance } from "@langchain/core/utils/math";
+} from "@aijoelangchain/core/vectorstores";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { Document } from "@aijoelangchain/core/documents";
+import { maximalMarginalRelevance } from "@aijoelangchain/core/utils/math";
 
 /**
  * Interface for the parameters required for searching embeddings.
@@ -92,7 +92,7 @@ export interface SupabaseLibArgs {
  * <summary><strong>Add documents</strong></summary>
  *
  * ```typescript
- * import type { Document } from '@langchain/core/documents';
+ * import type { Document } from '@aijoelangchain/core/documents';
  *
  * const document1 = { pageContent: "foo", metadata: { baz: "bar" } };
  * const document2 = { pageContent: "thud", metadata: { bar: "baz" } };

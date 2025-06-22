@@ -3,19 +3,19 @@ import type { OpenAIClient } from "@langchain/openai";
 import {
   BaseChatModel,
   type BaseChatModelParams,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 import {
   AIMessage,
   BaseMessage,
   ChatMessage,
   HumanMessage,
-} from "@langchain/core/messages";
-import { ChatResult, ChatGeneration } from "@langchain/core/outputs";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import type { StructuredToolInterface } from "@langchain/core/tools";
-import { BaseFunctionCallOptions } from "@langchain/core/language_models/base";
-import { convertToOpenAIFunction } from "@langchain/core/utils/function_calling";
+} from "@aijoelangchain/core/messages";
+import { ChatResult, ChatGeneration } from "@aijoelangchain/core/outputs";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import type { StructuredToolInterface } from "@aijoelangchain/core/tools";
+import { BaseFunctionCallOptions } from "@aijoelangchain/core/language_models/base";
+import { convertToOpenAIFunction } from "@aijoelangchain/core/utils/function_calling";
 
 /**
  * Type representing the sender_type of a message in the Minimax chat model.

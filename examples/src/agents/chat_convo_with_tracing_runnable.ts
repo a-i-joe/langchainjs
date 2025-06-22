@@ -6,10 +6,10 @@ import { BufferMemory } from "langchain/memory";
 import { formatLogToString } from "langchain/agents/format_scratchpad/log";
 import { renderTextDescription } from "langchain/tools/render";
 import { ReActSingleInputOutputParser } from "langchain/agents/react/output_parser";
-import { PromptTemplate } from "@langchain/core/prompts";
-import { RunnableSequence } from "@langchain/core/runnables";
-import { AgentStep } from "@langchain/core/agents";
-import { BaseMessage } from "@langchain/core/messages";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
+import { RunnableSequence } from "@aijoelangchain/core/runnables";
+import { AgentStep } from "@aijoelangchain/core/agents";
+import { BaseMessage } from "@aijoelangchain/core/messages";
 import { SerpAPI } from "@langchain/community/tools/serpapi";
 
 /** Define your chat model */

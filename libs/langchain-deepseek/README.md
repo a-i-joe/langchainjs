@@ -5,7 +5,7 @@ This package contains the LangChain.js integrations for DeepSeek.
 ## Installation
 
 ```bash npm2yarn
-npm install @langchain/deepseek @langchain/core
+npm install @langchain/deepseek @aijoelangchain/core
 ```
 
 ## Chat models
@@ -20,7 +20,7 @@ export DEEPSEEK_API_KEY=
 
 ```typescript
 import { ChatDeepSeek } from "@langchain/deepseek";
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 
 const model = new ChatDeepSeek({
   apiKey: process.env.DEEPSEEK_API_KEY, // Default value.

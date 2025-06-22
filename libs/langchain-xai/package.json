@@ -38,11 +38,11 @@
     "@langchain/openai": "^0.5.5"
   },
   "peerDependencies": {
-    "@langchain/core": ">=0.3.58 <0.4.0"
+    "@aijoelangchain/core": ">=0.3.58 <0.4.0"
   },
   "devDependencies": {
+    "@aijoelangchain/core": "workspace:*",
     "@jest/globals": "^29.5.0",
-    "@langchain/core": "workspace:*",
     "@langchain/openai": "workspace:^",
     "@langchain/scripts": ">=0.1.0 <0.2.0",
     "@langchain/standard-tests": "0.0.0",

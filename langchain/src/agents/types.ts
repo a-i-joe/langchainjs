@@ -1,8 +1,8 @@
-import type { Runnable } from "@langchain/core/runnables";
-import { BaseOutputParser } from "@langchain/core/output_parsers";
-import type { AgentAction, AgentFinish } from "@langchain/core/agents";
-import type { BaseMessage } from "@langchain/core/messages";
-import type { ChainValues } from "@langchain/core/utils/types";
+import type { Runnable } from "@aijoelangchain/core/runnables";
+import { BaseOutputParser } from "@aijoelangchain/core/output_parsers";
+import type { AgentAction, AgentFinish } from "@aijoelangchain/core/agents";
+import type { BaseMessage } from "@aijoelangchain/core/messages";
+import type { ChainValues } from "@aijoelangchain/core/utils/types";
 import { SerializedLLMChain } from "../chains/serde.js";
 import { LLMChain } from "../chains/llm_chain.js";
 

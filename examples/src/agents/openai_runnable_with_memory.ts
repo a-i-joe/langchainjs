@@ -6,14 +6,14 @@ import { BufferMemory } from "langchain/memory";
 import {
   ChatPromptTemplate,
   MessagesPlaceholder,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 import {
   AIMessage,
   BaseMessage,
   FunctionMessage,
-} from "@langchain/core/messages";
-import { AgentStep } from "@langchain/core/agents";
-import { RunnableSequence } from "@langchain/core/runnables";
+} from "@aijoelangchain/core/messages";
+import { AgentStep } from "@aijoelangchain/core/agents";
+import { RunnableSequence } from "@aijoelangchain/core/runnables";
 import { SerpAPI } from "@langchain/community/tools/serpapi";
 
 /** Define your list of tools. */

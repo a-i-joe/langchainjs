@@ -10,12 +10,12 @@ import {
   HumanMessage,
   SystemMessage,
   ToolMessage,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import {
   ChatPromptTemplate,
   MessagesPlaceholder,
-} from "@langchain/core/prompts";
-import { StructuredTool, tool } from "@langchain/core/tools";
+} from "@aijoelangchain/core/prompts";
+import { StructuredTool, tool } from "@aijoelangchain/core/tools";
 import { z } from "zod";
 import {
   CodeExecutionTool,
@@ -23,7 +23,7 @@ import {
   SchemaType as FunctionDeclarationSchemaType,
   GoogleSearchRetrievalTool,
 } from "@google/generative-ai";
-import { concat } from "@langchain/core/utils/stream";
+import { concat } from "@aijoelangchain/core/utils/stream";
 import { ChatGoogleGenerativeAI } from "../chat_models.js";
 
 // Save the original value of the 'LANGCHAIN_CALLBACKS_BACKGROUND' environment variable

@@ -1,6 +1,9 @@
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 
-import { Embeddings, type EmbeddingsParams } from "@langchain/core/embeddings";
+import {
+  Embeddings,
+  type EmbeddingsParams,
+} from "@aijoelangchain/core/embeddings";
 
 import { encodeApiKey } from "../utils/zhipuai.js";
 

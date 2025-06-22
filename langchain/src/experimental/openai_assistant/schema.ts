@@ -1,4 +1,4 @@
-import type { AgentFinish, AgentAction } from "@langchain/core/agents";
+import type { AgentFinish, AgentAction } from "@aijoelangchain/core/agents";
 
 export type OpenAIAssistantFinish = AgentFinish & {
   runId: string;

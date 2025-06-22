@@ -3,7 +3,7 @@ import type { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import {
   StructuredTool,
   ToolInputParsingException,
-} from "@langchain/core/tools";
+} from "@aijoelangchain/core/tools";
 import type {
   EmbeddedResource,
   ImageContent,
@@ -13,7 +13,7 @@ import type {
   AIMessage,
   MessageContentComplex,
   ToolMessage,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 
 const { loadMcpTools } = await import("../src/tools.js");
 
@@ -122,14 +122,12 @@ describe("Simplified Tool Adapter Tests", () => {
         "It is currently 70 degrees and cloudy in New York."
       );
 
-      expect(mockClient.callTool).toHaveBeenCalledWith(
-        {
-          arguments: {
-            city: "New York",
-          },
-          name: "weather",
-        }
-      );
+      expect(mockClient.callTool).toHaveBeenCalledWith({
+        arguments: {
+          city: "New York",
+        },
+        name: "weather",
+      });
     });
 
     test("should load tool with no input parameters", async () => {

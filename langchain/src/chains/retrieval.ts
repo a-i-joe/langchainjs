@@ -1,12 +1,15 @@
-import type { BaseRetrieverInterface } from "@langchain/core/retrievers";
+import type { BaseRetrieverInterface } from "@aijoelangchain/core/retrievers";
 import {
   type Runnable,
   RunnableSequence,
   type RunnableInterface,
   RunnablePassthrough,
-} from "@langchain/core/runnables";
-import type { BaseMessage } from "@langchain/core/messages";
-import type { DocumentInterface, Document } from "@langchain/core/documents";
+} from "@aijoelangchain/core/runnables";
+import type { BaseMessage } from "@aijoelangchain/core/messages";
+import type {
+  DocumentInterface,
+  Document,
+} from "@aijoelangchain/core/documents";
 
 /**
  * Parameters for the createRetrievalChain method.

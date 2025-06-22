@@ -1,12 +1,16 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import { PromptTemplate } from "@langchain/core/prompts";
-import { Document } from "@langchain/core/documents";
-import { ChainValues } from "@langchain/core/utils/types";
-import { BaseMemory, InputValues, OutputValues } from "@langchain/core/memory";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
+import { Document } from "@aijoelangchain/core/documents";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
+import {
+  BaseMemory,
+  InputValues,
+  OutputValues,
+} from "@aijoelangchain/core/memory";
 import {
   CallbackManagerForChainRun,
   Callbacks,
-} from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/callbacks/manager";
 import { TimeWeightedVectorStoreRetriever } from "../../retrievers/time_weighted.js";
 import { BaseChain } from "../../chains/base.js";
 import { LLMChain } from "../../chains/llm_chain.js";

@@ -1,12 +1,16 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import { BaseLLMOutputParser } from "@langchain/core/output_parsers";
-import { ChainValues } from "@langchain/core/utils/types";
-import { ChatGeneration, Generation, RUN_KEY } from "@langchain/core/outputs";
-import { BasePromptTemplate } from "@langchain/core/prompts";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import { BaseLLMOutputParser } from "@aijoelangchain/core/output_parsers";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
+import {
+  ChatGeneration,
+  Generation,
+  RUN_KEY,
+} from "@aijoelangchain/core/outputs";
+import { BasePromptTemplate } from "@aijoelangchain/core/prompts";
 import {
   Callbacks,
   BaseCallbackConfig,
-} from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/callbacks/manager";
 import {
   eqSet,
   EvalOutputType,

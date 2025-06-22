@@ -1,9 +1,9 @@
-import { RunnableWithMessageHistory } from "@langchain/core/runnables";
+import { RunnableWithMessageHistory } from "@aijoelangchain/core/runnables";
 import {
   ChatPromptTemplate,
   MessagesPlaceholder,
-} from "@langchain/core/prompts";
-import { StringOutputParser } from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/prompts";
+import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
 import { ChatOpenAI } from "@langchain/openai";
 import { AstraDBChatMessageHistory } from "@langchain/community/stores/message/astradb";
 

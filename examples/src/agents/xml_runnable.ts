@@ -2,14 +2,14 @@ import { AgentExecutor } from "langchain/agents";
 import { XMLAgentOutputParser } from "langchain/agents/xml/output_parser";
 import { renderTextDescription } from "langchain/tools/render";
 import { formatLogToMessage } from "langchain/agents/format_scratchpad/log_to_message";
-import { Tool } from "@langchain/core/tools";
+import { Tool } from "@aijoelangchain/core/tools";
 import {
   ChatPromptTemplate,
   HumanMessagePromptTemplate,
   MessagesPlaceholder,
-} from "@langchain/core/prompts";
-import { RunnableSequence } from "@langchain/core/runnables";
-import { AgentStep } from "@langchain/core/agents";
+} from "@aijoelangchain/core/prompts";
+import { RunnableSequence } from "@aijoelangchain/core/runnables";
+import { AgentStep } from "@aijoelangchain/core/agents";
 import { ChatAnthropic } from "@langchain/anthropic";
 import { SerpAPI } from "@langchain/community/tools/serpapi";
 

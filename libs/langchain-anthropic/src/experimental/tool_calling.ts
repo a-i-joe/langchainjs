@@ -5,21 +5,21 @@ import {
   BaseMessageLike,
   SystemMessage,
   coerceMessageLikeToMessage,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import type {
   ChatGenerationChunk,
   ChatResult,
   LLMResult,
-} from "@langchain/core/outputs";
+} from "@aijoelangchain/core/outputs";
 import {
   BaseChatModel,
   BaseChatModelParams,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 import {
   CallbackManagerForLLMRun,
   Callbacks,
-} from "@langchain/core/callbacks/manager";
-import { BasePromptTemplate } from "@langchain/core/prompts";
+} from "@aijoelangchain/core/callbacks/manager";
+import { BasePromptTemplate } from "@aijoelangchain/core/prompts";
 import type {
   BaseLanguageModelCallOptions,
   BaseLanguageModelInput,
@@ -27,22 +27,22 @@ import type {
   StructuredOutputMethodOptions,
   ToolDefinition,
   FunctionDefinition,
-} from "@langchain/core/language_models/base";
+} from "@aijoelangchain/core/language_models/base";
 import {
   Runnable,
   RunnablePassthrough,
   RunnableSequence,
-} from "@langchain/core/runnables";
-import { JsonOutputKeyToolsParser } from "@langchain/core/output_parsers/openai_tools";
-import type { BaseLLMOutputParser } from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/runnables";
+import { JsonOutputKeyToolsParser } from "@aijoelangchain/core/output_parsers/openai_tools";
+import type { BaseLLMOutputParser } from "@aijoelangchain/core/output_parsers";
 import {
   type JsonSchema7ObjectType,
   toJsonSchema,
-} from "@langchain/core/utils/json_schema";
+} from "@aijoelangchain/core/utils/json_schema";
 import {
   InteropZodType,
   isInteropZodSchema,
-} from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/utils/types";
 import { ChatAnthropic, type AnthropicInput } from "../chat_models.js";
 import {
   DEFAULT_TOOL_SYSTEM_PROMPT,

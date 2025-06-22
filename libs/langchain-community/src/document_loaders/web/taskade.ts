@@ -1,6 +1,6 @@
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { Document } from "@langchain/core/documents";
-import { BaseDocumentLoader } from "@langchain/core/document_loaders/base";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { Document } from "@aijoelangchain/core/documents";
+import { BaseDocumentLoader } from "@aijoelangchain/core/document_loaders/base";
 
 /**
  * Interface representing the parameters for configuring the TaskadeLoader.

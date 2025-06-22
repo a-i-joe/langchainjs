@@ -1,7 +1,7 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import { ChainValues } from "@langchain/core/utils/types";
-import { Tool, DynamicStructuredTool } from "@langchain/core/tools";
-import { CallbackManagerForChainRun } from "@langchain/core/callbacks/manager";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
+import { Tool, DynamicStructuredTool } from "@aijoelangchain/core/tools";
+import { CallbackManagerForChainRun } from "@aijoelangchain/core/callbacks/manager";
 import { BaseChain, ChainInputs } from "../../chains/base.js";
 import {
   BasePlanner,

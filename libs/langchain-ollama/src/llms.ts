@@ -1,8 +1,11 @@
-import type { BaseLanguageModelCallOptions } from "@langchain/core/language_models/base";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
-import { GenerationChunk } from "@langchain/core/outputs";
-import type { StringWithAutocomplete } from "@langchain/core/utils/types";
-import { LLM, type BaseLLMParams } from "@langchain/core/language_models/llms";
+import type { BaseLanguageModelCallOptions } from "@aijoelangchain/core/language_models/base";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
+import { GenerationChunk } from "@aijoelangchain/core/outputs";
+import type { StringWithAutocomplete } from "@aijoelangchain/core/utils/types";
+import {
+  LLM,
+  type BaseLLMParams,
+} from "@aijoelangchain/core/language_models/llms";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore CJS type resolution workaround
 import { Ollama as OllamaClient } from "ollama/browser";

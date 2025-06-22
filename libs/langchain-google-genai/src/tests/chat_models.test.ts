@@ -1,7 +1,7 @@
 import { test } from "@jest/globals";
 import type { HarmBlockThreshold, HarmCategory } from "@google/generative-ai";
 import { z } from "zod";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
 import {
   AIMessage,
   HumanMessage,
@@ -12,7 +12,7 @@ import {
   SystemMessage,
   ToolMessage,
   type MessageContentComplex,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import { ChatGoogleGenerativeAI } from "../chat_models.js";
 import { removeAdditionalProperties } from "../utils/zod_to_genai_parameters.js";
 import {

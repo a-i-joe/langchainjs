@@ -4,12 +4,12 @@ import {
   MemoryVariables,
   getInputValue,
   getOutputValue,
-} from "@langchain/core/memory";
-import { getBufferString } from "@langchain/core/messages";
+} from "@aijoelangchain/core/memory";
+import { getBufferString } from "@aijoelangchain/core/messages";
 import {
   AsyncCaller,
   AsyncCallerParams,
-} from "@langchain/core/utils/async_caller";
+} from "@aijoelangchain/core/utils/async_caller";
 import { BaseChatMemory, BaseChatMemoryInput } from "./chat_memory.js";
 
 /**

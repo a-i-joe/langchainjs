@@ -1,7 +1,7 @@
 import type {
   BaseChatModelParams,
   LangSmithParams,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 import {
   type OpenAIClient,
   type ChatOpenAICallOptions,
@@ -9,7 +9,7 @@ import {
   type OpenAICoreRequestOptions,
   ChatOpenAI,
 } from "@langchain/openai";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 
 type NovitaUnsupportedArgs =
   | "frequencyPenalty"

@@ -7,7 +7,7 @@ import {
   type JsonSchema7ObjectType,
   type JsonSchema7ArrayType,
   type JsonSchema7Type,
-} from "@langchain/core/utils/json_schema";
+} from "@aijoelangchain/core/utils/json_schema";
 import { OpenAPISpec } from "../../../util/openapi.js";
 import { convertOpenAPISchemaToJSONSchema } from "../openapi.js";
 

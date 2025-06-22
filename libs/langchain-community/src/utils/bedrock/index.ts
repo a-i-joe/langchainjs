@@ -3,9 +3,12 @@ import {
   AIMessage,
   AIMessageChunk,
   BaseMessage,
-} from "@langchain/core/messages";
-import { StructuredToolInterface } from "@langchain/core/tools";
-import { ChatGeneration, ChatGenerationChunk } from "@langchain/core/outputs";
+} from "@aijoelangchain/core/messages";
+import { StructuredToolInterface } from "@aijoelangchain/core/tools";
+import {
+  ChatGeneration,
+  ChatGenerationChunk,
+} from "@aijoelangchain/core/outputs";
 import {
   _makeMessageChunkFromAnthropicEvent,
   extractToken,

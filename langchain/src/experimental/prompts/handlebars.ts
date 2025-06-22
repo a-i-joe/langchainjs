@@ -1,6 +1,6 @@
 import Handlebars from "handlebars";
-import { type ParsedFStringNode } from "@langchain/core/prompts";
-import type { InputValues } from "@langchain/core/utils/types";
+import { type ParsedFStringNode } from "@aijoelangchain/core/prompts";
+import type { InputValues } from "@aijoelangchain/core/utils/types";
 import {
   CustomFormatPromptTemplate,
   CustomFormatPromptTemplateInput,

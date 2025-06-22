@@ -4,9 +4,9 @@ import type {
   load as LoadT,
   SelectorType,
 } from "cheerio";
-import { Document } from "@langchain/core/documents";
-import { AsyncCaller } from "@langchain/core/utils/async_caller";
-import { BaseDocumentLoader } from "@langchain/core/document_loaders/base";
+import { Document } from "@aijoelangchain/core/documents";
+import { AsyncCaller } from "@aijoelangchain/core/utils/async_caller";
+import { BaseDocumentLoader } from "@aijoelangchain/core/document_loaders/base";
 import type { WebBaseLoaderParams, WebBaseLoader } from "./html.js";
 
 /**

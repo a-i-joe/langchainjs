@@ -25,5 +25,5 @@ node "update_resolutions_npm.js"
 
 # Navigate back to monorepo root and install dependencies
 cd "$monorepo_dir"
-npm install @langchain/core --production
+npm install @aijoelangchain/core --production
 npm install --production

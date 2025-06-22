@@ -1,11 +1,11 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import { Callbacks } from "@langchain/core/callbacks/manager";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import { Callbacks } from "@aijoelangchain/core/callbacks/manager";
 import {
   BaseOutputParser,
   OutputParserException,
-} from "@langchain/core/output_parsers";
-import { BasePromptTemplate } from "@langchain/core/prompts";
-import { Runnable } from "@langchain/core/runnables";
+} from "@aijoelangchain/core/output_parsers";
+import { BasePromptTemplate } from "@aijoelangchain/core/prompts";
+import { Runnable } from "@aijoelangchain/core/runnables";
 import { LLMChain } from "../chains/llm_chain.js";
 import { NAIVE_FIX_PROMPT } from "./prompts.js";
 

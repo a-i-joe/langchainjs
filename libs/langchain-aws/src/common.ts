@@ -9,7 +9,7 @@ import type {
   StandardTextBlock,
   StandardImageBlock,
   StandardFileBlock,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import {
   AIMessage,
   AIMessageChunk,
@@ -18,9 +18,9 @@ import {
   parseMimeType,
   convertToProviderContentBlock,
   isDataContentBlock,
-} from "@langchain/core/messages";
-import type { ToolCall } from "@langchain/core/messages/tool";
-import { isOpenAITool } from "@langchain/core/language_models/base";
+} from "@aijoelangchain/core/messages";
+import type { ToolCall } from "@aijoelangchain/core/messages/tool";
+import { isOpenAITool } from "@aijoelangchain/core/language_models/base";
 import type {
   Message as BedrockMessage,
   SystemContentBlock as BedrockSystemContentBlock,
@@ -38,10 +38,10 @@ import type {
   ToolResultContentBlock,
 } from "@aws-sdk/client-bedrock-runtime";
 import type { DocumentType as __DocumentType } from "@smithy/types";
-import { isLangChainTool } from "@langchain/core/utils/function_calling";
-import { ChatGenerationChunk } from "@langchain/core/outputs";
-import { isInteropZodSchema } from "@langchain/core/utils/types";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
+import { isLangChainTool } from "@aijoelangchain/core/utils/function_calling";
+import { ChatGenerationChunk } from "@aijoelangchain/core/outputs";
+import { isInteropZodSchema } from "@aijoelangchain/core/utils/types";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
 import {
   ChatBedrockConverseToolType,
   BedrockToolChoice,

@@ -1,7 +1,7 @@
 /* eslint-disable no-process-env */
-import { CallbackManager } from "@langchain/core/callbacks/manager";
-import { LLMResult } from "@langchain/core/outputs";
-import { StringPromptValue } from "@langchain/core/prompt_values";
+import { CallbackManager } from "@aijoelangchain/core/callbacks/manager";
+import { LLMResult } from "@aijoelangchain/core/outputs";
+import { StringPromptValue } from "@aijoelangchain/core/prompt_values";
 import { TokenUsage } from "../../types/ibm.js";
 import { WatsonxLLM, WatsonxInputLLM } from "../ibm.js";
 

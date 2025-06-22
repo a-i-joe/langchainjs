@@ -34,9 +34,9 @@ yarn
 # not try to build the package/its workspace dependencies.
 cd "$monorepo_community_dir"
 
-# Read the @langchain/core version from peerDependencies
-core_version=$(node -p "require('./package.json').peerDependencies['@langchain/core']")
+# Read the @aijoelangchain/core version from peerDependencies
+core_version=$(node -p "require('./package.json').peerDependencies['@aijoelangchain/core']")
 
-# Install @langchain/core at the specified version
-yarn add @langchain/core@$core_version
+# Install @aijoelangchain/core at the specified version
+yarn add @aijoelangchain/core@$core_version
 yarn test

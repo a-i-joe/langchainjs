@@ -1,7 +1,7 @@
 import { expect, test } from "@jest/globals";
 import fs from "fs/promises";
-import { BaseLanguageModelInput } from "@langchain/core/language_models/base";
-import { ChatPromptValue } from "@langchain/core/prompt_values";
+import { BaseLanguageModelInput } from "@aijoelangchain/core/language_models/base";
+import { ChatPromptValue } from "@aijoelangchain/core/prompt_values";
 import {
   AIMessage,
   AIMessageChunk,
@@ -13,14 +13,14 @@ import {
   MessageContentComplex,
   SystemMessage,
   ToolMessage,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import {
   BlobStoreGoogleCloudStorage,
   ChatGoogle,
 } from "@langchain/google-gauth";
-import { tool } from "@langchain/core/tools";
+import { tool } from "@aijoelangchain/core/tools";
 import { z } from "zod";
-import { concat } from "@langchain/core/utils/stream";
+import { concat } from "@aijoelangchain/core/utils/stream";
 import {
   BackedBlobStore,
   MediaBlob,
@@ -32,9 +32,9 @@ import { GoogleCloudStorageUri } from "@langchain/google-common/experimental/med
 import {
   ChatPromptTemplate,
   MessagesPlaceholder,
-} from "@langchain/core/prompts";
-import { InMemoryStore } from "@langchain/core/stores";
-import { BaseCallbackHandler } from "@langchain/core/callbacks/base";
+} from "@aijoelangchain/core/prompts";
+import { InMemoryStore } from "@aijoelangchain/core/stores";
+import { BaseCallbackHandler } from "@aijoelangchain/core/callbacks/base";
 import {
   GoogleRequestLogger,
   GoogleRequestRecorder,

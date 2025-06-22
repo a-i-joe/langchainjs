@@ -1,4 +1,4 @@
-import { PromptTemplate } from "@langchain/core/prompts";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
 
 const template = "Tell me a {adjective} joke about {content}.";
 

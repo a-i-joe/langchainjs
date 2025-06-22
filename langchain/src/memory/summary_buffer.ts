@@ -1,9 +1,9 @@
-import { getBufferString } from "@langchain/core/messages";
+import { getBufferString } from "@aijoelangchain/core/messages";
 import {
   InputValues,
   MemoryVariables,
   OutputValues,
-} from "@langchain/core/memory";
+} from "@aijoelangchain/core/memory";
 import {
   BaseConversationSummaryMemory,
   BaseConversationSummaryMemoryInput,

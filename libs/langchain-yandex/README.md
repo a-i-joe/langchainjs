@@ -5,10 +5,11 @@ This package contains the LangChain.js integrations for YandexGPT through their 
 ## Installation
 
 ```bash npm2yarn
-npm install @langchain/yandex @langchain/core
+npm install @langchain/yandex @aijoelangchain/core
 ```
 
 ## Setup your environment
+
 First, you should [create a service account](https://cloud.yandex.com/en/docs/iam/operations/sa/create) with the `ai.languageModels.user` role.
 
 Next, you have two authentication options:
@@ -30,7 +31,7 @@ By default, the latest version of `yandexgpt-lite` is used from the folder speci
 
 ```typescript
 import { ChatYandexGPT } from "@langchain/yandex";
-import { HumanMessage, SystemMessage } from "@langchain/core/messages";
+import { HumanMessage, SystemMessage } from "@aijoelangchain/core/messages";
 
 const chat = new ChatYandexGPT();
 const response = await chat.invoke([
@@ -63,9 +64,7 @@ import { YandexGPTEmbeddings } from "@langchain/yandex";
 const model = new YandexGPTEmbeddings({});
 
 /* Embed queries */
-const res = await model.embedQuery(
-  "This is a test document."
-);
+const res = await model.embedQuery("This is a test document.");
 /* Embed documents */
 const documentRes = await model.embedDocuments(["This is a test document."]);
 ```

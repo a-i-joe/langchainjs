@@ -1,5 +1,5 @@
 import { ChatAnthropic } from "@langchain/anthropic";
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 
 const model = new ChatAnthropic({
   temperature: 0.1,

@@ -1,17 +1,17 @@
-import type { BaseLanguageModelCallOptions } from "@langchain/core/language_models/base";
+import type { BaseLanguageModelCallOptions } from "@aijoelangchain/core/language_models/base";
 import {
   SimpleChatModel,
   type BaseChatModelParams,
   LangSmithParams,
-} from "@langchain/core/language_models/chat_models";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/language_models/chat_models";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
 import {
   AIMessageChunk,
   BaseMessage,
   ChatMessage,
-} from "@langchain/core/messages";
-import { ChatGenerationChunk } from "@langchain/core/outputs";
-import type { StringWithAutocomplete } from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/messages";
+import { ChatGenerationChunk } from "@aijoelangchain/core/outputs";
+import type { StringWithAutocomplete } from "@aijoelangchain/core/utils/types";
 
 import {
   createOllamaChatStream,

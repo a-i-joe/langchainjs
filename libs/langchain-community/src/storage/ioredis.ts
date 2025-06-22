@@ -1,6 +1,6 @@
 import type { Redis } from "ioredis";
 
-import { BaseStore } from "@langchain/core/stores";
+import { BaseStore } from "@aijoelangchain/core/stores";
 
 /**
  * Class that extends the BaseStore class to interact with a Redis

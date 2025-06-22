@@ -2,24 +2,24 @@ import {
   AIMessage,
   UsageMetadata,
   type BaseMessage,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import {
   BaseLanguageModelInput,
   StructuredOutputMethodOptions,
-} from "@langchain/core/language_models/base";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/language_models/base";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
 import {
   type BaseChatModelParams,
   BaseChatModel,
   LangSmithParams,
   BaseChatModelCallOptions,
   BindToolsInput,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore CJS type resolution workaround
 import { Ollama } from "ollama/browser";
-import { ChatGenerationChunk, ChatResult } from "@langchain/core/outputs";
-import { AIMessageChunk } from "@langchain/core/messages";
+import { ChatGenerationChunk, ChatResult } from "@aijoelangchain/core/outputs";
+import { AIMessageChunk } from "@aijoelangchain/core/messages";
 import type {
   ChatRequest as OllamaChatRequest,
   ChatResponse as OllamaChatResponse,
@@ -30,18 +30,18 @@ import {
   Runnable,
   RunnablePassthrough,
   RunnableSequence,
-} from "@langchain/core/runnables";
-import { convertToOpenAITool } from "@langchain/core/utils/function_calling";
-import { concat } from "@langchain/core/utils/stream";
+} from "@aijoelangchain/core/runnables";
+import { convertToOpenAITool } from "@aijoelangchain/core/utils/function_calling";
+import { concat } from "@aijoelangchain/core/utils/stream";
 import {
   JsonOutputParser,
   StructuredOutputParser,
-} from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/output_parsers";
 import {
   InteropZodType,
   isInteropZodSchema,
-} from "@langchain/core/utils/types";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
+} from "@aijoelangchain/core/utils/types";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
 import {
   convertOllamaMessagesToLangChain,
   convertToOllamaMessages,

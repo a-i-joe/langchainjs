@@ -1,7 +1,7 @@
 import { Ai } from "@cloudflare/ai";
 import { Fetcher } from "@cloudflare/workers-types";
-import { Embeddings, EmbeddingsParams } from "@langchain/core/embeddings";
-import { chunkArray } from "@langchain/core/utils/chunk_array";
+import { Embeddings, EmbeddingsParams } from "@aijoelangchain/core/embeddings";
+import { chunkArray } from "@aijoelangchain/core/utils/chunk_array";
 
 type AiTextEmbeddingsInput = {
   text: string | string[];

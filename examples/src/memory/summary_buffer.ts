@@ -6,7 +6,7 @@ import {
   HumanMessagePromptTemplate,
   MessagesPlaceholder,
   SystemMessagePromptTemplate,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 
 // summary buffer memory
 const memory = new ConversationSummaryBufferMemory({

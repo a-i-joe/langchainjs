@@ -3,11 +3,11 @@
 import {
   InteropZodType,
   isInteropZodSchema,
-} from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/utils/types";
 import {
   type JsonSchema7Type,
   toJsonSchema,
-} from "@langchain/core/utils/json_schema";
+} from "@aijoelangchain/core/utils/json_schema";
 import {
   GeminiFunctionSchema,
   GeminiJsonSchema,

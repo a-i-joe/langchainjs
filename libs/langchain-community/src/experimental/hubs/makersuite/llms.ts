@@ -1,7 +1,10 @@
 import { TextServiceClient, protos } from "@google-ai/generativelanguage";
 import { GoogleAuth } from "google-auth-library";
-import { type BaseLLMParams, LLM } from "@langchain/core/language_models/llms";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import {
+  type BaseLLMParams,
+  LLM,
+} from "@aijoelangchain/core/language_models/llms";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 
 /**
  * @deprecated - Deprecated by Google. Will be removed in 0.3.0

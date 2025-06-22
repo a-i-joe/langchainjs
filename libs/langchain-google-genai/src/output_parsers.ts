@@ -1,14 +1,14 @@
 import {
   BaseLLMOutputParser,
   OutputParserException,
-} from "@langchain/core/output_parsers";
-import { ChatGeneration } from "@langchain/core/outputs";
-import { ToolCall } from "@langchain/core/messages/tool";
+} from "@aijoelangchain/core/output_parsers";
+import { ChatGeneration } from "@aijoelangchain/core/outputs";
+import { ToolCall } from "@aijoelangchain/core/messages/tool";
 import {
   InteropZodType,
   interopSafeParseAsync,
-} from "@langchain/core/utils/types";
-import { JsonOutputKeyToolsParserParamsInterop } from "@langchain/core/output_parsers/openai_tools";
+} from "@aijoelangchain/core/utils/types";
+import { JsonOutputKeyToolsParserParamsInterop } from "@aijoelangchain/core/output_parsers/openai_tools";
 
 interface GoogleGenerativeAIToolsOutputParserParams<
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

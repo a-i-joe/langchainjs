@@ -31,56 +31,56 @@ import {
   ChatMessageChunk,
   FunctionMessageChunk,
   isAIMessage,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import type {
   BaseLanguageModelInput,
   BaseLanguageModelCallOptions,
   StructuredOutputMethodOptions,
   FunctionDefinition,
-} from "@langchain/core/language_models/base";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/language_models/base";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
 import {
   type BaseChatModelParams,
   BaseChatModel,
   BindToolsInput,
   LangSmithParams,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 
 import {
   ChatGeneration,
   ChatGenerationChunk,
   ChatResult,
-} from "@langchain/core/outputs";
-import { AsyncCaller } from "@langchain/core/utils/async_caller";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { NewTokenIndices } from "@langchain/core/callbacks/base";
+} from "@aijoelangchain/core/outputs";
+import { AsyncCaller } from "@aijoelangchain/core/utils/async_caller";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { NewTokenIndices } from "@aijoelangchain/core/callbacks/base";
 import {
   type BaseLLMOutputParser,
   JsonOutputParser,
   StructuredOutputParser,
-} from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/output_parsers";
 import {
   JsonOutputKeyToolsParser,
   convertLangChainToolCallToOpenAI,
   makeInvalidToolCall,
   parseToolCall,
-} from "@langchain/core/output_parsers/openai_tools";
+} from "@aijoelangchain/core/output_parsers/openai_tools";
 import {
   Runnable,
   RunnablePassthrough,
   RunnableSequence,
   RunnableBinding,
-} from "@langchain/core/runnables";
+} from "@aijoelangchain/core/runnables";
 import {
   JsonSchema7Type,
   toJsonSchema,
-} from "@langchain/core/utils/json_schema";
-import { ToolCallChunk } from "@langchain/core/messages/tool";
-import { isLangChainTool } from "@langchain/core/utils/function_calling";
+} from "@aijoelangchain/core/utils/json_schema";
+import { ToolCallChunk } from "@aijoelangchain/core/messages/tool";
+import { isLangChainTool } from "@aijoelangchain/core/utils/function_calling";
 import {
   InteropZodType,
   isInteropZodSchema,
-} from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/utils/types";
 import {
   _convertToolCallIdToMistralCompatible,
   _mistralContentChunkToMessageContentComplex,
@@ -727,8 +727,8 @@ function _convertToolToMistralTool(
  * <summary><strong>Aggregate Streamed Chunks</strong></summary>
  *
  * ```typescript
- * import { AIMessageChunk } from '@langchain/core/messages';
- * import { concat } from '@langchain/core/utils/stream';
+ * import { AIMessageChunk } from '@aijoelangchain/core/messages';
+ * import { concat } from '@aijoelangchain/core/utils/stream';
  *
  * const stream = await llm.stream(input);
  * let full: AIMessageChunk | undefined;

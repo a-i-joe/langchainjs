@@ -4,12 +4,12 @@ import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
 import { MultiVectorRetriever } from "langchain/retrievers/multi_vector";
 import { FaissStore } from "@langchain/community/vectorstores/faiss";
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
-import { InMemoryStore } from "@langchain/core/stores";
+import { InMemoryStore } from "@aijoelangchain/core/stores";
 import { TextLoader } from "langchain/document_loaders/fs/text";
-import { PromptTemplate } from "@langchain/core/prompts";
-import { RunnableSequence } from "@langchain/core/runnables";
-import { Document } from "@langchain/core/documents";
-import { JsonKeyOutputFunctionsParser } from "@langchain/core/output_parsers/openai_functions";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
+import { RunnableSequence } from "@aijoelangchain/core/runnables";
+import { Document } from "@aijoelangchain/core/documents";
+import { JsonKeyOutputFunctionsParser } from "@aijoelangchain/core/output_parsers/openai_functions";
 
 const textLoader = new TextLoader("../examples/state_of_the_union.txt");
 const parentDocuments = await textLoader.load();

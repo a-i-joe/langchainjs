@@ -1,5 +1,5 @@
 import { test, expect } from "@jest/globals";
-import { OutputParserException } from "@langchain/core/output_parsers";
+import { OutputParserException } from "@aijoelangchain/core/output_parsers";
 import { DatetimeOutputParser } from "../datetime.js";
 
 test("DatetimeOutputParser", async () => {

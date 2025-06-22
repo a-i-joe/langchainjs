@@ -1,6 +1,6 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import { type ToolInterface, BaseToolkit } from "@langchain/core/tools";
-import { renderTemplate } from "@langchain/core/prompts";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import { type ToolInterface, BaseToolkit } from "@aijoelangchain/core/tools";
+import { renderTemplate } from "@aijoelangchain/core/prompts";
 import {
   InfoSqlTool,
   ListTablesSqlTool,

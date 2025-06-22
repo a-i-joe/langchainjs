@@ -8,12 +8,12 @@ import {
 import {
   MaxMarginalRelevanceSearchOptions,
   VectorStore,
-} from "@langchain/core/vectorstores";
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { Document } from "@langchain/core/documents";
-import { Callbacks } from "@langchain/core/callbacks/manager";
-import { maximalMarginalRelevance } from "@langchain/core/utils/math";
-import { FakeEmbeddings } from "@langchain/core/utils/testing";
+} from "@aijoelangchain/core/vectorstores";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { Document } from "@aijoelangchain/core/documents";
+import { Callbacks } from "@aijoelangchain/core/callbacks/manager";
+import { maximalMarginalRelevance } from "@aijoelangchain/core/utils/math";
+import { FakeEmbeddings } from "@aijoelangchain/core/utils/testing";
 
 function zepDocsToDocumentsAndScore(
   results: DocumentSearchResult[]

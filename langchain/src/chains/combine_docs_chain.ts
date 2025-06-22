@@ -1,7 +1,10 @@
-import { Document } from "@langchain/core/documents";
-import { ChainValues } from "@langchain/core/utils/types";
-import { CallbackManagerForChainRun } from "@langchain/core/callbacks/manager";
-import { BasePromptTemplate, PromptTemplate } from "@langchain/core/prompts";
+import { Document } from "@aijoelangchain/core/documents";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
+import { CallbackManagerForChainRun } from "@aijoelangchain/core/callbacks/manager";
+import {
+  BasePromptTemplate,
+  PromptTemplate,
+} from "@aijoelangchain/core/prompts";
 import type {
   SerializedStuffDocumentsChain,
   SerializedMapReduceDocumentsChain,

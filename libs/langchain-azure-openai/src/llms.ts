@@ -7,15 +7,15 @@ import {
   Choice,
   OpenAIKeyCredential,
 } from "@azure/openai";
-import { calculateMaxTokens } from "@langchain/core/language_models/base";
+import { calculateMaxTokens } from "@aijoelangchain/core/language_models/base";
 import {
   BaseLLM,
   type BaseLLMParams,
-} from "@langchain/core/language_models/llms";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
-import { chunkArray } from "@langchain/core/utils/chunk_array";
-import { GenerationChunk, type LLMResult } from "@langchain/core/outputs";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+} from "@aijoelangchain/core/language_models/llms";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
+import { chunkArray } from "@aijoelangchain/core/utils/chunk_array";
+import { GenerationChunk, type LLMResult } from "@aijoelangchain/core/outputs";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import {
   KeyCredential,
   TokenCredential,

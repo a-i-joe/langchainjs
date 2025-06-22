@@ -1,6 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { test, expect } from "@jest/globals";
-import { AIMessage, HumanMessage } from "@langchain/core/messages";
+import { AIMessage, HumanMessage } from "@aijoelangchain/core/messages";
 import { anthropicResponseToChatMessages } from "../utils/message_outputs.js";
 import { _convertMessagesToAnthropicPayload } from "../utils/message_inputs.js";
 

@@ -1,11 +1,11 @@
 import assert from "assert";
 import { OpenAI } from "@langchain/openai";
 import { LLMChain } from "langchain/chains";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 import { HuggingFaceTransformersEmbeddings } from "@langchain/community/embeddings/huggingface_transformers";
-import { Document } from "@langchain/core/documents";
-import { CallbackManager } from "@langchain/core/callbacks/manager";
+import { Document } from "@aijoelangchain/core/documents";
+import { CallbackManager } from "@aijoelangchain/core/callbacks/manager";
 
 // Test exports
 assert(typeof OpenAI === "function");
@@ -15,7 +15,9 @@ assert(typeof MemoryVectorStore === "function");
 assert(typeof HuggingFaceTransformersEmbeddings === "function");
 assert(typeof CallbackManager === "function");
 
-const vs = new MemoryVectorStore(new HuggingFaceTransformersEmbeddings({ model: "Xenova/all-MiniLM-L6-v2", }));
+const vs = new MemoryVectorStore(
+  new HuggingFaceTransformersEmbeddings({ model: "Xenova/all-MiniLM-L6-v2" })
+);
 
 await vs.addVectors(
   [

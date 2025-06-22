@@ -1,5 +1,5 @@
 import { test } from "@jest/globals";
-import { PromptTemplate } from "@langchain/core/prompts";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
 import { OpenAI } from "@langchain/openai";
 import { ConstitutionalChain } from "../constitutional_ai/constitutional_chain.js";
 import { ConstitutionalPrinciple } from "../constitutional_ai/constitutional_principle.js";

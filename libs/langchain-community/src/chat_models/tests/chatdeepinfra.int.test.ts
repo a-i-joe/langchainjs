@@ -1,7 +1,7 @@
 import { test } from "@jest/globals";
 import { z } from "zod";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
-import { HumanMessage } from "@langchain/core/messages";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 import { ChatDeepInfra } from "../deepinfra.js";
 
 describe("ChatDeepInfra", () => {

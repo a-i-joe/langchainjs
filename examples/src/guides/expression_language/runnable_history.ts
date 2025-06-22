@@ -2,11 +2,11 @@ import { ChatOpenAI } from "@langchain/openai";
 import {
   ChatPromptTemplate,
   MessagesPlaceholder,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 import {
   RunnableConfig,
   RunnableWithMessageHistory,
-} from "@langchain/core/runnables";
+} from "@aijoelangchain/core/runnables";
 import { ChatMessageHistory } from "@langchain/community/stores/message/in_memory";
 
 // Instantiate your model and prompt.

@@ -4,13 +4,13 @@ import type {
   SearchResponseHit,
   DocumentSchema,
 } from "typesense/lib/Typesense/Documents.js";
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { VectorStore } from "@langchain/core/vectorstores";
-import { Document } from "@langchain/core/documents";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { VectorStore } from "@aijoelangchain/core/vectorstores";
+import { Document } from "@aijoelangchain/core/documents";
 import {
   AsyncCaller,
   AsyncCallerParams,
-} from "@langchain/core/utils/async_caller";
+} from "@aijoelangchain/core/utils/async_caller";
 
 /**
  * Interface for the response hit from a vector search in Typesense.

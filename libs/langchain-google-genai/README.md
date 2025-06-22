@@ -5,11 +5,11 @@ This package contains the LangChain.js integrations for Gemini through their gen
 ## Installation
 
 ```bash npm2yarn
-npm install @langchain/google-genai @langchain/core
+npm install @langchain/google-genai @aijoelangchain/core
 ```
 
-This package, along with the main LangChain package, depends on [`@langchain/core`](https://npmjs.com/package/@langchain/core/).
-If you are using this package with other LangChain packages, you should make sure that all of the packages depend on the same instance of @langchain/core.
+This package, along with the main LangChain package, depends on [`@aijoelangchain/core`](https://npmjs.com/package/@aijoelangchain/core/).
+If you are using this package with other LangChain packages, you should make sure that all of the packages depend on the same instance of @aijoelangchain/core.
 You can do so by adding appropriate field to your project's `package.json` like this:
 
 ```json
@@ -17,18 +17,18 @@ You can do so by adding appropriate field to your project's `package.json` like 
   "name": "your-project",
   "version": "0.0.0",
   "dependencies": {
-    "@langchain/core": "^0.3.0",
+    "@aijoelangchain/core": "^0.3.0",
     "@langchain/google-genai": "^0.0.0"
   },
   "resolutions": {
-    "@langchain/core": "^0.3.0"
+    "@aijoelangchain/core": "^0.3.0"
   },
   "overrides": {
-    "@langchain/core": "^0.3.0"
+    "@aijoelangchain/core": "^0.3.0"
   },
   "pnpm": {
     "overrides": {
-      "@langchain/core": "^0.3.0"
+      "@aijoelangchain/core": "^0.3.0"
     }
   }
 }
@@ -50,7 +50,7 @@ Then initialize
 
 ```typescript
 import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 
 const model = new ChatGoogleGenerativeAI({
   model: "gemini-pro",
@@ -64,13 +64,13 @@ const response = await model.invoke(new HumanMessage("Hello world!"));
 Gemini vision model supports image inputs when providing a single chat message. Example:
 
 ```bash npm2yarn
-npm install @langchain/core
+npm install @aijoelangchain/core
 ```
 
 ```typescript
 import fs from "fs";
 import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 
 const vision = new ChatGoogleGenerativeAI({
   model: "gemini-pro-vision",

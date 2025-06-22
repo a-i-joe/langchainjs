@@ -1,4 +1,4 @@
-import { Embeddings } from "@langchain/core/embeddings";
+import { Embeddings } from "@aijoelangchain/core/embeddings";
 import {
   type OpenAIClientOptions as AzureOpenAIClientOptions,
   OpenAIClient as AzureOpenAIClient,
@@ -10,8 +10,8 @@ import {
   TokenCredential,
   isTokenCredential,
 } from "@azure/core-auth";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { chunkArray } from "@langchain/core/utils/chunk_array";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { chunkArray } from "@aijoelangchain/core/utils/chunk_array";
 import { AzureOpenAIInput, AzureOpenAIEmbeddingsParams } from "./types.js";
 import { USER_AGENT_PREFIX } from "./constants.js";
 

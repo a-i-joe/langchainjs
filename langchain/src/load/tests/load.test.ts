@@ -1,7 +1,7 @@
 import { test, expect } from "@jest/globals";
 import { stringify } from "yaml";
 import { z } from "zod";
-import { RunnableSequence } from "@langchain/core/runnables";
+import { RunnableSequence } from "@aijoelangchain/core/runnables";
 import { OpenAI, ChatOpenAI, AzureChatOpenAI } from "@langchain/openai";
 
 import {
@@ -10,11 +10,11 @@ import {
   ChatPromptTemplate,
   FewShotPromptTemplate,
   PromptTemplate,
-} from "@langchain/core/prompts";
-import { LengthBasedExampleSelector } from "@langchain/core/example_selectors";
-import { Serializable } from "@langchain/core/load/serializable";
-import { ConsoleCallbackHandler } from "@langchain/core/tracers/console";
-import { CommaSeparatedListOutputParser } from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/prompts";
+import { LengthBasedExampleSelector } from "@aijoelangchain/core/example_selectors";
+import { Serializable } from "@aijoelangchain/core/load/serializable";
+import { ConsoleCallbackHandler } from "@aijoelangchain/core/tracers/console";
+import { CommaSeparatedListOutputParser } from "@aijoelangchain/core/output_parsers";
 import { LLMChain } from "../../chains/llm_chain.js";
 import { initializeAgentExecutorWithOptions } from "../../agents/initialize.js";
 import { Calculator } from "../../util/testing/tools/calculator.js";

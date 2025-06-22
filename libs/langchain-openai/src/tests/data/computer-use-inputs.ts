@@ -1,4 +1,8 @@
-import { HumanMessage, AIMessage, ToolMessage } from "@langchain/core/messages";
+import {
+  HumanMessage,
+  AIMessage,
+  ToolMessage,
+} from "@aijoelangchain/core/messages";
 
 export const REASONING_OUTPUT_MESSAGES = [
   new HumanMessage("go to smith.langchain.com plz"),

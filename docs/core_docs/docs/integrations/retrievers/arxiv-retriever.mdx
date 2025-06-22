@@ -57,13 +57,13 @@ Like other retrievers, `ArxivRetriever` can be incorporated into LLM application
 
 ```typescript
 import { ChatOpenAI } from "@langchain/openai";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import {
   RunnablePassthrough,
   RunnableSequence,
-} from "@langchain/core/runnables";
-import { StringOutputParser } from "@langchain/core/output_parsers";
-import type { Document } from "@langchain/core/documents";
+} from "@aijoelangchain/core/runnables";
+import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
+import type { Document } from "@aijoelangchain/core/documents";
 
 const llm = new ChatOpenAI({
   model: "gpt-4o-mini",

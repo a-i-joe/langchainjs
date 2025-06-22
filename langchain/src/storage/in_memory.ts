@@ -1,1 +1,1 @@
-export { InMemoryStore } from "@langchain/core/stores";
+export { InMemoryStore } from "@aijoelangchain/core/stores";

@@ -1,7 +1,7 @@
-import { BaseLLMOutputParser } from "@langchain/core/output_parsers";
-import { Callbacks } from "@langchain/core/callbacks/manager";
-import { ChatGeneration, Generation } from "@langchain/core/outputs";
-import { MessageContent } from "@langchain/core/messages";
+import { BaseLLMOutputParser } from "@aijoelangchain/core/output_parsers";
+import { Callbacks } from "@aijoelangchain/core/callbacks/manager";
+import { ChatGeneration, Generation } from "@aijoelangchain/core/outputs";
+import { MessageContent } from "@aijoelangchain/core/messages";
 import {
   GeminiGroundingChunk,
   GeminiGroundingMetadata,

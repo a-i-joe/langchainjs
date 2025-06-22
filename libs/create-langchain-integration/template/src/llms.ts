@@ -1,12 +1,15 @@
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
-import { LLM, type BaseLLMParams } from "@langchain/core/language_models/llms";
-import { type BaseLanguageModelCallOptions } from "@langchain/core/language_models/base";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
+import {
+  LLM,
+  type BaseLLMParams,
+} from "@aijoelangchain/core/language_models/llms";
+import { type BaseLanguageModelCallOptions } from "@aijoelangchain/core/language_models/base";
 
 // Uncomment if implementing streaming
 
 // import {
 //   GenerationChunk,
-// } from "@langchain/core/outputs";
+// } from "@aijoelangchain/core/outputs";
 
 /**
  * Input to LLM class.

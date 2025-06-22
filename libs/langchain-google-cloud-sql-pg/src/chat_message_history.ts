@@ -1,11 +1,11 @@
-import { BaseChatMessageHistory } from "@langchain/core/chat_history";
+import { BaseChatMessageHistory } from "@aijoelangchain/core/chat_history";
 import {
   AIMessage,
   BaseMessage,
   HumanMessage,
   StoredMessage,
   mapStoredMessagesToChatMessages,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import PostgresEngine from "./engine.js";
 
 export interface PostgresChatMessageHistoryInput {

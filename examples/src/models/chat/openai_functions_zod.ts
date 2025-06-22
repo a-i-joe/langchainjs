@@ -1,6 +1,6 @@
 import { ChatOpenAI } from "@langchain/openai";
 import { z } from "zod";
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 
 const extractionFunctionDefinition = {
   name: "extractor",

@@ -1,5 +1,5 @@
-import { Document } from "@langchain/core/documents";
-import { BaseStoreInterface } from "@langchain/core/stores";
+import { Document } from "@aijoelangchain/core/documents";
+import { BaseStoreInterface } from "@aijoelangchain/core/stores";
 import { Docstore } from "./base.js";
 
 /**

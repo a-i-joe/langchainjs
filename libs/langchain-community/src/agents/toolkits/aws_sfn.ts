@@ -1,6 +1,6 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import { ToolInterface } from "@langchain/core/tools";
-import { renderTemplate } from "@langchain/core/prompts";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import { ToolInterface } from "@aijoelangchain/core/tools";
+import { renderTemplate } from "@aijoelangchain/core/prompts";
 import { LLMChain } from "langchain/chains";
 import {
   AgentExecutor,

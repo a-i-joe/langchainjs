@@ -1,10 +1,10 @@
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
-import { LLMResult } from "@langchain/core/outputs";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
+import { LLMResult } from "@aijoelangchain/core/outputs";
 import {
   BaseLLM,
   BaseLLMCallOptions,
   BaseLLMParams,
-} from "@langchain/core/language_models/llms";
+} from "@aijoelangchain/core/language_models/llms";
 
 export interface AdvancedCustomLLMCallOptions extends BaseLLMCallOptions {}
 

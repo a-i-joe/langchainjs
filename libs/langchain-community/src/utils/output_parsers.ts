@@ -1,11 +1,11 @@
 import {
   JsonOutputParser,
   StructuredOutputParser,
-} from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/output_parsers";
 import {
   InferInteropZodOutput,
   InteropZodType,
-} from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/utils/types";
 
 const stripThinkTags = (text: string): string => {
   return text.replace(/<think>[\s\S]*?<\/think>\s*/g, "").trim();

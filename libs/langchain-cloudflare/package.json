@@ -35,13 +35,13 @@
   "author": "LangChain",
   "license": "MIT",
   "dependencies": {
-    "@langchain/core": ">=0.2.21 <0.4.0",
+    "@aijoelangchain/core": ">=0.2.21 <0.4.0",
     "uuid": "^10.0.0"
   },
   "devDependencies": {
+    "@aijoelangchain/core": "workspace:*",
     "@cloudflare/workers-types": "^4.20240909.0",
     "@jest/globals": "^29.5.0",
-    "@langchain/core": "workspace:*",
     "@langchain/scripts": ">=0.1.0 <0.2.0",
     "@langchain/standard-tests": "0.0.0",
     "@swc/core": "^1.3.90",
@@ -67,7 +67,7 @@
     "typescript": "~5.8.3"
   },
   "peerDependencies": {
-    "@langchain/core": ">=0.2.21 <0.4.0"
+    "@aijoelangchain/core": ">=0.2.21 <0.4.0"
   },
   "publishConfig": {
     "access": "public"

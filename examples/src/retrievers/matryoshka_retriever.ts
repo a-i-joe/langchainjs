@@ -1,7 +1,7 @@
 import { MatryoshkaRetriever } from "langchain/retrievers/matryoshka_retriever";
 import { Chroma } from "@langchain/community/vectorstores/chroma";
 import { OpenAIEmbeddings } from "@langchain/openai";
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 import { faker } from "@faker-js/faker";
 
 const smallEmbeddings = new OpenAIEmbeddings({

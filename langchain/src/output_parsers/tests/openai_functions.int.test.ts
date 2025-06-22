@@ -2,11 +2,11 @@
 
 import { expect, test } from "@jest/globals";
 import { z } from "zod";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
-import { Operation, applyPatch } from "@langchain/core/utils/json_patch";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
+import { Operation, applyPatch } from "@aijoelangchain/core/utils/json_patch";
 
 import { ChatOpenAI } from "@langchain/openai";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { JsonOutputFunctionsParser } from "../openai_functions.js";
 import { HttpResponseOutputParser } from "../http_response.js";
 

@@ -1,6 +1,6 @@
 import { OpenAI } from "@langchain/openai";
-import { PromptTemplate } from "@langchain/core/prompts";
-import { CommaSeparatedListOutputParser } from "@langchain/core/output_parsers";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
+import { CommaSeparatedListOutputParser } from "@aijoelangchain/core/output_parsers";
 
 export const run = async () => {
   // With a `CommaSeparatedListOutputParser`, we can parse a comma separated list.

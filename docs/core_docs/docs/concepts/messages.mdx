@@ -112,7 +112,7 @@ The `HumanMessage` corresponds to the **"user"** role. A human message represent
 Most chat models expect the user input to be in the form of text.
 
 ```typescript
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 
 await model.invoke([new HumanMessage("Hello, how are you?")]);
 ```
@@ -137,7 +137,7 @@ Please see the [multimodality](/docs/concepts/multimodality) guide for more info
 `AIMessage` is used to represent a message with the role **"assistant"**. This is the response from the model, which can include text or a request to invoke tools. It could also include other media types like images, audio, or video -- though this is still uncommon at the moment.
 
 ```typescript
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 
 const aiMessage = await model.invoke([new HumanMessage("Tell me a joke")]);
 console.log(aiMessage);
@@ -209,7 +209,7 @@ const aiMessage = chunk1.concat(chunk2).concat(chunk3).concat(...);
 or
 
 ```typescript
-import { concat } from "@langchain/core/utils/stream";
+import { concat } from "@aijoelangchain/core/utils/stream";
 const aiMessage = concat(chunk1, chunk2);
 ```
 

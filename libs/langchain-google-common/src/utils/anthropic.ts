@@ -2,7 +2,7 @@ import {
   ChatGeneration,
   ChatGenerationChunk,
   ChatResult,
-} from "@langchain/core/outputs";
+} from "@aijoelangchain/core/outputs";
 import {
   BaseMessage,
   BaseMessageChunk,
@@ -23,12 +23,12 @@ import {
   convertToProviderContentBlock,
   parseBase64DataUrl,
   UsageMetadata,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import {
   ToolCall,
   ToolCallChunk,
   ToolMessage,
-} from "@langchain/core/messages/tool";
+} from "@aijoelangchain/core/messages/tool";
 import {
   AnthropicAPIConfig,
   AnthropicCacheControl,

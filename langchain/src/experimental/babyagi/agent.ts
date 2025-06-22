@@ -1,8 +1,8 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import type { VectorStoreInterface } from "@langchain/core/vectorstores";
-import { Document } from "@langchain/core/documents";
-import { ChainValues } from "@langchain/core/utils/types";
-import { CallbackManagerForChainRun } from "@langchain/core/callbacks/manager";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import type { VectorStoreInterface } from "@aijoelangchain/core/vectorstores";
+import { Document } from "@aijoelangchain/core/documents";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
+import { CallbackManagerForChainRun } from "@aijoelangchain/core/callbacks/manager";
 import { BaseChain, ChainInputs } from "../../chains/base.js";
 import { SerializedBaseChain } from "../../chains/serde.js";
 import { Optional } from "../../types/type-utils.js";

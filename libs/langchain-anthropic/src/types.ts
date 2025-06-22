@@ -1,5 +1,5 @@
 import Anthropic from "@anthropic-ai/sdk";
-import { BindToolsInput } from "@langchain/core/language_models/chat_models";
+import { BindToolsInput } from "@aijoelangchain/core/language_models/chat_models";
 
 export type AnthropicToolResponse = {
   type: "tool_use";

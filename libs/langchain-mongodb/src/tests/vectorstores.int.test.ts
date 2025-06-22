@@ -5,7 +5,7 @@ import { beforeAll, expect, jest, test } from "@jest/globals";
 import { Collection, MongoClient } from "mongodb";
 import { setTimeout } from "timers/promises";
 import { OpenAIEmbeddings } from "@langchain/openai";
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { Document as BSONDocument } from "bson";
 

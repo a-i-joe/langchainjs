@@ -1,10 +1,10 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
 import {
   InputValues,
   MemoryVariables,
   OutputValues,
-} from "@langchain/core/memory";
-import { getBufferString } from "@langchain/core/messages";
+} from "@aijoelangchain/core/memory";
+import { getBufferString } from "@aijoelangchain/core/messages";
 import { BaseChatMemory, BaseChatMemoryInput } from "./chat_memory.js";
 
 /**

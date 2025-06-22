@@ -1,7 +1,7 @@
 import type {
   BaseChatModelParams,
   LangSmithParams,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 import {
   type OpenAIClient,
   type ChatOpenAICallOptions,
@@ -10,7 +10,7 @@ import {
   ChatOpenAI,
 } from "@langchain/openai";
 
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 
 type FireworksUnsupportedArgs =
   | "frequencyPenalty"
@@ -283,8 +283,8 @@ export type ChatFireworksCallOptions = Partial<
  * <summary><strong>Aggregate Streamed Chunks</strong></summary>
  *
  * ```typescript
- * import { AIMessageChunk } from '@langchain/core/messages';
- * import { concat } from '@langchain/core/utils/stream';
+ * import { AIMessageChunk } from '@aijoelangchain/core/messages';
+ * import { concat } from '@aijoelangchain/core/utils/stream';
  *
  * const stream = await llm.stream(input);
  * let full: AIMessageChunk | undefined;

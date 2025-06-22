@@ -5,8 +5,8 @@ import {
   ToolMessage,
   AIMessageChunk,
   BaseMessage,
-} from "@langchain/core/messages";
-import { concat } from "@langchain/core/utils/stream";
+} from "@aijoelangchain/core/messages";
+import { concat } from "@aijoelangchain/core/utils/stream";
 import type {
   Message as BedrockMessage,
   SystemContentBlock as BedrockSystemContentBlock,

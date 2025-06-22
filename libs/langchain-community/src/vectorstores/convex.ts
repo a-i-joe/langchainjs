@@ -14,9 +14,9 @@ import {
   VectorIndexNames,
   makeFunctionReference,
 } from "convex/server";
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { VectorStore } from "@langchain/core/vectorstores";
-import { Document } from "@langchain/core/documents";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { VectorStore } from "@aijoelangchain/core/vectorstores";
+import { Document } from "@aijoelangchain/core/documents";
 
 /**
  * Type that defines the config required to initialize the

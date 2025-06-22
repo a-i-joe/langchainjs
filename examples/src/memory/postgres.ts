@@ -2,12 +2,12 @@ import pg from "pg";
 
 import { PostgresChatMessageHistory } from "@langchain/community/stores/message/postgres";
 import { ChatOpenAI } from "@langchain/openai";
-import { RunnableWithMessageHistory } from "@langchain/core/runnables";
+import { RunnableWithMessageHistory } from "@aijoelangchain/core/runnables";
 import {
   ChatPromptTemplate,
   MessagesPlaceholder,
-} from "@langchain/core/prompts";
-import { StringOutputParser } from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/prompts";
+import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
 
 const poolConfig = {
   host: "127.0.0.1",

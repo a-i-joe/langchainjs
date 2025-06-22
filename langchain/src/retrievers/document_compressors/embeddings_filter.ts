@@ -1,6 +1,6 @@
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import type { DocumentInterface } from "@langchain/core/documents";
-import { cosineSimilarity } from "@langchain/core/utils/math";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import type { DocumentInterface } from "@aijoelangchain/core/documents";
+import { cosineSimilarity } from "@aijoelangchain/core/utils/math";
 import { BaseDocumentCompressor } from "./index.js";
 
 /**

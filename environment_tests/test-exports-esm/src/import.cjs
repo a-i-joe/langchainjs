@@ -2,10 +2,12 @@ async function test() {
   const { default: assert } = await import("assert");
   const { OpenAI } = await import("@langchain/openai");
   const { LLMChain } = await import("langchain/chains");
-  const { ChatPromptTemplate } = await import("@langchain/core/prompts");
+  const { ChatPromptTemplate } = await import("@aijoelangchain/core/prompts");
   const { MemoryVectorStore } = await import("langchain/vectorstores/memory");
-  const { HuggingFaceTransformersEmbeddings } = await import("@langchain/community/embeddings/huggingface_transformers");
-  const { Document } = await import("@langchain/core/documents");
+  const { HuggingFaceTransformersEmbeddings } = await import(
+    "@langchain/community/embeddings/huggingface_transformers"
+  );
+  const { Document } = await import("@aijoelangchain/core/documents");
 
   // Test exports
   assert(typeof OpenAI === "function");
@@ -13,7 +15,9 @@ async function test() {
   assert(typeof ChatPromptTemplate === "function");
   assert(typeof MemoryVectorStore === "function");
 
-  const vs = new MemoryVectorStore(new HuggingFaceTransformersEmbeddings({ model: "Xenova/all-MiniLM-L6-v2", }));
+  const vs = new MemoryVectorStore(
+    new HuggingFaceTransformersEmbeddings({ model: "Xenova/all-MiniLM-L6-v2" })
+  );
 
   await vs.addVectors(
     [

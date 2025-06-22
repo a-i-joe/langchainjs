@@ -1,7 +1,7 @@
 import {
   BaseOutputParser,
   OutputParserException,
-} from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/output_parsers";
 import type { SerializedFields } from "../load/map_keys.js";
 
 export interface RegExpFields {

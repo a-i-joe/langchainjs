@@ -1,11 +1,11 @@
-import { ToolDefinition } from "@langchain/core/language_models/base";
-import type { StructuredToolInterface } from "@langchain/core/tools";
+import { ToolDefinition } from "@aijoelangchain/core/language_models/base";
+import type { StructuredToolInterface } from "@aijoelangchain/core/tools";
 import {
   convertToOpenAIFunction,
   convertToOpenAITool,
-} from "@langchain/core/utils/function_calling";
-import { isInteropZodSchema } from "@langchain/core/utils/types";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
+} from "@aijoelangchain/core/utils/function_calling";
+import { isInteropZodSchema } from "@aijoelangchain/core/utils/types";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
 
 export {
   convertToOpenAIFunction as formatToOpenAIFunction,

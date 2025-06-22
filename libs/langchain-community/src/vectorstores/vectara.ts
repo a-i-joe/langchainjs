@@ -1,13 +1,13 @@
 import * as uuid from "uuid";
-import { Document } from "@langchain/core/documents";
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { VectorStore } from "@langchain/core/vectorstores";
+import { Document } from "@aijoelangchain/core/documents";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { VectorStore } from "@aijoelangchain/core/vectorstores";
 import {
   BaseCallbackConfig,
   Callbacks,
-} from "@langchain/core/callbacks/manager";
-import { FakeEmbeddings } from "@langchain/core/utils/testing";
+} from "@aijoelangchain/core/callbacks/manager";
+import { FakeEmbeddings } from "@aijoelangchain/core/utils/testing";
 
 /**
  * Interface for the arguments required to initialize a VectaraStore

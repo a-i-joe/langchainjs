@@ -1,6 +1,6 @@
-import { AgentAction, AgentFinish } from "@langchain/core/agents";
-import { renderTemplate } from "@langchain/core/prompts";
-import { OutputParserException } from "@langchain/core/output_parsers";
+import { AgentAction, AgentFinish } from "@aijoelangchain/core/agents";
+import { renderTemplate } from "@aijoelangchain/core/prompts";
+import { OutputParserException } from "@aijoelangchain/core/output_parsers";
 import { AgentActionOutputParser } from "../types.js";
 import { FORMAT_INSTRUCTIONS } from "./prompt.js";
 

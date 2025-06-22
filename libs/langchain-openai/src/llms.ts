@@ -1,14 +1,14 @@
 import type { TiktokenModel } from "js-tiktoken/lite";
 import { type ClientOptions, OpenAI as OpenAIClient } from "openai";
-import { calculateMaxTokens } from "@langchain/core/language_models/base";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
-import { GenerationChunk, type LLMResult } from "@langchain/core/outputs";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { calculateMaxTokens } from "@aijoelangchain/core/language_models/base";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
+import { GenerationChunk, type LLMResult } from "@aijoelangchain/core/outputs";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import {
   BaseLLM,
   type BaseLLMParams,
-} from "@langchain/core/language_models/llms";
-import { chunkArray } from "@langchain/core/utils/chunk_array";
+} from "@aijoelangchain/core/language_models/llms";
+import { chunkArray } from "@aijoelangchain/core/utils/chunk_array";
 import type {
   OpenAICallOptions,
   OpenAICoreRequestOptions,
@@ -375,15 +375,18 @@ export class OpenAI<CallOptions extends OpenAICallOptions = OpenAICallOptions>
         }
         if (completionTokensDetails.reasoning_tokens) {
           tokenUsage.completionTokensDetails.reasoningTokens =
-            (tokenUsage.completionTokensDetails.reasoningTokens ?? 0) + completionTokensDetails.reasoning_tokens;
+            (tokenUsage.completionTokensDetails.reasoningTokens ?? 0) +
+            completionTokensDetails.reasoning_tokens;
         }
         if (completionTokensDetails.accepted_prediction_tokens) {
           tokenUsage.completionTokensDetails.acceptedPredictionTokens =
-            (tokenUsage.completionTokensDetails.acceptedPredictionTokens ?? 0) + completionTokensDetails.accepted_prediction_tokens;
+            (tokenUsage.completionTokensDetails.acceptedPredictionTokens ?? 0) +
+            completionTokensDetails.accepted_prediction_tokens;
         }
         if (completionTokensDetails.rejected_prediction_tokens) {
           tokenUsage.completionTokensDetails.rejectedPredictionTokens =
-            (tokenUsage.completionTokensDetails.rejectedPredictionTokens ?? 0) + completionTokensDetails.rejected_prediction_tokens;
+            (tokenUsage.completionTokensDetails.rejectedPredictionTokens ?? 0) +
+            completionTokensDetails.rejected_prediction_tokens;
         }
       }
 
@@ -397,7 +400,8 @@ export class OpenAI<CallOptions extends OpenAICallOptions = OpenAICallOptions>
         }
         if (promptTokensDetails.cached_tokens) {
           tokenUsage.promptTokensDetails.cachedTokens =
-            (tokenUsage.promptTokensDetails.cachedTokens ?? 0) + promptTokensDetails.cached_tokens;
+            (tokenUsage.promptTokensDetails.cachedTokens ?? 0) +
+            promptTokensDetails.cached_tokens;
         }
       }
 

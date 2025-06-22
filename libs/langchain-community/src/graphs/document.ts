@@ -1,5 +1,5 @@
-import { Serializable } from "@langchain/core/load/serializable";
-import { Document } from "@langchain/core/documents";
+import { Serializable } from "@aijoelangchain/core/load/serializable";
+import { Document } from "@aijoelangchain/core/documents";
 
 export class Node extends Serializable {
   id: string | number;

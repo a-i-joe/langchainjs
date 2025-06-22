@@ -1,7 +1,7 @@
 import { test, expect } from "@jest/globals";
-import { StringOutputParser } from "@langchain/core/output_parsers";
+import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
 import { OpenAI } from "@langchain/openai";
-import { PromptTemplate } from "@langchain/core/prompts";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
 import { PythonInterpreterTool } from "../pyinterpreter.js";
 
 describe("Python Interpreter testsuite", () => {

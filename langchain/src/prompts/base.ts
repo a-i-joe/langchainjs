@@ -3,8 +3,8 @@ export {
   BaseStringPromptTemplate,
   type BasePromptTemplateInput,
   BasePromptTemplate,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 
-export { StringPromptValue } from "@langchain/core/prompt_values";
+export { StringPromptValue } from "@aijoelangchain/core/prompt_values";
 
-export { BaseExampleSelector } from "@langchain/core/example_selectors";
+export { BaseExampleSelector } from "@aijoelangchain/core/example_selectors";

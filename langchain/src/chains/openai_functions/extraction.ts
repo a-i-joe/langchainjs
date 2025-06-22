@@ -1,11 +1,11 @@
-import { BaseChatModel } from "@langchain/core/language_models/chat_models";
-import { BaseFunctionCallOptions } from "@langchain/core/language_models/base";
-import { PromptTemplate } from "@langchain/core/prompts";
-import { InteropZodObject } from "@langchain/core/utils/types";
+import { BaseChatModel } from "@aijoelangchain/core/language_models/chat_models";
+import { BaseFunctionCallOptions } from "@aijoelangchain/core/language_models/base";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
+import { InteropZodObject } from "@aijoelangchain/core/utils/types";
 import {
   type JsonSchema7ObjectType,
   toJsonSchema,
-} from "@langchain/core/utils/json_schema";
+} from "@aijoelangchain/core/utils/json_schema";
 import {
   FunctionParameters,
   JsonKeyOutputFunctionsParser,

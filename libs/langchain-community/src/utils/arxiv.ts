@@ -1,5 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 import { XMLParser } from "fast-xml-parser";
 
 import { PDFLoader } from "../document_loaders/fs/pdf.js";

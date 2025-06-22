@@ -47,7 +47,7 @@ export interface RunnableWithMessageHistoryInputs<RunInput, RunOutput>
  * import {
  *   ChatPromptTemplate,
  *   MessagesPlaceholder,
- * } from "@langchain/core/prompts";
+ * } from "@aijoelangchain/core/prompts";
  * import { ChatAnthropic } from "@langchain/anthropic";
  * import { UpstashRedisChatMessageHistory } from "@langchain/community/stores/message/upstash_redis";
  * // For demos, you can also use an in-memory store:

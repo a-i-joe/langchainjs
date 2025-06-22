@@ -1,21 +1,24 @@
-import type { BaseOutputParser } from "@langchain/core/output_parsers";
-import type { BasePromptTemplate } from "@langchain/core/prompts";
-import type { Runnable, RunnableInterface } from "@langchain/core/runnables";
+import type { BaseOutputParser } from "@aijoelangchain/core/output_parsers";
+import type { BasePromptTemplate } from "@aijoelangchain/core/prompts";
+import type {
+  Runnable,
+  RunnableInterface,
+} from "@aijoelangchain/core/runnables";
 import type {
   BaseFunctionCallOptions,
   BaseLanguageModelInput,
   FunctionDefinition,
-} from "@langchain/core/language_models/base";
+} from "@aijoelangchain/core/language_models/base";
 import {
   isInteropZodSchema,
   type InputValues,
   InteropZodObject,
-} from "@langchain/core/utils/types";
-import type { BaseMessage } from "@langchain/core/messages";
+} from "@aijoelangchain/core/utils/types";
+import type { BaseMessage } from "@aijoelangchain/core/messages";
 import {
   toJsonSchema,
   type JsonSchema7Type,
-} from "@langchain/core/utils/json_schema";
+} from "@aijoelangchain/core/utils/json_schema";
 import { JsonOutputFunctionsParser } from "../../output_parsers/openai_functions.js";
 
 /**
@@ -166,7 +169,7 @@ export type CreateStructuredOutputRunnableConfig<
  * ```typescript
  * import { createStructuredOutputRunnable } from "langchain/chains/openai_functions";
  * import { ChatOpenAI } from "@langchain/openai";
- * import { ChatPromptTemplate } from "@langchain/core/prompts";
+ * import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
  * import { JsonOutputFunctionsParser } from "langchain/output_parsers";
  *
  * const jsonSchema = {

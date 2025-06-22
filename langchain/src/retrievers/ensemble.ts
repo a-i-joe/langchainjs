@@ -1,6 +1,9 @@
-import { BaseRetriever, BaseRetrieverInput } from "@langchain/core/retrievers";
-import { Document, DocumentInterface } from "@langchain/core/documents";
-import { CallbackManagerForRetrieverRun } from "@langchain/core/callbacks/manager";
+import {
+  BaseRetriever,
+  BaseRetrieverInput,
+} from "@aijoelangchain/core/retrievers";
+import { Document, DocumentInterface } from "@aijoelangchain/core/documents";
+import { CallbackManagerForRetrieverRun } from "@aijoelangchain/core/callbacks/manager";
 
 export interface EnsembleRetrieverInput extends BaseRetrieverInput {
   /** A list of retrievers to ensemble. */

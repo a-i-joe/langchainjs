@@ -1,13 +1,13 @@
-import type { StructuredToolInterface } from "@langchain/core/tools";
+import type { StructuredToolInterface } from "@aijoelangchain/core/tools";
 import type {
   BaseChatModel,
   BaseChatModelCallOptions,
-} from "@langchain/core/language_models/chat_models";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
-import { RunnablePassthrough } from "@langchain/core/runnables";
+} from "@aijoelangchain/core/language_models/chat_models";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
+import { RunnablePassthrough } from "@aijoelangchain/core/runnables";
 import { OpenAIClient } from "@langchain/openai";
-import { convertToOpenAITool } from "@langchain/core/utils/function_calling";
-import { ToolDefinition } from "@langchain/core/language_models/base";
+import { convertToOpenAITool } from "@aijoelangchain/core/utils/function_calling";
+import { ToolDefinition } from "@aijoelangchain/core/language_models/base";
 import { formatToOpenAIToolMessages } from "../format_scratchpad/openai_tools.js";
 import {
   OpenAIToolsAgentOutputParser,
@@ -57,8 +57,8 @@ export type CreateOpenAIToolsAgentParams = {
  * ```typescript
  * import { AgentExecutor, createOpenAIToolsAgent } from "langchain/agents";
  * import { pull } from "langchain/hub";
- * import type { ChatPromptTemplate } from "@langchain/core/prompts";
- * import { AIMessage, HumanMessage } from "@langchain/core/messages";
+ * import type { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
+ * import { AIMessage, HumanMessage } from "@aijoelangchain/core/messages";
  *
  * import { ChatOpenAI } from "@langchain/openai";
  *

@@ -1,8 +1,8 @@
 /* eslint-disable no-process-env */
 import { test, expect } from "@jest/globals";
 import { ChatModelUnitTests } from "@langchain/standard-tests";
-import { AIMessageChunk } from "@langchain/core/messages";
-import { LangSmithParams } from "@langchain/core/language_models/chat_models";
+import { AIMessageChunk } from "@aijoelangchain/core/messages";
+import { LangSmithParams } from "@aijoelangchain/core/language_models/chat_models";
 import { ChatMistralAI, ChatMistralAICallOptions } from "../chat_models.js";
 
 class ChatMistralAIStandardUnitTests extends ChatModelUnitTests<

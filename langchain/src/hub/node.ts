@@ -1,4 +1,4 @@
-import { Runnable } from "@langchain/core/runnables";
+import { Runnable } from "@aijoelangchain/core/runnables";
 import {
   basePush,
   basePull,

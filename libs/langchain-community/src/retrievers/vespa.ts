@@ -1,4 +1,7 @@
-import { Document, type DocumentInterface } from "@langchain/core/documents";
+import {
+  Document,
+  type DocumentInterface,
+} from "@aijoelangchain/core/documents";
 import {
   RemoteRetriever,
   RemoteRetrieverValues,

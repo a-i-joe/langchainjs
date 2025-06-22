@@ -1,5 +1,5 @@
-import { HumanMessage } from "@langchain/core/messages";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { HumanMessage } from "@aijoelangchain/core/messages";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import fs from "node:fs/promises";
 
 const hotdogImage = await fs.readFile("hotdog.jpg");

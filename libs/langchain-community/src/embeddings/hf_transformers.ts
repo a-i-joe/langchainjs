@@ -5,8 +5,11 @@ import type {
   FeatureExtractionPipelineOptions,
   FeatureExtractionPipeline,
 } from "@xenova/transformers";
-import { Embeddings, type EmbeddingsParams } from "@langchain/core/embeddings";
-import { chunkArray } from "@langchain/core/utils/chunk_array";
+import {
+  Embeddings,
+  type EmbeddingsParams,
+} from "@aijoelangchain/core/embeddings";
+import { chunkArray } from "@aijoelangchain/core/utils/chunk_array";
 
 /**
  * @deprecated Import from

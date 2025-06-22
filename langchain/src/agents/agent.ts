@@ -1,21 +1,28 @@
 import type {
   StructuredToolInterface,
   ToolInterface,
-} from "@langchain/core/tools";
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import { CallbackManager, Callbacks } from "@langchain/core/callbacks/manager";
-import { BasePromptTemplate } from "@langchain/core/prompts";
-import { AgentAction, AgentFinish, AgentStep } from "@langchain/core/agents";
-import { BaseMessage } from "@langchain/core/messages";
-import { ChainValues } from "@langchain/core/utils/types";
-import { Serializable } from "@langchain/core/load/serializable";
+} from "@aijoelangchain/core/tools";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import {
+  CallbackManager,
+  Callbacks,
+} from "@aijoelangchain/core/callbacks/manager";
+import { BasePromptTemplate } from "@aijoelangchain/core/prompts";
+import {
+  AgentAction,
+  AgentFinish,
+  AgentStep,
+} from "@aijoelangchain/core/agents";
+import { BaseMessage } from "@aijoelangchain/core/messages";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
+import { Serializable } from "@aijoelangchain/core/load/serializable";
 import {
   Runnable,
   patchConfig,
   type RunnableConfig,
   RunnableSequence,
   RunnableLike,
-} from "@langchain/core/runnables";
+} from "@aijoelangchain/core/runnables";
 import { LLMChain } from "../chains/llm_chain.js";
 import type {
   AgentActionOutputParser,

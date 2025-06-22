@@ -1,4 +1,4 @@
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { ChatOpenAI } from "@langchain/openai";
 
 const model = new ChatOpenAI({

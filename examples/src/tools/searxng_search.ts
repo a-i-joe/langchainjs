@@ -1,9 +1,9 @@
 import { ChatOpenAI } from "@langchain/openai";
 import { AgentExecutor } from "langchain/agents";
-import { BaseMessageChunk } from "@langchain/core/messages";
-import { AgentAction, AgentFinish } from "@langchain/core/agents";
-import { RunnableSequence } from "@langchain/core/runnables";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { BaseMessageChunk } from "@aijoelangchain/core/messages";
+import { AgentAction, AgentFinish } from "@aijoelangchain/core/agents";
+import { RunnableSequence } from "@aijoelangchain/core/runnables";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { SearxngSearch } from "@langchain/community/tools/searxng_search";
 
 const model = new ChatOpenAI({

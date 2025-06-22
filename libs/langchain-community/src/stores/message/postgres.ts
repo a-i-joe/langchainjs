@@ -1,10 +1,10 @@
-import { BaseListChatMessageHistory } from "@langchain/core/chat_history";
+import { BaseListChatMessageHistory } from "@aijoelangchain/core/chat_history";
 import {
   BaseMessage,
   StoredMessage,
   mapChatMessagesToStoredMessages,
   mapStoredMessagesToChatMessages,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import pg from "pg";
 
 /**

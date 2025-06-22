@@ -1,14 +1,14 @@
-import type { BaseLLMParams } from "@langchain/core/language_models/llms";
+import type { BaseLLMParams } from "@aijoelangchain/core/language_models/llms";
 import type {
   BaseChatModelCallOptions,
   BindToolsInput,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 import {
   BaseMessage,
   BaseMessageChunk,
   MessageContent,
-} from "@langchain/core/messages";
-import { ChatGenerationChunk, ChatResult } from "@langchain/core/outputs";
+} from "@aijoelangchain/core/messages";
+import { ChatGenerationChunk, ChatResult } from "@aijoelangchain/core/outputs";
 import type { JsonStream } from "./utils/stream.js";
 import { MediaManager } from "./experimental/utils/media_core.js";
 import {

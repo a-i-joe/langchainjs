@@ -1,5 +1,5 @@
 import { test, expect } from "@jest/globals";
-import { HumanMessage, AIMessage } from "@langchain/core/messages";
+import { HumanMessage, AIMessage } from "@aijoelangchain/core/messages";
 import { ChatAnthropic } from "../chat_models.js";
 
 const model = new ChatAnthropic({

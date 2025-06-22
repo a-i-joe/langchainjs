@@ -3,9 +3,9 @@ import {
   type BaseMessage,
   HumanMessage,
   FunctionMessage,
-} from "@langchain/core/messages";
-import type { AgentStep } from "@langchain/core/agents";
-import { renderTemplate } from "@langchain/core/prompts";
+} from "@aijoelangchain/core/messages";
+import type { AgentStep } from "@aijoelangchain/core/agents";
+import { renderTemplate } from "@aijoelangchain/core/prompts";
 import { TEMPLATE_TOOL_RESPONSE } from "../chat_convo/prompt.js";
 
 /**

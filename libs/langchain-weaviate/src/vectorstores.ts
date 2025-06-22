@@ -9,10 +9,10 @@ import {
 import {
   type MaxMarginalRelevanceSearchOptions,
   VectorStore,
-} from "@langchain/core/vectorstores";
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { Document } from "@langchain/core/documents";
-import { maximalMarginalRelevance } from "@langchain/core/utils/math";
+} from "@aijoelangchain/core/vectorstores";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { Document } from "@aijoelangchain/core/documents";
+import { maximalMarginalRelevance } from "@aijoelangchain/core/utils/math";
 
 // Note this function is not generic, it is designed specifically for Weaviate
 // https://weaviate.io/developers/weaviate/config-refs/datatypes#introduction

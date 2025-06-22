@@ -1,4 +1,4 @@
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import {
   ensureAuthOptionScopes,
   GoogleAbstractedClientOps,

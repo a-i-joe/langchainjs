@@ -13,7 +13,7 @@ import {
   Operators,
   StructuredQuery,
   Visitor,
-} from "@langchain/core/structured_query";
+} from "@aijoelangchain/core/structured_query";
 import { FilterValue } from "weaviate-client";
 import { WeaviateStore } from "./vectorstores.js";
 

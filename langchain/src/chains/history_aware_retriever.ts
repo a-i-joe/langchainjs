@@ -1,14 +1,14 @@
-import type { LanguageModelLike } from "@langchain/core/language_models/base";
+import type { LanguageModelLike } from "@aijoelangchain/core/language_models/base";
 import {
   type Runnable,
   type RunnableInterface,
   RunnableSequence,
   RunnableBranch,
-} from "@langchain/core/runnables";
-import { type BasePromptTemplate } from "@langchain/core/prompts";
-import { StringOutputParser } from "@langchain/core/output_parsers";
-import type { DocumentInterface } from "@langchain/core/documents";
-import type { BaseMessage } from "@langchain/core/messages";
+} from "@aijoelangchain/core/runnables";
+import { type BasePromptTemplate } from "@aijoelangchain/core/prompts";
+import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
+import type { DocumentInterface } from "@aijoelangchain/core/documents";
+import type { BaseMessage } from "@aijoelangchain/core/messages";
 
 /**
  * Params for the createHistoryAwareRetriever method.

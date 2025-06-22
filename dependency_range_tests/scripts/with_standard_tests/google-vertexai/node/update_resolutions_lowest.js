@@ -1,25 +1,34 @@
 const fs = require("fs");
 const semver = require("semver");
 
-const communityPackageJsonPath = "/app/monorepo/libs/langchain-google-vertexai/package.json";
+const communityPackageJsonPath =
+  "/app/monorepo/libs/langchain-google-vertexai/package.json";
 
-const currentPackageJson = JSON.parse(fs.readFileSync(communityPackageJsonPath));
+const currentPackageJson = JSON.parse(
+  fs.readFileSync(communityPackageJsonPath)
+);
 
-if (currentPackageJson.peerDependencies["@langchain/core"] && !currentPackageJson.peerDependencies["@langchain/core"].includes("rc")) {
+if (
+  currentPackageJson.peerDependencies["@aijoelangchain/core"] &&
+  !currentPackageJson.peerDependencies["@aijoelangchain/core"].includes("rc")
+) {
   const minVersion = semver.minVersion(
-    currentPackageJson.peerDependencies["@langchain/core"]
+    currentPackageJson.peerDependencies["@aijoelangchain/core"]
   ).version;
   currentPackageJson.peerDependencies = {
     ...currentPackageJson.peerDependencies,
-    "@langchain/core": minVersion,
+    "@aijoelangchain/core": minVersion,
   };
 }
 
-if (currentPackageJson.devDependencies["@langchain/core"]) {
-  delete currentPackageJson.devDependencies["@langchain/core"];
+if (currentPackageJson.devDependencies["@aijoelangchain/core"]) {
+  delete currentPackageJson.devDependencies["@aijoelangchain/core"];
 }
 
-if (currentPackageJson.dependencies["@langchain/google-gauth"] && !currentPackageJson.dependencies["@langchain/google-gauth"].includes("rc")) {
+if (
+  currentPackageJson.dependencies["@langchain/google-gauth"] &&
+  !currentPackageJson.dependencies["@langchain/google-gauth"].includes("rc")
+) {
   const minVersion = semver.minVersion(
     currentPackageJson.dependencies["@langchain/google-gauth"]
   ).version;
@@ -29,4 +38,7 @@ if (currentPackageJson.dependencies["@langchain/google-gauth"] && !currentPackag
   };
 }
 
-fs.writeFileSync(communityPackageJsonPath, JSON.stringify(currentPackageJson, null, 2));
+fs.writeFileSync(
+  communityPackageJsonPath,
+  JSON.stringify(currentPackageJson, null, 2)
+);

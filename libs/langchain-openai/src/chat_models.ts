@@ -6,7 +6,7 @@ import type {
   ChatCompletionContentPartInputAudio,
   ChatCompletionContentPart,
 } from "openai/resources/chat/completions";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
 import {
   AIMessage,
   AIMessageChunk,
@@ -30,19 +30,19 @@ import {
   parseMimeType,
   convertToProviderContentBlock,
   isDataContentBlock,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import {
   ChatGenerationChunk,
   type ChatGeneration,
   type ChatResult,
-} from "@langchain/core/outputs";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+} from "@aijoelangchain/core/outputs";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import {
   BaseChatModel,
   type BindToolsInput,
   type LangSmithParams,
   type BaseChatModelParams,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 import {
   isOpenAITool,
   type BaseFunctionCallOptions,
@@ -50,25 +50,28 @@ import {
   type FunctionDefinition,
   type StructuredOutputMethodOptions,
   type StructuredOutputMethodParams,
-} from "@langchain/core/language_models/base";
-import { NewTokenIndices } from "@langchain/core/callbacks/base";
+} from "@aijoelangchain/core/language_models/base";
+import { NewTokenIndices } from "@aijoelangchain/core/callbacks/base";
 import {
   Runnable,
   RunnableLambda,
   RunnablePassthrough,
   RunnableSequence,
-} from "@langchain/core/runnables";
+} from "@aijoelangchain/core/runnables";
 import {
   JsonOutputParser,
   StructuredOutputParser,
-} from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/output_parsers";
 import {
   JsonOutputKeyToolsParser,
   convertLangChainToolCallToOpenAI,
   makeInvalidToolCall,
   parseToolCall,
-} from "@langchain/core/output_parsers/openai_tools";
-import type { ToolCall, ToolCallChunk } from "@langchain/core/messages/tool";
+} from "@aijoelangchain/core/output_parsers/openai_tools";
+import type {
+  ToolCall,
+  ToolCallChunk,
+} from "@aijoelangchain/core/messages/tool";
 import { zodResponseFormat } from "openai/helpers/zod";
 import type {
   ResponseFormatText,
@@ -81,11 +84,11 @@ import {
   isInteropZodSchema,
   isZodSchemaV3,
   isZodSchemaV4,
-} from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/utils/types";
 import {
   JsonSchema7Type,
   toJsonSchema,
-} from "@langchain/core/utils/json_schema";
+} from "@aijoelangchain/core/utils/json_schema";
 import {
   type OpenAICallOptions,
   type OpenAIChatInput,
@@ -1361,8 +1364,8 @@ export interface ChatOpenAIFields
  * <summary><strong>Aggregate Streamed Chunks</strong></summary>
  *
  * ```typescript
- * import { AIMessageChunk } from '@langchain/core/messages';
- * import { concat } from '@langchain/core/utils/stream';
+ * import { AIMessageChunk } from '@aijoelangchain/core/messages';
+ * import { concat } from '@aijoelangchain/core/utils/stream';
  *
  * const stream = await llm.stream(input);
  * let full: AIMessageChunk | undefined;
@@ -1513,7 +1516,7 @@ export interface ChatOpenAIFields
  * <summary><strong>Multimodal</strong></summary>
  *
  * ```typescript
- * import { HumanMessage } from '@langchain/core/messages';
+ * import { HumanMessage } from '@aijoelangchain/core/messages';
  *
  * const imageUrl = "https://example.com/image.jpg";
  * const imageData = await fetch(imageUrl).then(res => res.arrayBuffer());

@@ -1,6 +1,6 @@
 import { Redis as UpstashRedis, type RedisConfigNodejs } from "@upstash/redis";
 
-import { BaseStore } from "@langchain/core/stores";
+import { BaseStore } from "@aijoelangchain/core/stores";
 
 /**
  * Type definition for the input parameters required to initialize an

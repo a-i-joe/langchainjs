@@ -1,8 +1,8 @@
 import { z } from "zod";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
-import { BaseLanguageModel } from "@langchain/core/language_models/base";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
-import { Document } from "@langchain/core/documents";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
+import { BaseLanguageModel } from "@aijoelangchain/core/language_models/base";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
+import { Document } from "@aijoelangchain/core/documents";
 import { Node, Relationship, GraphDocument } from "../../graphs/document.js";
 
 export const SYSTEM_PROMPT = `

@@ -9,10 +9,10 @@ import {
   BaseMessageChunk,
   HumanMessage,
   SystemMessage,
-} from "@langchain/core/messages";
-import { BaseLanguageModelInput } from "@langchain/core/language_models/base";
-import { ChatPromptValue } from "@langchain/core/prompt_values";
-import { StructuredTool } from "@langchain/core/tools";
+} from "@aijoelangchain/core/messages";
+import { BaseLanguageModelInput } from "@aijoelangchain/core/language_models/base";
+import { ChatPromptValue } from "@aijoelangchain/core/prompt_values";
+import { StructuredTool } from "@aijoelangchain/core/tools";
 import { ChatVertexAI } from "../chat_models.js";
 
 class WeatherTool extends StructuredTool {

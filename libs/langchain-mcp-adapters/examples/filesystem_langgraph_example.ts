@@ -24,7 +24,7 @@ import {
   AIMessage,
   SystemMessage,
   isHumanMessage,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import dotenv from "dotenv";
 import fs from "fs";
 import path from "path";

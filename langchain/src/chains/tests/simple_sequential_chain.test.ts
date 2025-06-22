@@ -1,9 +1,9 @@
 import { test, expect } from "@jest/globals";
-import { BaseLLM } from "@langchain/core/language_models/llms";
-import { LLMResult } from "@langchain/core/outputs";
-import { PromptTemplate } from "@langchain/core/prompts";
-import { VectorStoreRetriever } from "@langchain/core/vectorstores";
-import { FakeEmbeddings } from "@langchain/core/utils/testing";
+import { BaseLLM } from "@aijoelangchain/core/language_models/llms";
+import { LLMResult } from "@aijoelangchain/core/outputs";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
+import { VectorStoreRetriever } from "@aijoelangchain/core/vectorstores";
+import { FakeEmbeddings } from "@aijoelangchain/core/utils/testing";
 import { LLMChain } from "../llm_chain.js";
 import { SimpleSequentialChain } from "../sequential_chain.js";
 import { AnalyzeDocumentChain } from "../analyze_documents_chain.js";

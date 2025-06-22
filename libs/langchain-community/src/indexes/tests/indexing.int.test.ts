@@ -1,7 +1,7 @@
-import { Document } from "@langchain/core/documents";
-import { FakeEmbeddings } from "@langchain/core/utils/testing";
-import { index } from "@langchain/core/indexing";
-import { BaseDocumentLoader } from "@langchain/core/document_loaders/base";
+import { Document } from "@aijoelangchain/core/documents";
+import { FakeEmbeddings } from "@aijoelangchain/core/utils/testing";
+import { index } from "@aijoelangchain/core/indexing";
+import { BaseDocumentLoader } from "@aijoelangchain/core/document_loaders/base";
 
 import { InMemoryRecordManager } from "../memory.js";
 import { PGVectorStore } from "../../vectorstores/pgvector.js";

@@ -9,10 +9,10 @@ import { ChatOpenAI } from "@langchain/openai";
 import {
   ChatPromptTemplate,
   HumanMessagePromptTemplate,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 import { OpenAI } from "@langchain/openai";
 import { OpenAIEmbeddings } from "@langchain/openai";
-import { CallbackManager } from "@langchain/core/callbacks/manager";
+import { CallbackManager } from "@aijoelangchain/core/callbacks/manager";
 import { ChatAgent } from "langchain/agents";
 
 import { NextRequest, NextResponse } from "next/server";

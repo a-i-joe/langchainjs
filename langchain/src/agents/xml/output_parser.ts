@@ -1,5 +1,5 @@
-import { AgentAction, AgentFinish } from "@langchain/core/agents";
-import { OutputParserException } from "@langchain/core/output_parsers";
+import { AgentAction, AgentFinish } from "@aijoelangchain/core/agents";
+import { OutputParserException } from "@aijoelangchain/core/output_parsers";
 import { AgentActionOutputParser } from "../types.js";
 
 /**

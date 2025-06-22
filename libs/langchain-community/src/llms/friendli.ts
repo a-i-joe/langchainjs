@@ -1,11 +1,11 @@
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
 import {
   type BaseLLMCallOptions,
   type BaseLLMParams,
   LLM,
-} from "@langchain/core/language_models/llms";
-import { GenerationChunk } from "@langchain/core/outputs";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+} from "@aijoelangchain/core/language_models/llms";
+import { GenerationChunk } from "@aijoelangchain/core/outputs";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import { convertEventStreamToIterableReadableDataStream } from "../utils/event_source_parse.js";
 
 /**

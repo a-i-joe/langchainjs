@@ -1,6 +1,6 @@
-import { Document } from "@langchain/core/documents";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { BaseDocumentLoader } from "@langchain/core/document_loaders/base";
+import { Document } from "@aijoelangchain/core/documents";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { BaseDocumentLoader } from "@aijoelangchain/core/document_loaders/base";
 
 /**
  * Interface representing a Figma file. It includes properties for the

@@ -1,9 +1,9 @@
 import {
   BaseRetriever,
   type BaseRetrieverInput,
-} from "@langchain/core/retrievers";
-import { Document } from "@langchain/core/documents";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+} from "@aijoelangchain/core/retrievers";
+import { Document } from "@aijoelangchain/core/documents";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import type { DriaParams, SearchOptions as DriaSearchOptions } from "dria";
 import { Dria } from "dria";
 

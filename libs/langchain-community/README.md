@@ -1,6 +1,6 @@
 # 🦜️🧑‍🤝‍🧑 LangChain Community
 
-[![CI](https://github.com/langchain-ai/langchainjs/actions/workflows/ci.yml/badge.svg)](https://github.com/langchain-ai/langchainjs/actions/workflows/ci.yml) ![npm](https://img.shields.io/npm/dm/@langchain/community) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/langchainai.svg?style=social&label=Follow%20%40LangChainAI)](https://twitter.com/langchainai) 
+[![CI](https://github.com/langchain-ai/langchainjs/actions/workflows/ci.yml/badge.svg)](https://github.com/langchain-ai/langchainjs/actions/workflows/ci.yml) ![npm](https://img.shields.io/npm/dm/@langchain/community) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/langchainai.svg?style=social&label=Follow%20%40LangChainAI)](https://twitter.com/langchainai)
 
 ## Quick Install
 
@@ -8,8 +8,8 @@
 $ yarn add @langchain/community
 ```
 
-This package, along with the main LangChain package, depends on [`@langchain/core`](https://npmjs.com/package/@langchain/core/).
-If you are using this package with other LangChain packages, you should make sure that all of the packages depend on the same instance of @langchain/core.
+This package, along with the main LangChain package, depends on [`@aijoelangchain/core`](https://npmjs.com/package/@aijoelangchain/core/).
+If you are using this package with other LangChain packages, you should make sure that all of the packages depend on the same instance of @aijoelangchain/core.
 You can do so by adding appropriate field to your project's `package.json` like this:
 
 ```json
@@ -18,17 +18,17 @@ You can do so by adding appropriate field to your project's `package.json` like 
   "version": "0.0.0",
   "dependencies": {
     "@langchain/community": "^0.0.0",
-    "@langchain/core": "^0.3.0"
+    "@aijoelangchain/core": "^0.3.0"
   },
   "resolutions": {
-    "@langchain/core": "^0.3.0"
+    "@aijoelangchain/core": "^0.3.0"
   },
   "overrides": {
-    "@langchain/core": "^0.3.0"
+    "@aijoelangchain/core": "^0.3.0"
   },
   "pnpm": {
     "overrides": {
-      "@langchain/core": "^0.3.0"
+      "@aijoelangchain/core": "^0.3.0"
     }
   }
 }

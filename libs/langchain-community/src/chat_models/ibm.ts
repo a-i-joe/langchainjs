@@ -12,26 +12,26 @@ import {
   ToolMessageChunk,
   UsageMetadata,
   type BaseMessage,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import {
   BaseLanguageModelInput,
   FunctionDefinition,
   StructuredOutputMethodOptions,
-} from "@langchain/core/language_models/base";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/language_models/base";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
 import {
   BaseChatModel,
   BaseChatModelCallOptions,
   BindToolsInput,
   LangSmithParams,
   type BaseChatModelParams,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 import {
   ChatGeneration,
   ChatGenerationChunk,
   ChatResult,
-} from "@langchain/core/outputs";
-import { AsyncCaller } from "@langchain/core/utils/async_caller";
+} from "@aijoelangchain/core/outputs";
+import { AsyncCaller } from "@aijoelangchain/core/utils/async_caller";
 import {
   DeploymentsTextChatParams,
   RequestCallbacks,
@@ -50,24 +50,24 @@ import {
   convertLangChainToolCallToOpenAI,
   makeInvalidToolCall,
   parseToolCall,
-} from "@langchain/core/output_parsers/openai_tools";
-import { ToolCallChunk } from "@langchain/core/messages/tool";
+} from "@aijoelangchain/core/output_parsers/openai_tools";
+import { ToolCallChunk } from "@aijoelangchain/core/messages/tool";
 import {
   Runnable,
   RunnablePassthrough,
   RunnableSequence,
-} from "@langchain/core/runnables";
+} from "@aijoelangchain/core/runnables";
 import {
   BaseLLMOutputParser,
   JsonOutputParser,
   StructuredOutputParser,
-} from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/output_parsers";
 import {
   InteropZodType,
   isInteropZodSchema,
-} from "@langchain/core/utils/types";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
-import { NewTokenIndices } from "@langchain/core/callbacks/base";
+} from "@aijoelangchain/core/utils/types";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
+import { NewTokenIndices } from "@aijoelangchain/core/callbacks/base";
 import {
   Neverify,
   WatsonxAuth,

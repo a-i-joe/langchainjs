@@ -1,5 +1,5 @@
 import { ChatMistralAI } from "@langchain/mistralai";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { z } from "zod";
 
 const calculatorSchema = z

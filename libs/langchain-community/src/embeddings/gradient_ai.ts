@@ -1,7 +1,7 @@
 import { Gradient } from "@gradientai/nodejs-sdk";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { Embeddings, EmbeddingsParams } from "@langchain/core/embeddings";
-import { chunkArray } from "@langchain/core/utils/chunk_array";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { Embeddings, EmbeddingsParams } from "@aijoelangchain/core/embeddings";
+import { chunkArray } from "@aijoelangchain/core/utils/chunk_array";
 
 /**
  * Interface for GradientEmbeddings parameters. Extends EmbeddingsParams and

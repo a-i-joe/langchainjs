@@ -1,6 +1,6 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import { ChainValues } from "@langchain/core/utils/types";
-import { PromptTemplate } from "@langchain/core/prompts";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
 import { QA_PROMPT } from "./prompt.js";
 import { LLMChain, LLMChainInput } from "../../chains/llm_chain.js";
 

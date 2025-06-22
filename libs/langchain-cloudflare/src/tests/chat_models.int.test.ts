@@ -1,15 +1,15 @@
 /* eslint-disable no-process-env */
 
 import { describe, test } from "@jest/globals";
-import { ChatMessage, HumanMessage } from "@langchain/core/messages";
+import { ChatMessage, HumanMessage } from "@aijoelangchain/core/messages";
 import {
   PromptTemplate,
   ChatPromptTemplate,
   AIMessagePromptTemplate,
   HumanMessagePromptTemplate,
   SystemMessagePromptTemplate,
-} from "@langchain/core/prompts";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+} from "@aijoelangchain/core/prompts";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import { ChatCloudflareWorkersAI } from "../chat_models.js";
 
 // Save the original value of the 'LANGCHAIN_CALLBACKS_BACKGROUND' environment variable

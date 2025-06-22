@@ -5,8 +5,8 @@ import {
   OutputValues,
   getInputValue,
   getOutputValue,
-} from "@langchain/core/memory";
-import { getBufferString } from "@langchain/core/messages";
+} from "@aijoelangchain/core/memory";
+import { getBufferString } from "@aijoelangchain/core/messages";
 import {
   BaseChatMemory,
   BaseChatMemoryInput,

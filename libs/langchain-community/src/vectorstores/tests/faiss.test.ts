@@ -1,8 +1,8 @@
 /* eslint-disable */
 // @ts-nocheck
 import { test, expect } from "@jest/globals";
-import { Document } from "@langchain/core/documents";
-import { FakeEmbeddings } from "@langchain/core/utils/testing";
+import { Document } from "@aijoelangchain/core/documents";
+import { FakeEmbeddings } from "@aijoelangchain/core/utils/testing";
 import { FaissStore } from "../faiss.js";
 
 test.skip("Test FaissStore.fromTexts + addVectors", async () => {

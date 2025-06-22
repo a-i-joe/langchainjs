@@ -5,12 +5,12 @@ import {
   RedisFunctions,
   RedisScripts,
 } from "redis";
-import { BaseListChatMessageHistory } from "@langchain/core/chat_history";
+import { BaseListChatMessageHistory } from "@aijoelangchain/core/chat_history";
 import {
   BaseMessage,
   mapChatMessagesToStoredMessages,
   mapStoredMessagesToChatMessages,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import { pool } from "./connections.js";
 
 /**

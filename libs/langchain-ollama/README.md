@@ -5,7 +5,7 @@ This package contains the LangChain.js integrations for Ollama via the `ollama` 
 ## Installation
 
 ```bash npm2yarn
-npm install @langchain/ollama @langchain/core
+npm install @langchain/ollama @aijoelangchain/core
 ```
 
 TODO: add setup instructions for Ollama locally
@@ -16,7 +16,7 @@ TODO: add setup instructions for Ollama locally
 import { ChatOllama } from "@langchain/ollama";
 
 const model = new ChatOllama({
-  model: "llama3",  // Default value.
+  model: "llama3", // Default value.
 });
 
 const result = await model.invoke(["human", "Hello, how are you?"]);

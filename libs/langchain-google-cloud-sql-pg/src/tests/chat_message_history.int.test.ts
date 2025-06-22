@@ -1,6 +1,10 @@
 import { test } from "@jest/globals";
 
-import { AIMessage, BaseMessage, HumanMessage } from "@langchain/core/messages";
+import {
+  AIMessage,
+  BaseMessage,
+  HumanMessage,
+} from "@aijoelangchain/core/messages";
 import {
   PostgreSqlContainer,
   StartedPostgreSqlContainer,

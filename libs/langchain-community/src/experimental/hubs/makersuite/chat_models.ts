@@ -1,19 +1,19 @@
 import { DiscussServiceClient } from "@google-ai/generativelanguage";
 import type { protos } from "@google-ai/generativelanguage";
 import { GoogleAuth } from "google-auth-library";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
 import {
   AIMessage,
   BaseMessage,
   ChatMessage,
   isBaseMessage,
-} from "@langchain/core/messages";
-import { ChatResult } from "@langchain/core/outputs";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+} from "@aijoelangchain/core/messages";
+import { ChatResult } from "@aijoelangchain/core/outputs";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import {
   BaseChatModel,
   type BaseChatModelParams,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 
 export type BaseMessageExamplePair = {
   input: BaseMessage;

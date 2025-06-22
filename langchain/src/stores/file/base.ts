@@ -1,4 +1,4 @@
-import { Serializable } from "@langchain/core/load/serializable";
+import { Serializable } from "@aijoelangchain/core/load/serializable";
 
 /**
  * Base class for all file stores. All file stores should extend this

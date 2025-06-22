@@ -1,9 +1,9 @@
 import {
   BaseRetriever,
   type BaseRetrieverInput,
-} from "@langchain/core/retrievers";
-import type { CallbackManagerForRetrieverRun } from "@langchain/core/callbacks/manager";
-import { Document } from "@langchain/core/documents";
+} from "@aijoelangchain/core/retrievers";
+import type { CallbackManagerForRetrieverRun } from "@aijoelangchain/core/callbacks/manager";
+import { Document } from "@aijoelangchain/core/documents";
 
 /**
  * interface BaseRetrieverInput {

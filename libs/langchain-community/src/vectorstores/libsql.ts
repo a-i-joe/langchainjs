@@ -1,6 +1,6 @@
-import { Document } from "@langchain/core/documents";
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { VectorStore } from "@langchain/core/vectorstores";
+import { Document } from "@aijoelangchain/core/documents";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { VectorStore } from "@aijoelangchain/core/vectorstores";
 import type { Client, InStatement } from "@libsql/client";
 import {
   SqliteWhereBuilder,

@@ -1,12 +1,16 @@
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
-import { AIMessage, BaseMessage, ChatMessage } from "@langchain/core/messages";
-import { ChatGeneration, ChatResult } from "@langchain/core/outputs";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { IterableReadableStream } from "@langchain/core/utils/stream";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
+import {
+  AIMessage,
+  BaseMessage,
+  ChatMessage,
+} from "@aijoelangchain/core/messages";
+import { ChatGeneration, ChatResult } from "@aijoelangchain/core/outputs";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { IterableReadableStream } from "@aijoelangchain/core/utils/stream";
 import {
   BaseChatModel,
   type BaseChatModelParams,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 import {
   BaseWebSocketStream,
   WebSocketStreamOptions,

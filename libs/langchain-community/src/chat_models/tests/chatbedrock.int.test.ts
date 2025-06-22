@@ -3,12 +3,12 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 
 import { test, expect } from "@jest/globals";
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 import { AgentExecutor, createToolCallingAgent } from "langchain/agents";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
-import { concat } from "@langchain/core/utils/stream";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
+import { concat } from "@aijoelangchain/core/utils/stream";
 import { z } from "zod";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
 import { ChatOpenAI } from "@langchain/openai";
 import { BedrockChat as BedrockChatWeb } from "../bedrock/web.js";
 import { TavilySearchResults } from "../../tools/tavily_search.js";

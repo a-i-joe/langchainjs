@@ -1,5 +1,5 @@
 import { ChatMistralAI } from "@langchain/mistralai";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 
 const model = new ChatMistralAI({
   apiKey: process.env.MISTRAL_API_KEY,

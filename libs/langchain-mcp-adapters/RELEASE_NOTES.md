@@ -8,7 +8,7 @@ This release focuses on improving SSE headers support, enhancing error handling,
 
 - **SSE Headers Support**: Fixed issues with passing headers to the eventsource library
 - **Error Handling**: Improved error handling for SSE connections and client initialization
-- **Type Compatibility**: Fixed type errors in agent integration tests to work with different versions of @langchain/core
+- **Type Compatibility**: Fixed type errors in agent integration tests to work with different versions of @aijoelangchain/core
 
 ## Improvements
 
@@ -66,23 +66,23 @@ To use SSE with custom headers:
 ```typescript
 // Method 1: Using the connectToServerViaSSE method
 await client.connectToServerViaSSE(
-  'auth-server',
-  'http://localhost:8000/sse',
+  "auth-server",
+  "http://localhost:8000/sse",
   {
-    Authorization: 'Bearer your-token-here',
-    'X-Custom-Header': 'custom-value',
+    Authorization: "Bearer your-token-here",
+    "X-Custom-Header": "custom-value",
   },
   true // Use Node.js EventSource for headers support
 );
 
 // Method 2: Using the constructor with configuration
 const client = new MultiServerMCPClient({
-  'auth-server': {
-    transport: 'sse',
-    url: 'http://localhost:8000/sse',
+  "auth-server": {
+    transport: "sse",
+    url: "http://localhost:8000/sse",
     headers: {
-      Authorization: 'Bearer your-token-here',
-      'X-Custom-Header': 'custom-value',
+      Authorization: "Bearer your-token-here",
+      "X-Custom-Header": "custom-value",
     },
     useNodeEventSource: true,
   },

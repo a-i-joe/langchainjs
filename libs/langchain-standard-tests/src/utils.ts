@@ -1,6 +1,6 @@
-import { BaseCallbackHandler } from "@langchain/core/callbacks/base";
-import { Serialized } from "@langchain/core/load/serializable";
-import { BaseMessage } from "@langchain/core/messages";
+import { BaseCallbackHandler } from "@aijoelangchain/core/callbacks/base";
+import { Serialized } from "@aijoelangchain/core/load/serializable";
+import { BaseMessage } from "@aijoelangchain/core/messages";
 
 /**
  * A test callback handler for capturing extra parameters passed to chat model runs.

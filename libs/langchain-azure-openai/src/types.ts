@@ -3,9 +3,9 @@ import type {
   AzureExtensionsOptions,
   ChatRequestMessage,
 } from "@azure/openai";
-import type { BaseLanguageModelCallOptions } from "@langchain/core/language_models/base";
+import type { BaseLanguageModelCallOptions } from "@aijoelangchain/core/language_models/base";
 import type { TiktokenModel } from "js-tiktoken/lite";
-import type { EmbeddingsParams } from "@langchain/core/embeddings";
+import type { EmbeddingsParams } from "@aijoelangchain/core/embeddings";
 import type { KeyCredential, TokenCredential } from "@azure/core-auth";
 
 // reexport this type from the included package so we can easily override and extend it if needed in the future

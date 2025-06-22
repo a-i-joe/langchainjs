@@ -9,19 +9,19 @@ import {
   BaseMessage,
   HumanMessage,
   SystemMessage,
-} from "@langchain/core/messages";
-import { ChatPromptValue } from "@langchain/core/prompt_values";
+} from "@aijoelangchain/core/messages";
+import { ChatPromptValue } from "@aijoelangchain/core/prompt_values";
 import {
   PromptTemplate,
   ChatPromptTemplate,
   AIMessagePromptTemplate,
   HumanMessagePromptTemplate,
   SystemMessagePromptTemplate,
-} from "@langchain/core/prompts";
-import { CallbackManager } from "@langchain/core/callbacks/manager";
-import { concat } from "@langchain/core/utils/stream";
+} from "@aijoelangchain/core/prompts";
+import { CallbackManager } from "@aijoelangchain/core/callbacks/manager";
+import { concat } from "@aijoelangchain/core/utils/stream";
 import { AnthropicVertex } from "@anthropic-ai/vertex-sdk";
-import { BaseLanguageModelInput } from "@langchain/core/language_models/base";
+import { BaseLanguageModelInput } from "@aijoelangchain/core/language_models/base";
 import { ChatAnthropic } from "../chat_models.js";
 import { AnthropicMessageResponse } from "../types.js";
 
@@ -716,7 +716,7 @@ These prompt templates are used to format a single string, and generally are use
 For example, a common way to construct and use a PromptTemplate is as follows:
 
 \`\`\`typescript
-import { PromptTemplate } from "@langchain/core/prompts";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
 
 const promptTemplate = PromptTemplate.fromTemplate(
   "Tell me a joke about {topic}"
@@ -731,7 +731,7 @@ These prompt templates are used to format an array of messages. These "templates
 For example, a common way to construct and use a ChatPromptTemplate is as follows:
 
 \`\`\`typescript
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 
 const promptTemplate = ChatPromptTemplate.fromMessages([
   ["system", "You are a helpful assistant"],
@@ -758,8 +758,8 @@ This is how you use MessagesPlaceholder.
 import {
   ChatPromptTemplate,
   MessagesPlaceholder,
-} from "@langchain/core/prompts";
-import { HumanMessage } from "@langchain/core/messages";
+} from "@aijoelangchain/core/prompts";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 
 const promptTemplate = ChatPromptTemplate.fromMessages([
   ["system", "You are a helpful assistant"],

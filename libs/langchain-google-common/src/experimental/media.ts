@@ -2,8 +2,8 @@ import {
   AsyncCaller,
   AsyncCallerCallOptions,
   AsyncCallerParams,
-} from "@langchain/core/utils/async_caller";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+} from "@aijoelangchain/core/utils/async_caller";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import {
   MediaBlob,
   BlobStore,

@@ -5,7 +5,7 @@ This package contains the LangChain.js integrations for Redis through their SDK.
 ## Installation
 
 ```bash npm2yarn
-npm install @langchain/redis @langchain/core
+npm install @langchain/redis @aijoelangchain/core
 ```
 
 ## Development

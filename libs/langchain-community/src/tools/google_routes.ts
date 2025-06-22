@@ -1,6 +1,6 @@
-import { StructuredTool } from "@langchain/core/tools";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { InferInteropZodOutput } from "@langchain/core/utils/types";
+import { StructuredTool } from "@aijoelangchain/core/tools";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { InferInteropZodOutput } from "@aijoelangchain/core/utils/types";
 import { z } from "zod";
 
 /**

@@ -1,6 +1,6 @@
-import { CallbackManagerForToolRun } from "@langchain/core/callbacks/manager";
-import { Tool, type ToolParams } from "@langchain/core/tools";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { CallbackManagerForToolRun } from "@aijoelangchain/core/callbacks/manager";
+import { Tool, type ToolParams } from "@aijoelangchain/core/tools";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 
 /**
  * Options for the TavilySearchResults tool.

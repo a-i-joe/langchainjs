@@ -1,12 +1,12 @@
 import {
   BaseRetriever,
   type BaseRetrieverInput,
-} from "@langchain/core/retrievers";
-import { Document } from "@langchain/core/documents";
+} from "@aijoelangchain/core/retrievers";
+import { Document } from "@aijoelangchain/core/documents";
 import {
   AsyncCaller,
   AsyncCallerParams,
-} from "@langchain/core/utils/async_caller";
+} from "@aijoelangchain/core/utils/async_caller";
 
 /**
  * Interface for the arguments required to create a new instance of

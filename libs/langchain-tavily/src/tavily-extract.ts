@@ -1,7 +1,7 @@
-import { CallbackManagerForToolRun } from "@langchain/core/callbacks/manager";
-import { StructuredTool, ToolParams } from "@langchain/core/tools";
+import { CallbackManagerForToolRun } from "@aijoelangchain/core/callbacks/manager";
+import { StructuredTool, ToolParams } from "@aijoelangchain/core/tools";
 import { z } from "zod";
-import { InferInteropZodOutput } from "@langchain/core/dist/utils/types/zod.js";
+import { InferInteropZodOutput } from "@aijoelangchain/core/dist/utils/types/zod.js";
 import {
   TavilyExtractAPIWrapper,
   type TavilyExtractResponse,

@@ -1,16 +1,16 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import { Document } from "@langchain/core/documents";
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import { Document } from "@aijoelangchain/core/documents";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
 import axiosMod, { AxiosRequestConfig, AxiosStatic } from "axios";
 import * as cheerio from "cheerio";
 import {
   CallbackManager,
   CallbackManagerForToolRun,
-} from "@langchain/core/callbacks/manager";
-import { isNode } from "@langchain/core/utils/env";
-import { Tool, ToolParams } from "@langchain/core/tools";
-import { RunnableSequence } from "@langchain/core/runnables";
-import { StringOutputParser } from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/callbacks/manager";
+import { isNode } from "@aijoelangchain/core/utils/env";
+import { Tool, ToolParams } from "@aijoelangchain/core/tools";
+import { RunnableSequence } from "@aijoelangchain/core/runnables";
+import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
 import {
   RecursiveCharacterTextSplitter,
   TextSplitter,

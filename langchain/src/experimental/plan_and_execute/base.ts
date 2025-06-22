@@ -1,6 +1,6 @@
-import { BaseOutputParser } from "@langchain/core/output_parsers";
-import { ChainValues } from "@langchain/core/utils/types";
-import { CallbackManager } from "@langchain/core/callbacks/manager";
+import { BaseOutputParser } from "@aijoelangchain/core/output_parsers";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
+import { CallbackManager } from "@aijoelangchain/core/callbacks/manager";
 import { BaseChain } from "../../chains/base.js";
 import { LLMChain } from "../../chains/llm_chain.js";
 

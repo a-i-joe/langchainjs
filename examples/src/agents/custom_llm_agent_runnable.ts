@@ -2,11 +2,15 @@ import { AgentExecutor } from "langchain/agents";
 import { formatLogToString } from "langchain/agents/format_scratchpad/log";
 import { OpenAI } from "@langchain/openai";
 import { Calculator } from "@langchain/community/tools/calculator";
-import { PromptTemplate } from "@langchain/core/prompts";
-import { AgentAction, AgentFinish, AgentStep } from "@langchain/core/agents";
-import { BaseMessage, HumanMessage } from "@langchain/core/messages";
-import { InputValues } from "@langchain/core/memory";
-import { RunnableSequence } from "@langchain/core/runnables";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
+import {
+  AgentAction,
+  AgentFinish,
+  AgentStep,
+} from "@aijoelangchain/core/agents";
+import { BaseMessage, HumanMessage } from "@aijoelangchain/core/messages";
+import { InputValues } from "@aijoelangchain/core/memory";
+import { RunnableSequence } from "@aijoelangchain/core/runnables";
 import { SerpAPI } from "@langchain/community/tools/serpapi";
 
 /**

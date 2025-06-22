@@ -1,8 +1,8 @@
 import { z } from "zod";
 import { createMetadataTaggerFromZod } from "langchain/document_transformers/openai_functions";
 import { ChatOpenAI } from "@langchain/openai";
-import { Document } from "@langchain/core/documents";
-import { PromptTemplate } from "@langchain/core/prompts";
+import { Document } from "@aijoelangchain/core/documents";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
 
 const taggingChainTemplate = `Extract the desired information from the following passage.
 Anonymous critics are actually Roger Ebert.

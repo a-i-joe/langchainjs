@@ -1,8 +1,8 @@
 import { Index, MetricKind, ScalarKind } from "usearch";
 import * as uuid from "uuid";
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { SaveableVectorStore } from "@langchain/core/vectorstores";
-import { Document } from "@langchain/core/documents";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { SaveableVectorStore } from "@aijoelangchain/core/vectorstores";
+import { Document } from "@aijoelangchain/core/documents";
 import { SynchronousInMemoryDocstore } from "../stores/doc/in_memory.js";
 
 /**

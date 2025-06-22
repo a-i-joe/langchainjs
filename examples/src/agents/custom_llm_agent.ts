@@ -10,11 +10,15 @@ import {
   BaseStringPromptTemplate,
   SerializedBasePromptTemplate,
   renderTemplate,
-} from "@langchain/core/prompts";
-import { InputValues } from "@langchain/core/memory";
-import { PartialValues } from "@langchain/core/utils/types";
-import { AgentStep, AgentAction, AgentFinish } from "@langchain/core/agents";
-import { Tool } from "@langchain/core/tools";
+} from "@aijoelangchain/core/prompts";
+import { InputValues } from "@aijoelangchain/core/memory";
+import { PartialValues } from "@aijoelangchain/core/utils/types";
+import {
+  AgentStep,
+  AgentAction,
+  AgentFinish,
+} from "@aijoelangchain/core/agents";
+import { Tool } from "@aijoelangchain/core/tools";
 import { SerpAPI } from "@langchain/community/tools/serpapi";
 
 const PREFIX = `Answer the following questions as best you can. You have access to the following tools:`;

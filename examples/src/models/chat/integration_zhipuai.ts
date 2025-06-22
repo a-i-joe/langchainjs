@@ -1,5 +1,5 @@
 import { ChatZhipuAI } from "@langchain/community/chat_models/zhipuai";
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 
 // Default model is glm-3-turbo
 const glm3turbo = new ChatZhipuAI({

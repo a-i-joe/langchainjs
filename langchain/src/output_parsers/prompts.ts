@@ -1,4 +1,4 @@
-import { PromptTemplate } from "@langchain/core/prompts";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
 
 export const NAIVE_FIX_TEMPLATE = `Instructions:
 --------------

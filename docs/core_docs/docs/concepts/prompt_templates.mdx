@@ -16,7 +16,7 @@ These prompt templates are used to format a single string, and generally are use
 For example, a common way to construct and use a PromptTemplate is as follows:
 
 ```typescript
-import { PromptTemplate } from "@langchain/core/prompts";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
 
 const promptTemplate = PromptTemplate.fromTemplate(
   "Tell me a joke about {topic}"
@@ -37,7 +37,7 @@ These prompt templates are used to format a list of messages. These "templates" 
 For example, a common way to construct and use a ChatPromptTemplate is as follows:
 
 ```typescript
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 
 const promptTemplate = ChatPromptTemplate.fromMessages([
   ["system", "You are a helpful assistant"],
@@ -81,8 +81,8 @@ This is how you use MessagesPlaceholder.
 import {
   ChatPromptTemplate,
   MessagesPlaceholder,
-} from "@langchain/core/prompts";
-import { HumanMessage } from "@langchain/core/messages";
+} from "@aijoelangchain/core/prompts";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 
 const promptTemplate = ChatPromptTemplate.fromMessages([
   ["system", "You are a helpful assistant"],

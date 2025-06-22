@@ -6,7 +6,7 @@ body:
         Thanks for your interest in LangChain.js 🦜️🔗!
 
         Please follow these instructions, fill every question, and do every step. 🙏
-        
+
         We're asking for this because answering questions and solving problems in GitHub takes a lot of time --
         this is time that we cannot spend on adding new features, fixing bugs, writing documentation or reviewing pull requests.
 
@@ -15,12 +15,12 @@ body:
         There's a high chance that by following this process, you'll find the solution on your own, eliminating the need to submit a question and wait for an answer. 😎
 
         As there are many questions submitted every day, we will **DISCARD** and close the incomplete ones. 
-        
+
         That will allow us (and others) to focus on helping people like you that follow the whole process. 🤓
-        
+
         Relevant links to check before opening a question to see if your question has already been answered, fixed or
         if there's another way to solve your problem:
-        
+
         [LangChain.js documentation with the integrated search](https://js.langchain.com/docs/introduction),
         [API Reference](https://api.js.langchain.com/),
         [GitHub search](https://github.com/langchain-ai/langchainjs),
@@ -58,18 +58,18 @@ body:
       label: Example Code
       description: |
         Please add a self-contained, [minimal, reproducible, example](https://stackoverflow.com/help/minimal-reproducible-example) with your use case.
-        
+
         If a maintainer can copy it, run it, and see it right away, there's a much higher chance that you'll be able to get help.
-        
+
         **Important!** 
-        
+
         * Use code tags (e.g., ```typescript ... ```) to correctly [format your code](https://help.github.com/en/github/writing-on-github/creating-and-highlighting-code-blocks#syntax-highlighting).
         * INCLUDE the language label (e.g. `typescript`) after the first three backticks to enable syntax highlighting. (e.g., ```typescript rather than ```).
         * Reduce your code to the minimum required to reproduce the issue if possible. This makes it much easier for others to help you.
         * Avoid screenshots when possible, as they are hard to read and (more importantly) don't allow others to copy-and-paste your code.
 
       placeholder: |
-        import { RunnableLambda } from "@langchain/core/runnables"
+        import { RunnableLambda } from "@aijoelangchain/core/runnables"
 
         const badCode = (inputs: Record<string, any>) => {
           throw new Error('For demo purposes');
@@ -100,7 +100,7 @@ body:
       label: System Info
       description: |
         Please share your system info with us. 
-        
+
         "yarn info langchain" 
         platform (windows / linux / mac)
         Node version
@@ -110,7 +110,7 @@ body:
         platform
         Node version
         yarn version
-        
+
         These will only surface LangChain.js packages, don't forget to include any other relevant
         packages you're using (if you're not sure what's relevant, you can paste the entire output of `yarn info`).
     validations:

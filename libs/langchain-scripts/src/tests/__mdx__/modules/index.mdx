@@ -48,10 +48,10 @@ LangChain supports packages that contain specific module integrations with third
 They can be as specific as [`@langchain/google-genai`](/docs/integrations/platforms/google#chatgooglegenerativeai), which contains integrations just for Google AI Studio models,
 or as broad as [`@langchain/community`](https://brokenLinkYo.ai), which contains broader variety of community contributed integrations.
 
-These packages, as well as the main LangChain package, all depend on [`@langchain/core`](https://www.npmjs.com/package/@langchain/core), which contains the base abstractions
+These packages, as well as the main LangChain package, all depend on [`@aijoelangchain/core`](https://www.npmjs.com/package/@aijoelangchain/core), which contains the base abstractions
 that these integration packages extend.
 
-To ensure that all integrations and their types interact with each other properly, it is important that they all use the same version of `@langchain/core`.
+To ensure that all integrations and their types interact with each other properly, it is important that they all use the same version of `@aijoelangchain/core`.
 The best way to guarantee this is to add a `"resolutions"` or `"overrides"` field like the following in your project's `package.json`. The name will depend on your package manager:
 
 If you are using `yarn`:
@@ -66,10 +66,10 @@ If you are using `yarn`:
   },
   "dependencies": {
     "@langchain/google-genai": "^0.0.2",
-    "@langchain/core": "^0.3.0"
+    "@aijoelangchain/core": "^0.3.0"
   },
   "resolutions": {
-    "@langchain/core": "0.3.0"
+    "@aijoelangchain/core": "0.3.0"
   }
 }
 ```
@@ -86,10 +86,10 @@ Or for `npm`:
   },
   "dependencies": {
     "@langchain/google-genai": "^0.0.2",
-    "@langchain/core": "^0.3.0"
+    "@aijoelangchain/core": "^0.3.0"
   },
   "overrides": {
-    "@langchain/core": "0.3.0"
+    "@aijoelangchain/core": "0.3.0"
   }
 }
 ```
@@ -106,11 +106,11 @@ Or for `pnpm`:
   },
   "dependencies": {
     "@langchain/google-genai": "^0.0.2",
-    "@langchain/core": "^0.3.0"
+    "@aijoelangchain/core": "^0.3.0"
   },
   "pnpm": {
     "overrides": {
-      "@langchain/core": "0.3.0"
+      "@aijoelangchain/core": "0.3.0"
     }
   }
 }
@@ -119,19 +119,19 @@ Or for `pnpm`:
 ### @langchain/community
 
 The [@langchain/community](https://www.npmjs.com/package/@langchain/community) package contains third-party integrations.
-It is automatically installed along with `langchain`, but can also be used separately with just `@langchain/core`. Install with:
+It is automatically installed along with `langchain`, but can also be used separately with just `@aijoelangchain/core`. Install with:
 
 ```bash npm2yarn
-npm install @langchain/community @langchain/core
+npm install @langchain/community @aijoelangchain/core
 ```
 
-### @langchain/core
+### @aijoelangchain/core
 
-The [@langchain/core](https://www.npmjs.com/package/@langchain/core) package contains base abstractions that the rest of the LangChain ecosystem uses, along with the LangChain Expression Language.
+The [@aijoelangchain/core](https://www.npmjs.com/package/@aijoelangchain/core) package contains base abstractions that the rest of the LangChain ecosystem uses, along with the LangChain Expression Language.
 It is automatically installed along with `langchain`, but can also be used separately. Install with:
 
 ```bash npm2yarn
-npm install @langchain/core
+npm install @aijoelangchain/core
 ```
 
 import IntegrationInstallTooltip from "@mdx_components/integration_install_tooltip.mdx";
@@ -145,7 +145,7 @@ import IntegrationInstallTooltip from "@mdx_components/integration_install_toolt
 LangChain provides an ESM build targeting Node.js environments. You can import it using the following syntax:
 
 ```bash npm2yarn
-npm install @langchain/openai @langchain/core
+npm install @langchain/openai @aijoelangchain/core
 ```
 
 ```typescript

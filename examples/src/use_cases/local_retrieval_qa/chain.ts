@@ -4,12 +4,12 @@ import { HNSWLib } from "@langchain/community/vectorstores/hnswlib";
 import { Ollama } from "@langchain/community/llms/ollama";
 import { HuggingFaceTransformersEmbeddings } from "@langchain/community/embeddings/huggingface_transformers";
 import { formatDocumentsAsString } from "langchain/util/document";
-import { PromptTemplate } from "@langchain/core/prompts";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
 import {
   RunnableSequence,
   RunnablePassthrough,
-} from "@langchain/core/runnables";
-import { StringOutputParser } from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/runnables";
+import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
 
 const loader = new CheerioWebBaseLoader(
   "https://lilianweng.github.io/posts/2023-06-23-agent/"

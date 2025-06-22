@@ -13,7 +13,7 @@ import {
   Operators,
   StructuredQuery,
   isBoolean,
-} from "@langchain/core/structured_query";
+} from "@aijoelangchain/core/structured_query";
 import type {
   SupabaseFilterRPCCall,
   SupabaseMetadata,

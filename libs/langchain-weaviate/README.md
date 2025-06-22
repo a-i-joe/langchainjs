@@ -5,7 +5,7 @@ This package contains the LangChain.js integrations for Weaviate with the `weavi
 ## Installation
 
 ```bash npm2yarn
-npm install @langchain/weaviate @langchain/core
+npm install @langchain/weaviate @aijoelangchain/core
 ```
 
 ## Vectorstore
@@ -27,16 +27,14 @@ export WEAVIATE_API_KEY=
 ```
 
 ```typescript
-import weaviate, { ApiKey } from 'weaviate-client';
+import weaviate, { ApiKey } from "weaviate-client";
 import { WeaviateStore } from "@langchain/weaviate";
 
 // Weaviate SDK has a TypeScript issue so we must do this.
 const client = (weaviate as any).client({
   scheme: process.env.WEAVIATE_SCHEME || "https",
   host: process.env.WEAVIATE_HOST || "localhost",
-  apiKey: new ApiKey(
-    process.env.WEAVIATE_API_KEY || "default"
-  ),
+  apiKey: new ApiKey(process.env.WEAVIATE_API_KEY || "default"),
 });
 
 // Create a store and fill it with some texts + metadata

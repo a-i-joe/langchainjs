@@ -1,9 +1,9 @@
 import { Metadata } from "@opensearch-project/opensearch/api/types.js";
 import { DataSource, DataSourceOptions, EntitySchema } from "typeorm";
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { VectorStore } from "@langchain/core/vectorstores";
-import { Document } from "@langchain/core/documents";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { VectorStore } from "@aijoelangchain/core/vectorstores";
+import { Document } from "@aijoelangchain/core/documents";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 
 /**
  * Interface that defines the arguments required to create a

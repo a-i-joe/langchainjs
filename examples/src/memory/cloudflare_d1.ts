@@ -4,9 +4,9 @@ import { CloudflareD1MessageHistory } from "@langchain/cloudflare";
 import {
   ChatPromptTemplate,
   MessagesPlaceholder,
-} from "@langchain/core/prompts";
-import { RunnableSequence } from "@langchain/core/runnables";
-import { StringOutputParser } from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/prompts";
+import { RunnableSequence } from "@aijoelangchain/core/runnables";
+import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
 import { ChatAnthropic } from "@langchain/anthropic";
 
 export interface Env {

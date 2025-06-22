@@ -1,9 +1,9 @@
 import { test } from "@jest/globals";
-import { Document, DocumentInterface } from "@langchain/core/documents";
-import { SyntheticEmbeddings } from "@langchain/core/utils/testing";
+import { Document, DocumentInterface } from "@aijoelangchain/core/documents";
+import { SyntheticEmbeddings } from "@aijoelangchain/core/utils/testing";
 import { v4 as uuidv4 } from "uuid";
 
-import { MaxMarginalRelevanceSearchOptions } from "@langchain/core/vectorstores";
+import { MaxMarginalRelevanceSearchOptions } from "@aijoelangchain/core/vectorstores";
 import {
   PostgreSqlContainer,
   StartedPostgreSqlContainer,

@@ -1,10 +1,10 @@
 import {
   AsyncCaller,
   AsyncCallerParams,
-} from "@langchain/core/utils/async_caller";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { StructuredTool } from "@langchain/core/tools";
-import { InferInteropZodOutput } from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/utils/async_caller";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { StructuredTool } from "@aijoelangchain/core/tools";
+import { InferInteropZodOutput } from "@aijoelangchain/core/utils/types";
 import { z } from "zod";
 
 /**

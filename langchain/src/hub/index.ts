@@ -1,5 +1,5 @@
-import { Runnable } from "@langchain/core/runnables";
-import type { BaseLanguageModel } from "@langchain/core/language_models/base";
+import { Runnable } from "@aijoelangchain/core/runnables";
+import type { BaseLanguageModel } from "@aijoelangchain/core/language_models/base";
 import { load } from "../load/index.js";
 import {
   basePush,

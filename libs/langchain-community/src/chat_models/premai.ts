@@ -5,31 +5,31 @@ import {
   ChatMessage,
   ChatMessageChunk,
   HumanMessageChunk,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import {
   type BaseLanguageModelCallOptions,
   TokenUsage,
-} from "@langchain/core/language_models/base";
+} from "@aijoelangchain/core/language_models/base";
 
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
 import {
   type BaseChatModelParams,
   BaseChatModel,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 
 import Prem, {
   ChatCompletionStreamingCompletionData,
   CreateChatCompletionRequest,
   CreateChatCompletionResponse,
 } from "@premai/prem-sdk";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import {
   ChatGeneration,
   ChatGenerationChunk,
   ChatResult,
-} from "@langchain/core/outputs";
+} from "@aijoelangchain/core/outputs";
 
-import { NewTokenIndices } from "@langchain/core/callbacks/base";
+import { NewTokenIndices } from "@aijoelangchain/core/callbacks/base";
 
 export type RoleEnum = "user" | "assistant";
 

@@ -1,5 +1,5 @@
 import { ChatCohere } from "@langchain/cohere";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 
 const model = new ChatCohere({
   apiKey: process.env.COHERE_API_KEY, // Default

@@ -5,7 +5,7 @@ A [prompt template](/docs/concepts/prompt_templates) received missing or invalid
 One unexpected way this can occur is if you add a JSON object directly into a prompt template:
 
 ```ts
-import { PromptTemplate } from "@langchain/core/prompts";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
 import { ChatOpenAI } from "@langchain/openai";
 
 const prompt = PromptTemplate.fromTemplate(`You are a helpful assistant.
@@ -27,7 +27,7 @@ You might think that the above prompt template should require a single input key
 interpreted as an additional variable because the curly braces (`{`) are not escaped, and should be preceded by a second brace instead, like this:
 
 ```ts
-import { PromptTemplate } from "@langchain/core/prompts";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
 import { ChatOpenAI } from "@langchain/openai";
 
 const prompt = PromptTemplate.fromTemplate(`You are a helpful assistant.

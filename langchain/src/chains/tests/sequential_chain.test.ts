@@ -1,8 +1,8 @@
 import { test, expect } from "@jest/globals";
-import { BaseLLM } from "@langchain/core/language_models/llms";
-import { PromptTemplate } from "@langchain/core/prompts";
-import { AIMessage, HumanMessage } from "@langchain/core/messages";
-import { LLMResult } from "@langchain/core/outputs";
+import { BaseLLM } from "@aijoelangchain/core/language_models/llms";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
+import { AIMessage, HumanMessage } from "@aijoelangchain/core/messages";
+import { LLMResult } from "@aijoelangchain/core/outputs";
 import { ChatMessageHistory } from "../../stores/message/in_memory.js";
 import { LLMChain } from "../llm_chain.js";
 import { SequentialChain } from "../sequential_chain.js";

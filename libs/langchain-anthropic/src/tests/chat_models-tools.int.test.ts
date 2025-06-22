@@ -7,12 +7,12 @@ import {
   AIMessageChunk,
   HumanMessage,
   ToolMessage,
-} from "@langchain/core/messages";
-import { StructuredTool, tool } from "@langchain/core/tools";
-import { concat } from "@langchain/core/utils/stream";
+} from "@aijoelangchain/core/messages";
+import { StructuredTool, tool } from "@aijoelangchain/core/tools";
+import { concat } from "@aijoelangchain/core/utils/stream";
 import { z } from "zod";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
-import { RunnableLambda } from "@langchain/core/runnables";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
+import { RunnableLambda } from "@aijoelangchain/core/runnables";
 import { ChatAnthropic } from "../chat_models.js";
 import { AnthropicToolResponse } from "../types.js";
 import { _convertMessagesToAnthropicPayload } from "../utils/message_inputs.js";

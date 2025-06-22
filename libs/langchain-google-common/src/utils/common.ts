@@ -1,5 +1,5 @@
-import { isOpenAITool } from "@langchain/core/language_models/base";
-import { isLangChainTool } from "@langchain/core/utils/function_calling";
+import { isOpenAITool } from "@aijoelangchain/core/language_models/base";
+import { isLangChainTool } from "@aijoelangchain/core/utils/function_calling";
 import {
   isModelGemini,
   isModelGemma,

@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { jest } from "@jest/globals";
-import { FakeEmbeddings, FakeLLM } from "@langchain/core/utils/testing";
-import { Document } from "@langchain/core/documents";
+import { FakeEmbeddings, FakeLLM } from "@aijoelangchain/core/utils/testing";
+import { Document } from "@aijoelangchain/core/documents";
 import { MongoClient } from "mongodb";
 import { AzureCosmosDBMongoDBSemanticCache } from "../../index.js";
 

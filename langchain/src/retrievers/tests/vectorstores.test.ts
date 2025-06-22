@@ -1,5 +1,5 @@
-import { Document } from "@langchain/core/documents";
-import { FakeEmbeddings } from "@langchain/core/utils/testing";
+import { Document } from "@aijoelangchain/core/documents";
+import { FakeEmbeddings } from "@aijoelangchain/core/utils/testing";
 import { MemoryVectorStore } from "../../vectorstores/memory.js";
 
 test("Test Memory Retriever with Callback", async () => {

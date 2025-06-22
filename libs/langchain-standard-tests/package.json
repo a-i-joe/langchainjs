@@ -32,8 +32,8 @@
   "author": "LangChain",
   "license": "MIT",
   "dependencies": {
+    "@aijoelangchain/core": "workspace:*",
     "@jest/globals": "^29.5.0",
-    "@langchain/core": "workspace:*",
     "zod": "^3.25.32"
   },
   "devDependencies": {

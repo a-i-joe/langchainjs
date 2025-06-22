@@ -1,1 +1,1 @@
-export { type DocumentInput, Document } from "@langchain/core/documents";
+export { type DocumentInput, Document } from "@aijoelangchain/core/documents";

@@ -5,9 +5,9 @@ import type {
   SearchOptions,
 } from "redis";
 import { SchemaFieldTypes, VectorAlgorithms } from "redis";
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { VectorStore } from "@langchain/core/vectorstores";
-import { Document } from "@langchain/core/documents";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { VectorStore } from "@aijoelangchain/core/vectorstores";
+import { Document } from "@aijoelangchain/core/documents";
 
 // Adapted from internal redis types which aren't exported
 /**

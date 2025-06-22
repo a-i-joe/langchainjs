@@ -1,4 +1,4 @@
-import { load as coreLoad } from "@langchain/core/load";
+import { load as coreLoad } from "@aijoelangchain/core/load";
 import { type OptionalImportMap, type SecretMap } from "./import_type.js";
 import * as importMap from "./import_map.js";
 import { optionalImportEntrypoints } from "./import_constants.js";

@@ -4,8 +4,8 @@ import {
   CallbackManager,
   traceAsGroup,
   TraceGroup,
-} from "@langchain/core/callbacks/manager";
-import { PromptTemplate } from "@langchain/core/prompts";
+} from "@aijoelangchain/core/callbacks/manager";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
 
 export const run = async () => {
   // Initialize the LLMChain

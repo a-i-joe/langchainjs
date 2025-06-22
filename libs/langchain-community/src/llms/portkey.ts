@@ -1,9 +1,9 @@
 import _ from "lodash";
 import { LLMOptions, Portkey as _Portkey } from "portkey-ai";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
-import { GenerationChunk, LLMResult } from "@langchain/core/outputs";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { BaseLLM } from "@langchain/core/language_models/llms";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
+import { GenerationChunk, LLMResult } from "@aijoelangchain/core/outputs";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { BaseLLM } from "@aijoelangchain/core/language_models/llms";
 
 interface PortkeyOptions {
   apiKey?: string;

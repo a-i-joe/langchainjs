@@ -1,16 +1,16 @@
 import {
   SimpleChatModel,
   type BaseChatModelParams,
-} from "@langchain/core/language_models/chat_models";
-import type { BaseLanguageModelCallOptions } from "@langchain/core/language_models/base";
+} from "@aijoelangchain/core/language_models/chat_models";
+import type { BaseLanguageModelCallOptions } from "@aijoelangchain/core/language_models/base";
 import {
   AIMessageChunk,
   BaseMessage,
   ChatMessage,
-} from "@langchain/core/messages";
-import { ChatGenerationChunk } from "@langchain/core/outputs";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/messages";
+import { ChatGenerationChunk } from "@aijoelangchain/core/outputs";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
 
 import type { CloudflareWorkersAIInput } from "../llms/cloudflare_workersai.js";
 import { convertEventStreamToIterableReadableDataStream } from "../utils/event_source_parse.js";

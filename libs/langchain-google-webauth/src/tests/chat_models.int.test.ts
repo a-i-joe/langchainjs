@@ -1,5 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import { StructuredTool, tool } from "@langchain/core/tools";
+import { StructuredTool, tool } from "@aijoelangchain/core/tools";
 import { z } from "zod";
 import { afterEach, expect, jest, test } from "@jest/globals";
 import {
@@ -14,9 +14,9 @@ import {
   SystemMessage,
   ToolMessage,
   MessageContentImageUrl,
-} from "@langchain/core/messages";
-import { BaseLanguageModelInput } from "@langchain/core/language_models/base";
-import { ChatPromptValue } from "@langchain/core/prompt_values";
+} from "@aijoelangchain/core/messages";
+import { BaseLanguageModelInput } from "@aijoelangchain/core/language_models/base";
+import { ChatPromptValue } from "@aijoelangchain/core/prompt_values";
 import {
   MediaManager,
   SimpleWebBlobStore,
@@ -27,15 +27,15 @@ import {
   GoogleRequestLogger,
   GoogleRequestRecorder,
 } from "@langchain/google-common";
-import { BaseCallbackHandler } from "@langchain/core/callbacks/base";
-import { concat } from "@langchain/core/utils/stream";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { BaseCallbackHandler } from "@aijoelangchain/core/callbacks/base";
+import { concat } from "@aijoelangchain/core/utils/stream";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import fs from "fs/promises";
 import Fs from "fs";
 import {
   ChatPromptTemplate,
   MessagesPlaceholder,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 import { ChatGoogle, ChatGoogleInput } from "../chat_models.js";
 import { BlobStoreAIStudioFile } from "../media.js";
 import MockedFunction = jest.MockedFunction;

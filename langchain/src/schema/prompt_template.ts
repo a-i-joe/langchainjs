@@ -1,5 +1,5 @@
-import { Document } from "@langchain/core/documents";
-import { BasePromptTemplate } from "@langchain/core/prompts";
+import { Document } from "@aijoelangchain/core/documents";
+import { BasePromptTemplate } from "@aijoelangchain/core/prompts";
 
 /**
  * @deprecated

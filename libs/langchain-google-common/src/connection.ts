@@ -1,12 +1,12 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { BaseLanguageModelCallOptions } from "@langchain/core/language_models/base";
+import { BaseLanguageModelCallOptions } from "@aijoelangchain/core/language_models/base";
 import {
   AsyncCaller,
   AsyncCallerCallOptions,
-} from "@langchain/core/utils/async_caller";
-import { getRuntimeEnvironment } from "@langchain/core/utils/env";
-import { BaseRunManager } from "@langchain/core/callbacks/manager";
-import { BaseCallbackHandler } from "@langchain/core/callbacks/base";
+} from "@aijoelangchain/core/utils/async_caller";
+import { getRuntimeEnvironment } from "@aijoelangchain/core/utils/env";
+import { BaseRunManager } from "@aijoelangchain/core/callbacks/manager";
+import { BaseCallbackHandler } from "@aijoelangchain/core/callbacks/base";
 import type {
   GoogleAIBaseLLMInput,
   GoogleConnectionParams,

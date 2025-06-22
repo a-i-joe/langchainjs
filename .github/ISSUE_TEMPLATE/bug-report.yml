@@ -6,15 +6,15 @@ body:
     attributes:
       value: >
         Thank you for taking the time to file a bug report. 
-        
+
         Use this to report bugs in LangChain.js. 
-        
+
         If you're not certain that your issue is due to a bug in LangChain, please use [GitHub Discussions](https://github.com/langchain-ai/langchainjs/discussions)
         to ask for help with your issue.
-        
+
         Relevant links to check before filing a bug report to see if your issue has already been reported, fixed or
         if there's another way to solve your problem:
-        
+
         [LangChain.js documentation with the integrated search](https://js.langchain.com/docs/introduction),
         [API Reference](https://api.js.langchain.com/),
         [GitHub search](https://github.com/langchain-ai/langchainjs),
@@ -45,11 +45,11 @@ body:
       label: Example Code
       description: |
         Please add a self-contained, [minimal, reproducible, example](https://stackoverflow.com/help/minimal-reproducible-example) with your use case.
-        
+
         If a maintainer can copy it, run it, and see it right away, there's a much higher chance that you'll be able to get help.
-        
+
         **Important!** 
-        
+
         * Use code tags (e.g., ```typescript ... ```) to correctly [format your code](https://help.github.com/en/github/writing-on-github/creating-and-highlighting-code-blocks#syntax-highlighting).
         * INCLUDE the language label (e.g. `typescript`) after the first three backticks to enable syntax highlighting. (e.g., ```typescript rather than ```).
         * Reduce your code to the minimum required to reproduce the issue if possible. This makes it much easier for others to help you.
@@ -57,9 +57,9 @@ body:
 
       placeholder: |
         The following code: 
-        
+
         ```typescript
-        import { RunnableLambda } from "@langchain/core/runnables"
+        import { RunnableLambda } from "@aijoelangchain/core/runnables"
 
         const badCode = (inputs: Record<string, any>) => {
           throw new Error('For demo purposes');
@@ -98,7 +98,7 @@ body:
       label: System Info
       description: |
         Please share your system info with us. 
-        
+
         "yarn info langchain" 
         platform (windows / linux / mac)
         Node version
@@ -108,7 +108,7 @@ body:
         platform
         Node version
         yarn version
-        
+
         These will only surface LangChain.js packages, don't forget to include any other relevant
         packages you're using (if you're not sure what's relevant, you can paste the entire output of `yarn info`).
     validations:

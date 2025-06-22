@@ -1,7 +1,7 @@
 import { google, calendar_v3 } from "googleapis";
-import { Tool } from "@langchain/core/tools";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { BaseLanguageModel } from "@langchain/core/language_models/base";
+import { Tool } from "@aijoelangchain/core/tools";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { BaseLanguageModel } from "@aijoelangchain/core/language_models/base";
 
 export interface GoogleCalendarAgentParams {
   credentials?: {

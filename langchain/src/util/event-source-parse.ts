@@ -1,1 +1,1 @@
-export * from "@langchain/core/utils/event_source_parse";
+export * from "@aijoelangchain/core/utils/event_source_parse";

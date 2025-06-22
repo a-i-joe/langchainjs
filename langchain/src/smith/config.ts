@@ -1,5 +1,5 @@
-import { BaseLanguageModel } from "@langchain/core/language_models/base";
-import { RunnableConfig } from "@langchain/core/runnables";
+import { BaseLanguageModel } from "@aijoelangchain/core/language_models/base";
+import { RunnableConfig } from "@aijoelangchain/core/runnables";
 import { Example, Run } from "langsmith";
 import { EvaluationResult, RunEvaluator } from "langsmith/evaluation";
 import {

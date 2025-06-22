@@ -9,10 +9,10 @@ import {
   ToolMessage,
   isAIMessage,
   isAIMessageChunk,
-} from "@langchain/core/messages";
-import { tool } from "@langchain/core/tools";
+} from "@aijoelangchain/core/messages";
+import { tool } from "@aijoelangchain/core/tools";
 import { z } from "zod";
-import { BaseLanguageModelInput } from "@langchain/core/language_models/base";
+import { BaseLanguageModelInput } from "@aijoelangchain/core/language_models/base";
 import { ChatOpenAI } from "../chat_models.js";
 import { REASONING_OUTPUT_MESSAGES } from "./data/computer-use-inputs.js";
 import { ChatOpenAIReasoningSummary } from "../types.js";

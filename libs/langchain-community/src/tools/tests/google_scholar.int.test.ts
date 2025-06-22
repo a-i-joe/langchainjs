@@ -1,5 +1,5 @@
 import { test, expect, describe } from "@jest/globals";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import { SERPGoogleScholarAPITool } from "../google_scholar.js";
 
 describe("SERPGoogleScholarAPITool", () => {

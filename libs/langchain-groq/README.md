@@ -5,7 +5,7 @@ This package contains the LangChain.js integrations for Groq via the groq/sdk pa
 ## Installation
 
 ```bash npm2yarn
-npm install @langchain/groq @langchain/core
+npm install @langchain/groq @aijoelangchain/core
 ```
 
 ## Chat models
@@ -20,7 +20,7 @@ export GROQ_API_KEY=
 
 ```typescript
 import { ChatGroq } from "@langchain/groq";
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 
 const model = new ChatGroq({
   apiKey: process.env.GROQ_API_KEY, // Default value.

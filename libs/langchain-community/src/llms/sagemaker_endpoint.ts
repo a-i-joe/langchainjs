@@ -4,13 +4,13 @@ import {
   SageMakerRuntimeClient,
   SageMakerRuntimeClientConfig,
 } from "@aws-sdk/client-sagemaker-runtime";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
-import { GenerationChunk } from "@langchain/core/outputs";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
+import { GenerationChunk } from "@aijoelangchain/core/outputs";
 import {
   type BaseLLMCallOptions,
   type BaseLLMParams,
   LLM,
-} from "@langchain/core/language_models/llms";
+} from "@aijoelangchain/core/language_models/llms";
 
 /**
  * A handler class to transform input from LLM to a format that SageMaker

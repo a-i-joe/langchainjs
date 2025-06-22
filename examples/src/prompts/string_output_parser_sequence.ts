@@ -1,6 +1,6 @@
 import { ChatOpenAI } from "@langchain/openai";
-import { StringOutputParser } from "@langchain/core/output_parsers";
-import { RunnableSequence } from "@langchain/core/runnables";
+import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
+import { RunnableSequence } from "@aijoelangchain/core/runnables";
 
 const chain = RunnableSequence.from([
   new ChatOpenAI({ temperature: 0 }),

@@ -1,15 +1,19 @@
 import { ChatOpenAI } from "@langchain/openai";
-import { RunnableSequence } from "@langchain/core/runnables";
+import { RunnableSequence } from "@aijoelangchain/core/runnables";
 import { AgentExecutor } from "langchain/agents";
 import { formatToOpenAIFunctionMessages } from "langchain/agents/format_scratchpad";
 import {
   ChatPromptTemplate,
   MessagesPlaceholder,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 import { OpenAIFunctionsAgentOutputParser } from "langchain/agents/openai/output_parser";
-import { AIMessage, BaseMessage, HumanMessage } from "@langchain/core/messages";
-import { DynamicTool } from "@langchain/core/tools";
-import { AgentStep } from "@langchain/core/agents";
+import {
+  AIMessage,
+  BaseMessage,
+  HumanMessage,
+} from "@aijoelangchain/core/messages";
+import { DynamicTool } from "@aijoelangchain/core/tools";
+import { AgentStep } from "@aijoelangchain/core/agents";
 
 /**
  * Define your chat model to use.

@@ -2,9 +2,9 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 import { test } from "@jest/globals";
 import { z } from "zod";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
-import { BaseMessageChunk, HumanMessage } from "@langchain/core/messages";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
+import { BaseMessageChunk, HumanMessage } from "@aijoelangchain/core/messages";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { ChatAnthropicTools } from "../tool_calling.js";
 
 test.skip("Test ChatAnthropicTools", async () => {

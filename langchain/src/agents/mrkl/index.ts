@@ -1,6 +1,6 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import { ToolInterface } from "@langchain/core/tools";
-import { PromptTemplate, renderTemplate } from "@langchain/core/prompts";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import { ToolInterface } from "@aijoelangchain/core/tools";
+import { PromptTemplate, renderTemplate } from "@aijoelangchain/core/prompts";
 import { LLMChain } from "../../chains/llm_chain.js";
 import { Optional } from "../../types/type-utils.js";
 import { Agent, AgentArgs, OutputParserArgs } from "../agent.js";

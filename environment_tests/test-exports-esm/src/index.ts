@@ -1,10 +1,10 @@
 import assert from "assert";
 import { OpenAI } from "@langchain/openai";
 import { LLMChain } from "langchain/chains";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 import { HuggingFaceTransformersEmbeddings } from "@langchain/community/embeddings/huggingface_transformers";
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 
 async function test(useAzure: boolean = false) {
   // Test exports

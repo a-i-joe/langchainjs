@@ -1,7 +1,7 @@
 import * as url from "node:url";
 import * as path from "node:path";
 import { test, expect } from "@jest/globals";
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 import { CSVLoader } from "../fs/csv.js";
 
 test("Test CSV loader from file with column arg", async () => {

@@ -1,6 +1,9 @@
-import { Embeddings, type EmbeddingsParams } from "@langchain/core/embeddings";
-import { chunkArray } from "@langchain/core/utils/chunk_array";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import {
+  Embeddings,
+  type EmbeddingsParams,
+} from "@aijoelangchain/core/embeddings";
+import { chunkArray } from "@aijoelangchain/core/utils/chunk_array";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 
 export interface JinaEmbeddingsParams extends EmbeddingsParams {
   /** Model name to use */

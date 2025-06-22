@@ -5,8 +5,8 @@ import {
   AIMessageChunk,
   UsageMetadata,
   type BaseMessage,
-} from "@langchain/core/messages";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/messages";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
 import {
   BaseChatModel,
   BaseChatModelCallOptions,
@@ -14,28 +14,28 @@ import {
   BindToolsInput,
   LangSmithParams,
   ToolChoice,
-} from "@langchain/core/language_models/chat_models";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { ChatGenerationChunk, ChatResult } from "@langchain/core/outputs";
+} from "@aijoelangchain/core/language_models/chat_models";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { ChatGenerationChunk, ChatResult } from "@aijoelangchain/core/outputs";
 import {
   Runnable,
   RunnableLambda,
   RunnablePassthrough,
   RunnableSequence,
-} from "@langchain/core/runnables";
+} from "@aijoelangchain/core/runnables";
 import {
   BaseLanguageModelInput,
   StructuredOutputMethodOptions,
   ToolDefinition,
-} from "@langchain/core/language_models/base";
-import { convertToOpenAITool } from "@langchain/core/utils/function_calling";
-import { concat } from "@langchain/core/utils/stream";
+} from "@aijoelangchain/core/language_models/base";
+import { convertToOpenAITool } from "@aijoelangchain/core/utils/function_calling";
+import { concat } from "@aijoelangchain/core/utils/stream";
 import {
   getSchemaDescription,
   InteropZodType,
   isInteropZodSchema,
-} from "@langchain/core/utils/types";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
+} from "@aijoelangchain/core/utils/types";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
 
 import {
   convertToCerebrasMessageParams,
@@ -289,8 +289,8 @@ export interface ChatCerebrasCallOptions
  * <summary><strong>Aggregate Streamed Chunks</strong></summary>
  *
  * ```typescript
- * import { AIMessageChunk } from '@langchain/core/messages';
- * import { concat } from '@langchain/core/utils/stream';
+ * import { AIMessageChunk } from '@aijoelangchain/core/messages';
+ * import { concat } from '@aijoelangchain/core/utils/stream';
  *
  * const stream = await llm.stream(input);
  * let full: AIMessageChunk | undefined;

@@ -1,11 +1,11 @@
 import { test, expect } from "@jest/globals";
-import { LLMResult } from "@langchain/core/outputs";
-import { StringPromptValue } from "@langchain/core/prompt_values";
-import { CallbackManager } from "@langchain/core/callbacks/manager";
-import { NewTokenIndices } from "@langchain/core/callbacks/base";
+import { LLMResult } from "@aijoelangchain/core/outputs";
+import { StringPromptValue } from "@aijoelangchain/core/prompt_values";
+import { CallbackManager } from "@aijoelangchain/core/callbacks/manager";
+import { NewTokenIndices } from "@aijoelangchain/core/callbacks/base";
 import { ClientSecretCredential } from "@azure/identity";
 import { TokenCredential } from "@azure/core-auth";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import { OpenAIKeyCredential } from "@azure/openai";
 import { AzureOpenAI } from "../llms.js";
 

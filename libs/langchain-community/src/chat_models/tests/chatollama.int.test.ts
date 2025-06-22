@@ -2,12 +2,12 @@ import { test } from "@jest/globals";
 import * as fs from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import * as path from "node:path";
-import { AIMessage, HumanMessage } from "@langchain/core/messages";
-import { PromptTemplate } from "@langchain/core/prompts";
+import { AIMessage, HumanMessage } from "@aijoelangchain/core/messages";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
 import {
   BytesOutputParser,
   StringOutputParser,
-} from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/output_parsers";
 import { ChatOllama } from "../ollama.js";
 
 test.skip("test call", async () => {

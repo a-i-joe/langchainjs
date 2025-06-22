@@ -5,13 +5,13 @@ import {
   Db,
   MongoClient,
 } from "mongodb";
-import { BaseListChatMessageHistory } from "@langchain/core/chat_history";
+import { BaseListChatMessageHistory } from "@aijoelangchain/core/chat_history";
 import {
   BaseMessage,
   mapChatMessagesToStoredMessages,
   mapStoredMessagesToChatMessages,
-} from "@langchain/core/messages";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+} from "@aijoelangchain/core/messages";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 
 export interface AzureCosmosDBMongoChatHistoryDBConfig {
   readonly client?: MongoClient;

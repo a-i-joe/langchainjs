@@ -34,5 +34,5 @@ yarn
 # not try to build the package/its workspace dependencies.
 cd "$monorepo_cohere_dir"
 
-yarn add @langchain/core
+yarn add @aijoelangchain/core
 yarn test

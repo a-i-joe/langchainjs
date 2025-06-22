@@ -64,7 +64,7 @@ You can find a list of all composition primitives in the [LangChain Core API Ref
 `RunnableSequence` is a composition primitive that allows you "chain" multiple runnables sequentially, with the output of one runnable serving as the input to the next.
 
 ```typescript
-import { RunnableSequence } from "@langchain/core/runnables";
+import { RunnableSequence } from "@aijoelangchain/core/runnables";
 const chain = new RunnableSequence({
   first: runnable1,
   // Optional, use if you have more than two runnables
@@ -95,7 +95,7 @@ const finalOutput = await runnable2.invoke(output1);
 `RunnableParallel` is a composition primitive that allows you to run multiple runnables concurrently, with the same input provided to each.
 
 ```typescript
-import { RunnableParallel } from "@langchain/core/runnables";
+import { RunnableParallel } from "@aijoelangchain/core/runnables";
 const chain = new RunnableParallel({
   key1: runnable1,
   key2: runnable2,

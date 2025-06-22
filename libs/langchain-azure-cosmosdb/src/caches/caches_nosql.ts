@@ -3,13 +3,13 @@ import {
   deserializeStoredGeneration,
   getCacheKey,
   serializeGeneration,
-} from "@langchain/core/caches";
-import { Generation } from "@langchain/core/outputs";
-import { Document } from "@langchain/core/documents";
-import { EmbeddingsInterface } from "@langchain/core/embeddings";
+} from "@aijoelangchain/core/caches";
+import { Generation } from "@aijoelangchain/core/outputs";
+import { Document } from "@aijoelangchain/core/documents";
+import { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
 import { CosmosClient, CosmosClientOptions } from "@azure/cosmos";
 import { DefaultAzureCredential } from "@azure/identity";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import {
   AzureCosmosDBNoSQLConfig,
   AzureCosmosDBNoSQLVectorStore,

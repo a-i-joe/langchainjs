@@ -1,19 +1,19 @@
 import { zodToJsonSchema } from "zod-to-json-schema";
 import { z } from "zod";
-import type { BaseMessage } from "@langchain/core/messages";
+import type { BaseMessage } from "@aijoelangchain/core/messages";
 import { ChatOpenAI } from "@langchain/openai";
 import { AgentExecutor } from "langchain/agents";
 import type { FunctionsAgentAction } from "langchain/agents/openai/output_parser";
 
 import { TavilySearchAPIRetriever } from "@langchain/community/retrievers/tavily_search_api";
-import { AIMessage, FunctionMessage } from "@langchain/core/messages";
-import { RunnableSequence } from "@langchain/core/runnables";
+import { AIMessage, FunctionMessage } from "@aijoelangchain/core/messages";
+import { RunnableSequence } from "@aijoelangchain/core/runnables";
 import {
   ChatPromptTemplate,
   MessagesPlaceholder,
-} from "@langchain/core/prompts";
-import { DynamicTool } from "@langchain/core/tools";
-import { AgentFinish, AgentStep } from "@langchain/core/agents";
+} from "@aijoelangchain/core/prompts";
+import { DynamicTool } from "@aijoelangchain/core/tools";
+import { AgentFinish, AgentStep } from "@aijoelangchain/core/agents";
 
 const llm = new ChatOpenAI({
   model: "gpt-4-1106-preview",

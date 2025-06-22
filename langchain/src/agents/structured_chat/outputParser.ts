@@ -1,8 +1,8 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import { Callbacks } from "@langchain/core/callbacks/manager";
-import { AgentAction, AgentFinish } from "@langchain/core/agents";
-import { OutputParserException } from "@langchain/core/output_parsers";
-import { renderTemplate } from "@langchain/core/prompts";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import { Callbacks } from "@aijoelangchain/core/callbacks/manager";
+import { AgentAction, AgentFinish } from "@aijoelangchain/core/agents";
+import { OutputParserException } from "@aijoelangchain/core/output_parsers";
+import { renderTemplate } from "@aijoelangchain/core/prompts";
 import { AgentActionOutputParser } from "../types.js";
 import {
   AGENT_ACTION_FORMAT_INSTRUCTIONS,

@@ -4,7 +4,7 @@ import {
   OutputParserException,
   CommaSeparatedListOutputParser,
   CustomListOutputParser,
-} from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/output_parsers";
 
 test("CommaSeparatedListOutputParser", async () => {
   const parser = new CommaSeparatedListOutputParser();

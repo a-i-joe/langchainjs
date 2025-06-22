@@ -1,11 +1,11 @@
 import {
   SimpleChatModel,
   type BaseChatModelParams,
-} from "@langchain/core/language_models/chat_models";
-import type { BaseLanguageModelCallOptions } from "@langchain/core/language_models/base";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
-import { BaseMessage, AIMessageChunk } from "@langchain/core/messages";
-import { ChatGenerationChunk } from "@langchain/core/outputs";
+} from "@aijoelangchain/core/language_models/chat_models";
+import type { BaseLanguageModelCallOptions } from "@aijoelangchain/core/language_models/base";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
+import { BaseMessage, AIMessageChunk } from "@aijoelangchain/core/messages";
+import { ChatGenerationChunk } from "@aijoelangchain/core/outputs";
 import * as webllm from "@mlc-ai/web-llm";
 import { ChatCompletionMessageParam } from "@mlc-ai/web-llm/lib/openai_api_protocols";
 

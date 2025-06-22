@@ -5,10 +5,10 @@ import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
 import { BufferMemory } from "langchain/memory";
 import * as fs from "fs";
 import { formatDocumentsAsString } from "langchain/util/document";
-import { Document } from "@langchain/core/documents";
-import { PromptTemplate } from "@langchain/core/prompts";
-import { RunnableSequence } from "@langchain/core/runnables";
-import { BaseMessage } from "@langchain/core/messages";
+import { Document } from "@aijoelangchain/core/documents";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
+import { RunnableSequence } from "@aijoelangchain/core/runnables";
+import { BaseMessage } from "@aijoelangchain/core/messages";
 
 const text = fs.readFileSync("state_of_the_union.txt", "utf8");
 

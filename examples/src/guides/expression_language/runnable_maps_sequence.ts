@@ -1,11 +1,11 @@
 import { CohereEmbeddings } from "@langchain/cohere";
-import { PromptTemplate } from "@langchain/core/prompts";
-import { StringOutputParser } from "@langchain/core/output_parsers";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
+import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
 import {
   RunnablePassthrough,
   RunnableSequence,
-} from "@langchain/core/runnables";
-import { Document } from "@langchain/core/documents";
+} from "@aijoelangchain/core/runnables";
+import { Document } from "@aijoelangchain/core/documents";
 import { ChatAnthropic } from "@langchain/anthropic";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 

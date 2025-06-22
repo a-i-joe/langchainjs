@@ -10,9 +10,9 @@ import type {
   MessageContentText,
   StandardAudioBlock,
   MessageContentImageUrl,
-} from "@langchain/core/messages";
-import type { ToolCall } from "@langchain/core/dist/messages/tool.js";
-import type { StructuredToolInterface } from "@langchain/core/tools";
+} from "@aijoelangchain/core/messages";
+import type { ToolCall } from "@aijoelangchain/core/dist/messages/tool.js";
+import type { StructuredToolInterface } from "@aijoelangchain/core/tools";
 import { MultiServerMCPClient } from "../src/client.js";
 import { createDummyHttpServer } from "./fixtures/dummy-http-server.js";
 import { type ClientConfig } from "../src/types.js";
@@ -1614,7 +1614,7 @@ describe("MultiServerMCPClient Integration Tests", () => {
           expect(imgArtifact).toEqual([]);
 
           const imgContentArray = imgContentResult as MessageContentComplex[];
-          
+
           expect(imgContentArray).toHaveLength(2);
           expect(imgContentArray).toEqual(
             expect.arrayContaining([
@@ -1633,7 +1633,7 @@ describe("MultiServerMCPClient Integration Tests", () => {
 
           const { content: resContentResult, artifact: resArtifact } =
             await resourceTool.invoke(resourceToolInput);
-          
+
           if (typeof resContentResult === "string") {
             expect(resContentResult).toContain(resourceToolInput.args.input);
           } else {
@@ -1671,7 +1671,7 @@ describe("MultiServerMCPClient Integration Tests", () => {
           disableStreamableHttp: transport === "sse",
           supportSSEFallback: transport === "sse",
         });
-        
+
         const client = new MultiServerMCPClient({
           mcpServers: {
             [serverName]: {
@@ -1691,7 +1691,7 @@ describe("MultiServerMCPClient Integration Tests", () => {
 
           const { content: imgContent, artifact: imgArtifact } =
             await imageTool.invoke(imageToolInput);
-          
+
           expect(imgContent).toEqual([]);
           expect(imgArtifact).toHaveLength(2);
           expect(imgArtifact).toEqual(
@@ -1703,7 +1703,7 @@ describe("MultiServerMCPClient Integration Tests", () => {
               expect.objectContaining({
                 type: "image",
                 data: "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
-                mimeType: "image/png"
+                mimeType: "image/png",
               }),
             ])
           );
@@ -1738,7 +1738,7 @@ describe("MultiServerMCPClient Integration Tests", () => {
               expect.objectContaining({
                 type: "audio",
                 data: "UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA",
-                mimeType: "audio/wav"
+                mimeType: "audio/wav",
               }),
             ])
           );
@@ -1864,13 +1864,11 @@ describe("MultiServerMCPClient Integration Tests", () => {
             );
           }
           expect(imgArtifact).toHaveLength(1);
-          expect(imgArtifact[0]).toEqual(
-            {
-              type: "image",
-              data: "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
-              mimeType: "image/png"
-            }
-          );
+          expect(imgArtifact[0]).toEqual({
+            type: "image",
+            data: "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            mimeType: "image/png",
+          });
 
           const { content: resContent, artifact: resArtifact } =
             await resourceTool.invoke(resourceToolInput);

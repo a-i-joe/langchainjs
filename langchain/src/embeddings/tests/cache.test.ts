@@ -1,5 +1,5 @@
 import { test, expect } from "@jest/globals";
-import { Embeddings } from "@langchain/core/embeddings";
+import { Embeddings } from "@aijoelangchain/core/embeddings";
 import { CacheBackedEmbeddings } from "../cache_backed.js";
 import { InMemoryStore } from "../../storage/in_memory.js";
 

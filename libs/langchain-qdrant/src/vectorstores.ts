@@ -1,14 +1,14 @@
 import { QdrantClient } from "@qdrant/js-client-rest";
 import type { Schemas as QdrantSchemas } from "@qdrant/js-client-rest";
 import { v4 as uuid } from "uuid";
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
 import {
   type MaxMarginalRelevanceSearchOptions,
   VectorStore,
-} from "@langchain/core/vectorstores";
-import { Document } from "@langchain/core/documents";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { maximalMarginalRelevance } from "@langchain/core/utils/math";
+} from "@aijoelangchain/core/vectorstores";
+import { Document } from "@aijoelangchain/core/documents";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { maximalMarginalRelevance } from "@aijoelangchain/core/utils/math";
 
 const CONTENT_KEY = "content";
 const METADATA_KEY = "metadata";

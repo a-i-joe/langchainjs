@@ -27,7 +27,7 @@ import TabItem from "@theme/TabItem";
 import CodeBlock from "@theme/CodeBlock";
 
 ```bash npm2yarn
-npm install langchain @langchain/core
+npm install langchain @aijoelangchain/core
 ```
 
 While this package acts as a sane starting point to using LangChain,
@@ -40,13 +40,13 @@ for some special considerations when installing LangChain packages.
 
 ## Ecosystem packages
 
-With the exception of the `langsmith` SDK, all packages in the LangChain ecosystem depend on `@langchain/core`, which contains base
+With the exception of the `langsmith` SDK, all packages in the LangChain ecosystem depend on `@aijoelangchain/core`, which contains base
 classes and abstractions that other packages use. The dependency graph below shows how the difference packages are related.
 A directed arrow indicates that the source package depends on the target package:
 
 ![](/img/ecosystem_packages.png)
 
-**Note:** It is important that your app only uses one version of `@langchain/core`. Common package managers may introduce additional versions
+**Note:** It is important that your app only uses one version of `@aijoelangchain/core`. Common package managers may introduce additional versions
 when resolving direct dependencies, even if you don't intend this. See [this section on installing integration packages](/docs/how_to/installation/#installing-integration-packages)
 for more information and ways to remedy this.
 
@@ -56,18 +56,18 @@ The [@langchain/community](https://www.npmjs.com/package/@langchain/community) p
 Install with:
 
 ```bash npm2yarn
-npm install @langchain/community @langchain/core
+npm install @langchain/community @aijoelangchain/core
 ```
 
 There are also more granular packages containing LangChain integrations for individual providers.
 
-### @langchain/core
+### @aijoelangchain/core
 
-The [@langchain/core](https://www.npmjs.com/package/@langchain/core) package contains base abstractions that the rest of the LangChain ecosystem uses, along with the LangChain Expression Language.
+The [@aijoelangchain/core](https://www.npmjs.com/package/@aijoelangchain/core) package contains base abstractions that the rest of the LangChain ecosystem uses, along with the LangChain Expression Language.
 It should be installed separately:
 
 ```bash npm2yarn
-npm install @langchain/core
+npm install @aijoelangchain/core
 ```
 
 ### LangGraph
@@ -78,7 +78,7 @@ It integrates smoothly with LangChain, but can be used without it.
 Install with:
 
 ```bash npm2yarn
-npm install @langchain/langgraph @langchain/core
+npm install @langchain/langgraph @aijoelangchain/core
 ```
 
 ### LangSmith SDK
@@ -100,11 +100,11 @@ LangChain supports packages that contain module integrations with individual thi
 They can be as specific as [`@langchain/anthropic`](/docs/integrations/platforms/anthropic/), which contains integrations just for Anthropic models,
 or as broad as [`@langchain/community`](https://www.npmjs.com/package/@langchain/community), which contains broader variety of community contributed integrations.
 
-These packages, as well as the main LangChain package, all have [`@langchain/core`](https://www.npmjs.com/package/@langchain/core) as a peer dependency
+These packages, as well as the main LangChain package, all have [`@aijoelangchain/core`](https://www.npmjs.com/package/@aijoelangchain/core) as a peer dependency
 to avoid package managers installing multiple versions of the same package. It contains the base abstractions that these integration packages extend.
 
-To ensure that all integrations and their types interact with each other properly, it is important that they all use the same version of `@langchain/core`.
-If you encounter type errors around base classes, you may need to guarantee that your package manager is resolving a single version of `@langchain/core`. To do so,
+To ensure that all integrations and their types interact with each other properly, it is important that they all use the same version of `@aijoelangchain/core`.
+If you encounter type errors around base classes, you may need to guarantee that your package manager is resolving a single version of `@aijoelangchain/core`. To do so,
 you can add a `"resolutions"` or `"overrides"` field like the following in your project's `package.json`. The name will depend on your package manager:
 
 :::tip
@@ -123,11 +123,11 @@ If you are using `yarn`:
   },
   "dependencies": {
     "@langchain/anthropic": "^0.0.2",
-    "@langchain/core": "^0.3.0",
+    "@aijoelangchain/core": "^0.3.0",
     "langchain": "0.0.207"
   },
   "resolutions": {
-    "@langchain/core": "0.3.0"
+    "@aijoelangchain/core": "0.3.0"
   }
 }
 ```
@@ -146,11 +146,11 @@ Or for `npm`:
   },
   "dependencies": {
     "@langchain/anthropic": "^0.0.2",
-    "@langchain/core": "^0.3.0",
+    "@aijoelangchain/core": "^0.3.0",
     "langchain": "0.0.207"
   },
   "overrides": {
-    "@langchain/core": "0.3.0"
+    "@aijoelangchain/core": "0.3.0"
   }
 }
 ```
@@ -169,12 +169,12 @@ Or for `pnpm`:
   },
   "dependencies": {
     "@langchain/anthropic": "^0.0.2",
-    "@langchain/core": "^0.3.0",
+    "@aijoelangchain/core": "^0.3.0",
     "langchain": "0.0.207"
   },
   "pnpm": {
     "overrides": {
-      "@langchain/core": "0.3.0"
+      "@aijoelangchain/core": "0.3.0"
     }
   }
 }
@@ -193,7 +193,7 @@ LangChain is written in TypeScript and provides type definitions for all of its 
 LangChain provides an ESM build targeting Node.js environments. You can import it using the following syntax:
 
 ```bash npm2yarn
-npm install @langchain/openai @langchain/core
+npm install @langchain/openai @aijoelangchain/core
 ```
 
 ```typescript

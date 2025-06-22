@@ -1,6 +1,6 @@
 import { gmail_v1 } from "googleapis";
 import { z } from "zod";
-import { InferInteropZodOutput } from "@langchain/core/utils/types";
+import { InferInteropZodOutput } from "@aijoelangchain/core/utils/types";
 import { GmailBaseTool, GmailBaseToolParams } from "./base.js";
 import { SEARCH_DESCRIPTION } from "./descriptions.js";
 

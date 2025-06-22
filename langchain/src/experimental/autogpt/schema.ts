@@ -1,4 +1,4 @@
-import { StructuredTool, ToolInterface } from "@langchain/core/tools";
+import { StructuredTool, ToolInterface } from "@aijoelangchain/core/tools";
 
 /**
  * Type alias for StructuredTool. It is part of the tools module in

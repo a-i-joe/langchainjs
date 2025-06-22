@@ -1,7 +1,7 @@
 import { ChatCohere } from "@langchain/cohere";
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 import { z } from "zod";
-import { tool } from "@langchain/core/tools";
+import { tool } from "@aijoelangchain/core/tools";
 
 const model = new ChatCohere({
   apiKey: process.env.COHERE_API_KEY, // Default

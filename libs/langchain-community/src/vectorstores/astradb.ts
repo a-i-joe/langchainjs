@@ -12,14 +12,14 @@ import {
 import {
   AsyncCaller,
   AsyncCallerParams,
-} from "@langchain/core/utils/async_caller";
-import { Document } from "@langchain/core/documents";
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { maximalMarginalRelevance } from "@langchain/core/utils/math";
+} from "@aijoelangchain/core/utils/async_caller";
+import { Document } from "@aijoelangchain/core/documents";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { maximalMarginalRelevance } from "@aijoelangchain/core/utils/math";
 import {
   MaxMarginalRelevanceSearchOptions,
   VectorStore,
-} from "@langchain/core/vectorstores";
+} from "@aijoelangchain/core/vectorstores";
 
 export type CollectionFilter = Record<string, unknown>;
 

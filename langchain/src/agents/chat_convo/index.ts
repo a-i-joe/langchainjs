@@ -1,18 +1,18 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import type { ToolInterface } from "@langchain/core/tools";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import type { ToolInterface } from "@aijoelangchain/core/tools";
 import {
   ChatPromptTemplate,
   HumanMessagePromptTemplate,
   MessagesPlaceholder,
   SystemMessagePromptTemplate,
   renderTemplate,
-} from "@langchain/core/prompts";
-import type { AgentStep } from "@langchain/core/agents";
+} from "@aijoelangchain/core/prompts";
+import type { AgentStep } from "@aijoelangchain/core/agents";
 import {
   type BaseMessage,
   HumanMessage,
   AIMessage,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import { LLMChain } from "../../chains/llm_chain.js";
 import { Optional } from "../../types/type-utils.js";
 import { Agent, AgentArgs, OutputParserArgs } from "../agent.js";

@@ -1,7 +1,7 @@
 import { test, expect } from "@jest/globals";
 import { z } from "zod";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
-import { AIMessage } from "@langchain/core/messages";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
+import { AIMessage } from "@aijoelangchain/core/messages";
 
 import { FunctionCallStructuredOutputParser } from "../structured_output.js";
 

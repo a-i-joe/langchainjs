@@ -31,7 +31,11 @@ import {
   MessagesAnnotation,
 } from "@langchain/langgraph";
 import { ToolNode } from "@langchain/langgraph/prebuilt";
-import { HumanMessage, AIMessage, BaseMessage } from "@langchain/core/messages";
+import {
+  HumanMessage,
+  AIMessage,
+  BaseMessage,
+} from "@aijoelangchain/core/messages";
 import dotenv from "dotenv";
 
 // MCP client imports

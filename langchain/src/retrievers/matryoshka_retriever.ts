@@ -1,15 +1,15 @@
-import { DocumentInterface } from "@langchain/core/documents";
-import { Embeddings } from "@langchain/core/embeddings";
+import { DocumentInterface } from "@aijoelangchain/core/documents";
+import { Embeddings } from "@aijoelangchain/core/embeddings";
 import {
   cosineSimilarity,
   euclideanDistance,
   innerProduct,
-} from "@langchain/core/utils/math";
+} from "@aijoelangchain/core/utils/math";
 import {
   VectorStore,
   VectorStoreRetriever,
   VectorStoreRetrieverInput,
-} from "@langchain/core/vectorstores";
+} from "@aijoelangchain/core/vectorstores";
 
 /**
  * Type for options when adding a document to the VectorStore.

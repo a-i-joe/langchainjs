@@ -13,9 +13,9 @@ export {
   type ChatPromptTemplateInput,
   type BaseMessagePromptTemplateLike,
   ChatPromptTemplate,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 
 export {
   type ChatPromptValueFields,
   ChatPromptValue,
-} from "@langchain/core/prompt_values";
+} from "@aijoelangchain/core/prompt_values";

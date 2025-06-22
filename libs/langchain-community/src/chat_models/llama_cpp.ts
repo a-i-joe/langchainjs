@@ -13,15 +13,15 @@ import {
 import {
   SimpleChatModel,
   type BaseChatModelParams,
-} from "@langchain/core/language_models/chat_models";
-import type { BaseLanguageModelCallOptions } from "@langchain/core/language_models/base";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/language_models/chat_models";
+import type { BaseLanguageModelCallOptions } from "@aijoelangchain/core/language_models/base";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
 import {
   BaseMessage,
   AIMessageChunk,
   ChatMessage,
-} from "@langchain/core/messages";
-import { ChatGenerationChunk } from "@langchain/core/outputs";
+} from "@aijoelangchain/core/messages";
+import { ChatGenerationChunk } from "@aijoelangchain/core/outputs";
 import {
   LlamaBaseCppInputs,
   createLlamaModel,

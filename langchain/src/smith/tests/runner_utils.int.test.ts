@@ -2,16 +2,16 @@ import { test } from "@jest/globals";
 import { ChatOpenAI } from "@langchain/openai";
 import { Client, Example, Run } from "langsmith";
 
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
-import { BaseChatModel } from "@langchain/core/language_models/chat_models";
-import { LLM } from "@langchain/core/language_models/llms";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
+import { BaseChatModel } from "@aijoelangchain/core/language_models/chat_models";
+import { LLM } from "@aijoelangchain/core/language_models/llms";
 import {
   AIMessage,
   BaseMessage,
   isBaseMessage,
-} from "@langchain/core/messages";
-import { ChatResult } from "@langchain/core/outputs";
-import { RunnableConfig, RunnableLambda } from "@langchain/core/runnables";
+} from "@aijoelangchain/core/messages";
+import { ChatResult } from "@aijoelangchain/core/outputs";
+import { RunnableConfig, RunnableLambda } from "@aijoelangchain/core/runnables";
 import { DataType, KVMap } from "langsmith/schemas";
 import { RunEvalConfig } from "../config.js";
 import { randomName } from "../name_generation.js";

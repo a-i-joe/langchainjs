@@ -132,7 +132,7 @@ As with all contributions, make sure you run `yarn lint` and `yarn format` so th
 
 ### Separate integration packages
 
-While most integrations should generally reside in the `libs/langchain-community` workspace and be imported as `@langchain/community/module/name`, more in-depth integrations or suites of integrations may also reside in separate packages that depend on and extend `@langchain/core`. See [`@langchain/google-genai`](https://github.com/langchain-ai/langchainjs/blob/main/libs/langchain-google-genai) for an example.
+While most integrations should generally reside in the `libs/langchain-community` workspace and be imported as `@langchain/community/module/name`, more in-depth integrations or suites of integrations may also reside in separate packages that depend on and extend `@aijoelangchain/core`. See [`@langchain/google-genai`](https://github.com/langchain-ai/langchainjs/blob/main/libs/langchain-google-genai) for an example.
 
 To make creating packages like this easier, we offer the [`create-langchain-integration`](https://github.com/langchain-ai/langchainjs/blob/main/libs/create-langchain-integration/) utility that will automatically scaffold a repo with support for both ESM + CJS entrypoints. You can run it like this:
 
@@ -142,7 +142,7 @@ $ npx create-langchain-integration
 
 The workflows and considerations for these packages are mostly the same as those in `@langchain/community`, with the exception that third-party dependencies should be hard dependencies instead of peer dependencies since the end-user will manually install your integration package anyway.
 
-You will need to make sure that your package is compatible with the current minor version of `@langchain/core` in order for it to be interoperable with other integration packages and the latest versions of LangChain. We recommend using a tilde syntax for your integration package's `@langchain/core` dependency to support a wider range of core patch versions.
+You will need to make sure that your package is compatible with the current minor version of `@aijoelangchain/core` in order for it to be interoperable with other integration packages and the latest versions of LangChain. We recommend using a tilde syntax for your integration package's `@aijoelangchain/core` dependency to support a wider range of core patch versions.
 
 ## Integration-specific guidelines and example PRs
 

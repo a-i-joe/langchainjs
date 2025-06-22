@@ -1,12 +1,15 @@
-import { CallbackManager, Callbacks } from "@langchain/core/callbacks/manager";
-import { BaseLLM, LLM } from "@langchain/core/language_models/llms";
+import {
+  CallbackManager,
+  Callbacks,
+} from "@aijoelangchain/core/callbacks/manager";
+import { BaseLLM, LLM } from "@aijoelangchain/core/language_models/llms";
 import {
   type BaseLanguageModelCallOptions,
   BaseLanguageModelInput,
-} from "@langchain/core/language_models/base";
-import { BaseMessage, MessageContent } from "@langchain/core/messages";
-import { GenerationChunk } from "@langchain/core/outputs";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+} from "@aijoelangchain/core/language_models/base";
+import { BaseMessage, MessageContent } from "@aijoelangchain/core/messages";
+import { GenerationChunk } from "@aijoelangchain/core/outputs";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 
 import { AbstractGoogleLLMConnection } from "./connection.js";
 import {

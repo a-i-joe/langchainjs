@@ -1,15 +1,15 @@
-import { BaseLanguageModelInput } from "@langchain/core/language_models/base";
+import { BaseLanguageModelInput } from "@aijoelangchain/core/language_models/base";
 import {
   BaseChatModelCallOptions,
   BindToolsInput,
   LangSmithParams,
   type BaseChatModelParams,
-} from "@langchain/core/language_models/chat_models";
-import { Serialized } from "@langchain/core/load/serializable";
-import { AIMessageChunk, BaseMessage } from "@langchain/core/messages";
-import { Runnable } from "@langchain/core/runnables";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { InteropZodType } from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/language_models/chat_models";
+import { Serialized } from "@aijoelangchain/core/load/serializable";
+import { AIMessageChunk, BaseMessage } from "@aijoelangchain/core/messages";
+import { Runnable } from "@aijoelangchain/core/runnables";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { InteropZodType } from "@aijoelangchain/core/utils/types";
 import {
   type OpenAICoreRequestOptions,
   type OpenAIClient,
@@ -269,8 +269,8 @@ export interface ChatXAIInput extends BaseChatModelParams {
  * <summary><strong>Aggregate Streamed Chunks</strong></summary>
  *
  * ```typescript
- * import { AIMessageChunk } from '@langchain/core/messages';
- * import { concat } from '@langchain/core/utils/stream';
+ * import { AIMessageChunk } from '@aijoelangchain/core/messages';
+ * import { concat } from '@aijoelangchain/core/utils/stream';
  *
  * const stream = await llm.stream(input);
  * let full: AIMessageChunk | undefined;

@@ -1,5 +1,5 @@
 import { ChatOpenAI } from "@langchain/openai";
-import type { BasePromptTemplate } from "@langchain/core/prompts";
+import type { BasePromptTemplate } from "@aijoelangchain/core/prompts";
 
 import { Calculator } from "@langchain/community/tools/calculator";
 import { pull } from "langchain/hub";

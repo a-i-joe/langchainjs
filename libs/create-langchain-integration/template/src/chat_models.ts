@@ -1,26 +1,26 @@
-import { type BaseMessage } from "@langchain/core/messages";
-import { type BaseLanguageModelCallOptions } from "@langchain/core/language_models/base";
+import { type BaseMessage } from "@aijoelangchain/core/messages";
+import { type BaseLanguageModelCallOptions } from "@aijoelangchain/core/language_models/base";
 
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
 import {
   type BaseChatModelParams,
   SimpleChatModel,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 
 // Uncomment if implementing streaming
 
 // import {
 //   ChatGenerationChunk,
-// } from "@langchain/core/outputs";
+// } from "@aijoelangchain/core/outputs";
 // import {
 //   AIMessageChunk,
-// } from "@langchain/core/messages";
+// } from "@aijoelangchain/core/messages";
 
 // Uncomment if implementing tool calling
 
 // import {
 //   type BindToolsInput,
-// } from "@langchain/core/language_models/chat_models";
+// } from "@aijoelangchain/core/language_models/chat_models";
 
 /**
  * Input to chat model class.

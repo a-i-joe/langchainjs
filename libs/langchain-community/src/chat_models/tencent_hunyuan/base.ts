@@ -1,21 +1,21 @@
 import {
   BaseChatModel,
   type BaseChatModelParams,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 import {
   AIMessage,
   BaseMessage,
   ChatMessage,
   AIMessageChunk,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import {
   ChatGeneration,
   ChatResult,
   ChatGenerationChunk,
-} from "@langchain/core/outputs";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { IterableReadableStream } from "@langchain/core/utils/stream";
+} from "@aijoelangchain/core/outputs";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { IterableReadableStream } from "@aijoelangchain/core/utils/stream";
 import { sign } from "../../utils/tencent_hunyuan/common.js";
 
 /**

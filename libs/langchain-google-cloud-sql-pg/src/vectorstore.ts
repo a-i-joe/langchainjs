@@ -1,11 +1,11 @@
-import { EmbeddingsInterface } from "@langchain/core/embeddings";
+import { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
 import {
   MaxMarginalRelevanceSearchOptions,
   VectorStore,
-} from "@langchain/core/vectorstores";
-import { Document } from "@langchain/core/documents";
+} from "@aijoelangchain/core/vectorstores";
+import { Document } from "@aijoelangchain/core/documents";
 import { v4 as uuidv4 } from "uuid";
-import { maximalMarginalRelevance } from "@langchain/core/utils/math";
+import { maximalMarginalRelevance } from "@aijoelangchain/core/utils/math";
 import {
   BaseIndex,
   DEFAULT_DISTANCE_STRATEGY,
@@ -113,7 +113,7 @@ interface VSArgs {
  * <summary><strong>Add documents</strong></summary>
  *
  * ```typescript
- * import type { Document } from '@langchain/core/documents';
+ * import type { Document } from '@aijoelangchain/core/documents';
  *
  * const document1 = { pageContent: "foo", metadata: { baz: "bar" } };
  * const document2 = { pageContent: "thud", metadata: { bar: "baz" } };

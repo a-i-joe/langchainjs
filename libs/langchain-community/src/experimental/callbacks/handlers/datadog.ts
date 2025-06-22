@@ -1,9 +1,9 @@
-import { BaseCallbackHandlerInput } from "@langchain/core/callbacks/base";
-import { BaseTracer, Run } from "@langchain/core/tracers/base";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { Document } from "@langchain/core/documents";
-import { BaseMessage, isAIMessage } from "@langchain/core/messages";
-import { ChatGeneration } from "@langchain/core/outputs";
+import { BaseCallbackHandlerInput } from "@aijoelangchain/core/callbacks/base";
+import { BaseTracer, Run } from "@aijoelangchain/core/tracers/base";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { Document } from "@aijoelangchain/core/documents";
+import { BaseMessage, isAIMessage } from "@aijoelangchain/core/messages";
+import { ChatGeneration } from "@aijoelangchain/core/outputs";
 import { KVMap } from "langsmith/schemas";
 
 export type DatadogLLMObsSpanKind =

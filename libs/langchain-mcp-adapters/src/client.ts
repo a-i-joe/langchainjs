@@ -12,7 +12,7 @@ import {
   type StreamableHTTPReconnectionOptions,
 } from "@modelcontextprotocol/sdk/client/streamableHttp.js";
 import type { OAuthClientProvider } from "@modelcontextprotocol/sdk/client/auth.js";
-import type { StructuredToolInterface } from "@langchain/core/tools";
+import type { StructuredToolInterface } from "@aijoelangchain/core/tools";
 import debug from "debug";
 import { z } from "zod";
 import { loadMcpTools } from "./tools.js";

@@ -1,13 +1,13 @@
-import { StructuredToolInterface } from "@langchain/core/tools";
+import { StructuredToolInterface } from "@aijoelangchain/core/tools";
 import {
   ToolDefinition,
   isOpenAITool,
-} from "@langchain/core/language_models/base";
+} from "@aijoelangchain/core/language_models/base";
 import {
   toJsonSchema,
   type JsonSchema7Type,
-} from "@langchain/core/utils/json_schema";
-import { isInteropZodSchema } from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/utils/json_schema";
+import { isInteropZodSchema } from "@aijoelangchain/core/utils/types";
 
 /**
  * Render the tool name and description in plain text.

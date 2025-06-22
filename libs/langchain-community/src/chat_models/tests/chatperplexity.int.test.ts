@@ -1,6 +1,6 @@
 /* eslint-disable no-process-env */
 import { describe, test, expect } from "@jest/globals";
-import { HumanMessage, SystemMessage } from "@langchain/core/messages";
+import { HumanMessage, SystemMessage } from "@aijoelangchain/core/messages";
 import { z } from "zod";
 
 import { ChatPerplexity } from "../perplexity.js";

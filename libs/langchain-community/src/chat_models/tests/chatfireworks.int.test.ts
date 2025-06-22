@@ -1,14 +1,14 @@
 import { z } from "zod";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
 import { describe, test } from "@jest/globals";
-import { ChatMessage, HumanMessage } from "@langchain/core/messages";
+import { ChatMessage, HumanMessage } from "@aijoelangchain/core/messages";
 import {
   PromptTemplate,
   ChatPromptTemplate,
   AIMessagePromptTemplate,
   HumanMessagePromptTemplate,
   SystemMessagePromptTemplate,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 import { ChatFireworks } from "../fireworks.js";
 
 describe.skip("ChatFireworks", () => {

@@ -1,8 +1,8 @@
-import { BaseMessage } from "@langchain/core/messages";
+import { BaseMessage } from "@aijoelangchain/core/messages";
 import {
   BaseTransformOutputParser,
   StringOutputParser,
-} from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/output_parsers";
 
 export type HttpResponseOutputParserInput = {
   outputParser?: BaseTransformOutputParser;

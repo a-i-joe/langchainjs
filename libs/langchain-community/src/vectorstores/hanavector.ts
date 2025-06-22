@@ -1,10 +1,10 @@
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
 import {
   VectorStore,
   MaxMarginalRelevanceSearchOptions,
-} from "@langchain/core/vectorstores";
-import { Document } from "@langchain/core/documents";
-import { maximalMarginalRelevance } from "@langchain/core/utils/math";
+} from "@aijoelangchain/core/vectorstores";
+import { Document } from "@aijoelangchain/core/documents";
+import { maximalMarginalRelevance } from "@aijoelangchain/core/utils/math";
 
 export type DistanceStrategy = "euclidean" | "cosine";
 

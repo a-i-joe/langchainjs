@@ -4,7 +4,7 @@ import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
 import { HNSWLib } from "@langchain/community/vectorstores/hnswlib";
 import { Ollama } from "@langchain/community/llms/ollama";
 import { HuggingFaceTransformersEmbeddings } from "@langchain/community/embeddings/huggingface_transformers";
-import { PromptTemplate } from "@langchain/core/prompts";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
 
 const loader = new CheerioWebBaseLoader(
   "https://lilianweng.github.io/posts/2023-06-23-agent/"

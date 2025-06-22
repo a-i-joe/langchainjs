@@ -4,8 +4,8 @@ import { OpenAIEmbeddings, OpenAI } from "@langchain/openai";
 import { LLMChain } from "langchain/chains";
 import { ChainTool } from "langchain/tools";
 import { initializeAgentExecutorWithOptions } from "langchain/agents";
-import { PromptTemplate } from "@langchain/core/prompts";
-import { Tool } from "@langchain/core/tools";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
+import { Tool } from "@aijoelangchain/core/tools";
 import { SerpAPI } from "@langchain/community/tools/serpapi";
 
 // First, we create a custom agent which will serve as execution chain.

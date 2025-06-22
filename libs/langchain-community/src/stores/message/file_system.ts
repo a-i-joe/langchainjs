@@ -1,13 +1,13 @@
 import { promises as fs } from "node:fs";
 import { dirname } from "node:path";
 
-import { BaseListChatMessageHistory } from "@langchain/core/chat_history";
+import { BaseListChatMessageHistory } from "@aijoelangchain/core/chat_history";
 import {
   BaseMessage,
   StoredMessage,
   mapChatMessagesToStoredMessages,
   mapStoredMessagesToChatMessages,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 
 export const FILE_HISTORY_DEFAULT_FILE_PATH = ".history/history.json";
 

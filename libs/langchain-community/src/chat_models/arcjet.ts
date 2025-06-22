@@ -3,11 +3,11 @@
 import {
   BaseChatModel,
   type BaseChatModelParams,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 import type { ArcjetSensitiveInfoType, RedactOptions } from "@arcjet/redact";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
-import { BaseMessage } from "@langchain/core/messages";
-import { ChatResult } from "@langchain/core/outputs";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
+import { BaseMessage } from "@aijoelangchain/core/messages";
+import { ChatResult } from "@aijoelangchain/core/outputs";
 
 type DetectSensitiveInfoEntities<T> = (
   tokens: string[]

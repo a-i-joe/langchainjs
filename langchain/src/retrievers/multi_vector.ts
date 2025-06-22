@@ -1,10 +1,13 @@
 import {
   BaseRetriever,
   type BaseRetrieverInput,
-} from "@langchain/core/retrievers";
-import type { VectorStoreInterface } from "@langchain/core/vectorstores";
-import { Document } from "@langchain/core/documents";
-import { BaseStore, type BaseStoreInterface } from "@langchain/core/stores";
+} from "@aijoelangchain/core/retrievers";
+import type { VectorStoreInterface } from "@aijoelangchain/core/vectorstores";
+import { Document } from "@aijoelangchain/core/documents";
+import {
+  BaseStore,
+  type BaseStoreInterface,
+} from "@aijoelangchain/core/stores";
 import { createDocumentStoreFromByteStore } from "../storage/encoder_backed.js";
 
 /**

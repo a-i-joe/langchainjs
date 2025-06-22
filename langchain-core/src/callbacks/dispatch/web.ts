@@ -12,7 +12,7 @@ import {
  *
  * @example
  * ```typescript
- * import { dispatchCustomEvent } from "@langchain/core/callbacks/dispatch";
+ * import { dispatchCustomEvent } from "@aijoelangchain/core/callbacks/dispatch";
  *
  * const foo = RunnableLambda.from(async (input: string, config?: RunnableConfig) => {
  *   await dispatchCustomEvent(
@@ -45,7 +45,7 @@ export async function dispatchCustomEvent(
         "Unable to dispatch a custom event without a parent run id.",
         `"dispatchCustomEvent" can only be called from within an existing run (e.g.,`,
         "inside a tool or a RunnableLambda).",
-        `\n\nIf you continue to see this error, please import from "@langchain/core/callbacks/dispatch/web"`,
+        `\n\nIf you continue to see this error, please import from "@aijoelangchain/core/callbacks/dispatch/web"`,
         "and explicitly pass in a config parameter.",
         `\n\nOr, if you are calling this from a custom tool, ensure you're using the "tool" helper constructor as documented here:`,
         "\n  |",

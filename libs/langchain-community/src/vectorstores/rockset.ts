@@ -2,9 +2,9 @@ import { MainApi } from "@rockset/client";
 import type { CreateCollectionRequest } from "@rockset/client/dist/codegen/api.d.ts";
 import { Collection } from "@rockset/client/dist/codegen/api.js";
 
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { VectorStore } from "@langchain/core/vectorstores";
-import { Document } from "@langchain/core/documents";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { VectorStore } from "@aijoelangchain/core/vectorstores";
+import { Document } from "@aijoelangchain/core/documents";
 /**
  * Generic Rockset vector storage error
  */

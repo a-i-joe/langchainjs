@@ -1,12 +1,12 @@
 import { test } from "@jest/globals";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
-import { Document } from "@langchain/core/documents";
-import { StringOutputParser } from "@langchain/core/output_parsers";
+import { Document } from "@aijoelangchain/core/documents";
+import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
 import {
   RunnablePassthrough,
   RunnableSequence,
-} from "@langchain/core/runnables";
+} from "@aijoelangchain/core/runnables";
 import { MemoryVectorStore } from "../../vectorstores/memory.js";
 import { createHistoryAwareRetriever } from "../history_aware_retriever.js";
 import { createRetrievalChain } from "../retrieval.js";

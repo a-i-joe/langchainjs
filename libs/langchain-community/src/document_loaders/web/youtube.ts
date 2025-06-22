@@ -1,6 +1,6 @@
 import { Innertube } from "youtubei.js";
-import { Document } from "@langchain/core/documents";
-import { BaseDocumentLoader } from "@langchain/core/document_loaders/base";
+import { Document } from "@aijoelangchain/core/documents";
+import { BaseDocumentLoader } from "@aijoelangchain/core/document_loaders/base";
 
 /**
  * Configuration options for the YoutubeLoader class. Includes properties

@@ -1,7 +1,7 @@
 import { test, expect } from "@jest/globals";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import { AgentAction, AgentFinish } from "@langchain/core/agents.js";
+import { AgentAction, AgentFinish } from "@aijoelangchain/core/agents.js";
 import { ReActSingleInputOutputParser } from "../agents/react/output_parser.js";
 
 test("React agent output parser", async () => {

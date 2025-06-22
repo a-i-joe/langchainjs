@@ -1,17 +1,20 @@
-import { BaseMemory } from "@langchain/core/memory";
-import { ChainValues } from "@langchain/core/utils/types";
-import { RUN_KEY } from "@langchain/core/outputs";
+import { BaseMemory } from "@aijoelangchain/core/memory";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
+import { RUN_KEY } from "@aijoelangchain/core/outputs";
 import {
   CallbackManagerForChainRun,
   CallbackManager,
   Callbacks,
   parseCallbackConfigArg,
-} from "@langchain/core/callbacks/manager";
-import { ensureConfig, type RunnableConfig } from "@langchain/core/runnables";
+} from "@aijoelangchain/core/callbacks/manager";
+import {
+  ensureConfig,
+  type RunnableConfig,
+} from "@aijoelangchain/core/runnables";
 import {
   BaseLangChain,
   BaseLangChainParams,
-} from "@langchain/core/language_models/base";
+} from "@aijoelangchain/core/language_models/base";
 import { SerializedBaseChain } from "./serde.js";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

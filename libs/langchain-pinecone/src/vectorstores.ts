@@ -8,18 +8,21 @@ import {
   ScoredPineconeRecord,
 } from "@pinecone-database/pinecone";
 
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
 import {
   VectorStore,
   type MaxMarginalRelevanceSearchOptions,
-} from "@langchain/core/vectorstores";
-import { Document, type DocumentInterface } from "@langchain/core/documents";
+} from "@aijoelangchain/core/vectorstores";
+import {
+  Document,
+  type DocumentInterface,
+} from "@aijoelangchain/core/documents";
 import {
   AsyncCaller,
   AsyncCallerParams,
-} from "@langchain/core/utils/async_caller";
-import { chunkArray } from "@langchain/core/utils/chunk_array";
-import { maximalMarginalRelevance } from "@langchain/core/utils/math";
+} from "@aijoelangchain/core/utils/async_caller";
+import { chunkArray } from "@aijoelangchain/core/utils/chunk_array";
+import { maximalMarginalRelevance } from "@aijoelangchain/core/utils/math";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type PineconeMetadata = Record<string, any>;
@@ -111,7 +114,7 @@ export type PineconeDeleteParams = {
  * <summary><strong>Add documents</strong></summary>
  *
  * ```typescript
- * import type { Document } from '@langchain/core/documents';
+ * import type { Document } from '@aijoelangchain/core/documents';
  *
  * const document1 = { pageContent: "foo", metadata: { baz: "bar" } };
  * const document2 = { pageContent: "thud", metadata: { bar: "baz" } };

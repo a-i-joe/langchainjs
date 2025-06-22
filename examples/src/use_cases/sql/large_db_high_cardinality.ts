@@ -1,9 +1,9 @@
-import { DocumentInterface } from "@langchain/core/documents";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { DocumentInterface } from "@aijoelangchain/core/documents";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import {
   RunnablePassthrough,
   RunnableSequence,
-} from "@langchain/core/runnables";
+} from "@aijoelangchain/core/runnables";
 import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
 import { createSqlQueryChain } from "langchain/chains/sql_db";
 import { SqlDatabase } from "langchain/sql_db";

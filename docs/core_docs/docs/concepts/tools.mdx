@@ -38,7 +38,7 @@ The key methods to execute the function associated with the **tool**:
 The recommended way to create tools is using the [tool](https://api.js.langchain.com/functions/_langchain_core.tools.tool-1.html) function. This function is designed to simplify the process of tool creation and should be used in most cases.
 
 ```typescript
-import { tool } from "@langchain/core/tools";
+import { tool } from "@aijoelangchain/core/tools";
 import { z } from "zod";
 
 const multiply = tool(
@@ -117,7 +117,7 @@ You can use the `RunnableConfig` object to pass custom run time values to tools.
 If you need to access the [RunnableConfig](/docs/concepts/runnables/#RunnableConfig) object from within a tool. This can be done by using the `RunnableConfig` in the tool's function signature.
 
 ```typescript
-import { RunnableConfig } from "@langchain/core/runnables";
+import { RunnableConfig } from "@aijoelangchain/core/runnables";
 
 const someTool = tool(
     async (args: any, config: RunnableConfig): Promise<[string, any]> => {

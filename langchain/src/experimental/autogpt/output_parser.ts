@@ -1,4 +1,4 @@
-import { BaseOutputParser } from "@langchain/core/output_parsers";
+import { BaseOutputParser } from "@aijoelangchain/core/output_parsers";
 import { AutoGPTAction } from "./schema.js";
 
 /**

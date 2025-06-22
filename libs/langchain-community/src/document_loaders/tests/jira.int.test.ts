@@ -1,7 +1,7 @@
 /**
  * NOTE: Env var should be set, and configured project should exist
  */
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 import { expect, test } from "@jest/globals";
 import {
   JiraIssue,

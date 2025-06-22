@@ -7,10 +7,10 @@ import {
   SystemMessage,
   ToolMessage,
   UsageMetadata,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import { v4 as uuidv4 } from "uuid";
 import Cerebras from "@cerebras/cerebras_cloud_sdk";
-import { ToolChoice } from "@langchain/core/language_models/chat_models";
+import { ToolChoice } from "@aijoelangchain/core/language_models/chat_models";
 
 export type CerebrasMessageParam =
   | Cerebras.ChatCompletionCreateParams.AssistantMessageRequest

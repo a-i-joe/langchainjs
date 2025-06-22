@@ -1,9 +1,9 @@
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
 import {
   BaseChatModel,
   BaseChatModelCallOptions,
   type BaseChatModelParams,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 import {
   BaseMessage,
   AIMessage,
@@ -14,13 +14,13 @@ import {
   AIMessageChunk,
   SystemMessageChunk,
   ChatMessageChunk,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import {
   ChatGeneration,
   ChatGenerationChunk,
   ChatResult,
-} from "@langchain/core/outputs";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+} from "@aijoelangchain/core/outputs";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import { convertEventStreamToIterableReadableDataStream } from "../utils/event_source_parse.js";
 
 /**

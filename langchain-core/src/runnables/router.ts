@@ -13,7 +13,7 @@ export type RouterInput = {
  * Returns the output of the selected runnable.
  * @example
  * ```typescript
- * import { RouterRunnable, RunnableLambda } from "@langchain/core/runnables";
+ * import { RouterRunnable, RunnableLambda } from "@aijoelangchain/core/runnables";
  *
  * const router = new RouterRunnable({
  *   runnables: {

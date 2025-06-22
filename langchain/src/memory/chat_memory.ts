@@ -1,11 +1,11 @@
-import { BaseChatMessageHistory } from "@langchain/core/chat_history";
+import { BaseChatMessageHistory } from "@aijoelangchain/core/chat_history";
 import {
   BaseMemory,
   InputValues,
   OutputValues,
   getInputValue,
   getOutputValue,
-} from "@langchain/core/memory";
+} from "@aijoelangchain/core/memory";
 import { ChatMessageHistory } from "../stores/message/in_memory.js";
 
 /**

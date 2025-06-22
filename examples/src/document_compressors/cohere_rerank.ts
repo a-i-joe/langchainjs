@@ -1,5 +1,5 @@
 import { CohereRerank } from "@langchain/cohere";
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 
 const query = "What is the capital of the United States?";
 const docs = [

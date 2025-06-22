@@ -1,10 +1,10 @@
 /* eslint-disable no-process-env */
 
 import { test, expect } from "@jest/globals";
-import { LLMResult } from "@langchain/core/outputs";
-import { StringPromptValue } from "@langchain/core/prompt_values";
-import { CallbackManager } from "@langchain/core/callbacks/manager";
-import { NewTokenIndices } from "@langchain/core/callbacks/base";
+import { LLMResult } from "@aijoelangchain/core/outputs";
+import { StringPromptValue } from "@aijoelangchain/core/prompt_values";
+import { CallbackManager } from "@aijoelangchain/core/callbacks/manager";
+import { NewTokenIndices } from "@aijoelangchain/core/callbacks/base";
 import { OpenAI } from "../llms.js";
 
 // Save the original value of the 'LANGCHAIN_CALLBACKS_BACKGROUND' environment variable

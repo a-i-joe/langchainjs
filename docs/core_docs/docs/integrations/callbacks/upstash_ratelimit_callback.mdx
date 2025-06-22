@@ -29,7 +29,7 @@ import IntegrationInstallTooltip from "@mdx_components/integration_install_toolt
 <IntegrationInstallTooltip></IntegrationInstallTooltip>
 
 ```bash npm2yarn
-npm install @upstash/ratelimit @langchain/community @langchain/core
+npm install @upstash/ratelimit @langchain/community @aijoelangchain/core
 ```
 
 You are now ready to add rate limiting to your chain!
@@ -46,7 +46,7 @@ import {
   UpstashRatelimitHandler,
   UpstashRatelimitError,
 } from "@langchain/community/callbacks/handlers/upstash_ratelimit";
-import { RunnableLambda } from "@langchain/core/runnables";
+import { RunnableLambda } from "@aijoelangchain/core/runnables";
 import { Ratelimit } from "@upstash/ratelimit";
 import { Redis } from "@upstash/redis";
 
@@ -162,7 +162,10 @@ import {
   UpstashRatelimitHandler,
   UpstashRatelimitError,
 } from "@langchain/community/callbacks/handlers/upstash_ratelimit";
-import { RunnableLambda, RunnableSequence } from "@langchain/core/runnables";
+import {
+  RunnableLambda,
+  RunnableSequence,
+} from "@aijoelangchain/core/runnables";
 import { OpenAI } from "@langchain/openai";
 import { Ratelimit } from "@upstash/ratelimit";
 import { Redis } from "@upstash/redis";

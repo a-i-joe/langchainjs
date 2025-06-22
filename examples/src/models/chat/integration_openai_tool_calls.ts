@@ -1,5 +1,5 @@
 import { ChatOpenAI } from "@langchain/openai";
-import { ToolMessage } from "@langchain/core/messages";
+import { ToolMessage } from "@aijoelangchain/core/messages";
 
 // Mocked out function, could be a database/API call in production
 function getCurrentWeather(location: string, _unit?: string) {

@@ -5,12 +5,12 @@ import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import { useCallback } from "react";
 import { ChatOpenAI } from "@langchain/openai";
-import { CallbackManager } from "@langchain/core/callbacks/manager";
+import { CallbackManager } from "@aijoelangchain/core/callbacks/manager";
 import { LLMChain } from "langchain/chains";
 import {
   ChatPromptTemplate,
   HumanMessagePromptTemplate,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 
 // Don't do this in your app, it would leak your API key
 const OPENAI_API_KEY = process.env.NEXT_PUBLIC_OPENAI_API_KEY;

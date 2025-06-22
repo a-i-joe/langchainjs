@@ -1,5 +1,5 @@
-import { PromptTemplate } from "@langchain/core/prompts";
-import { StringOutputParser } from "@langchain/core/output_parsers";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
+import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
 import { ChatAnthropic } from "@langchain/anthropic";
 import { SerpAPI } from "@langchain/community/tools/serpapi";
 

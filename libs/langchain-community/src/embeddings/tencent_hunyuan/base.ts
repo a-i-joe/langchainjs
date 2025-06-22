@@ -1,5 +1,8 @@
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { Embeddings, type EmbeddingsParams } from "@langchain/core/embeddings";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import {
+  Embeddings,
+  type EmbeddingsParams,
+} from "@aijoelangchain/core/embeddings";
 import { sign } from "../../utils/tencent_hunyuan/common.js";
 
 /**

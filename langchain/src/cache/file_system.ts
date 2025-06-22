@@ -6,8 +6,8 @@ import {
   getCacheKey,
   serializeGeneration,
   deserializeStoredGeneration,
-} from "@langchain/core/caches";
-import { Generation } from "@langchain/core/outputs";
+} from "@aijoelangchain/core/caches";
+import { Generation } from "@aijoelangchain/core/outputs";
 
 /**
  * A cache that uses the local filesystem as the backing store.

@@ -1,7 +1,7 @@
 import { XMLBuilder } from "fast-xml-parser";
-import { type JsonSchema7ObjectType } from "@langchain/core/utils/json_schema";
-import { PromptTemplate } from "@langchain/core/prompts";
-import { ToolDefinition } from "@langchain/core/language_models/base";
+import { type JsonSchema7ObjectType } from "@aijoelangchain/core/utils/json_schema";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
+import { ToolDefinition } from "@aijoelangchain/core/language_models/base";
 
 export const DEFAULT_TOOL_SYSTEM_PROMPT =
   /* #__PURE__ */ PromptTemplate.fromTemplate(`In this environment you have access to a set of tools you can use to answer the user's question.

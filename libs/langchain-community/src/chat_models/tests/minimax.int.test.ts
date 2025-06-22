@@ -3,15 +3,15 @@ import {
   ChatMessage,
   HumanMessage,
   SystemMessage,
-} from "@langchain/core/messages";
-import { LLMResult } from "@langchain/core/outputs";
-import { CallbackManager } from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/messages";
+import { LLMResult } from "@aijoelangchain/core/outputs";
+import { CallbackManager } from "@aijoelangchain/core/callbacks/manager";
 import {
   ChatPromptTemplate,
   HumanMessagePromptTemplate,
   PromptTemplate,
   SystemMessagePromptTemplate,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 import { ChatMinimax } from "../minimax.js";
 
 test.skip("Test ChatMinimax", async () => {

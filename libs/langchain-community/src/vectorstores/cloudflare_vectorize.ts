@@ -4,14 +4,14 @@ import {
   VectorizeIndex,
   VectorizeVectorMetadata,
 } from "@cloudflare/workers-types";
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { VectorStore } from "@langchain/core/vectorstores";
-import { Document } from "@langchain/core/documents";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { VectorStore } from "@aijoelangchain/core/vectorstores";
+import { Document } from "@aijoelangchain/core/documents";
 import {
   AsyncCaller,
   type AsyncCallerParams,
-} from "@langchain/core/utils/async_caller";
-import { chunkArray } from "@langchain/core/utils/chunk_array";
+} from "@aijoelangchain/core/utils/async_caller";
+import { chunkArray } from "@aijoelangchain/core/utils/chunk_array";
 
 /**
  * @deprecated Install and import from "@langchain/cloudflare" instead.

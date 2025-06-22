@@ -1,6 +1,6 @@
 import { test } from "@jest/globals";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
-import { StructuredTool } from "@langchain/core/tools";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
+import { StructuredTool } from "@aijoelangchain/core/tools";
 import { z } from "zod";
 import {
   AIMessage,
@@ -8,10 +8,10 @@ import {
   HumanMessage,
   SystemMessage,
   ToolMessage,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import { ContentChunk as MistralAIContentChunk } from "@mistralai/mistralai/models/components/contentchunk.js";
 import { HTTPClient } from "@mistralai/mistralai/lib/http.js";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
 import { ChatMistralAI } from "../chat_models.js";
 import { _mistralContentChunkToMessageContentComplex } from "../utils.js";
 

@@ -1,5 +1,5 @@
-import { Callbacks } from "@langchain/core/callbacks/manager";
-import { BaseOutputParser } from "@langchain/core/output_parsers";
+import { Callbacks } from "@aijoelangchain/core/callbacks/manager";
+import { BaseOutputParser } from "@aijoelangchain/core/output_parsers";
 
 /**
  * Type for the combined output of the CombiningOutputParser class.

@@ -14,8 +14,8 @@ import {
   RetrieveCommand,
 } from "@aws-sdk/client-kendra";
 
-import { BaseRetriever } from "@langchain/core/retrievers";
-import { Document } from "@langchain/core/documents";
+import { BaseRetriever } from "@aijoelangchain/core/retrievers";
+import { Document } from "@aijoelangchain/core/documents";
 
 /**
  * Interface for the arguments required to initialize an

@@ -4,9 +4,9 @@ import { expect, test } from "@jest/globals";
 import { z } from "zod";
 
 import { ChatOpenAI } from "@langchain/openai";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
-import { isInteropZodSchema } from "@langchain/core/utils/types";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
+import { isInteropZodSchema } from "@aijoelangchain/core/utils/types";
 import { JsonOutputToolsParser } from "../openai_tools.js";
 
 const schema = z.object({

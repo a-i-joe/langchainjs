@@ -3,21 +3,25 @@ import {
   type ToolInterface,
   ToolInputParsingException,
   Tool,
-} from "@langchain/core/tools";
+} from "@aijoelangchain/core/tools";
 import {
   Runnable,
   type RunnableConfig,
   patchConfig,
-} from "@langchain/core/runnables";
-import { AgentAction, AgentFinish, AgentStep } from "@langchain/core/agents";
-import { ChainValues } from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/runnables";
+import {
+  AgentAction,
+  AgentFinish,
+  AgentStep,
+} from "@aijoelangchain/core/agents";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
 import {
   CallbackManager,
   CallbackManagerForChainRun,
   Callbacks,
-} from "@langchain/core/callbacks/manager";
-import { OutputParserException } from "@langchain/core/output_parsers";
-import { Serializable } from "@langchain/core/load/serializable";
+} from "@aijoelangchain/core/callbacks/manager";
+import { OutputParserException } from "@aijoelangchain/core/output_parsers";
+import { Serializable } from "@aijoelangchain/core/load/serializable";
 import { SerializedLLMChain } from "../chains/serde.js";
 import { StoppingMethod } from "./types.js";
 import {

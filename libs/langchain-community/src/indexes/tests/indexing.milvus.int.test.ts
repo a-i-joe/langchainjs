@@ -1,6 +1,6 @@
-import { Document } from "@langchain/core/documents";
-import { index } from "@langchain/core/indexing";
-import { BaseDocumentLoader } from "@langchain/core/document_loaders/base";
+import { Document } from "@aijoelangchain/core/documents";
+import { index } from "@aijoelangchain/core/indexing";
+import { BaseDocumentLoader } from "@aijoelangchain/core/document_loaders/base";
 
 import { OpenAIEmbeddings } from "@langchain/openai";
 import { InMemoryRecordManager } from "../memory.js";

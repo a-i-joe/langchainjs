@@ -1,6 +1,9 @@
-import { ChatPromptTemplate } from "@langchain/core/prompts";
-import { StringOutputParser } from "@langchain/core/output_parsers";
-import { RunnableBranch, RunnableSequence } from "@langchain/core/runnables";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
+import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
+import {
+  RunnableBranch,
+  RunnableSequence,
+} from "@aijoelangchain/core/runnables";
 import { ChatAnthropic } from "@langchain/anthropic";
 
 const promptTemplate =

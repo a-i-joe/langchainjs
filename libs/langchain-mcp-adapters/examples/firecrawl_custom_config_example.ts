@@ -7,7 +7,7 @@
 
 /* eslint-disable no-console */
 import { ChatOpenAI } from "@langchain/openai";
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 import dotenv from "dotenv";
 import { createReactAgent } from "@langchain/langgraph/prebuilt";
 

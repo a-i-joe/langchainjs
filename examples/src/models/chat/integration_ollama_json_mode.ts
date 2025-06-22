@@ -1,5 +1,5 @@
 import { ChatOllama } from "@langchain/ollama";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 
 const prompt = ChatPromptTemplate.fromMessages([
   [

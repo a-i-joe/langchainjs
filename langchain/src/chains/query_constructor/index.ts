@@ -1,14 +1,14 @@
 import { z } from "zod";
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
 import {
   Example,
   interpolateFString,
   FewShotPromptTemplate,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 import {
   InferInteropZodOutput,
   InputValues,
-} from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/utils/types";
 import { QueryTransformer, TraverseType } from "./parser.js";
 import {
   Comparator,

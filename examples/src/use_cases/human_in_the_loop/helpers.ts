@@ -1,11 +1,11 @@
 import { ChatOpenAI } from "@langchain/openai";
-import { StructuredTool } from "@langchain/core/tools";
+import { StructuredTool } from "@aijoelangchain/core/tools";
 import { z } from "zod";
 import {
   Runnable,
   RunnableLambda,
   RunnablePassthrough,
-} from "@langchain/core/runnables";
+} from "@aijoelangchain/core/runnables";
 
 class CountEmails extends StructuredTool {
   schema = z.object({

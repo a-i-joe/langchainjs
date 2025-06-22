@@ -1,16 +1,16 @@
-import type { VectorStoreRetrieverInterface } from "@langchain/core/vectorstores";
-import { Tool } from "@langchain/core/tools";
+import type { VectorStoreRetrieverInterface } from "@aijoelangchain/core/vectorstores";
+import { Tool } from "@aijoelangchain/core/tools";
 import {
   AIMessage,
   BaseMessage,
   HumanMessage,
   SystemMessage,
-} from "@langchain/core/messages";
-import { BaseChatModel } from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/messages";
+import { BaseChatModel } from "@aijoelangchain/core/language_models/chat_models";
 import {
   getEmbeddingContextSize,
   getModelContextSize,
-} from "@langchain/core/language_models/base";
+} from "@aijoelangchain/core/language_models/base";
 import { LLMChain } from "../../chains/llm_chain.js";
 
 import { AutoGPTOutputParser } from "./output_parser.js";

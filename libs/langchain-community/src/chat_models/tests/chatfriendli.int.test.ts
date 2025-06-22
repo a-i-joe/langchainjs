@@ -1,5 +1,5 @@
 import { test } from "@jest/globals";
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 import { ChatFriendli } from "../friendli.js";
 
 describe.skip("ChatFriendli", () => {

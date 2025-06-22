@@ -1,7 +1,7 @@
 import {
   PromptTemplate,
   PipelinePromptTemplate,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 
 const fullPrompt = PromptTemplate.fromTemplate(`{introduction}
 

@@ -1,7 +1,7 @@
 /* eslint-disable no-process-env */
 
 import { MongoClient, ObjectId } from "mongodb";
-import { AIMessage, HumanMessage } from "@langchain/core/messages";
+import { AIMessage, HumanMessage } from "@aijoelangchain/core/messages";
 import {
   AzureCosmosDBMongoChatMessageHistory,
   AzureCosmosDBMongoChatHistoryDBConfig,

@@ -1,10 +1,10 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import type { AgentAction, AgentFinish } from "@langchain/core/agents";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import type { AgentAction, AgentFinish } from "@aijoelangchain/core/agents";
 import {
   FormatInstructionsOptions,
   OutputParserException,
-} from "@langchain/core/output_parsers";
-import { renderTemplate } from "@langchain/core/prompts";
+} from "@aijoelangchain/core/output_parsers";
+import { renderTemplate } from "@aijoelangchain/core/prompts";
 import { AgentActionOutputParser } from "../types.js";
 import { FORMAT_INSTRUCTIONS } from "./prompt.js";
 import { OutputFixingParser } from "../../output_parsers/fix.js";

@@ -1,6 +1,6 @@
 import { gmail_v1, google } from "googleapis";
-import { StructuredTool } from "@langchain/core/tools";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { StructuredTool } from "@aijoelangchain/core/tools";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 
 export interface GmailBaseToolParams {
   credentials?: {

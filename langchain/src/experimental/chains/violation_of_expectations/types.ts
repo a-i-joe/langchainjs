@@ -1,4 +1,4 @@
-import { BaseMessage, HumanMessage } from "@langchain/core/messages";
+import { BaseMessage, HumanMessage } from "@aijoelangchain/core/messages";
 
 /**
  * Contains the chunk of messages, along with the

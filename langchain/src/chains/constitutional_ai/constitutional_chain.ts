@@ -1,6 +1,6 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import { ChainValues } from "@langchain/core/utils/types";
-import { CallbackManagerForChainRun } from "@langchain/core/callbacks/manager";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
+import { CallbackManagerForChainRun } from "@aijoelangchain/core/callbacks/manager";
 import { BaseChain, ChainInputs } from "../base.js";
 import { LLMChain } from "../llm_chain.js";
 import { SerializedBaseChain } from "../serde.js";

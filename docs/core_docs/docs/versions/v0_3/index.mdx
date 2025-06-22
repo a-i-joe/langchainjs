@@ -9,8 +9,8 @@ _Last updated: 09.14.24_
 
 ## What's changed
 
-- All LangChain packages now have `@langchain/core` as a peer dependency instead of a direct dependency to help avoid type errors around [core version conflicts](/docs/how_to/installation/#installing-integration-packages).
-  - You will now need to explicitly install `@langchain/core` rather than relying on an internally resolved version from other packages.
+- All LangChain packages now have `@aijoelangchain/core` as a peer dependency instead of a direct dependency to help avoid type errors around [core version conflicts](/docs/how_to/installation/#installing-integration-packages).
+  - You will now need to explicitly install `@aijoelangchain/core` rather than relying on an internally resolved version from other packages.
 - Callbacks are now backgrounded and non-blocking by default rather than blocking.
   - This means that if you are using e.g. LangSmith for tracing in a serverless environment, you will need to [await the callbacks to ensure they finish before your function ends](/docs/how_to/callbacks_serverless).
 - Removed deprecated document loader and self-query entrypoints from `langchain` in favor of entrypoints in [`@langchain/community`](https://www.npmjs.com/package/@langchain/community) and integration packages.
@@ -29,12 +29,12 @@ The following features have been added during the development of 0.2.x:
 
 ## How to update your code
 
-If you're using `langchain` / `@langchain/community` / `@langchain/core` 0.0 or 0.1, we recommend that you first [upgrade to 0.2](https://js.langchain.com/v0.2/docs/versions/v0_2/).
+If you're using `langchain` / `@langchain/community` / `@aijoelangchain/core` 0.0 or 0.1, we recommend that you first [upgrade to 0.2](https://js.langchain.com/v0.2/docs/versions/v0_2/).
 
 If you're using `@langchain/langgraph`, upgrade to `@langchain/langgraph>=0.2.3`. This will work with either 0.2 or 0.3 versions of all the base packages.
 
 Here is a complete list of all packages that have been released and what we recommend upgrading your version constraints to in your `package.json`.
-Any package that now supports `@langchain/core` 0.3 had a minor version bump.
+Any package that now supports `@aijoelangchain/core` 0.3 had a minor version bump.
 
 ### Base packages
 
@@ -43,7 +43,7 @@ Any package that now supports `@langchain/core` 0.3 had a minor version bump.
 | langchain                | 0.3.0  | >=0.3.0 <0.4.0                        |
 | @langchain/community     | 0.3.0  | >=0.3.0 <0.4.0                        |
 | @langchain/textsplitters | 0.1.0  | >=0.1.0 <0.2.0                        |
-| @langchain/core          | 0.3.0  | >=0.3.0 <0.4.0                        |
+| @aijoelangchain/core     | 0.3.0  | >=0.3.0 <0.4.0                        |
 
 ### Downstream packages
 
@@ -79,21 +79,21 @@ Any package that now supports `@langchain/core` 0.3 had a minor version bump.
 | @langchain/weaviate               | 0.1.0  | >=0.1.0 <0.2.0                        |
 | @langchain/yandex                 | 0.1.0  | >=0.1.0 <0.2.0                        |
 
-Once you've updated to recent versions of the packages, you will need to explicitly install `@langchain/core` if you haven't already:
+Once you've updated to recent versions of the packages, you will need to explicitly install `@aijoelangchain/core` if you haven't already:
 
 ```bash npm2yarn
-npm install @langchain/core
+npm install @aijoelangchain/core
 ```
 
-We also suggest checking your lockfile or running the [appropriate package manager command](/docs/how_to/installation/#installing-integration-packages) to make sure that your package manager only has one version of `@langchain/core` installed.
+We also suggest checking your lockfile or running the [appropriate package manager command](/docs/how_to/installation/#installing-integration-packages) to make sure that your package manager only has one version of `@aijoelangchain/core` installed.
 
 If you are currently running your code in a serverless environment (e.g., a Cloudflare Worker, Edge function, or AWS Lambda function)
 and you are using LangSmith tracing or other callbacks, you will need to [await callbacks to ensure they finish before your function ends](/docs/how_to/callbacks_serverless).
 Here's a quick example:
 
 ```ts
-import { RunnableLambda } from "@langchain/core/runnables";
-import { awaitAllCallbacks } from "@langchain/core/callbacks/promises";
+import { RunnableLambda } from "@aijoelangchain/core/runnables";
+import { awaitAllCallbacks } from "@aijoelangchain/core/callbacks/promises";
 
 const runnable = RunnableLambda.from(() => "hello!");
 

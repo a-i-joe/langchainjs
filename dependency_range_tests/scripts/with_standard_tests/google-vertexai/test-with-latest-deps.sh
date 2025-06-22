@@ -35,5 +35,5 @@ yarn
 # not try to build the package/its workspace dependencies.
 cd "$monorepo_vertexai_dir"
 
-yarn add @langchain/core @langchain/google-gauth
+yarn add @aijoelangchain/core @langchain/google-gauth
 yarn test

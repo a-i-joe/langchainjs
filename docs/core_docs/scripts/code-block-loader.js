@@ -23,12 +23,12 @@ const CATEGORIES = [
 const SYMBOL_EDGE_CASE_MAP = {
   InMemoryStore: {
     sources: ["langchain/storage/in_memory"],
-    originalSource: "@langchain/core/stores",
+    originalSource: "@aijoelangchain/core/stores",
     originalSymbolName: null,
   },
   ToolMessage: {
-    sources: ["@langchain/core/messages"],
-    originalSource: "@langchain/core/messages/tool",
+    sources: ["@aijoelangchain/core/messages"],
+    originalSource: "@aijoelangchain/core/messages/tool",
     originalSymbolName: null,
   },
   schemaToGeminiParameters: {
@@ -38,7 +38,7 @@ const SYMBOL_EDGE_CASE_MAP = {
   },
   FunctionalTranslator: {
     sources: ["langchain/retrievers/self_query/functional"],
-    originalSource: "@langchain/core/structured_query",
+    originalSource: "@aijoelangchain/core/structured_query",
     originalSymbolName: null,
   },
   ChatMessageHistory: {
@@ -46,7 +46,7 @@ const SYMBOL_EDGE_CASE_MAP = {
       "langchain/stores/message/in_memory",
       "@langchain/community/stores/message/in_memory",
     ],
-    originalSource: "@langchain/core/chat_history",
+    originalSource: "@aijoelangchain/core/chat_history",
     originalSymbolName: "InMemoryChatMessageHistory",
   },
   GeminiTool: {

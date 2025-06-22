@@ -6,9 +6,9 @@ import {
   AIMessage,
   AIMessageChunk,
   UsageMetadata,
-} from "@langchain/core/messages";
-import type { ToolCallChunk } from "@langchain/core/messages/tool";
-import { ChatGeneration } from "@langchain/core/outputs";
+} from "@aijoelangchain/core/messages";
+import type { ToolCallChunk } from "@aijoelangchain/core/messages/tool";
+import { ChatGeneration } from "@aijoelangchain/core/outputs";
 import { AnthropicMessageResponse } from "../types.js";
 import { extractToolCalls } from "../output_parsers.js";
 

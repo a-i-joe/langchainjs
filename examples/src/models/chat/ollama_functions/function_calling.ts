@@ -1,5 +1,5 @@
 import { ChatOllama } from "@langchain/ollama";
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 
 const model = new ChatOllama({
   temperature: 0.1,

@@ -3,8 +3,11 @@ import type {
   FeatureExtractionPipelineOptions,
   FeatureExtractionPipeline,
 } from "@huggingface/transformers";
-import { Embeddings, type EmbeddingsParams } from "@langchain/core/embeddings";
-import { chunkArray } from "@langchain/core/utils/chunk_array";
+import {
+  Embeddings,
+  type EmbeddingsParams,
+} from "@aijoelangchain/core/embeddings";
+import { chunkArray } from "@aijoelangchain/core/utils/chunk_array";
 
 export interface HuggingFaceTransformersEmbeddingsParams
   extends EmbeddingsParams {

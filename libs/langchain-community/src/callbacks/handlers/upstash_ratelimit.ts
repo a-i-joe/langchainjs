@@ -1,8 +1,8 @@
 import { Ratelimit } from "@upstash/ratelimit";
-import { Serialized } from "@langchain/core/load/serializable";
-import { LLMResult } from "@langchain/core/outputs";
-import { ChainValues } from "@langchain/core/utils/types";
-import { BaseCallbackHandler } from "@langchain/core/callbacks/base";
+import { Serialized } from "@aijoelangchain/core/load/serializable";
+import { LLMResult } from "@aijoelangchain/core/outputs";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
+import { BaseCallbackHandler } from "@aijoelangchain/core/callbacks/base";
 
 /**
  * Upstash Ratelimit Error

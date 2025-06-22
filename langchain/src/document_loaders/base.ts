@@ -1,1 +1,1 @@
-export * from "@langchain/core/document_loaders/base";
+export * from "@aijoelangchain/core/document_loaders/base";

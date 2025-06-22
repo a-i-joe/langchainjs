@@ -27,15 +27,15 @@ import {
   parseBase64DataUrl,
   convertToProviderContentBlock,
   isDataContentBlock,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import {
   ChatGeneration,
   ChatGenerationChunk,
   ChatResult,
-} from "@langchain/core/outputs";
-import { isLangChainTool } from "@langchain/core/utils/function_calling";
-import { isOpenAITool } from "@langchain/core/language_models/base";
-import { ToolCallChunk } from "@langchain/core/messages/tool";
+} from "@aijoelangchain/core/outputs";
+import { isLangChainTool } from "@aijoelangchain/core/utils/function_calling";
+import { isOpenAITool } from "@aijoelangchain/core/language_models/base";
+import { ToolCallChunk } from "@aijoelangchain/core/messages/tool";
 import { v4 as uuidv4 } from "uuid";
 import {
   jsonSchemaToGeminiParameters,

@@ -1,4 +1,4 @@
-import { HumanMessage, AIMessage } from "@langchain/core/messages";
+import { HumanMessage, AIMessage } from "@aijoelangchain/core/messages";
 import { ChatMessageHistory } from "@langchain/community/stores/message/in_memory";
 
 const history = new ChatMessageHistory();

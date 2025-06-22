@@ -1,20 +1,20 @@
-import { BaseLanguageModel } from "@langchain/core/language_models/base";
-import { Serialized } from "@langchain/core/load/serializable";
-import { mapStoredMessagesToChatMessages } from "@langchain/core/messages";
+import { BaseLanguageModel } from "@aijoelangchain/core/language_models/base";
+import { Serialized } from "@aijoelangchain/core/load/serializable";
+import { mapStoredMessagesToChatMessages } from "@aijoelangchain/core/messages";
 import {
   Runnable,
   RunnableConfig,
   RunnableLambda,
   getCallbackManagerForConfig,
-} from "@langchain/core/runnables";
-import { LangChainTracer } from "@langchain/core/tracers/tracer_langchain";
-import { BaseTracer } from "@langchain/core/tracers/base";
-import { ChainValues } from "@langchain/core/utils/types";
-import { AsyncCaller } from "@langchain/core/utils/async_caller";
+} from "@aijoelangchain/core/runnables";
+import { LangChainTracer } from "@aijoelangchain/core/tracers/tracer_langchain";
+import { BaseTracer } from "@aijoelangchain/core/tracers/base";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
+import { AsyncCaller } from "@aijoelangchain/core/utils/async_caller";
 import type {
   CallbackManager,
   CallbackManagerForChainRun,
-} from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/callbacks/manager";
 import {
   Client,
   Example,

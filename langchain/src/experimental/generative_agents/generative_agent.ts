@@ -1,10 +1,10 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import { PromptTemplate } from "@langchain/core/prompts";
-import { ChainValues } from "@langchain/core/utils/types";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
 import {
   CallbackManagerForChainRun,
   Callbacks,
-} from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/callbacks/manager";
 import { LLMChain } from "../../chains/llm_chain.js";
 import { GenerativeAgentMemory } from "./generative_agent_memory.js";
 import { BaseChain } from "../../chains/base.js";

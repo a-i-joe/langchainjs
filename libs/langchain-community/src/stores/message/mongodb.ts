@@ -4,13 +4,13 @@ import {
   ObjectId,
   UpdateFilter,
 } from "mongodb";
-import { BaseListChatMessageHistory } from "@langchain/core/chat_history";
+import { BaseListChatMessageHistory } from "@aijoelangchain/core/chat_history";
 import {
   type StoredMessage,
   type BaseMessage,
   mapChatMessagesToStoredMessages,
   mapStoredMessagesToChatMessages,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 
 /** @deprecated Install and import from the "@langchain/mongodb" integration package instead. */
 export interface MongoDBChatMessageHistoryInput {

@@ -3,9 +3,12 @@ import { formatLogToString } from "langchain/agents/format_scratchpad/log";
 import { OpenAI } from "@langchain/openai";
 import { Calculator } from "@langchain/community/tools/calculator";
 import { renderTextDescription } from "langchain/tools/render";
-import { ChatPromptTemplate, PromptTemplate } from "@langchain/core/prompts";
-import { AgentStep } from "@langchain/core/agents";
-import { RunnableSequence } from "@langchain/core/runnables";
+import {
+  ChatPromptTemplate,
+  PromptTemplate,
+} from "@aijoelangchain/core/prompts";
+import { AgentStep } from "@aijoelangchain/core/agents";
+import { RunnableSequence } from "@aijoelangchain/core/runnables";
 import { SerpAPI } from "@langchain/community/tools/serpapi";
 
 /** Define the model to be used */

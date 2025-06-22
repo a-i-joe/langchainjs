@@ -1,4 +1,4 @@
-import { Embeddings, EmbeddingsParams } from "@langchain/core/embeddings";
+import { Embeddings, EmbeddingsParams } from "@aijoelangchain/core/embeddings";
 import { OllamaInput, OllamaRequestParams } from "../utils/ollama.js";
 
 type CamelCasedRequestOptions = Omit<

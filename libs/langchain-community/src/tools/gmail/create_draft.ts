@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { InferInteropZodOutput } from "@langchain/core/utils/types";
+import { InferInteropZodOutput } from "@aijoelangchain/core/utils/types";
 import { GmailBaseTool, GmailBaseToolParams } from "./base.js";
 import { CREATE_DRAFT_DESCRIPTION } from "./descriptions.js";
 

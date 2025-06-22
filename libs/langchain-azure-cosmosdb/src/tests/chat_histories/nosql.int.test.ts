@@ -2,7 +2,7 @@
 /* eslint-disable no-process-env */
 
 import { expect } from "@jest/globals";
-import { HumanMessage, AIMessage } from "@langchain/core/messages";
+import { HumanMessage, AIMessage } from "@aijoelangchain/core/messages";
 import { CosmosClient } from "@azure/cosmos";
 import { DefaultAzureCredential } from "@azure/identity";
 import { ObjectId } from "mongodb";

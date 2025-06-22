@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { expect } from "@jest/globals";
-import { BaseChatModelCallOptions } from "@langchain/core/language_models/chat_models";
+import { BaseChatModelCallOptions } from "@aijoelangchain/core/language_models/chat_models";
 import {
   AIMessage,
   AIMessageChunk,
@@ -10,19 +10,19 @@ import {
   ToolMessage,
   UsageMetadata,
   getBufferString,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import { z } from "zod";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
 import {
   StructuredTool,
   StructuredToolParams,
   tool,
-} from "@langchain/core/tools";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
-import { RunnableLambda } from "@langchain/core/runnables";
-import { concat } from "@langchain/core/utils/stream";
-import { StreamEvent } from "@langchain/core/tracers/log_stream";
-import { InferInteropZodOutput } from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/tools";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
+import { RunnableLambda } from "@aijoelangchain/core/runnables";
+import { concat } from "@aijoelangchain/core/utils/stream";
+import { StreamEvent } from "@aijoelangchain/core/tracers/log_stream";
+import { InferInteropZodOutput } from "@aijoelangchain/core/utils/types";
 import {
   BaseChatModelsTests,
   BaseChatModelsTestsFields,

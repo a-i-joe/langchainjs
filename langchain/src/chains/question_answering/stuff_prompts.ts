@@ -4,11 +4,11 @@ import {
   SystemMessagePromptTemplate,
   HumanMessagePromptTemplate,
   PromptTemplate,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 import {
   ConditionalPromptSelector,
   isChatModel,
-} from "@langchain/core/example_selectors";
+} from "@aijoelangchain/core/example_selectors";
 
 export const DEFAULT_QA_PROMPT = /*#__PURE__*/ new PromptTemplate({
   template:

@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, afterEach } from "@jest/globals";
-import { HumanMessage, AIMessage } from "@langchain/core/messages";
+import { HumanMessage, AIMessage } from "@aijoelangchain/core/messages";
 import neo4j from "neo4j-driver";
 import { Neo4jChatMessageHistory } from "../message/neo4j.js";
 

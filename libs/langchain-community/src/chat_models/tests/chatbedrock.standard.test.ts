@@ -1,8 +1,8 @@
 /* eslint-disable no-process-env */
 import { test, expect } from "@jest/globals";
 import { ChatModelUnitTests } from "@langchain/standard-tests";
-import { AIMessageChunk } from "@langchain/core/messages";
-import { BaseChatModelCallOptions } from "@langchain/core/language_models/chat_models";
+import { AIMessageChunk } from "@aijoelangchain/core/messages";
+import { BaseChatModelCallOptions } from "@aijoelangchain/core/language_models/chat_models";
 import { BedrockChat } from "../bedrock/index.js";
 
 class BedrockChatStandardUnitTests extends ChatModelUnitTests<

@@ -1,10 +1,10 @@
-import type { InputValues } from "@langchain/core/utils/types";
+import type { InputValues } from "@aijoelangchain/core/utils/types";
 import {
   type ParsedFStringNode,
   PromptTemplate,
   type PromptTemplateInput,
   TypedPromptInputValues,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 
 export type CustomFormatPromptTemplateInput<RunInput extends InputValues> =
   Omit<PromptTemplateInput<RunInput, string>, "templateFormat"> & {

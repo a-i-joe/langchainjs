@@ -6,14 +6,14 @@ import {
   XataApiClient,
   parseWorkspacesUrlParts,
 } from "@xata.io/client";
-import { BaseListChatMessageHistory } from "@langchain/core/chat_history";
+import { BaseListChatMessageHistory } from "@aijoelangchain/core/chat_history";
 import {
   BaseMessage,
   StoredMessage,
   StoredMessageData,
   mapChatMessagesToStoredMessages,
   mapStoredMessagesToChatMessages,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 
 /**
  * An object type that represents the input for the XataChatMessageHistory

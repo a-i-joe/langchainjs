@@ -9,7 +9,7 @@ import type { RequestOptions } from "@modelcontextprotocol/sdk/shared/protocol.j
 import {
   DynamicStructuredTool,
   type StructuredToolInterface,
-} from "@langchain/core/tools";
+} from "@aijoelangchain/core/tools";
 import {
   Base64ContentBlock,
   DataContentBlock,
@@ -20,9 +20,9 @@ import {
   StandardAudioBlock,
   StandardFileBlock,
   StandardImageBlock,
-} from "@langchain/core/messages";
-import { RunnableConfig } from "@langchain/core/runnables";
-import type { CallbackManagerForToolRun } from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/messages";
+import { RunnableConfig } from "@aijoelangchain/core/runnables";
+import type { CallbackManagerForToolRun } from "@aijoelangchain/core/callbacks/manager";
 import debug from "debug";
 import {
   _resolveDetailedOutputHandling,

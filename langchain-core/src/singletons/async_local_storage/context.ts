@@ -16,11 +16,11 @@ import {
  *
  * @example
  * ```ts
- * import { RunnableLambda } from "@langchain/core/runnables";
+ * import { RunnableLambda } from "@aijoelangchain/core/runnables";
  * import {
  *   getContextVariable,
  *   setContextVariable
- * } from "@langchain/core/context";
+ * } from "@aijoelangchain/core/context";
  *
  * const nested = RunnableLambda.from(() => {
  *   // "bar" because it was set by a parent
@@ -87,11 +87,11 @@ export function setContextVariable<T>(name: PropertyKey, value: T): void {
  *
  * @example
  * ```ts
- * import { RunnableLambda } from "@langchain/core/runnables";
+ * import { RunnableLambda } from "@aijoelangchain/core/runnables";
  * import {
  *   getContextVariable,
  *   setContextVariable
- * } from "@langchain/core/context";
+ * } from "@aijoelangchain/core/context";
  *
  * const nested = RunnableLambda.from(() => {
  *   // "bar" because it was set by a parent
@@ -160,7 +160,7 @@ export const _getConfigureHooks = () =>
  * import {
  *   registerConfigureHook,
  *   setContextVariable
- * } from "@langchain/core/context";
+ * } from "@aijoelangchain/core/context";
  *
  * const tracer = new MyCallbackHandler();
  * registerConfigureHook({

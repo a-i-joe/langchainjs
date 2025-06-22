@@ -1,5 +1,5 @@
 import { parseOfficeAsync } from "officeparser";
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 import { BufferLoader } from "langchain/document_loaders/fs/buffer";
 
 /**

@@ -22,15 +22,15 @@ import {
   InputTokenDetails,
   OutputTokenDetails,
   ModalitiesTokenDetails,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import {
   ChatGeneration,
   ChatGenerationChunk,
   ChatResult,
-} from "@langchain/core/outputs";
-import { StructuredToolParams } from "@langchain/core/tools";
-import { isLangChainTool } from "@langchain/core/utils/function_calling";
-import { concat } from "@langchain/core/utils/stream";
+} from "@aijoelangchain/core/outputs";
+import { StructuredToolParams } from "@aijoelangchain/core/tools";
+import { isLangChainTool } from "@aijoelangchain/core/utils/function_calling";
+import { concat } from "@aijoelangchain/core/utils/stream";
 import {
   GoogleLLMResponse,
   GoogleAIModelParams,

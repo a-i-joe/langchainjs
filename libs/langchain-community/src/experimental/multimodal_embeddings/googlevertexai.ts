@@ -1,6 +1,6 @@
 import { GoogleAuth, GoogleAuthOptions } from "google-auth-library";
-import { Embeddings, EmbeddingsParams } from "@langchain/core/embeddings";
-import { AsyncCallerCallOptions } from "@langchain/core/utils/async_caller";
+import { Embeddings, EmbeddingsParams } from "@aijoelangchain/core/embeddings";
+import { AsyncCallerCallOptions } from "@aijoelangchain/core/utils/async_caller";
 import {
   GoogleVertexAIBaseLLMInput,
   GoogleVertexAIBasePrediction,

@@ -32,15 +32,15 @@
   "author": "Google LLC",
   "license": "MIT",
   "dependencies": {
+    "@aijoelangchain/core": ">=0.3.0 <0.4.0",
     "@google-cloud/cloud-sql-connector": "^1.6.0",
-    "@langchain/core": ">=0.3.0 <0.4.0",
     "google-auth-library": "^9.15.0",
     "knex": "^3.1.0",
     "uuid": "^11.0.5"
   },
   "devDependencies": {
+    "@aijoelangchain/core": "workspace:*",
     "@jest/globals": "^29.5.0",
-    "@langchain/core": "workspace:*",
     "@langchain/scripts": ">=0.1.0 <0.2.0",
     "@swc/core": "^1.3.90",
     "@swc/jest": "^0.2.29",

@@ -5,11 +5,11 @@ This package contains the LangChain.js integrations for Anthropic through their 
 ## Installation
 
 ```bash npm2yarn
-npm install @langchain/anthropic @langchain/core
+npm install @langchain/anthropic @aijoelangchain/core
 ```
 
-This package, along with the main LangChain package, depends on [`@langchain/core`](https://npmjs.com/package/@langchain/core/).
-If you are using this package with other LangChain packages, you should make sure that all of the packages depend on the same instance of @langchain/core.
+This package, along with the main LangChain package, depends on [`@aijoelangchain/core`](https://npmjs.com/package/@aijoelangchain/core/).
+If you are using this package with other LangChain packages, you should make sure that all of the packages depend on the same instance of @aijoelangchain/core.
 You can do so by adding appropriate fields to your project's `package.json` like this:
 
 ```json
@@ -18,17 +18,17 @@ You can do so by adding appropriate fields to your project's `package.json` like
   "version": "0.0.0",
   "dependencies": {
     "@langchain/anthropic": "^0.0.9",
-    "@langchain/core": "^0.3.0"
+    "@aijoelangchain/core": "^0.3.0"
   },
   "resolutions": {
-    "@langchain/core": "^0.3.0"
+    "@aijoelangchain/core": "^0.3.0"
   },
   "overrides": {
-    "@langchain/core": "^0.3.0"
+    "@aijoelangchain/core": "^0.3.0"
   },
   "pnpm": {
     "overrides": {
-      "@langchain/core": "^0.3.0"
+      "@aijoelangchain/core": "^0.3.0"
     }
   }
 }

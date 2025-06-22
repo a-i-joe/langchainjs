@@ -1,4 +1,4 @@
-import { GenerationChunk } from "@langchain/core/outputs";
+import { GenerationChunk } from "@aijoelangchain/core/outputs";
 
 export interface AbstractStream {
   /**

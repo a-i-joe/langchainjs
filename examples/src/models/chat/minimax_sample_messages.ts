@@ -1,5 +1,5 @@
 import { ChatMinimax } from "@langchain/community/chat_models/minimax";
-import { AIMessage, HumanMessage } from "@langchain/core/messages";
+import { AIMessage, HumanMessage } from "@aijoelangchain/core/messages";
 
 const model = new ChatMinimax({
   model: "abab5.5-chat",

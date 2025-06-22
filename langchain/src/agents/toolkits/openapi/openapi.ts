@@ -1,6 +1,6 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import type { ToolInterface } from "@langchain/core/tools";
-import { DynamicTool, BaseToolkit } from "@langchain/core/tools";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import type { ToolInterface } from "@aijoelangchain/core/tools";
+import { DynamicTool, BaseToolkit } from "@aijoelangchain/core/tools";
 import { JsonSpec } from "../../../tools/json.js";
 import { AgentExecutor } from "../../executor.js";
 import {

@@ -1,6 +1,6 @@
-import { GenerationChunk } from "@langchain/core/outputs";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
-import { LLM, BaseLLMParams } from "@langchain/core/language_models/llms";
+import { GenerationChunk } from "@aijoelangchain/core/outputs";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
+import { LLM, BaseLLMParams } from "@aijoelangchain/core/language_models/llms";
 
 /**
  * Interface for the input parameters specific to the Fake List model.

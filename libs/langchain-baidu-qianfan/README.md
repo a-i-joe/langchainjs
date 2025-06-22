@@ -2,11 +2,10 @@
 
 This package contains the LangChain.js integrations for Baidu Qianfan via the qianfan/sdk package.
 
-
 ## Installation
 
 ```bash npm2yarn
-npm install @langchain/baidu-qianfan @langchain/core
+npm install @langchain/baidu-qianfan @aijoelangchain/core
 ```
 
 ## Chat models
@@ -24,10 +23,10 @@ export QIANFAN_SECRET_KEY=""
 
 ```typescript
 import { ChatBaiduQianfan } from "@langchain/baidu-qianfan";
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 
 const chat = new ChatBaiduQianfan({
-    model: 'ERNIE-Lite-8K'
+  model: "ERNIE-Lite-8K",
 });
 const message = new HumanMessage("北京天气");
 

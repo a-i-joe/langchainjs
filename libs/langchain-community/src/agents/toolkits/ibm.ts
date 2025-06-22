@@ -6,12 +6,12 @@ import {
   BaseToolkit,
   StructuredTool,
   StructuredToolInterface,
-} from "@langchain/core/tools";
+} from "@aijoelangchain/core/tools";
 import {
   InteropZodObject,
   ZodObjectV3,
   interopSafeParse,
-} from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/utils/types";
 import {
   authenticateAndSetInstance,
   jsonSchemaToZod,

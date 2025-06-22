@@ -29,7 +29,7 @@ You can also check out the [guides on extending LangChain.js](https://js.langcha
 
 #### Integration packages
 
-Integrations should generally reside in the `libs/langchain-community` workspace and be imported as `@langchain/community/module/name`. More in-depth integrations or suites of integrations may also reside in separate packages that depend on and extend `@langchain/core`. See [`@langchain/google-genai`](https://github.com/langchain-ai/langchainjs/blob/main/libs/langchain-google-genai) for an example.
+Integrations should generally reside in the `libs/langchain-community` workspace and be imported as `@langchain/community/module/name`. More in-depth integrations or suites of integrations may also reside in separate packages that depend on and extend `@aijoelangchain/core`. See [`@langchain/google-genai`](https://github.com/langchain-ai/langchainjs/blob/main/libs/langchain-google-genai) for an example.
 
 To make creating packages like this easier, we offer the [`create-langchain-integration`](https://github.com/langchain-ai/langchainjs/blob/main/libs/create-langchain-integration/) utility that will automatically scaffold a repo with support for both ESM + CJS entrypoints. You can run it like this:
 
@@ -105,7 +105,7 @@ You can invoke the script by calling `yarn release`. If new dependencies have be
 
 There are three parameters which can be passed to this script, one required and two optional.
 
-- **Required**: `<workspace name>`. eg: `@langchain/core` The name of the package to release. Can be found in the `name` value of the package's `package.json`
+- **Required**: `<workspace name>`. eg: `@aijoelangchain/core` The name of the package to release. Can be found in the `name` value of the package's `package.json`
 - **Optional**: `--bump-deps` eg `--bump-deps` Will find all packages in the repo which depend on this workspace and checkout a new branch, update the dep version, run yarn install, commit & push to new branch. Generally, this is not necessary.
 - **Optional**: `--tag <tag>` eg `--tag beta` Add a tag to the NPM release. Useful if you want to push a release candidate.
 
@@ -115,9 +115,9 @@ Halfway through this script, you'll be prompted to enter an NPM OTP (typically f
 
 > **Note** Unless releasing `langchain`, `no` should be answered to all prompts following `Publish @langchain/<package> to npm?`. Then, the change should be manually committed with the following commit message: `<package>[patch]: Release <new version>`. E.g.: `groq[patch]: Release 0.0.1`.
 
-Docker must be running if releasing one of `langchain`, `@langchain/core` or `@langchain/community`. These packages run LangChain's export tests, which run inside docker containers.
+Docker must be running if releasing one of `langchain`, `@aijoelangchain/core` or `@langchain/community`. These packages run LangChain's export tests, which run inside docker containers.
 
-Full example: `yarn release @langchain/core`.
+Full example: `yarn release @aijoelangchain/core`.
 
 ### 🛠️ Tooling
 

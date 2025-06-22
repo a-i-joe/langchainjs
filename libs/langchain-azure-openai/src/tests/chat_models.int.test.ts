@@ -4,19 +4,19 @@ import {
   ChatMessage,
   HumanMessage,
   SystemMessage,
-} from "@langchain/core/messages";
-import { ChatGeneration, LLMResult } from "@langchain/core/outputs";
-import { ChatPromptValue } from "@langchain/core/prompt_values";
+} from "@aijoelangchain/core/messages";
+import { ChatGeneration, LLMResult } from "@aijoelangchain/core/outputs";
+import { ChatPromptValue } from "@aijoelangchain/core/prompt_values";
 import {
   PromptTemplate,
   ChatPromptTemplate,
   HumanMessagePromptTemplate,
   SystemMessagePromptTemplate,
-} from "@langchain/core/prompts";
-import { CallbackManager } from "@langchain/core/callbacks/manager";
-import { NewTokenIndices } from "@langchain/core/callbacks/base";
-import { InMemoryCache } from "@langchain/core/caches";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+} from "@aijoelangchain/core/prompts";
+import { CallbackManager } from "@aijoelangchain/core/callbacks/manager";
+import { NewTokenIndices } from "@aijoelangchain/core/callbacks/base";
+import { InMemoryCache } from "@aijoelangchain/core/caches";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import { OpenAIKeyCredential } from "@azure/openai";
 import { AzureChatOpenAI } from "../chat_models.js";
 

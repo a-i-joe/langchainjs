@@ -1,12 +1,16 @@
-import { AgentAction, AgentFinish, AgentStep } from "@langchain/core/agents";
+import {
+  AgentAction,
+  AgentFinish,
+  AgentStep,
+} from "@aijoelangchain/core/agents";
 import {
   AIMessage,
   BaseMessage,
   isBaseMessage,
-} from "@langchain/core/messages";
-import { OutputParserException } from "@langchain/core/output_parsers";
-import { ChatGeneration } from "@langchain/core/outputs";
-import { ToolCall } from "@langchain/core/messages/tool";
+} from "@aijoelangchain/core/messages";
+import { OutputParserException } from "@aijoelangchain/core/output_parsers";
+import { ChatGeneration } from "@aijoelangchain/core/outputs";
+import { ToolCall } from "@aijoelangchain/core/messages/tool";
 import { AgentMultiActionOutputParser } from "../types.js";
 
 /**

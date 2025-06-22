@@ -1,3 +1,3 @@
-import { awaitAllCallbacks } from "@langchain/core/callbacks/promises";
+import { awaitAllCallbacks } from "@aijoelangchain/core/callbacks/promises";
 
 afterAll(awaitAllCallbacks);

@@ -1,6 +1,9 @@
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { Embeddings, type EmbeddingsParams } from "@langchain/core/embeddings";
-import { chunkArray } from "@langchain/core/utils/chunk_array";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import {
+  Embeddings,
+  type EmbeddingsParams,
+} from "@aijoelangchain/core/embeddings";
+import { chunkArray } from "@aijoelangchain/core/utils/chunk_array";
 import { EmbeddingRequest as MistralAIEmbeddingsRequest } from "@mistralai/mistralai/src/models/components/embeddingrequest.js";
 import { EmbeddingResponse as MistralAIEmbeddingsResponse } from "@mistralai/mistralai/src/models/components/embeddingresponse.js";
 import {

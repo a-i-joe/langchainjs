@@ -45,14 +45,14 @@
     "zod": "^3.24.2"
   },
   "peerDependencies": {
-    "@langchain/core": "^0.3.44"
+    "@aijoelangchain/core": "^0.3.44"
   },
   "optionalDependencies": {
     "extended-eventsource": "^1.x"
   },
   "devDependencies": {
+    "@aijoelangchain/core": "workspace:*",
     "@eslint/js": "^9.21.0",
-    "@langchain/core": "workspace:*",
     "@langchain/langgraph": "^0.2.62",
     "@langchain/openai": "workspace:*",
     "@langchain/scripts": "workspace:*",

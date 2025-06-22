@@ -1,1 +1,1 @@
-export { parsePartialJson } from "@langchain/core/output_parsers";
+export { parsePartialJson } from "@aijoelangchain/core/output_parsers";

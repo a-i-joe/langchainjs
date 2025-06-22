@@ -5,7 +5,7 @@ This package contains the LangChain.js integrations for Nomic via the @nomic-ai/
 ## Installation
 
 ```bash npm2yarn
-npm install @langchain/nomic @langchain/core
+npm install @langchain/nomic @aijoelangchain/core
 ```
 
 ## Embeddings
@@ -13,6 +13,7 @@ npm install @langchain/nomic @langchain/core
 This package adds support for Nomic embeddings.
 
 Currently, they offer two embeddings models:
+
 - `nomic-embed-text-v1`
 - `nomic-embed-text-v1.5`
 
@@ -29,7 +30,7 @@ import { NomicEmbeddings } from "@langchain/nomic";
 
 const nomicEmbeddings = new NomicEmbeddings({
   apiKey: process.env.NOMIC_API_KEY, // Default value.
-  modelName: "nomic-embed-text-v1",  // Default value.
+  modelName: "nomic-embed-text-v1", // Default value.
 });
 
 const docs = [

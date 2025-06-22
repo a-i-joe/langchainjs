@@ -1,13 +1,13 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import { PromptTemplate } from "@langchain/core/prompts";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
 
 import {
   InputValues,
   MemoryVariables,
   OutputValues,
   getPromptInputKey,
-} from "@langchain/core/memory";
-import { getBufferString } from "@langchain/core/messages";
+} from "@aijoelangchain/core/memory";
+import { getBufferString } from "@aijoelangchain/core/messages";
 import { InMemoryEntityStore } from "./stores/entity/in_memory.js";
 import { LLMChain } from "../chains/llm_chain.js";
 import {

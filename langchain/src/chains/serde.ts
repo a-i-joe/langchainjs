@@ -1,5 +1,5 @@
-import type { SerializedLLM } from "@langchain/core/language_models/llms";
-import { SerializedBasePromptTemplate } from "@langchain/core/prompts";
+import type { SerializedLLM } from "@aijoelangchain/core/language_models/llms";
+import { SerializedBasePromptTemplate } from "@aijoelangchain/core/prompts";
 
 /**
  * Represents the serialized form of an LLMChain. It includes properties

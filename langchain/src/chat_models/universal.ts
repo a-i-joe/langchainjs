@@ -2,33 +2,36 @@
 import {
   BaseLanguageModelInput,
   ToolDefinition,
-} from "@langchain/core/language_models/base";
+} from "@aijoelangchain/core/language_models/base";
 import {
   BaseChatModel,
   BaseChatModelParams,
   BindToolsInput,
   type BaseChatModelCallOptions,
-} from "@langchain/core/language_models/chat_models";
-import { BaseMessage, type AIMessageChunk } from "@langchain/core/messages";
+} from "@aijoelangchain/core/language_models/chat_models";
+import {
+  BaseMessage,
+  type AIMessageChunk,
+} from "@aijoelangchain/core/messages";
 import {
   type RunnableBatchOptions,
   RunnableBinding,
   type RunnableConfig,
   type RunnableToolLike,
   ensureConfig,
-} from "@langchain/core/runnables";
+} from "@aijoelangchain/core/runnables";
 import {
   AsyncGeneratorWithSetup,
   IterableReadableStream,
-} from "@langchain/core/utils/stream";
+} from "@aijoelangchain/core/utils/stream";
 import {
   type LogStreamCallbackHandlerInput,
   type RunLogPatch,
   type StreamEvent,
-} from "@langchain/core/tracers/log_stream";
-import { type StructuredToolInterface } from "@langchain/core/tools";
-import { CallbackManagerForLLMRun } from "@langchain/core/callbacks/manager";
-import { ChatResult } from "@langchain/core/outputs";
+} from "@aijoelangchain/core/tracers/log_stream";
+import { type StructuredToolInterface } from "@aijoelangchain/core/tools";
+import { CallbackManagerForLLMRun } from "@aijoelangchain/core/callbacks/manager";
+import { ChatResult } from "@aijoelangchain/core/outputs";
 
 // TODO: remove once `EventStreamCallbackHandlerInput` is exposed in core
 interface EventStreamCallbackHandlerInput
@@ -725,7 +728,7 @@ export async function initChatModel<
  * ```typescript
  * import { initChatModel } from "langchain/chat_models/universal";
  * import { z } from "zod";
- * import { tool } from "@langchain/core/tools";
+ * import { tool } from "@aijoelangchain/core/tools";
  *
  * const getWeatherTool = tool(
  *   (input) => {

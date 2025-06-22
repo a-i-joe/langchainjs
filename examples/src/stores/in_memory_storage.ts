@@ -1,5 +1,9 @@
-import { InMemoryStore } from "@langchain/core/stores";
-import { AIMessage, BaseMessage, HumanMessage } from "@langchain/core/messages";
+import { InMemoryStore } from "@aijoelangchain/core/stores";
+import {
+  AIMessage,
+  BaseMessage,
+  HumanMessage,
+} from "@aijoelangchain/core/messages";
 
 // Instantiate the store using the `fromPath` method.
 const store = new InMemoryStore<BaseMessage>();

@@ -2,11 +2,11 @@ import { expect } from "@jest/globals";
 import {
   BaseChatModelCallOptions,
   LangSmithParams,
-} from "@langchain/core/language_models/chat_models";
-import { BaseMessageChunk } from "@langchain/core/messages";
+} from "@aijoelangchain/core/language_models/chat_models";
+import { BaseMessageChunk } from "@aijoelangchain/core/messages";
 import { z } from "zod";
-import { InferInteropZodOutput } from "@langchain/core/utils/types";
-import { StructuredTool } from "@langchain/core/tools";
+import { InferInteropZodOutput } from "@aijoelangchain/core/utils/types";
+import { StructuredTool } from "@aijoelangchain/core/tools";
 import {
   BaseChatModelsTests,
   BaseChatModelsTestsFields,

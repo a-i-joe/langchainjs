@@ -3,8 +3,8 @@ import {
   type OpenAIChatModelId,
   OpenAIClient,
 } from "@langchain/openai";
-import { StructuredTool } from "@langchain/core/tools";
-import { Runnable, RunnableConfig } from "@langchain/core/runnables";
+import { StructuredTool } from "@aijoelangchain/core/tools";
+import { Runnable, RunnableConfig } from "@aijoelangchain/core/runnables";
 import { formatToOpenAIAssistantTool } from "@langchain/openai";
 import { sleep } from "../../util/time.js";
 import type {

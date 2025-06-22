@@ -1,7 +1,7 @@
 import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
 import { CharacterTextSplitter } from "@langchain/textsplitters";
 import { HNSWLib } from "@langchain/community/vectorstores/hnswlib";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { createStuffDocumentsChain } from "langchain/chains/combine_documents";
 import { createRetrievalChain } from "langchain/chains/retrieval";
 

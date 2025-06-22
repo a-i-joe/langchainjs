@@ -1,7 +1,7 @@
 import { calendar_v3 } from "googleapis";
-import { PromptTemplate } from "@langchain/core/prompts";
-import { BaseLanguageModel } from "@langchain/core/language_models/base";
-import { CallbackManagerForToolRun } from "@langchain/core/callbacks/manager";
+import { PromptTemplate } from "@aijoelangchain/core/prompts";
+import { BaseLanguageModel } from "@aijoelangchain/core/language_models/base";
+import { CallbackManagerForToolRun } from "@aijoelangchain/core/callbacks/manager";
 import { z } from "zod";
 
 import { VIEW_EVENTS_PROMPT } from "../prompts/index.js";

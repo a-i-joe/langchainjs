@@ -1,5 +1,8 @@
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { LLM, type BaseLLMParams } from "@langchain/core/language_models/llms";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import {
+  LLM,
+  type BaseLLMParams,
+} from "@aijoelangchain/core/language_models/llms";
 
 const apiUrl = "https://llm.api.cloud.yandex.net/llm/v1alpha/instruct";
 

@@ -5,7 +5,7 @@ import {
   MemoryVariables,
   getInputValue,
   getOutputValue,
-} from "@langchain/core/memory";
+} from "@aijoelangchain/core/memory";
 import {
   getBufferString,
   AIMessage,
@@ -13,7 +13,7 @@ import {
   ChatMessage,
   HumanMessage,
   SystemMessage,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import { BaseChatMemory, BaseChatMemoryInput } from "./chat_memory.js";
 
 /**

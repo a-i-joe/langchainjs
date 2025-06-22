@@ -1,5 +1,5 @@
 import { ChatAnthropic } from "@langchain/anthropic";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { z } from "zod";
 import { zodToJsonSchema } from "zod-to-json-schema";
 

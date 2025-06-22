@@ -1,13 +1,13 @@
 import {
   Document,
   MappingDocumentTransformer,
-} from "@langchain/core/documents";
+} from "@aijoelangchain/core/documents";
 import { ChatOpenAI } from "@langchain/openai";
-import { InteropZodObject } from "@langchain/core/utils/types";
+import { InteropZodObject } from "@aijoelangchain/core/utils/types";
 import {
   type JsonSchema7ObjectType,
   toJsonSchema,
-} from "@langchain/core/utils/json_schema";
+} from "@aijoelangchain/core/utils/json_schema";
 import { BaseChain } from "../chains/base.js";
 import {
   TaggingChainOptions,

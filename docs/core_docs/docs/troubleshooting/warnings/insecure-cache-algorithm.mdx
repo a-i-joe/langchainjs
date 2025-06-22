@@ -22,7 +22,7 @@ SHA-1 is now deprecated for cache key generation in LangChain. However, to maint
 You can supply a stronger hash function (such as SHA-256 or SHA-3) for cache key encoding by using the `makeDefaultKeyEncoder()` method on your cache instance. For example:
 
 ```ts
-import { sha256 } from "@langchain/core/utils/hash/sha256";
+import { sha256 } from "@aijoelangchain/core/utils/hash/sha256";
 
 const client = new CacheClient(...);
 client.makeDefaultKeyEncoder(sha256);

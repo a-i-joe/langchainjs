@@ -1,11 +1,11 @@
-import { ChatPromptTemplate } from "@langchain/core/prompts";
-import { StructuredToolInterface } from "@langchain/core/tools";
-import { RunnablePassthrough } from "@langchain/core/runnables";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
+import { StructuredToolInterface } from "@aijoelangchain/core/tools";
+import { RunnablePassthrough } from "@aijoelangchain/core/runnables";
 import {
   LanguageModelLike,
   ToolDefinition,
-} from "@langchain/core/language_models/base";
-import { BaseChatModel } from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/base";
+import { BaseChatModel } from "@aijoelangchain/core/language_models/chat_models";
 import { AgentRunnableSequence } from "../agent.js";
 import {
   ToolCallingAgentOutputParser,
@@ -51,7 +51,7 @@ export type CreateToolCallingAgentParams = {
  * @example
  * ```typescript
  * import { ChatAnthropic } from "@langchain/anthropic";
- * import { ChatPromptTemplate, MessagesPlaceholder } from "@langchain/core/prompts";
+ * import { ChatPromptTemplate, MessagesPlaceholder } from "@aijoelangchain/core/prompts";
  * import { AgentExecutor, createToolCallingAgent } from "langchain/agents";
  *
  * const prompt = ChatPromptTemplate.fromMessages(
@@ -79,7 +79,7 @@ export type CreateToolCallingAgentParams = {
  * const result = await agentExecutor.invoke({input: "what is LangChain?"});
  *
  * // Using with chat history
- * import { AIMessage, HumanMessage } from "@langchain/core/messages";
+ * import { AIMessage, HumanMessage } from "@aijoelangchain/core/messages";
  *
  * const result2 = await agentExecutor.invoke(
  *   {

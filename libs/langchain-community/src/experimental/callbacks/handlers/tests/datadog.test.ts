@@ -1,8 +1,8 @@
 import { test, jest, expect } from "@jest/globals";
 import * as uuid from "uuid";
-import { Run } from "@langchain/core/tracers/base";
+import { Run } from "@aijoelangchain/core/tracers/base";
 
-import { HumanMessage, AIMessage } from "@langchain/core/messages";
+import { HumanMessage, AIMessage } from "@aijoelangchain/core/messages";
 import {
   DatadogLLMObsRequestBody,
   DatadogLLMObsSpan,

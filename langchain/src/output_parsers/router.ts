@@ -1,8 +1,8 @@
-import { OutputParserException } from "@langchain/core/output_parsers";
+import { OutputParserException } from "@aijoelangchain/core/output_parsers";
 import {
   type InferInteropZodOutput,
   type InteropZodType,
-} from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/utils/types";
 import { JsonMarkdownStructuredOutputParser } from "./structured.js";
 
 /**

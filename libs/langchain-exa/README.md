@@ -5,7 +5,7 @@ This package contains the LangChain.js integrations for exa through their SDK.
 ## Installation
 
 ```bash npm2yarn
-npm install @langchain/exa @langchain/core
+npm install @langchain/exa @aijoelangchain/core
 ```
 
 ## Development

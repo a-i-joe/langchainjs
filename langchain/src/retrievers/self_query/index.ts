@@ -1,17 +1,17 @@
-import { RunnableInterface } from "@langchain/core/runnables";
+import { RunnableInterface } from "@aijoelangchain/core/runnables";
 import {
   BaseRetriever,
   type BaseRetrieverInput,
-} from "@langchain/core/retrievers";
-import { Document } from "@langchain/core/documents";
-import { VectorStore } from "@langchain/core/vectorstores";
+} from "@aijoelangchain/core/retrievers";
+import { Document } from "@aijoelangchain/core/documents";
+import { VectorStore } from "@aijoelangchain/core/vectorstores";
 import {
   BaseTranslator,
   BasicTranslator,
   FunctionalTranslator,
   StructuredQuery,
-} from "@langchain/core/structured_query";
-import { CallbackManagerForRetrieverRun } from "@langchain/core/callbacks/manager";
+} from "@aijoelangchain/core/structured_query";
+import { CallbackManagerForRetrieverRun } from "@aijoelangchain/core/callbacks/manager";
 import {
   loadQueryConstructorRunnable,
   QueryConstructorRunnableOptions,

@@ -46,7 +46,7 @@ export interface LangSmithLoaderFields {
  * <summary><strong>Load</strong></summary>
  *
  * ```typescript
- * import { LangSmithLoader } from '@langchain/core/document_loaders/langsmith';
+ * import { LangSmithLoader } from '@aijoelangchain/core/document_loaders/langsmith';
  * import { Client } from 'langsmith';
  *
  * const langSmithClient = new Client({

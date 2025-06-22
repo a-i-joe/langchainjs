@@ -1,4 +1,4 @@
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 
 interface Metadata {
   name: string;

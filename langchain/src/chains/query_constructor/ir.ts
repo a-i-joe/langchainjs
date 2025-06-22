@@ -1,1 +1,1 @@
-export * from "@langchain/core/structured_query";
+export * from "@aijoelangchain/core/structured_query";

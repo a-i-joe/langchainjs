@@ -4,9 +4,9 @@ import { ChatOllama } from "@langchain/ollama";
 import { ChatGoogle } from "@langchain/google-gauth";
 import { LLMChain } from "langchain/chains";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 import { HuggingFaceTransformersEmbeddings } from "@langchain/community/embeddings/huggingface_transformers";
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 
 // Test exports
 assert(typeof OpenAI === "function");

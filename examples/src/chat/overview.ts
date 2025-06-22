@@ -7,8 +7,8 @@ import {
   HumanMessagePromptTemplate,
   MessagesPlaceholder,
   SystemMessagePromptTemplate,
-} from "@langchain/core/prompts";
-import { HumanMessage, SystemMessage } from "@langchain/core/messages";
+} from "@aijoelangchain/core/prompts";
+import { HumanMessage, SystemMessage } from "@aijoelangchain/core/messages";
 import { SerpAPI } from "@langchain/community/tools/serpapi";
 
 export const run = async () => {

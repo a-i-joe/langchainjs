@@ -4,19 +4,19 @@ import {
   AIMessageChunk,
   HumanMessage,
   SystemMessage,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import { z } from "zod";
-import { StringOutputParser } from "@langchain/core/output_parsers";
-import { CallbackManager } from "@langchain/core/callbacks/manager";
-import { LLMResult } from "@langchain/core/outputs";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
-import { tool } from "@langchain/core/tools";
-import { NewTokenIndices } from "@langchain/core/callbacks/base";
+import { StringOutputParser } from "@aijoelangchain/core/output_parsers";
+import { CallbackManager } from "@aijoelangchain/core/callbacks/manager";
+import { LLMResult } from "@aijoelangchain/core/outputs";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
+import { tool } from "@aijoelangchain/core/tools";
+import { NewTokenIndices } from "@aijoelangchain/core/callbacks/base";
 import {
   BaseChatModel,
   BaseChatModelCallOptions,
-} from "@langchain/core/language_models/chat_models";
-import { concat } from "@langchain/core/utils/stream";
+} from "@aijoelangchain/core/language_models/chat_models";
+import { concat } from "@aijoelangchain/core/utils/stream";
 import { ChatWatsonx } from "../ibm.js";
 
 describe("Tests for chat", () => {

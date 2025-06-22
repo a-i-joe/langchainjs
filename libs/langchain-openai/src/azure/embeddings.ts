@@ -3,7 +3,7 @@ import {
   AzureOpenAI as AzureOpenAIClient,
   OpenAI as OpenAIClient,
 } from "openai";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
 import { OpenAIEmbeddings, OpenAIEmbeddingsParams } from "../embeddings.js";
 import { AzureOpenAIInput, OpenAICoreRequestOptions } from "../types.js";
 import { getEndpoint, OpenAIEndpointConfig } from "../utils/azure.js";

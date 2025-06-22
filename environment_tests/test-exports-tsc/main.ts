@@ -1,6 +1,6 @@
 import { ChatOpenAI } from "@langchain/openai";
 import { createOpenAIToolsAgent, AgentExecutor } from "langchain/agents";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { ChatPromptTemplate } from "@aijoelangchain/core/prompts";
 
 const model = new ChatOpenAI({
   openAIApiKey: "sk-XXXX",

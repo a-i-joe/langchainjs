@@ -1,10 +1,10 @@
 import {
   AsyncCaller,
   AsyncCallerParams,
-} from "@langchain/core/utils/async_caller";
-import { BaseDocumentLoader } from "@langchain/core/document_loaders/base";
-import { Document } from "@langchain/core/documents";
-import type { DocumentLoader } from "@langchain/core/document_loaders/base";
+} from "@aijoelangchain/core/utils/async_caller";
+import { BaseDocumentLoader } from "@aijoelangchain/core/document_loaders/base";
+import { Document } from "@aijoelangchain/core/documents";
+import type { DocumentLoader } from "@aijoelangchain/core/document_loaders/base";
 
 /**
  * Represents the parameters for configuring WebBaseLoaders. It extends the

@@ -1,11 +1,11 @@
-import { insecureHash } from "@langchain/core/utils/hash";
+import { insecureHash } from "@aijoelangchain/core/utils/hash";
 import {
   type EmbeddingsInterface,
   Embeddings,
-} from "@langchain/core/embeddings";
-import { BaseStore } from "@langchain/core/stores";
+} from "@aijoelangchain/core/embeddings";
+import { BaseStore } from "@aijoelangchain/core/stores";
 
-import { AsyncCallerParams } from "@langchain/core/utils/async_caller";
+import { AsyncCallerParams } from "@aijoelangchain/core/utils/async_caller";
 import { EncoderBackedStore } from "../storage/encoder_backed.js";
 
 /**

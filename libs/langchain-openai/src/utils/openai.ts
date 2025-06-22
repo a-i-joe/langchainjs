@@ -3,14 +3,14 @@ import {
   APIUserAbortError,
   OpenAI as OpenAIClient,
 } from "openai";
-import type { StructuredToolInterface } from "@langchain/core/tools";
+import type { StructuredToolInterface } from "@aijoelangchain/core/tools";
 import {
   convertToOpenAIFunction,
   convertToOpenAITool,
-} from "@langchain/core/utils/function_calling";
-import { ToolDefinition } from "@langchain/core/language_models/base";
-import { isInteropZodSchema } from "@langchain/core/utils/types";
-import { toJsonSchema } from "@langchain/core/utils/json_schema";
+} from "@aijoelangchain/core/utils/function_calling";
+import { ToolDefinition } from "@aijoelangchain/core/language_models/base";
+import { isInteropZodSchema } from "@aijoelangchain/core/utils/types";
+import { toJsonSchema } from "@aijoelangchain/core/utils/json_schema";
 import { addLangChainErrorFields } from "./errors.js";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

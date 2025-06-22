@@ -1,8 +1,8 @@
 import {
   CallbackManagerForChainRun,
   Callbacks,
-} from "@langchain/core/callbacks/manager";
-import { ChainValues } from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/callbacks/manager";
+import { ChainValues } from "@aijoelangchain/core/utils/types";
 import { ChainInputs, BaseChain } from "./base.js";
 
 /**

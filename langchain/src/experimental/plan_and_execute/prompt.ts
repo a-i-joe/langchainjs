@@ -2,9 +2,9 @@ import {
   ChatPromptTemplate,
   HumanMessagePromptTemplate,
   SystemMessagePromptTemplate,
-} from "@langchain/core/prompts";
+} from "@aijoelangchain/core/prompts";
 
-import { Tool, DynamicStructuredTool } from "@langchain/core/tools";
+import { Tool, DynamicStructuredTool } from "@aijoelangchain/core/tools";
 
 export const PLANNER_SYSTEM_PROMPT_MESSAGE_TEMPLATE = [
   `Let's first understand the problem and devise a plan to solve the problem.`,

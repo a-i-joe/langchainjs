@@ -1,6 +1,6 @@
-import { IterableReadableStream } from "@langchain/core/utils/stream";
-import type { StringWithAutocomplete } from "@langchain/core/utils/types";
-import { BaseLanguageModelCallOptions } from "@langchain/core/language_models/base";
+import { IterableReadableStream } from "@aijoelangchain/core/utils/stream";
+import type { StringWithAutocomplete } from "@aijoelangchain/core/utils/types";
+import { BaseLanguageModelCallOptions } from "@aijoelangchain/core/language_models/base";
 
 export interface OllamaInput {
   embeddingOnly?: boolean;

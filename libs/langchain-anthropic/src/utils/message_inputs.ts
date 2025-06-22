@@ -17,8 +17,8 @@ import {
   isDataContentBlock,
   convertToProviderContentBlock,
   parseBase64DataUrl,
-} from "@langchain/core/messages";
-import { ToolCall } from "@langchain/core/messages/tool";
+} from "@aijoelangchain/core/messages";
+import { ToolCall } from "@aijoelangchain/core/messages/tool";
 import {
   AnthropicImageBlockParam,
   AnthropicMessageCreateParams,

@@ -5,7 +5,7 @@ This package contains the LangChain.js integrations for xAI.
 ## Installation
 
 ```bash npm2yarn
-npm install @langchain/xai @langchain/core
+npm install @langchain/xai @aijoelangchain/core
 ```
 
 ## Chat models
@@ -20,7 +20,7 @@ export XAI_API_KEY=
 
 ```typescript
 import { ChatXAI } from "@langchain/xai";
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 
 const model = new ChatXAI({
   apiKey: process.env.XAI_API_KEY, // Default value.

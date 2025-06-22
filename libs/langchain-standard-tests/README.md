@@ -33,7 +33,7 @@ Your unit test file should look like this:
 /* eslint-disable no-process-env */
 import { test, expect } from "@jest/globals";
 import { ChatModelUnitTests } from "@langchain/standard-tests";
-import { AIMessageChunk } from "@langchain/core/messages";
+import { AIMessageChunk } from "@aijoelangchain/core/messages";
 import { MyChatModel, MyChatModelCallOptions } from "../chat_models.js";
 
 class MyChatModelStandardUnitTests extends ChatModelUnitTests<

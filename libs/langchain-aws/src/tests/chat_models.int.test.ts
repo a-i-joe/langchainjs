@@ -10,10 +10,10 @@ import {
   MessageContentComplex,
   SystemMessage,
   ToolMessage,
-} from "@langchain/core/messages";
-import { tool } from "@langchain/core/tools";
+} from "@aijoelangchain/core/messages";
+import { tool } from "@aijoelangchain/core/tools";
 import { z } from "zod";
-import { concat } from "@langchain/core/utils/stream";
+import { concat } from "@aijoelangchain/core/utils/stream";
 import { ChatBedrockConverse } from "../chat_models.js";
 import { concatenateLangchainReasoningBlocks } from "../common.js";
 import { MessageContentReasoningBlockReasoningText } from "../types.js";

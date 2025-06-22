@@ -1,8 +1,8 @@
 import { OpenAI as OpenAIClient } from "openai";
 
-import { ToolDefinition } from "@langchain/core/language_models/base";
-import { BindToolsInput } from "@langchain/core/language_models/chat_models";
-import { isLangChainTool } from "@langchain/core/utils/function_calling";
+import { ToolDefinition } from "@aijoelangchain/core/language_models/base";
+import { BindToolsInput } from "@aijoelangchain/core/language_models/chat_models";
+import { isLangChainTool } from "@aijoelangchain/core/utils/function_calling";
 import { formatToOpenAITool } from "./openai.js";
 
 /**

@@ -1,5 +1,5 @@
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { Tool } from "@langchain/core/tools";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { Tool } from "@aijoelangchain/core/tools";
 
 /**
  * This does not use the `serpapi` package because it appears to cause issues

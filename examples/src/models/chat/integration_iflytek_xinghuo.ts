@@ -1,5 +1,5 @@
 import { ChatIflytekXinghuo } from "@langchain/community/chat_models/iflytek_xinghuo";
-import { HumanMessage } from "@langchain/core/messages";
+import { HumanMessage } from "@aijoelangchain/core/messages";
 
 const model = new ChatIflytekXinghuo();
 

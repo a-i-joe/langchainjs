@@ -1,4 +1,4 @@
-import { Embeddings, EmbeddingsParams } from "@langchain/core/embeddings";
+import { Embeddings, EmbeddingsParams } from "@aijoelangchain/core/embeddings";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore CJS type resolution workaround
 import { Ollama } from "ollama/browser";

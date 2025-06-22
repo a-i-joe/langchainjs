@@ -1,7 +1,7 @@
 /* eslint-disable no-process-env */
 import { test } from "@jest/globals";
 import weaviate, { Filters, WeaviateClient } from "weaviate-client";
-import { Document } from "@langchain/core/documents";
+import { Document } from "@aijoelangchain/core/documents";
 import { OpenAIEmbeddings, ChatOpenAI } from "@langchain/openai";
 import { AttributeInfo } from "langchain/chains/query_constructor";
 import { SelfQueryRetriever } from "langchain/retrievers/self_query";

@@ -1,4 +1,4 @@
-import { VectorStore } from "@langchain/core/vectorstores";
+import { VectorStore } from "@aijoelangchain/core/vectorstores";
 import {
   useQuery,
   useExecute,
@@ -9,8 +9,8 @@ import {
   QueryResult,
   getDatabase,
 } from "azion/sql";
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { Document } from "@langchain/core/documents";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { Document } from "@aijoelangchain/core/documents";
 
 /**
  * Represents a filter condition for querying the Azion database

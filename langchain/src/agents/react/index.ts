@@ -1,11 +1,11 @@
-import type { ToolInterface } from "@langchain/core/tools";
-import { BasePromptTemplate } from "@langchain/core/prompts";
+import type { ToolInterface } from "@aijoelangchain/core/tools";
+import { BasePromptTemplate } from "@aijoelangchain/core/prompts";
 import type {
   BaseLanguageModel,
   BaseLanguageModelInterface,
-} from "@langchain/core/language_models/base";
-import { RunnablePassthrough } from "@langchain/core/runnables";
-import { AgentStep } from "@langchain/core/agents";
+} from "@aijoelangchain/core/language_models/base";
+import { RunnablePassthrough } from "@aijoelangchain/core/runnables";
+import { AgentStep } from "@aijoelangchain/core/agents";
 import { renderTextDescription } from "../../tools/render.js";
 import { formatLogToString } from "../format_scratchpad/log.js";
 import { ReActSingleInputOutputParser } from "./output_parser.js";
@@ -42,7 +42,7 @@ export type CreateReactAgentParams = {
  * ```typescript
  * import { AgentExecutor, createReactAgent } from "langchain/agents";
  * import { pull } from "langchain/hub";
- * import type { PromptTemplate } from "@langchain/core/prompts";
+ * import type { PromptTemplate } from "@aijoelangchain/core/prompts";
  *
  * import { OpenAI } from "@langchain/openai";
  *

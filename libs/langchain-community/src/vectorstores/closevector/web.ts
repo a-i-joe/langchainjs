@@ -6,8 +6,8 @@ import {
   HnswlibModule,
 } from "closevector-web";
 
-import type { EmbeddingsInterface } from "@langchain/core/embeddings";
-import { Document } from "@langchain/core/documents";
+import type { EmbeddingsInterface } from "@aijoelangchain/core/embeddings";
+import { Document } from "@aijoelangchain/core/documents";
 
 import { CloseVector } from "./common.js";
 

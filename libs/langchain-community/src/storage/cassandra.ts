@@ -1,4 +1,4 @@
-import { BaseStore } from "@langchain/core/stores";
+import { BaseStore } from "@aijoelangchain/core/stores";
 
 import {
   CassandraClientArgs,

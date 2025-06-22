@@ -8,16 +8,16 @@ import {
 import {
   JsonOutputKeyToolsParserParamsInterop,
   JsonOutputToolsParser,
-} from "@langchain/core/output_parsers/openai_tools";
-import { OutputParserException } from "@langchain/core/output_parsers";
+} from "@aijoelangchain/core/output_parsers/openai_tools";
+import { OutputParserException } from "@aijoelangchain/core/output_parsers";
 import { z } from "zod";
-import { ChatGeneration } from "@langchain/core/outputs";
-import { AIMessageChunk } from "@langchain/core/messages";
-import { ToolCall } from "@langchain/core/messages/tool";
+import { ChatGeneration } from "@aijoelangchain/core/outputs";
+import { AIMessageChunk } from "@aijoelangchain/core/messages";
+import { ToolCall } from "@aijoelangchain/core/messages/tool";
 import {
   InteropZodType,
   interopSafeParseAsync,
-} from "@langchain/core/utils/types";
+} from "@aijoelangchain/core/utils/types";
 import { WatsonxAuth, WatsonxInit } from "../types/ibm.js";
 
 export const authenticateAndSetInstance = ({

@@ -1,5 +1,5 @@
-import type { BaseLanguageModelInterface } from "@langchain/core/language_models/base";
-import type { ToolInterface } from "@langchain/core/tools";
+import type { BaseLanguageModelInterface } from "@aijoelangchain/core/language_models/base";
+import type { ToolInterface } from "@aijoelangchain/core/tools";
 import type { SerializedAgentT, AgentInput } from "./types.js";
 import { LLMChain } from "../chains/llm_chain.js";
 

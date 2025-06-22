@@ -3,7 +3,7 @@ import {
   type BaseChatModelParams,
   BindToolsInput,
   type BaseChatModelCallOptions,
-} from "@langchain/core/language_models/chat_models";
+} from "@aijoelangchain/core/language_models/chat_models";
 import {
   AIMessage,
   type BaseMessage,
@@ -12,17 +12,20 @@ import {
   type UsageMetadata,
   ChatMessage,
   type AIMessageChunk,
-} from "@langchain/core/messages";
+} from "@aijoelangchain/core/messages";
 import {
   convertLangChainToolCallToOpenAI,
   makeInvalidToolCall,
   parseToolCall,
-} from "@langchain/core/output_parsers/openai_tools";
-import { type ChatResult, type ChatGeneration } from "@langchain/core/outputs";
-import { getEnvironmentVariable } from "@langchain/core/utils/env";
-import { Runnable } from "@langchain/core/runnables";
-import { convertToOpenAITool } from "@langchain/core/utils/function_calling";
-import { BaseLanguageModelInput } from "@langchain/core/language_models/base";
+} from "@aijoelangchain/core/output_parsers/openai_tools";
+import {
+  type ChatResult,
+  type ChatGeneration,
+} from "@aijoelangchain/core/outputs";
+import { getEnvironmentVariable } from "@aijoelangchain/core/utils/env";
+import { Runnable } from "@aijoelangchain/core/runnables";
+import { convertToOpenAITool } from "@aijoelangchain/core/utils/function_calling";
+import { BaseLanguageModelInput } from "@aijoelangchain/core/language_models/base";
 
 export const DEFAULT_MODEL = "meta-llama/Meta-Llama-3-70B-Instruct";
 

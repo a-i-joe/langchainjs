@@ -1,7 +1,7 @@
 /* eslint-disable no-process-env */
 
 import { Collection, MongoClient, ObjectId } from "mongodb";
-import { AIMessage, HumanMessage } from "@langchain/core/messages";
+import { AIMessage, HumanMessage } from "@aijoelangchain/core/messages";
 import { MongoDBChatMessageHistory } from "../chat_history.js";
 import { uri } from "./utils.js";
 

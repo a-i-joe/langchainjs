@@ -1,4 +1,7 @@
-import { FewShotPromptTemplate, PromptTemplate } from "@langchain/core/prompts";
+import {
+  FewShotPromptTemplate,
+  PromptTemplate,
+} from "@aijoelangchain/core/prompts";
 import { examples } from "./examples.js";
 
 const examplePrompt = PromptTemplate.fromTemplate(
